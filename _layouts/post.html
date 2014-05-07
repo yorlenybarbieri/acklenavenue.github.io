@@ -1,9 +1,61 @@
 ---
-layout: default
+layout: acklen
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs">
+	<div class="container">
+		<h1 class="pull-left">The Acklen Avenuue Blog</h1>
+		<ul class="pull-right breadcrumb">
+			<li>
+				<a href="/index.html">Home</a>
+			</li>
+			<li>
+				<a href="/blog.html">Blog</a>
+			</li>
+			<li class="active">
+				{{ page.title }}
+			</li>
+		</ul>
+	</div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
 
-<div class="post">
-{{ content }}
+<!--=== Content Part ===-->
+<div class="container content">
+	<div class="row blog-page blog-item">
+		<!-- Left Sidebar -->
+		<div class="col-md-9 md-margin-bottom-60">
+			<!--Blog Post-->
+			<div class="blog margin-bottom-40">
+				<h2><a href="blog_item_option1.html">{{ page.title }}</a></h2>
+				<div class="blog-post-tags">
+					<ul class="list-unstyled list-inline blog-info">
+						<li>
+							<i class="fa fa-calendar"></i> {{ page.date | date_to_string }}
+						</li>
+						<li>
+							<i class="fa fa-pencil"></i> {{ page.author }}
+						</li>
+						<!-- <li><i class="fa fa-comments"></i> <a href="#">24 Comments</a></li> -->
+					</ul>
+					<ul class="list-unstyled list-inline blog-tags">
+						<li>
+							<i class="fa fa-tags"></i>
+							{% for category in page.categories %}
+							<a href="#">{{ category}}</a>
+							{% endfor %}
+						</li>
+					</ul>
+				</div>
+				<p>
+					{{ content }}
+				</p>
+			</div>
+			<!-- End Right Sidebar -->
+		</div><!--/row-->
+	</div><!--/container-->
+	<!-- End Left Sidebar -->
+	
+	
+	<!--=== End Content Part ===-->
 </div>
