@@ -1,21 +1,24 @@
 var ContactPage = function () {
 
+	var lat = 36.126461;
+    var lng = -86.789283;
+    	
     return {
         
-    	//Basic Map
+        //Basic Map
         initMap: function () {
 			var map;
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: 40.748866,
-				lng: -73.988366
+				lat: lat,
+				lng: lng
 			  });
 			  
 			  var marker = map.addMarker({
-				lat: 40.748866,
-				lng: -73.988366,
-	            title: 'Company, Inc.'
+				lat: lat,
+				lng: lng,
+	            title: 'Acklen Avenue'
 		       });
 			});
         },
@@ -26,8 +29,8 @@ var ContactPage = function () {
 		    $(document).ready(function(){
 		      panorama = GMaps.createPanorama({
 		        el: '#panorama',
-		        lat : 40.748866,
-		        lng : -73.988366
+		        lat : lat,
+		        lng : lng
 		      });
 		    });
 		}        

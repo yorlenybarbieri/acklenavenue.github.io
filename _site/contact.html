@@ -5,7 +5,7 @@
 <html lang="en">
 	<!--<![endif]-->
 	<head>
-		<title>Acklen Avenue | Welcome!</title>
+		<title>Acklen Avenue | Contact Us</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -91,13 +91,13 @@
 
 								<!-- Blog -->
 								<!-- <li class="">
-									<a href="blog.html"> Blog </a>
+								<a href="blog.html"> Blog </a>
 								</li> -->
 								<!-- End Blog -->
 
 								<!-- Contacts -->
 								<li class="">
-									<a href="index.html#contact"> Contacts </a>
+									<a href="contact.html"> Contacts </a>
 								</li>
 								<!-- End Contacts -->
 
@@ -123,8 +123,197 @@
 			</div>
 			<!--=== End Header ===-->
 
+			<!-- JS Global Compulsory -->
+			<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+			<!-- JS Implementing Plugins -->
+			<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+			<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+			<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+			<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+			<!-- JS Page Level -->
+			<script type="text/javascript" src="assets/js/app.js"></script>
+
+			<!--[if lt IE 9]>
+			<script src="assets/plugins/respond.js"></script>
+			<![endif]-->
+
 			<!-- Content -->
-			
+			<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs">
+	<div class="container">
+		<h1 class="pull-left">Our Contacts</h1>
+		<ul class="pull-right breadcrumb">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li class="active">
+				Contacts
+			</li>
+		</ul>
+	</div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+
+<!-- Google Map -->
+<div id="map" class="map"></div><!---/map-->
+<!-- End Google Map -->
+
+<!--=== Content Part ===-->
+<div class="container content">
+	<div class="row margin-bottom-30">
+		<div class="col-md-9 mb-margin-bottom-30">
+			<div class="headline">
+				<h2>Contact Us</h2>
+			</div>
+			<h4>If you have a project you would like to discuss, get in touch with us.</h4>
+			<p>
+				We’d love to hear what kind of goals you have for your project. Let us know how we can help you.
+			</p>
+			<br />
+			<form id="contact-form">
+				<label>Name</label>
+				<div class="row margin-bottom-20">
+					<div class="col-md-7 col-md-offset-0">
+						<input type="text" id="client-name" class="form-control">
+					</div>
+				</div>
+
+				<label>Email <span class="color-red">*</span></label>
+				<div class="row margin-bottom-20">
+					<div class="col-md-7 col-md-offset-0">
+						<input type="email" id="client-email" class="form-control" required="required">
+					</div>
+				</div>
+
+				<label>Project Name</label>
+				<div class="row margin-bottom-20">
+					<div class="col-md-7 col-md-offset-0">
+						<input type="text" id="client-project" class="form-control">
+					</div>
+				</div>
+
+				<label>Message</label>
+				<div class="row margin-bottom-20">
+					<div class="col-md-11 col-md-offset-0">
+						<textarea rows="8" id="client-message" class="form-control" required="required"></textarea>
+					</div>
+				</div>
+
+				<p>
+					<button id="submit-message" type="submit" class="btn-u">
+						Send Message
+					</button>
+				</p>
+			</form>
+			<div id="sending-message" style="display: none;">
+				<h2><i class="fa fa-spinner"></i> Your message is being sent...</h2>
+			</div>
+			<div id="message-sent" style="display: none;">
+				<h1>Thanks!</h1>Your message has been sent. Look for a reply soon at the email address you gave us.
+			</div>
+		</div><!--/col-md-9-->
+
+		<div class="col-md-3">
+			<!-- Contacts -->
+			<div class="headline">
+				<h2>Contacts</h2>
+			</div>
+			<ul class="list-unstyled who margin-bottom-30">
+				<li>
+					<a href="#"><i class="fa fa-home"></i>1204 Elmwood Avenue, Nashville, TN 37212</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-envelope"></i>info@acklenavenue.com</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-phone"></i>+1 (615) 988-4700 </a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-globe"></i>http://www.acklenavenue.com</a>
+				</li>
+			</ul>
+
+			<!-- Business Hours -->
+			<div class="headline">
+				<h2>Business Hours</h2>
+			</div>
+			<ul class="list-unstyled margin-bottom-30">
+				<li>
+					<strong>Monday-Friday:</strong> 9am to 5pm
+				</li>
+				<li>
+					<strong>Saturday:</strong> Family Time
+				</li>
+				<li>
+					<strong>Sunday:</strong> Family Time
+				</li>
+			</ul>
+
+			<!-- Why we are? -->
+			<!-- <div class="headline"><h2>Why we are?</h2></div>
+			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+			<ul class="list-unstyled">
+			<li><i class="fa fa-check color-green"></i> Odio dignissimos ducimus</li>
+			<li><i class="fa fa-check color-green"></i> Blanditiis praesentium volup</li>
+			<li><i class="fa fa-check color-green"></i> Eos et accusamus</li>
+			</ul> -->
+		</div><!--/col-md-3-->
+	</div><!--/row-->
+
+</div><!--/container-->
+<!--=== End Content Part ===-->
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="assets/plugins/gmap/gmap.js"></script>
+<script type="text/javascript" src="assets/js/pages/page_contacts.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		ContactPage.initMap();
+	});
+
+	$("#contact-form").submit(function(e) {
+		e.preventDefault();
+		
+		var mailModel = {
+			Name : $("#client-name").val(),
+			Email : $("#client-email").val(),
+			ProjectName : $("#client-project").val(),
+			Message : $("#client-message").val()
+		};
+
+		
+
+		$("#contact-form").hide();
+		$("#sending-message").show();
+
+		$.ajax({
+			type : "POST",
+			url : "http://emailer-3.apphb.com/api/Mail",
+			data : mailModel,
+			dataType : 'application/json',
+			success : function(msg) {
+				$("#sending-message").hide();
+				$("#message-sent").show();
+			},
+			error : function(error) {
+				console.log(error);
+				$("#sending-message").hide();
+				$("#contact-form").show();
+			}
+		});
+
+		$("#client-name").val("");
+		$("#client-email").val("");
+		$("#client-project").val("");
+		$("#client-message").val("");
+
+		return false;
+	}); 
+</script>
+
 			<!-- End Content -->
 
 			<!--=== Footer ===-->
@@ -134,12 +323,19 @@
 						<div class="col-md-4 md-margin-bottom-40">
 							<!-- About -->
 							<div class="headline">
-								<h2>About</h2>
+								<h2>Who we are</h2>
 							</div>
 							<p class="margin-bottom-25 md-margin-bottom-40">
-								Acklen Avenue is a software development company based in Nashville, TN, specializing in .NET and Node.JS development.
+								Acklen Avenue is a .NET software development shop based in Nashville, TN with a near shore operation in Honduras. Acklen Avenue adheres to agile software development principles, including domain-driven design, test-driven development, SOLID engineering principles and continuos delivery.
 							</p>
 							<!-- End About -->
+
+							<div class="headline">
+								<h2>Philosophy</h2>
+							</div>
+							<p class="margin-bottom-25 md-margin-bottom-40">
+								Our philosophy is that code should be clean and easily upgradeable. We build software that is easy to manage so you won’t have a headache when you want to change something.
+							</p>
 
 							<!-- Monthly Newsletter -->
 							<!-- <div class="headline">
@@ -272,28 +468,21 @@
 			<!--=== End Copyright ===-->
 		</div><!--/wrapper-->
 
-		<!-- JS Global Compulsory -->
-		<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<!-- JS Implementing Plugins -->
-		<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-		<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-		<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
-		<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
-		<!-- JS Page Level -->
-		<script type="text/javascript" src="assets/js/app.js"></script>
-		<script type="text/javascript" src="assets/js/pages/index.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				App.init();
-				App.initSliders();
-				Index.initParallaxSlider();
 			});
 		</script>
-		<!--[if lt IE 9]>
-		<script src="assets/plugins/respond.js"></script>
-		<![endif]-->
-
+		<!-- Start of Async HubSpot Analytics Code -->
+		<script type="text/javascript">
+			(function(d, s, i, r) {
+				if (d.getElementById(i)) {
+					return;
+				}
+				var n = d.createElement(s), e = d.getElementsByTagName(s)[0]; http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
+				e.parentNode.insertBefore(n, e);
+			})(document, "script", "hs-analytics", 300000);
+		</script>
+		<!-- End of Async HubSpot Analytics Code -->
 	</body>
 </html>

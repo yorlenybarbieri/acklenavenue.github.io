@@ -91,13 +91,13 @@
 
 								<!-- Blog -->
 								<!-- <li class="">
-									<a href="blog.html"> Blog </a>
+								<a href="blog.html"> Blog </a>
 								</li> -->
 								<!-- End Blog -->
 
 								<!-- Contacts -->
 								<li class="">
-									<a href="index.html#contact"> Contacts </a>
+									<a href="contact.html"> Contacts </a>
 								</li>
 								<!-- End Contacts -->
 
@@ -122,6 +122,22 @@
 				<!-- End Navbar -->
 			</div>
 			<!--=== End Header ===-->
+
+			<!-- JS Global Compulsory -->
+			<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+			<!-- JS Implementing Plugins -->
+			<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+			<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+			<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+			<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+			<!-- JS Page Level -->
+			<script type="text/javascript" src="assets/js/app.js"></script>
+
+			<!--[if lt IE 9]>
+			<script src="assets/plugins/respond.js"></script>
+			<![endif]-->
 
 			<!-- Content -->
 			<!-- CSS Page Style -->
@@ -247,12 +263,19 @@
 						<div class="col-md-4 md-margin-bottom-40">
 							<!-- About -->
 							<div class="headline">
-								<h2>About</h2>
+								<h2>Who we are</h2>
 							</div>
 							<p class="margin-bottom-25 md-margin-bottom-40">
-								Acklen Avenue is a software development company based in Nashville, TN, specializing in .NET and Node.JS development.
+								Acklen Avenue is a .NET software development shop based in Nashville, TN with a near shore operation in Honduras. Acklen Avenue adheres to agile software development principles, including domain-driven design, test-driven development, SOLID engineering principles and continuos delivery.
 							</p>
 							<!-- End About -->
+
+							<div class="headline">
+								<h2>Philosophy</h2>
+							</div>
+							<p class="margin-bottom-25 md-margin-bottom-40">
+								Our philosophy is that code should be clean and easily upgradeable. We build software that is easy to manage so you won’t have a headache when you want to change something.
+							</p>
 
 							<!-- Monthly Newsletter -->
 							<!-- <div class="headline">
@@ -385,28 +408,21 @@
 			<!--=== End Copyright ===-->
 		</div><!--/wrapper-->
 
-		<!-- JS Global Compulsory -->
-		<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<!-- JS Implementing Plugins -->
-		<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-		<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-		<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
-		<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
-		<!-- JS Page Level -->
-		<script type="text/javascript" src="assets/js/app.js"></script>
-		<script type="text/javascript" src="assets/js/pages/index.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				App.init();
-				App.initSliders();
-				Index.initParallaxSlider();
 			});
 		</script>
-		<!--[if lt IE 9]>
-		<script src="assets/plugins/respond.js"></script>
-		<![endif]-->
-
+		<!-- Start of Async HubSpot Analytics Code -->
+		<script type="text/javascript">
+			(function(d, s, i, r) {
+				if (d.getElementById(i)) {
+					return;
+				}
+				var n = d.createElement(s), e = d.getElementsByTagName(s)[0]; http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
+				e.parentNode.insertBefore(n, e);
+			})(document, "script", "hs-analytics", 300000);
+		</script>
+		<!-- End of Async HubSpot Analytics Code -->
 	</body>
 </html>
