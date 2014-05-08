@@ -758,6 +758,7 @@
 		</div><!--/wrapper-->
 
 		<script type="text/javascript">
+			//disable angular carousel
 			angular.module('ui.bootstrap.carousel', ['ui.bootstrap.transition']).controller('CarouselController', ['$scope', '$timeout', '$transition', '$q',
 			function($scope, $timeout, $transition, $q) {
 			}]).directive('carousel', [
@@ -765,45 +766,49 @@
 				return {
 
 				}
-			}])
-			;
-			function setActiveMenuOpt(opt) {
-				$(".active").removeClass("active");
-				$("#nav-" + opt).addClass("active");
+			}]);
+
+			function setActive(opt) {
+				if (opt != "") {
+					$(".active").removeClass("active");
+					$("#nav-" + opt).addClass("active");
+				}
 			}
 
 
 			jQuery(document).ready(function() {
-				App.init();
-				var currentMenuOptionFromChildPage = "team";
-				if (currentMenuOptionFromChildPage) {
-					setActiveMenuOpt(currentMenuOptionFromChildPage);
+				App.init();				
+				setActive("team");
+				setHomeLinks();
+			});
+
+			function setHomeLinks() {								
+				if (window.location.href.indexOf("index.html") > -1) {
+					$("#nav-home a").click(function(e) {
+						e.preventDefault();
+						setActive("home");
+						$('html, body').animate({
+							scrollTop : 0
+						}, 1000);
+					});
+
+					$("#nav-portfolio a").click(function(e) {
+						e.preventDefault();
+						setActive("portfolio");
+						$('html, body').animate({
+							scrollTop : $("#portfolio").offset().top - 50
+						}, 1000);
+					});
+
+					$("#nav-services a").click(function(e) {
+						e.preventDefault();
+						setActive("services");
+						$('html, body').animate({
+							scrollTop : $("#services").offset().top - 50
+						}, 1000);
+					});
 				}
-			});
-
-			$("#nav-home a").click(function(e) {
-				e.preventDefault();
-				setActiveMenuOpt("home");
-				$('html, body').animate({
-					scrollTop : 0
-				}, 1000);
-			});
-
-			$("#nav-portfolio a").click(function(e) {
-				e.preventDefault();
-				setActiveMenuOpt("portfolio");
-				$('html, body').animate({
-					scrollTop : $("#portfolio").offset().top - 50
-				}, 1000);
-			});
-
-			$("#nav-services a").click(function(e) {
-				e.preventDefault();
-				setActiveMenuOpt("services");
-				$('html, body').animate({
-					scrollTop : $("#services").offset().top - 50
-				}, 1000);
-			});
+			}
 
 			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
 
