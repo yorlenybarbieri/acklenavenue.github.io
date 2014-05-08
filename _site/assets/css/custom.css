@@ -2,7 +2,7 @@
 
 .header-fixed .header {height: inherit; }
 .header-fixed .header.header-fixed-shrink { height: inherit; margin-top: -17px; }
-
+.modal-footer {margin-top:0px;}
 .slide-green {
 	background:url(../plugins/parallax-slider/img/bg-heading.png) repeat;
 	padding:0 10px;

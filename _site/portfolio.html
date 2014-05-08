@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="/assets/css/custom.css">
 	</head>
 
-	<body class="header-fixed">
+	<body class="header-fixed" ng-app="acklen-site">
 
 		<div class="wrapper">
 			<!--=== Header ===-->
@@ -131,6 +131,9 @@
 			<script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>
 			<!-- JS Page Level -->
 			<script type="text/javascript" src="/assets/js/app.js"></script>
+
+			<script type="text/javascript" src="/assets/js/angular.min.js"></script>
+			<script type="text/javascript" src="/assets/js/angular.bootstrap.min.js"></script>
 
 			<!--[if lt IE 9]>
 			<script src="assets/plugins/respond.js"></script>
@@ -295,7 +298,7 @@
 
 						<div class="col-md-4 md-margin-bottom-40">
 
-							<div class="headline">
+							<!-- <div class="headline">
 								<h2>Latest Shots</h2>
 							</div>
 							<div id="myCarousel" class="carousel slide carousel-v1">
@@ -330,8 +333,7 @@
 									<a class="left carousel-control" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-left"></i> </a>
 									<a class="right carousel-control" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-right"></i> </a>
 								</div>
-							</div>
-
+							</div> -->
 						</div><!--/col-md-4-->
 
 						<div class="col-md-4 md-margin-bottom-40">
@@ -421,7 +423,7 @@
 			});
 
 			$("#nav-home a").click(function(e) {
-				e.preventDefault();				
+				e.preventDefault();
 				setActiveMenuOpt("home");
 				$('html, body').animate({
 					scrollTop : 0
@@ -432,7 +434,7 @@
 				e.preventDefault();
 				setActiveMenuOpt("portfolio");
 				$('html, body').animate({
-					scrollTop : $("#portfolio").offset().top -50
+					scrollTop : $("#portfolio").offset().top - 50
 				}, 1000);
 			});
 
@@ -440,10 +442,12 @@
 				e.preventDefault();
 				setActiveMenuOpt("services");
 				$('html, body').animate({
-					scrollTop : $("#services").offset().top -50
+					scrollTop : $("#services").offset().top - 50
 				}, 1000);
 			});
 
+			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
+			
 		</script>
 		<!-- Start of Async HubSpot Analytics Code -->
 		<script type="text/javascript">
@@ -451,8 +455,7 @@
 				if (d.getElementById(i)) {
 					return;
 				}
-				var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
-				http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
+				var n = d.createElement(s), e = d.getElementsByTagName(s)[0]; http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
 				e.parentNode.insertBefore(n, e);
 			})(document, "script", "hs-analytics", 300000);
 		</script>

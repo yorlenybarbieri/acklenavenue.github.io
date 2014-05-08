@@ -33,10 +33,10 @@ var App = function () {
 
     function handleBootstrap() {
         /*Bootstrap Carousel*/
-        jQuery('.carousel').carousel({
-            interval: 15000,
-            pause: 'hover'
-        });
+        // jQuery('.carousel').carousel({
+            // interval: 15000,
+            // pause: 'hover'
+        // });
 
         /*Tooltips*/
         jQuery('.tooltips').tooltip();
