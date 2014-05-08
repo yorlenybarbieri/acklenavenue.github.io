@@ -1,6 +1,6 @@
 /* Add here all your css styles (customizations) */
 #logo-header, #logo-footer { width: 198px }
-
+.content { padding-top: 0px;}
 .header-fixed .header {height: inherit; }
 .header-fixed .header.header-fixed-shrink { height: inherit; margin-top: -17px; }
 .modal-footer {margin-top:0px;}
