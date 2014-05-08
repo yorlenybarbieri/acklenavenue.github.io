@@ -8,7 +8,7 @@
 		<title>Acklen Avenue | Welcome!</title>
 
 		<!-- Meta -->
-		<meta charset="utf-8">		
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="/assets/css/custom.css">
 	</head>
 
-	<body>
+	<body class="header-fixed">
 
 		<div class="wrapper">
 			<!--=== Header ===-->
@@ -66,38 +66,38 @@
 						<div class="collapse navbar-collapse navbar-responsive-collapse">
 							<ul class="nav navbar-nav">
 								<!-- Home -->
-								<li class="active">
-									<a href="index.html"> Home </a>
+								<li id="nav-home" class="active">
+									<a href="/index.html"> Home </a>
 								</li>
 								<!-- End Home -->
 
 								<!-- Features -->
-								<li class="">
-									<a href="index.html#services"> Services </a>
+								<li id="nav-services" class="">
+									<a href="/index.html#services"> Services </a>
 								</li>
 								<!-- End Features -->
 
 								<!-- Pages -->
-								<li class="">
-									<a href="index.html#portfolio"> Portfolio </a>
+								<li id="nav-portfolio" class="">
+									<a href="/index.html#portfolio"> Portfolio </a>
 								</li>
 								<!-- End Pages -->
 
 								<!-- Portfolio -->
-								<li class="">
-									<a href="team.html"> Team </a>
+								<li id="nav-team" class="">
+									<a href="/team.html"> Team </a>
 								</li>
 								<!-- Ens Portfolio -->
 
 								<!-- Blog -->
-								<li class="">
-								<a href="blog.html"> Blog </a>
+								<li id="nav-blog" class="">
+									<a href="/blog.html"> Blog </a>
 								</li>
 								<!-- End Blog -->
 
 								<!-- Contacts -->
-								<li class="">
-									<a href="contact.html"> Contacts </a>
+								<li id="nav-contacts" class="">
+									<a href="/contact.html"> Contacts </a>
 								</li>
 								<!-- End Contacts -->
 
@@ -406,9 +406,32 @@
 		</div><!--/wrapper-->
 
 		<script type="text/javascript">
+			function setActiveMenuOpt(opt) {
+				$(".active").removeClass("active");
+				$("#nav-" + opt).addClass("active");
+			}
+
+
 			jQuery(document).ready(function() {
 				App.init();
+				var currentMenuOptionFromChildPage = "";
+				if (currentMenuOptionFromChildPage) {
+					setActiveMenuOpt(currentMenuOptionFromChildPage);
+				}
 			});
+
+			$("#home a").click(function() {
+				setActiveMenuOpt("home");
+			});
+
+			$("#portfolio a").click(function() {
+				setActiveMenuOpt("portfolio");
+			});
+
+			$("#services a").click(function() {
+				setActiveMenuOpt("services");
+			});
+
 		</script>
 		<!-- Start of Async HubSpot Analytics Code -->
 		<script type="text/javascript">
@@ -416,7 +439,8 @@
 				if (d.getElementById(i)) {
 					return;
 				}
-				var n = d.createElement(s), e = d.getElementsByTagName(s)[0]; http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
+				var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+				http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
 				e.parentNode.insertBefore(n, e);
 			})(document, "script", "hs-analytics", 300000);
 		</script>

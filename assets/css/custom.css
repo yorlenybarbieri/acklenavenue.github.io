@@ -1,8 +1,7 @@
 /* Add here all your css styles (customizations) */
 
-.da-dots {display: none;}
-
-.colin-working {margin-top: -50px;}
+.header-fixed .header {height: inherit; }
+.header-fixed .header.header-fixed-shrink { height: inherit; margin-top: -17px; }
 
 .slide-green {
 	background:url(../plugins/parallax-slider/img/bg-heading.png) repeat;
