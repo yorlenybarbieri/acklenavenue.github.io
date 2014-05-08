@@ -67,7 +67,7 @@
 							<ul class="nav navbar-nav">
 								<!-- Home -->
 								<li id="nav-home" class="active">
-									<a href="/index.html"> Home </a>
+									<a href="/index.html#"> Home </a>
 								</li>
 								<!-- End Home -->
 
@@ -305,6 +305,7 @@
 				$("#nav-" + opt).addClass("active");
 			}
 
+
 			jQuery(document).ready(function() {
 				App.init();
 				var currentMenuOptionFromChildPage = "";
@@ -313,16 +314,28 @@
 				}
 			});
 
-			$("#nav-home a").click(function() {
+			$("#nav-home a").click(function(e) {
+				e.preventDefault();				
 				setActiveMenuOpt("home");
+				$('html, body').animate({
+					scrollTop : 0
+				}, 1000);
 			});
 
-			$("#nav-portfolio a").click(function() {
+			$("#nav-portfolio a").click(function(e) {
+				e.preventDefault();
 				setActiveMenuOpt("portfolio");
+				$('html, body').animate({
+					scrollTop : $("#portfolio").offset().top -50
+				}, 1000);
 			});
 
-			$("#nav-services a").click(function() {
+			$("#nav-services a").click(function(e) {
+				e.preventDefault();
 				setActiveMenuOpt("services");
+				$('html, body').animate({
+					scrollTop : $("#services").offset().top -50
+				}, 1000);
 			});
 
 		</script>

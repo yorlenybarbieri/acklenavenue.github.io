@@ -67,7 +67,7 @@
 							<ul class="nav navbar-nav">
 								<!-- Home -->
 								<li id="nav-home" class="active">
-									<a href="/index.html"> Home </a>
+									<a href="/index.html#"> Home </a>
 								</li>
 								<!-- End Home -->
 
@@ -256,7 +256,7 @@ develop another .NET application.
 
 <!--=== Content Part ===-->
 
-<span id="services"></span>
+<p id="services"></p>
 	
 <div class="container content">
 	<!-- Service Blocks -->
@@ -328,7 +328,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 <div class="container content">
 
-	<span id="portfolio"></span>
+	<p id="portfolio"></p>
 	
 	<!-- Recent Works -->
 	<div class="headline">
@@ -775,6 +775,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 				$("#nav-" + opt).addClass("active");
 			}
 
+
 			jQuery(document).ready(function() {
 				App.init();
 				var currentMenuOptionFromChildPage = "";
@@ -783,16 +784,28 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 				}
 			});
 
-			$("#nav-home a").click(function() {
+			$("#nav-home a").click(function(e) {
+				e.preventDefault();				
 				setActiveMenuOpt("home");
+				$('html, body').animate({
+					scrollTop : 0
+				}, 1000);
 			});
 
-			$("#nav-portfolio a").click(function() {
+			$("#nav-portfolio a").click(function(e) {
+				e.preventDefault();
 				setActiveMenuOpt("portfolio");
+				$('html, body').animate({
+					scrollTop : $("#portfolio").offset().top -50
+				}, 1000);
 			});
 
-			$("#nav-services a").click(function() {
+			$("#nav-services a").click(function(e) {
+				e.preventDefault();
 				setActiveMenuOpt("services");
+				$('html, body').animate({
+					scrollTop : $("#services").offset().top -50
+				}, 1000);
 			});
 
 		</script>
