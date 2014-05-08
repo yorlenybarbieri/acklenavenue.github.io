@@ -333,9 +333,7 @@
 
 			jQuery(document).ready(function() {
 				App.init();
-				//App.initSliders();
-				//App.initBxSlider();
-
+				
 				setActive("");
 				setHomeLinks();
 			});
@@ -354,7 +352,7 @@
 						e.preventDefault();
 						setActive("portfolio");
 						$('html, body').animate({
-							scrollTop : $("#portfolio").offset().top - 50
+							scrollTop : $("#portfolio").offset().top - 70
 						}, 1000);
 					});
 
@@ -362,7 +360,7 @@
 						e.preventDefault();
 						setActive("services");
 						$('html, body').animate({
-							scrollTop : $("#services").offset().top - 50
+							scrollTop : $("#services").offset().top - 117
 						}, 1000);
 					});
 				}
