@@ -317,7 +317,7 @@
 			<!-- End Content -->
 
 			<!--=== Footer ===-->
-			<div class="footer">
+			<div class="footer" ng-controller="footerController">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 md-margin-bottom-40">
@@ -358,7 +358,7 @@
 
 						<div class="col-md-4 md-margin-bottom-40">
 
-							<!-- <div class="headline">
+							<div class="headline">
 								<h2>Latest Shots</h2>
 							</div>
 							<div id="myCarousel" class="carousel slide carousel-v1">
@@ -388,12 +388,11 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="carousel-arrow">
 									<a class="left carousel-control" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-left"></i> </a>
 									<a class="right carousel-control" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-right"></i> </a>
 								</div>
-							</div> -->
+							</div>
 						</div><!--/col-md-4-->
 
 						<div class="col-md-4 md-margin-bottom-40">
@@ -468,6 +467,15 @@
 		</div><!--/wrapper-->
 
 		<script type="text/javascript">
+			angular.module('ui.bootstrap.carousel', ['ui.bootstrap.transition']).controller('CarouselController', ['$scope', '$timeout', '$transition', '$q',
+			function($scope, $timeout, $transition, $q) {
+			}]).directive('carousel', [
+			function() {
+				return {
+
+				}
+			}])
+			;
 			function setActiveMenuOpt(opt) {
 				$(".active").removeClass("active");
 				$("#nav-" + opt).addClass("active");
@@ -507,7 +515,10 @@
 			});
 
 			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
-			
+
+			function footerController($scope) {
+
+			}
 		</script>
 		<!-- Start of Async HubSpot Analytics Code -->
 		<script type="text/javascript">
@@ -515,7 +526,8 @@
 				if (d.getElementById(i)) {
 					return;
 				}
-				var n = d.createElement(s), e = d.getElementsByTagName(s)[0]; http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
+				var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+				http://n.id=i;n.src='//http://js.hs-analytics.net/analytics/(Math.ceil(new Date()/r)*r)+'/389198.js';
 				e.parentNode.insertBefore(n, e);
 			})(document, "script", "hs-analytics", 300000);
 		</script>
