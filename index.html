@@ -233,7 +233,9 @@ title: Welcome!
 		var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
 		var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
 		var now = moment().utc();
-		$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
+		if(now.weekday()>0 && now.weekday()<6){
+			$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
+		}
 	}
 
 	function quoteController($scope, $modalInstance) {
