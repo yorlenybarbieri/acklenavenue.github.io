@@ -20,7 +20,13 @@ Of course, if a real company depends on "X" in order to exist and profit, they w
 
 As preposterous as it may seem, business leaders do this kind of thing all the time with their software. Countless companies depend absolutely on software that they design and build to run their business processes. But, without understanding the ramifications, they shortsightedly rush their developers causing them to take shortcuts. The initial result is software that works. The long term result is software that cannot be modified without incurring major expense. Many times the software developers finally throw up their hands and say to the business, "it's time to tear down and re-build." And they start the process all over.
 
-**This is no way to run a business. It's no way to create software. It doesn't have to be this way. Consider the concept of "durable software".**
+<div class="shadow-wrapper">
+		<blockquote class="hero box-shadow shadow-effect-2">
+			<p>
+				<em>This is no way to run a business. It's no way to create software. It doesn't have to be this way. Consider the concept of "durable software".</em>
+			</p>			
+		</blockquote>
+	</div>
 
 Durable software is like a well-built, high-quality parking garage. It is built with care, not hurried. Longevity is a priority, so the best materials are used. Although less experienced developers work on the project, there are a sufficient number of master craftsmen working alongside of them to guide the project. Everyone working on the project follows industry standards that are proven to yield high quality results.
 
