@@ -115,7 +115,7 @@ title: Welcome!
 	</div>
 
 	<!--=== Purchase Block ===-->
-	<div class="purchase" style="border-top: #EEEEEE solid 2px;">
+	<div class="purchase" ng-show="duringBusinessHours" style="border-top: #EEEEEE solid 2px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 animated fadeInLeft">
@@ -230,6 +230,10 @@ title: Welcome!
 				controller : quoteController,
 				size : 'sm',
 			});		};
+		var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
+		var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
+		var now = moment().utc();
+		$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
 	}
 
 	function quoteController($scope, $modalInstance) {
