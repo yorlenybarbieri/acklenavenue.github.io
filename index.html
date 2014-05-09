@@ -114,6 +114,30 @@ title: Welcome!
 		<!-- End Service Blokcs -->
 	</div>
 
+	<!--=== Purchase Block ===-->
+	<div class="purchase" style="border-top: #EEEEEE solid 2px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 animated fadeInLeft">
+					<span>If you can dream it, we can create it!</span>
+					<p>
+						We want to talk with you about your hopes and dreams. Why wait to start a conversation with our product delivery specialists?
+					</p>
+				</div>
+				<div class="col-md-3 btn-buy animated fadeInRight">
+					<form action="https://www.hipchat.com/gkeIONmtc" method="post" name="guestForm" target="_blank">
+						<input type="hidden" name="timezone" value=""  />
+						
+								<input type="text" id="name" name="name" value="" class="form-control" required placeholder="Your Name" /><br>
+								<button type="submit" class="btn-u btn-u-lg" id="signin" name="signin"><i class="fa fa-comments-o fa-2"></i> Live Chat Now</button>
+							
+					</form>					
+				</div>
+			</div>
+		</div>
+	</div><!--/row-->
+	<!-- End Purchase Block -->
+
 	<div class="container content">
 
 		<!-- Recent Works -->
@@ -242,11 +266,11 @@ title: Welcome!
 
 			$scope.saving = false;
 			$scope.done = true;
-			
+
 			$.ajax({
 				type : "POST",
 				url : "http://emailer-3.apphb.com/api/Mail",
-				data : email				
+				data : email
 			});		};
 
 		$scope.cancel = function() {
