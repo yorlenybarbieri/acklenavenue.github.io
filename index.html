@@ -142,7 +142,7 @@ title: Welcome!
 
 		<!-- Recent Works -->
 		<div id="portfolio" class="headline">
-			<h2>Recent Works</h2>
+			<h2>Recent Projects</h2>
 		</div>
 		<div class="row margin-bottom-20">
 			<div class="col-md-3 col-sm-6">
@@ -229,7 +229,9 @@ title: Welcome!
 				templateUrl : "quoteModal.html",
 				controller : quoteController,
 				size : 'sm',
-			});		};
+			});
+
+		};
 		var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
 		var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
 		var now = moment().utc();
@@ -277,7 +279,8 @@ title: Welcome!
 				type : "POST",
 				url : "http://emailer-3.apphb.com/api/Mail",
 				data : email
-			});		};
+			});
+		};
 
 		$scope.cancel = function() {
 			$modalInstance.dismiss('cancel');
