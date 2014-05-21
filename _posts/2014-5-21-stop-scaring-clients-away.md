@@ -4,10 +4,10 @@ title:  Agile Software Estimation &#58; Stop Scaring Clients Away!
 date:   2014-05-21
 categories: agile
 author: Colin Callahan
-image: https://raw.githubusercontent.com/AcklenAvenue/acklenavenue.github.io/master/assets/img/posts/scared.JPG
+image: http://acklenavenue.com/assets/img/posts/scared.JPG
 ---
 
-<img style="float: right; padding: 10px;" src="https://raw.githubusercontent.com/AcklenAvenue/acklenavenue.github.io/master/assets/img/posts/scared.JPG" />
+<img style="float: right; padding: 10px;" src="http://acklenavenue.com/assets/img/posts/scared.JPG" />
 
 A friend you haven’t seen in a while says that he will be in Chattanooga for the day and wants to have a beer with you. He wants to know how soon you could get there from Nashville to see if he should wait for you or not.
 
