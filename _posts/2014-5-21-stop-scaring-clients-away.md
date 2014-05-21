@@ -4,7 +4,7 @@ title:  Agile Software Estimation &#58; Stop Scaring Clients Away!
 date:   2014-05-21
 categories: agile
 author: Colin Callahan
-image: /assets/img/posts/scared.jpg
+image: https://raw.githubusercontent.com/AcklenAvenue/acklenavenue.github.io/master/assets/img/posts/scared.JPG
 ---
 
 <img style="float: right; padding: 10px;" src="https://raw.githubusercontent.com/AcklenAvenue/acklenavenue.github.io/master/assets/img/posts/scared.JPG" />
