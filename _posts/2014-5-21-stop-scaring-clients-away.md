@@ -7,7 +7,7 @@ author: Colin Callahan
 image: /assets/img/posts/scared.jpg
 ---
 
-<img style="float: right; padding: 10px;" src="/assets/img/posts/scared.jpg" />
+<img style="float: right; padding: 10px;" src="https://raw.githubusercontent.com/AcklenAvenue/acklenavenue.github.io/master/assets/img/posts/scared.JPG" />
 
 A friend you haven’t seen in a while says that he will be in Chattanooga for the day and wants to have a beer with you. He wants to know how soon you could get there from Nashville to see if he should wait for you or not.
 
