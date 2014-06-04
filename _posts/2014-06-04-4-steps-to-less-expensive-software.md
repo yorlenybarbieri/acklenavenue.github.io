@@ -32,6 +32,8 @@ What's better than fixing bugs as soon as they are created? Never creating them 
 
 Are software bugs expensive? You bet they are. Five minutes [googling that question](https://www.google.com/search?btnG=1&pws=0&q=are+software+bugs+expensive%3F&gws_rd=ssl) will reveal pages and pages of horror stories, statistics, white papers, and university studies.  The verdict is that bugs are a reality and an expected part of software development. But, if you are embarking on a new custom software development project, you really should consider what it takes to reduce the impact of bugs on your budget. My team has discovered that bugs, though ever present, don't have to be so numerous and destructive. Focus your team on delivery, embed QA testers alongside your developers, use techniques like TDD and Pair Programming, and get your team educated in the "art" of clean code... And you'll be well on your way to software success.
 
+If you’d like to learn more about how Acklen Avenue can help you reduce bugs in your software projects, <a href="/contact.html">contact us today.</a>
+
 ###Sources:
 - Initial State Info Graphic - [https://initialstate.com/info](https://initialstate.com/info)
 - Software Defect Reduction Top 10 List, Barry Boehn & Victor R. Basili - [http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.78.pdf](http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.78.pdf)
