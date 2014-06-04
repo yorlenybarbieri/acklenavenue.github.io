@@ -4,9 +4,9 @@ title:  4 Steps to Less Expensive Software
 date:   2014-06-04
 categories: agile
 author: Byron Sommardahl
-image: http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.JPG
+image: http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.jpg
 ---
-<img style="float: left; padding: 10px; width: 400px;" src="http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.JPG" alt="Will Code For Food" />
+<img style="float: left; padding: 10px; width: 400px;" src="http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.jpg" alt="Will Code For Food" />
 
 People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a custom softwar development project. Developing custom software is expensive and risky. In fact, 60% of all software projects end in failure. But why so expensive? Well, for one thing, custom software doesn't build itself. Software developers are some of the highest paid folks in the workforce. For another thing, those highly-paid software developers don't just create software. They create bugs.
 
