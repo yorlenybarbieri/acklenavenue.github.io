@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Custom Software Development: How to Keep Bugs From Eating Your Budget
+title:  Custom Software Development&#58; How to Keep Bugs From Eating Your Budget
 date:   2014-06-04
 categories: agile
 author: Byron Sommardahl
