@@ -7,17 +7,22 @@ author: Colin Callahan
 image: http://acklenavenue.com/assets/img/posts/scared.JPG
 ---
 
-<img style="float: right; padding: 10px;" src="http://acklenavenue.com/assets/img/posts/scared.JPG" />
+<img style="float: left; padding: 10px;" src="http://acklenavenue.com/assets/img/posts/scared.JPG" />
 
 A friend you haven’t seen in a while says that he will be in Chattanooga for the day and wants to have a beer with you. He wants to know how soon you could get there from Nashville to see if he should wait for you or not.
 
 You start thinking about the trip and come up with this: 
 
-* You’ve driven to Chattanooga many times and it usually takes you about 90 minutes. However, you see that you’ll be arriving in Chattanooga around rush hour so you tack on 15 minutes for the unknown amount of traffic
+<ul style="overflow:hidden">
 
-* You tack on another 15 minutes to the time in case there’s an accident along the way
+<li>You’ve driven to Chattanooga many times and it usually takes you about 90 minutes. However, you see that you’ll be arriving in Chattanooga around rush hour so you tack on 15 minutes for the unknown amount of traffic
+</li>
 
-* You also tack on another 15 minutes since you’ve never been to this part of Chattanooga
+<li>You tack on another 15 minutes to the time in case there’s an accident along the way</li>
+
+<li>You also tack on another 15 minutes since you’ve never been to this part of Chattanooga</li>
+
+</ul>
 
 You tell your friend you can be there in about 2.25 hours. **“Sounds good”** says your friend. You’ve done a good job of padding the time in the areas with potential roadblocks and **risky unfamiliar neighborhoods**. You arrive 5 minutes early and your friend is pleasantly surprised. 
 
