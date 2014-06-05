@@ -15,6 +15,7 @@ You start thinking about the trip and come up with this:
 
 <ul style="overflow:hidden">
 
+
 <li>You’ve driven to Chattanooga many times and it usually takes you about 90 minutes. However, you see that you’ll be arriving in Chattanooga around rush hour so you tack on 15 minutes for the unknown amount of traffic
 </li>
 
