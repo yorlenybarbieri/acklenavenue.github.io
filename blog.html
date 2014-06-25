@@ -1,160 +1,37 @@
 ---
-layout: acklen
+layout: blog
 title: Blog
 activeMenuButton: blog
 ---
-<!--=== Breadcrumbs ===-->
-<div class="breadcrumbs">
-	<div class="container">
-		<h1 class="pull-left">The Acklen Avenue Blog</h1>
-		<ul class="pull-right breadcrumb">
+<!--Blog Posts-->
+{% for post in site.posts %}
+<div class="row blog blog-medium margin-bottom-40">
+	<div class="col-md-5" style="padding-top: 20px;">
+		<img class="img-responsive" src="{{ post.image }}" alt="">
+	</div>
+	<div class="col-md-7">
+		<h2>{{ post.title }}</h2>
+		<ul class="list-unstyled list-inline blog-info">
 			<li>
-				<a href="index.html">Home</a>
+				<i class="fa fa-calendar"></i> {{ post.date | date_to_string }}
 			</li>
-			<li class="active">
-				Blog
+			<!-- <li>
+			<i class="fa fa-comments"></i><a href="#">24 Comments</a>
+			</li> -->
+			<li>
+				<i class="fa fa-tags"></i> {{  post.categories }}
+			</li>
+			<li>
+				<i class="fa fa-pencil"></i> {{ post.author }}
 			</li>
 		</ul>
+		<p>
+			{{ post.content | strip_html | truncatewords:75 }}
+		</p>
+		<p>
+			<a class="btn-u btn-u-small" href="{{ post.url }}"><i class="fa fa-location-arrow"></i> Read More</a>
+		</p>
 	</div>
-</div><!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
-
-<!--=== Content Part ===-->
-<div class="container content">
-	<div class="row blog-page">
-		<!-- Left Sidebar -->
-		<div class="col-md-9 md-margin-bottom-40" style="padding-top: 20px;">
-
-			<!--Blog Post-->
-			{% for post in site.posts %}
-			<div class="row blog blog-medium margin-bottom-40">
-				<div class="col-md-5" style="padding-top: 20px;">
-					<img class="img-responsive" src="{{ post.image }}" alt="">
-				</div>
-				<div class="col-md-7">
-					<h2>{{ post.title }}</h2>
-					<ul class="list-unstyled list-inline blog-info">
-						<li>
-							<i class="fa fa-calendar"></i> {{ post.date | date_to_string }}
-						</li>
-						<!-- <li>
-						<i class="fa fa-comments"></i><a href="#">24 Comments</a>
-						</li> -->
-						<li>
-							<i class="fa fa-tags"></i> {{  post.categories }}
-						</li>
-						<li>
-							<i class="fa fa-pencil"></i> {{ post.author }}
-						</li>
-					</ul>
-					<p>
-						{{ post.content | strip_html | truncatewords:75 }}
-					</p>
-					<p>
-						<a class="btn-u btn-u-small" href="{{ post.url }}"><i class="fa fa-location-arrow"></i> Read More</a>
-					</p>
-				</div>
-			</div>
-			<!--End Blog Post-->
-			{% endfor %}
-
-			<hr class="margin-bottom-40">
-
-			<!--Pagination-->
-			<!-- <div class="text-center">
-				<ul class="pagination">
-					<li>
-						<a href="#">«</a>
-					</li>
-					<li>
-						<a href="#">1</a>
-					</li>
-					<li>
-						<a href="#">2</a>
-					</li>
-					<li class="active">
-						<a href="#">3</a>
-					</li>
-					<li>
-						<a href="#">4</a>
-					</li>
-					<li>
-						<a href="#">5</a>
-					</li>
-					<li>
-						<a href="#">6</a>
-					</li>
-					<li>
-						<a href="#">7</a>
-					</li>
-					<li>
-						<a href="#">8</a>
-					</li>
-					<li>
-						<a href="#">»</a>
-					</li>
-				</ul>
-			</div> -->
-			<!--End Pagination-->
-		</div>
-		<!-- End Left Sidebar -->
-
-		<!-- Right Sidebar -->
-		<div class="col-md-3">
-			<!-- Social Icons -->
-			<div class="magazine-sb-social margin-bottom-30">
-				<div class="headline headline-md">
-					<h2>Stay Connected</h2>
-				</div>
-				<ul class="social-icons social-icons-color">
-					<!-- 								<li>
-					<a href="#" data-original-title="Feed" class="social_rss"></a>
-					</li> -->
-					<li>
-						<a href="https://www.facebook.com/acklenavenue" target="_blank" data-original-title="Facebook" class="social_facebook"></a>
-					</li>
-					<li>
-						<a href="https://twitter.com/acklenavenue" target="_blank" data-original-title="Twitter" class="social_twitter"></a>
-					</li>
-					<!-- <li>
-					<a href="#" data-original-title="Goole Plus" class="social_googleplus"></a>
-					</li>
-					<li>
-					<a href="#" data-original-title="Pinterest" class="social_pintrest"></a>
-					</li> -->
-					<li>
-						<a href="http://www.linkedin.com/company/acklen-avenue" target="_blank" data-original-title="Linkedin" class="social_linkedin"></a>
-					</li>
-					<!-- <li>
-					<a href="#" data-original-title="Vimeo" class="social_vimeo"></a>
-					</li> -->
-				</ul>
-
-				<div class="clearfix"></div>
-			</div>
-			<!-- End Social Icons -->
-
-			<!-- Posts -->
-			<div class="posts margin-bottom-40">
-				<div class="headline headline-md">
-					<h2>Recent Posts</h2>
-				</div>
-				{% for post in site.posts %}
-				<dl class="dl-horizontal">
-					<dt>
-						<a href="#"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
-					</dt>
-					<dd>
-						<p>
-							<a href="{{ post.url }}">{{ post.title }}</a>
-						</p>
-					</dd>
-				</dl>
-				{% endfor %}
-			</div><!--/posts-->
-			<!-- End Posts -->			 
-		</div>
-		<!-- End Right Sidebar -->
-	</div><!--/row-->
-</div><!--/container-->
-<!--=== End Content Part ===-->
+</div>
+<!--End Blog Post-->
+{% endfor %}
