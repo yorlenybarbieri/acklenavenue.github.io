@@ -20,7 +20,7 @@ The best “carrot“ I know is a well-defined “user story”, complete with a
 
 ##Better Requirements
 
-Time has taught the software development industry that there are three things any team needs to create software that works the way a business needs it to work: sufficient time, excellent developers, and clear requirements. The latter of the three, unfortunately, is the most neglected and probably most costly when not implemented. Smart teams work together to generate complete and well-defined requirements. One thing that ATDD beings to the table is a requirement of standard formats and formalization of requirement text. You see, in order to integrate human generated requirements into code, there must be some patterns. 
+Time has taught the software development industry that there are three things any team needs to create software that works the way a business needs it to work: sufficient time, excellent developers, and clear requirements. The latter of the three, unfortunately, is the most neglected and probably most costly when not implemented. Smart teams work together to generate complete and well-defined requirements. One thing that ATDD brings to the table is a requirement of standard formats and formalization of requirement text. You see, in order to integrate human generated requirements into code, there must be some patterns. 
 
 This might sound scary, but it’s actually a good thing. What I’ve seen at times, even with well-meaning teams, is that some features lack description and deviate from the normal way of describing feature behavior.  This can cause confusion and no shortage of back-and-forth between the devs and business folks.  On the other hand, if automated tests require a certain format, as they often do with ATDD, the team will be united under one format and will be able to move forward with feature development without roadblocks and speedbumps.
 
@@ -30,7 +30,7 @@ One BIG advantage of ATDD, besides developer focus and better-defined requiremen
 
 #Your developers will love ATDD
 
-Nothing invigorates a software developer than the feeling of accomplishment.  With “Acceptance Test-Driven Development”, that feeling of accomplishment comes early and often. When an automated acceptance test turns “green” (starts to pass), you know that you’re done and that it works. That kind of confirmation doesn’t normallty come until after the feature has been in the wild for awhile. And even then, you might miss the feeling of accomplishment altogether because you’re already on another task. With ATDD and automated acceptnace tests, developers get quick  and affirming confirmation.
+Nothing invigorates a software developer than the feeling of accomplishment.  With “Acceptance Test-Driven Development”, that feeling of accomplishment comes early and often. When an automated acceptance test turns “green” (starts to pass), you know that you’re done and that it works. That kind of confirmation doesn’t normally come until after the feature has been in the wild for awhile. And even then, you might miss the feeling of accomplishment altogether because you’re already on another task. With ATDD and automated acceptnace tests, developers get quick  and affirming confirmation.
 
 #Your bottom line will love ATDD
 
