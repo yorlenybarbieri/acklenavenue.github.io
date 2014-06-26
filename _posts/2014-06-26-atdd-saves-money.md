@@ -5,7 +5,7 @@ date:   2014-06-26
 categories: agile
 author: Byron Sommardahl
 image: /assets/img/posts/carrot.jpg
-imageCredit: http://pixabay.com/p-15774/?no_redirect (public domain)
+imageCredit: http://edwinandrewlove.blogspot.com/2012/10/cash-aint-carrots-and-i-aint-your-donkey.html (public domain)
 ---
 Custom software is pretty expensive! Unnoticed system bugs, misunderstood requirements, and lack of developer focus can prolong a project and inflate costs. So when we find a way to reduce the cost of software development, we’re about as excited as a pardoned Thanksgiving turkey! And naturally, our excitement makes us want to share! 
 
