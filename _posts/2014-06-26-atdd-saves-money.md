@@ -30,7 +30,7 @@ One BIG advantage of ATDD, besides developer focus and better-defined requiremen
 
 #Your developers will love ATDD
 
-Nothing invigorates a software developer than the feeling of accomplishment.  With “Acceptance Test-Driven Development”, that feeling of accomplishment comes early and often. When an automated acceptance test turns “green” (starts to pass), you know that you’re done and that it works. That kind of confirmation doesn’t normally come until after the feature has been in the wild for awhile. And even then, you might miss the feeling of accomplishment altogether because you’re already on another task. With ATDD and automated acceptnace tests, developers get quick  and affirming confirmation.
+Nothing invigorates a software developer than the feeling of accomplishment.  With “Acceptance Test-Driven Development”, that feeling of accomplishment comes early and often. When an automated acceptance test turns “green” (starts to pass), you know that you’re done and that it works. That kind of confirmation doesn’t normally come until after the feature has been in the wild for awhile. And even then, you might miss the feeling of accomplishment altogether because you’re already on another task. With ATDD and automated acceptance tests, developers get encouraging and quick confirmation.
 
 #Your bottom line will love ATDD
 
