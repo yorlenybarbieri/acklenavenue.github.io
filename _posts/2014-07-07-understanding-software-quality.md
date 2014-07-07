@@ -68,13 +68,13 @@ Software doesn't "exactly" wear down like brakes. In fact, most of the time, whe
 
 There are good and bad consequences, and every decision carries one or the other. As you are ramping up your next custom software development project, remember to consider "quality" in its three flavors and the consequences of skipping one or more of them. Do you need to go to market faster and don't care as much about feature upgrades and modifications? Go for the cheaper brakes! Do you have enough budget or time up front to invest in higher quality but want your software to cost less in the long run? Buy the better brakes. It will pay off later!
 
-<!-- <div class="row tag-box tag-box-v5">
+<div class="row tag-box tag-box-v5">
     <div class="col-md-8">
         <span>
-        	If your team is short on quality, and you want to help them improve, call Acklen Avenue to talk about ways to get them trained. If you need a team of software quality experts to help you develop your next project, you can get started by telling us about your project.
+        	Need a team that's passionate about high quality software?
     	</span>
     </div>
     <div class="col-md-4">
-        <p><a class="btn-u btn-u-lg btn-u-red" href="/contact.html"><i class="fa fa-cloud-download"></i>Contact Us</a></p>
+        <p><a class="btn-u btn-u-lg btn-u-red" href="/contact.html"><i class="fa fa-life-ring"></i>&nbsp;Contact Us</a></p>
     </div>
-</div> -->
+</div>
