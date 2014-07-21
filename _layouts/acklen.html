@@ -324,41 +324,55 @@
 				}
 			}
 
-
 			jQuery(document).ready(function() {
 				App.init();
-				
 				setActive("{{page.activeMenuButton}}");
-				setHomeLinks();
+				
 			});
 
-			function setHomeLinks() {
-				if (window.location.href.indexOf("index.html") > -1) {
-					$("#nav-home a").click(function(e) {
-						e.preventDefault();
-						setActive("home");
-						$('html, body').animate({
-							scrollTop : 0
-						}, 1000);
-					});
-
-					$("#nav-portfolio a").click(function(e) {
-						e.preventDefault();
-						setActive("portfolio");
-						$('html, body').animate({
-							scrollTop : $("#portfolio").offset().top - 70
-						}, 1000);
-					});
-
-					$("#nav-services a").click(function(e) {
-						e.preventDefault();
-						setActive("services");
-						$('html, body').animate({
-							scrollTop : $("#services").offset().top - 117
-						}, 1000);
-					});
-				}
-			}
+			// Smooth scroll for in page links
+			$(function(){
+			    var target, scroll;
+			
+			    $("a[href*=#]:not([href=#])").on("click", function(e) {
+			        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			            target = $(this.hash);
+			            target = target.length ? target : $("[id=" + this.hash.slice(1) + "]");
+			
+			            if (target.length) {
+			                if (typeof document.body.style.transitionProperty === 'string') {
+			                    e.preventDefault();
+			                  
+			                    var avail = $(document).height() - $(window).height();
+			    
+			                    scroll = target.offset().top;
+			                  
+			                    if (scroll > avail) {
+			                        scroll = avail;
+			                    }
+			
+			                    $("html").css({
+			                        "margin-top" : ( $(window).scrollTop() - scroll ) + "px",
+			                        "transition" : "1s ease-in-out"
+			                    }).data("transitioning", true);
+			                } else {
+			                    $("html, body").animate({
+			                        scrollTop: scroll
+			                    }, 1000);
+			                    return;
+			                }
+			            }
+			        }
+			    });
+			
+			    $("html").on("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd", function (e) {
+			        if (e.target == e.currentTarget && $(this).data("transitioning") === true) {
+			            $(this).removeAttr("style").data("transitioning", false);
+			            $("html, body").scrollTop(scroll);
+			            return;
+			        }
+			    });
+			});
 
 			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
 
