@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Custom Software Development&#58; 3 Ways to Win at Quality
-date:   2014-06-26
+date:   2014-07-07
 categories: agile
 author: Byron Sommardahl
 image: /assets/img/posts/hot-air-balloons.jpg
