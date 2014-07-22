@@ -82,6 +82,27 @@ title: Welcome!
 		<!-- End Service Blokcs -->
 	</div>
 
+	<!--=== Purchase Block ===-->
+	<div class="purchase" ng-show="duringBusinessHours" style="border-top: #EEEEEE solid 2px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 animated fadeInLeft">
+					<span>If you can dream it, we can create it!</span>
+					<p>
+						We want to talk with you about your hopes and dreams. Why wait to start a conversation with our product delivery specialists?
+					</p>
+				</div>
+				<div class="col-md-3 btn-buy animated fadeInRight">
+					<form action="/contact.html" method="get">
+						<br/>
+						<button type="submit" class="btn-u btn-u-lg" id="signin" name="signin"><i class="fa fa-comments-o fa-2"></i> Contact Us Today</button>
+					</form>					
+				</div>
+			</div>
+		</div>
+	</div><!--/row-->
+	<!-- End Purchase Block -->
+
 	<div class="container content">
 
 		<!-- Recent Works -->
@@ -175,8 +196,8 @@ title: Welcome!
 				controller : quoteController,
 				size : 'sm',
 			});
+
 		};
-		
 		var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
 		var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
 		var now = moment().utc();
