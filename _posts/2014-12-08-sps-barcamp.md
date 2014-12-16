@@ -16,6 +16,6 @@ Around 11:00am Barcamp officially started. People gathered around the big board 
 
 Parallel to the event we also invited some tech communities from the city. Some of the communities included AndroidHN, Rosalila Studio, Ubuntu, OpenSuse and a couple more. During breaks people had a chance to meet different groups and learn about them. 
 
-Overall Barcamp San Pedro Sula provided a nice space for people to meet each other, learn and have fun.  We received a little more than 130 tech enthusiasts from all over the city and some from from other cities like Villanueva and Tegucigalpa. 
+Overall Barcamp San Pedro Sula provided a nice space for people to meet each other, learn and have fun.  We received a little more than 130 tech enthusiasts from all over the city and some from other cities like Villanueva and Tegucigalpa. 
 
 If you’d like to see some of the pictures you can check them out on [Facebook](https://www.facebook.com/acklenavenue) or on [Flickr](https://www.flickr.com/photos/richardsiwady/sets/72157649282819686/)
