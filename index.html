@@ -191,12 +191,12 @@ title: Welcome!
 				</div>
 				<div ng-repeat="m in messages" class="chat-post">
 					<div class="avatar">
-						<img ng-src="{[{m.avatarUrl}]}?s=50" alt="{[{m.authorName}]}"/>	
+						<img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" alt="{[{m.Author}]}"/>	
 					</div>
 					<div class="body">
-						<h4 ng-bind="m.authorName">
-							<span class="time" ng-bind="m.time"></span></h4>
-						<p ng-bind="m.body"></p>
+						<h4 ng-bind="m.Author">
+							</h4>
+						<p ng-bind="m.SlackMessage"></p>
 					</div>						
 				</div>							
 			</div>			
@@ -212,27 +212,14 @@ title: Welcome!
 		Index.initLayerSlider();
 	});
 
-	function homeController($scope, $modal) {
+	function homeController($scope, $modal, $http) {
 
-		$scope.messages = [{
-				authorName:"Bob Smiley",
-				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				body: "Hey guys, if you are taking time off, please add it to the time off calendar that Byron posted yesterday. When you are setting up the calendar invite for yourself, just make it an all day event and select the time off calendar. If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			},
-			{
-				authorName:"Bob Smiley",
-				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			},
-			{
-				authorName:"Bob Smiley",
-				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			}
-			];
+        $scope.messages = [];
+        $http.get('https://chat-history.herokuapp.com/api/messages')
+        .success(function (data, status, headers, config) {
+            $scope.messages = data;
+        });
+	
 
 		$scope.getQuote = function() {
 			var instance = $modal.open({
