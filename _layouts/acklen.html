@@ -379,7 +379,10 @@
 			    });
 			});
 
-			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
+			var myApp = angular.module('acklen-site', ['ui.bootstrap'])
+				.config(function($interpolateProvider){
+				    $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
+				});;
 
 			function footerController($scope) {
 
