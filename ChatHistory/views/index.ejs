@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>SlackToWebSite</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+    <script src="/javascripts/angularApp.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  </head>
+  <body ng-app="SlackToWebSite" ng-controller="MainCtrl">
+    <h1 class="row">Slack Messages</h1>
+    <div class="row">
+       <span>Number of Messages</span>
+       <input type="text" id="MessagesNumber" ng-model="numberMessages" class="col" />
+   </div>
+   <div class="row">
+       <span>Channel Name</span>
+       <input type="text" id="ChannelName" ng-model="channelName" class="col"/>
+   </div>
+  </br>
+   <button type="button" id="getMessages" ng-click="getChannelMessages()" class="row">Get Messages</button>
+ </br>
+   <div class="row" ng-repeat="message in messages">      
+      </br>
+      {{message.Author + '(' + message.SlackDateTime + '):'}}
+      </br>
+      {{message.SlackMessage}}
+   </div>
+  </body>
+</html>

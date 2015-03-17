@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.row {
+	margin-left: 100px;
+	margin-top: 20px;
+	width: 30%;
+}
+
+.col {
+	float: right;
+}
+
+.messageRow {
+	margin-left: 100px;
+	margin-top: 20px;
+	width: 70%;
+}

@@ -1,0 +1,10 @@
+var mongoose = require('mongoose');
+
+var SlackMessageSchema = new mongoose.Schema({
+    ChannelName: String,
+    Author: String,
+    SlackMessage: String,
+    SlackDateTime: Date
+});
+
+mongoose.model('SlackMessages', SlackMessageSchema, 'SlackLogger');
