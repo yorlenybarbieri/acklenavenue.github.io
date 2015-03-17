@@ -190,42 +190,20 @@ title: Welcome!
 					<h2>Team Chat</h2>
 				</div>
 
-				<!-- iterate over posts and use this template -->
-				<div class="chat-post">
-					<div class="avatar"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=50" alt="Bob Smiley"/>
-						<!--Author Avatar (the id after "/avatar/" is an md5 hash of the author email address)--></div>
-					<div class="body">
-						<h4><!--Author Name-->Bob Smiley 
-							<span class="time"><!--Message Time-->1:43 pm</span></h4>
-						<p><!--Message Body-->Hey guys, if you are taking time off, please add it to the time off calendar that Byron posted yesterday. When you are setting up the calendar invite for yourself, just make it an all day event and select the time off calendar. If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.</p>
-					</div>
-				</div>
-				<!-- end template -->
-
-				<!-- iterate over posts and use this template -->
-				<div class="chat-post">
-					<div class="avatar"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=50" alt="Bob Smiley"/>
-						<!--Author Avatar (the id after "/avatar/" is an md5 hash of the author email address)--></div>
-					<div class="body">
-						<h4><!--Author Name-->Bob Smiley 
-							<span class="time"><!--Message Time-->1:43 pm</span></h4>
-						<p><!--Message Body-->If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.</p>
-					</div>
-				</div>
-				<!-- end template -->
-
-
-				<!-- iterate over posts and use this template -->
-				<div class="chat-post">
-					<div class="avatar"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=50" alt="Bob Smiley"/>
-						<!--Author Avatar (the id after "/avatar/" is an md5 hash of the author email address)--></div>
-					<div class="body">
-						<h4><!--Author Name-->Bob Smiley 
-							<span class="time"><!--Message Time-->1:43 pm</span></h4>
-						<p><!--Message Body-->If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.</p>
-					</div>
-				</div>
-				<!-- end template -->
+				<ul ng-repeat="m in messages">
+					<li class="chat-post">
+						<!-- <div class="avatar">
+							<img src="{{m.avatarUrl}}?s=50" alt="{{m.authorName}}"/>	
+						</div>
+						<div class="body">
+							<h4>{{m.authorName}}
+								<span class="time">{{m.time}}</span></h4>
+							<p>{{m.body}}</p>
+						</div> -->
+						{{ m.body }}
+					</li>
+				</ul>
+				
 			</div>			
 		</div>
 		<!-- End Recent Works -->
@@ -242,21 +220,40 @@ title: Welcome!
 
 	function homeController($scope, $modal) {
 
+		$scope.messages = [{
+				authorName:"Bob Smiley",
+				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+				body: "Hey guys, if you are taking time off, please add it to the time off calendar that Byron posted yesterday. When you are setting up the calendar invite for yourself, just make it an all day event and select the time off calendar. If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
+				time: "1:43 pm"
+			},
+			{
+				authorName:"Bob Smiley",
+				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+				body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
+				time: "1:43 pm"
+			},
+			{
+				authorName:"Bob Smiley",
+				avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+				body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
+				time: "1:43 pm"
+			}];
+
 		$scope.getQuote = function() {
 			var instance = $modal.open({
 				templateUrl : "quoteModal.html",
 				controller : quoteController,
 				size : 'sm',
 			});
-
 		};
-		var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
-		var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
-		var now = moment().utc();
-		if(now.weekday()>0 && now.weekday()<6){
-			$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
-		}
-	}
+		
+		// var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
+		// var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
+		// var now = moment().utc();
+		// if(now.weekday()>0 && now.weekday()<6){
+		// 	$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
+		// }
+	};
 
 	function quoteController($scope, $modalInstance) {
 
