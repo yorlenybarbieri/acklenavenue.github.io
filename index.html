@@ -191,12 +191,14 @@ title: Welcome!
 				</div>
 				<div ng-repeat="m in messages" class="chat-post">
 					<div class="avatar">
-						<img src="{{m.avatarUrl}}?s=50" alt="{{m.authorName}}"/>	
+						<img ng-src="http://www.gravatar.com/avatar/{% raw %}{{m.avatarHash}}{% endraw %}?s=50"/>	
 					</div>
 					<div class="body">
-						<h4>{{m.authorName}}
-							<span class="time">{{m.time}}</span></h4>
-						<p>{{m.body}}</p>
+						<h4>
+							<span ng-bind="m.author"></span>
+							<span class="time" ng-bind="m.time"></span>
+						</h4>
+						<p ng-bind="m.body"></p>
 					</div>						
 				</div>							
 			</div>			
@@ -212,27 +214,25 @@ title: Welcome!
 		Index.initLayerSlider();
 	});
 
-	function homeController($scope, $modal) {
+	function homeController($scope, $modal, $http) {
 
-		$scope.messages = [{
-				// authorName:"Bob Smiley",
-				// avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				// body: "Hey guys, if you are taking time off, please add it to the time off calendar that Byron posted yesterday. When you are setting up the calendar invite for yourself, just make it an all day event and select the time off calendar. If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			},
-			{
-				// authorName:"Bob Smiley",
-				// avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				// body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			},
-			{
-				// authorName:"Bob Smiley",
-				// avatarUrl: "http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-				// body: "If you have any questions about adding the calendar to your account or creating an invite for some time off, please ask me.",
-				time: "1:43 pm"
-			}
-			];
+		$scope.messages = [];
+        $http.get('https://chat-history.herokuapp.com/api/messages')
+	        .success(function (data) {
+	            
+	            $scope.messages = _.map(data, function(d){
+
+        			var timeSince = moment(d.SlackDateTime).fromNow();
+        			var avatarHash = md5(d.EmailAddress);
+
+	            	return {
+	            		avatarHash: avatarHash,
+	            		time: timeSince,
+	            		author: d.Author,
+	            		body: d.SlackMessage
+	            	}
+	            });
+	        });
 
 		$scope.getQuote = function() {
 			var instance = $modal.open({
@@ -241,7 +241,7 @@ title: Welcome!
 				size : 'sm',
 			});
 		};
-		
+
 		// var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
 		// var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
 		// var now = moment().utc();
