@@ -198,7 +198,7 @@ title: Welcome!
 							<span ng-bind="m.author"></span>
 							<span class="time" ng-bind="m.time"></span>
 						</h4>
-						<p ng-bind="m.body"></p>
+						<p ng-bind-html="m.body"></p>
 					</div>						
 				</div>							
 			</div>			
@@ -221,19 +221,20 @@ title: Welcome!
 	        .success(function (data) {
 	            
 	            var filteredMessages = _.filter(data, function(d){
-	            	return d.SlackMessage.trim()!='';
+	            	return d.SlackMessage.trim()!='' && d.SlackMessage.toLowerCase().indexOf('<script>')==-1;
 	            });
 
 	            $scope.messages = _.map(filteredMessages, function(d){
 
         			var timeSince = moment(d.SlackDateTime).fromNow();
         			var avatarHash = md5(d.EmailAddress);
+        			var body = window.linkify(d.SlackMessage.trim());
 
 	            	return {
 	            		avatarHash: avatarHash,
 	            		time: timeSince,
 	            		author: d.Author,
-	            		body: d.SlackMessage.trim()
+	            		body: body
 	            	}
 	            });
 	        });

@@ -149,6 +149,10 @@
 			<script type="text/javascript" src="/assets/js/angular.min.js"></script>
 			<script type="text/javascript" src="/assets/js/angular.bootstrap.min.js"></script>
 			<script type="text/javascript" src="/assets/js/moment.min.js"></script>
+			<script type="text/javascript" src="/assets/js/linkify.min.js"></script>
+
+			<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-sanitize.js" type="text/javascript"></script>
+
 
 			<!--[if lt IE 9]>
 			<script src="assets/plugins/respond.js"></script>
@@ -385,7 +389,7 @@
 			    });
 			});
 
-			var myApp = angular.module('acklen-site', ['ui.bootstrap']);
+			var myApp = angular.module('acklen-site', ['ui.bootstrap', 'ngSanitize']);
 
 			function footerController($scope) {
 
