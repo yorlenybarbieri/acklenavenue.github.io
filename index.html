@@ -190,12 +190,11 @@ title: Welcome!
 					<h2>Team Chat</h2>
 				</div>
 				<div ng-repeat="m in messages" class="chat-post">
-					<div class="avatar">
-						<img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" alt="{[{m.Author}]}"/>	
+					<div class="avatar" class="avatar">
+						<img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>	
 					</div>
 					<div class="body">
-						<h4 ng-bind="m.Author">
-							</h4>
+						<h4 ng-bind="m.Author"></h4>
 						<p ng-bind="m.SlackMessage"></p>
 					</div>						
 				</div>							
@@ -217,6 +216,11 @@ title: Welcome!
         $scope.messages = [];
         $http.get('https://chat-history.herokuapp.com/api/messages')
         .success(function (data, status, headers, config) {
+            var tmp = data.map(function (value) {
+            	var len = value.SlackMessage.length;
+                value.SlackMessage = value.SlackMessage.slice(13, len);         
+            });
+            console.log(tmp);
             $scope.messages = data;
         });
 	
