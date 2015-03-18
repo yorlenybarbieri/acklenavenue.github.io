@@ -220,7 +220,11 @@ title: Welcome!
         $http.get('https://chat-history.herokuapp.com/api/messages/public')
 	        .success(function (data) {
 	            
-	            $scope.messages = _.map(data, function(d){
+	            var filteredMessages = _.filter(data, function(d){
+	            	return d.SlackMessage.trim()!='';
+	            });
+
+	            $scope.messages = _.map(filteredMessages, function(d){
 
         			var timeSince = moment(d.SlackDateTime).fromNow();
         			var avatarHash = md5(d.EmailAddress);
@@ -229,7 +233,7 @@ title: Welcome!
 	            		avatarHash: avatarHash,
 	            		time: timeSince,
 	            		author: d.Author,
-	            		body: d.SlackMessage
+	            		body: d.SlackMessage.trim()
 	            	}
 	            });
 	        });
