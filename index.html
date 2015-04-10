@@ -217,7 +217,7 @@ title: Welcome!
 	function homeController($scope, $modal, $http) {
 
 		$scope.messages = [];
-        $http.get('https://chat-history.herokuapp.com/api/messages/public?limit=20')
+        $http.get('https://chat-history.herokuapp.com/api/messages/public?limit=15')
 	        .success(function (data) {
 	            
 	            var filteredMessages = _.filter(data, function(d){
