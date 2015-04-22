@@ -9,7 +9,7 @@
 	"name": "Byron Sommardahl",
 	"role": "Chief Technology Officer",
 	"email": "byron@acklenavenue.com",
-	"urls": {
+	"urls": {p
 		"linkedIn": "http://www.linkedin.com/in/sommardahl",
 		"stackOverflow": "http://stackoverflow.com/users/205753/byron-sommardahl",
 		"twitter": "http://twitter.com/sommardahl",
@@ -110,12 +110,6 @@
 	"name": "Elder Cerrato",
 	"role": "Quality Assurance",
 	"email": "elder@acklenavenue.com",
-	"urls": {		
-	}
-}, {
-	"name": "Douglas Ponce",
-	"role": "Developer",
-	"email": "douglas@acklenavenue.com",
 	"urls": {		
 	}
 }, {
