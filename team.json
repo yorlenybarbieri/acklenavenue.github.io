@@ -51,6 +51,13 @@
 		
 	}
 }, {
+	"name": "Juan José Guevara",
+	"role": "Developer",
+	"email": "juanjose@acklenavenue.com",
+	"urls": {
+		
+	}
+}, {
 	"name": "Sharon Montenegro",
 	"role": "Quality Assurance Lead",
 	"email": "sharon@acklenavenue.com",
@@ -68,13 +75,6 @@
 	"name": "Pamela Sommardahl",
 	"role": "Accounting",
 	"email": "pamela@acklenavenue.com",
-	"urls": {
-		
-	}
-}, {
-	"name": "Juan José Guevara",
-	"role": "Developer",
-	"email": "juanjose@acklenavenue.com",
 	"urls": {
 		
 	}
