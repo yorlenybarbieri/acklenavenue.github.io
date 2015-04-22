@@ -15,18 +15,18 @@
 		"twitter": "http://twitter.com/sommardahl"
 	}
 }, {
-	"name": "Viktor Zavala",
-	"role": "Developer",
-	"email": "viktor@acklenavenue.com",
-	"urls": {
-
-	}
-}, {
 	"name": "Camilo Aguilar",
 	"role": "Scrummaster",
 	"email": "camilo@acklenavenue.com",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar"
+	}
+}, {
+	"name": "Viktor Zavala",
+	"role": "Developer",
+	"email": "viktor@acklenavenue.com",
+	"urls": {
+
 	}
 }, {
 	"name": "Nathaniel Holzman",
