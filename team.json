@@ -16,6 +16,12 @@
 		"googlePlus": "https://plus.google.com/107057123438352887411/posts/p/pub"
 	}
 }, {
+	"name": "Damian Serong",
+	"role": "Business Development",
+	"email": "damian@acklenavenue.com",
+	"urls": {		
+	}
+}, {
 	"name": "Camilo Aguilar",
 	"role": "Scrummaster",
 	"email": "camilo@acklenavenue.com",
@@ -161,12 +167,6 @@
 	"name": "Carlos Fontecha",
 	"role": "Quality Assurance",
 	"email": "cfontecha@acklenavenue.com",
-	"urls": {		
-	}
-}, {
-	"name": "Damian Serong",
-	"role": "Business Development",
-	"email": "damian@acklenavenue.com",
 	"urls": {		
 	}
 }]
