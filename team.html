@@ -3,6 +3,11 @@ layout: acklen
 title: Our Team
 activeMenuButton: team
 ---
+<style>
+	.thumbnail-style img { width: 335px; }
+	.thumbnail-style {min-height: 359px;}
+	.margin-top-20 { margin-top: 20px;}
+</style>
 
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs">
@@ -21,640 +26,31 @@ activeMenuButton: team
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container content">
-	<!-- <div class="row team margin-bottom-20">
-		<div class="col-md-4">
+<div class="container content" ng-controller="teamController">		
+	<div class="row team margin-bottom-20 margin-top-20">
+		<div class="col-sm-3" ng-repeat="member in members">
 			<div class="thumbnail-style">
-				<img alt="" src="assets/img/team/1.jpg" class="img-responsive">
-				<h3><a>Colin Callahan</a><small>Chief Executive Officer</small></h3>
-				<p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p>
-				<ul class="social-icons">
-					<li>
-						<a class="rounded-x social_facebook" data-original-title="Facebook" href="#"></a>
-					</li>
-					<li>
-						<a class="rounded-x social_twitter" data-original-title="Twitter" href="#"></a>
-					</li>
-					<li>
-						<a class="rounded-x social_googleplus" data-original-title="Google Plus" href="#"></a>
-					</li>
-					<li>
-						<a class="rounded-x social_linkedin" data-original-title="Linkedin" href="#"></a>
-					</li>
-				</ul>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-
-		<div class="col-md-8">
-			<div class="margin-bottom-10"></div>
-			<p>
-				<span class="dropcap-bg">A</span>cilis quidem rerum facilis est et expedita distinctio estet expedita distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Pellentesque viverra vehicula sem ut volutpat sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere.
-			</p>
-			<p>
-				Et harum quidem rerum facilis est et expedita aenean eu leo quam distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat.
-			</p>
-			<br>
-
-			<blockquote class="margin-bottom-30">
-				<p>
-					<em>"Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscing"</em>
-				</p>
-				<small><em>Etiam porta sem malesuada</em></small>
-			</blockquote>
-
-			<div class="row list-style-v1">
-				<div class="col-md-6">
-					<ul class="list-unstyled margin-bottom-35">
-						<li>
-							<i class="color-green fa fa-check"></i> Nullam sed eleifend purus
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Proin sit amet ligula vel orci tempus viverra
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Proin sit amet ligula vel orci tempus viverra
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Nulla fermentum blandit dolor eu dictum
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Donec varius lacus et neque vestibulum hendrerit
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="list-unstyled margin-bottom-35">
-						<li>
-							<i class="color-green fa fa-check"></i> Nullam sed eleifend purus
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Proin sit amet ligula vel orci tempus viverra
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Proin sit amet ligula vel orci tempus viverra
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Nulla fermentum blandit dolor eu dictum
-						</li>
-						<li>
-							<i class="color-green fa fa-check"></i> Donec varius lacus et neque vestibulum hendrerit
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-<style>
-	.thumbnail-style img { width: 335px;}
-</style>
-
-	<div class="row team margin-bottom-20">
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/colin.jpg" class="img-responsive">
-				<h3><a>Colin Callahan</a><small>Chief Executive Officer</small></h3>
+				<img alt="" ng-src="{% raw %}{{member.avatar}}{% endraw %}?s=335&d=http://acklenavenue.com/assets/img/user.jpg" class="img-responsive">
+				<h3><a><span ng-bind="member.name"></span></a><small ng-bind="member.role"></small></h3>
 				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
+							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
 				</p> -->
 				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/pub/colin-callahan/2/51/63b?trk=pub-pbmap"><i class="fa fa-linkedin"></i></a>
+					<li ng-show="member.urls.linkedIn">
+						<a ng-href="{% raw %}{{member.urls.linkedIn}}{% endraw %}"><i class="fa fa-linkedin"></i></a>
 					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/byron.jpg" class="img-responsive">
-				<h3><a>Byron Sommardahl</a><small>Chief Technlology Officer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/in/sommardahl"><i class="fa fa-linkedin"></i></a>
+					<li ng-show="member.urls.twitter">
+						<a ng-href="{% raw %}{{member.urls.twitter}}{% endraw %}"><i class="fa fa-twitter"></i></a>
 					</li>
-					<li>
-						<a href="http://twitter.com/sommardahl"><i class="fa fa-twitter"></i></a>
+					<li ng-show="member.urls.googlePlus">
+						<a ng-href="{% raw %}{{member.urls.googlePlus}}{% endraw %}"><i class="fa fa-google-plus"></i></a>
 					</li>
-					<li>
-						<a href="http://stackoverflow.com/users/205753/byron-sommardahl"><i class="fa fa-stack-overflow"></i></a>
+					<li ng-show="member.urls.stackOverflow">
+						<a ng-href="{% raw %}{{member.urls.stackOverflow}}{% endraw %}"><i class="fa fa-stack-overflow"></i></a>
 					</li>
 				</ul>
 			</div>
-		</div>	
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/viktor.jpg" class="img-responsive">
-				<h3><a>Viktor Zavala</a><small>Developer</small></h3>
-<!-- 				<p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/pub/viktor-zavala/78/903/340?trk=pub-pbmap"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
 		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/camilo.jpg" class="img-responsive">
-				<h3><a>Camilo Aguilar</a><small>Scrum Master</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/in/kmiloaguilar"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/nathaniel.jpg" class="img-responsive">
-				<h3><a>Nathaniel Holzman</a><small>Senior Engagement Manager</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="https://www.linkedin.com/in/nathanielholzmann"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/saul.jpg" class="img-responsive">
-				<h3><a>Saul Mayorquin</a><small>Developer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/deanna.jpg" width="239" class="img-responsive">
-				<h3><a>Deanna Vickers</a><small>Senior Engagement Manager</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/sharon.jpg" class="img-responsive">
-				<h3><a>Sharon Montenegro</a><small>Quality Assurance Lead</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="www.linkedin.com/pub/sharon-montenegro/83/738/309"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/javier.jpg" class="img-responsive">
-				<h3><a>Javier Suazo</a><small>Developer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/profile/view?id=297426994"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/user.jpg" width="239" class="img-responsive">
-				<h3><a>Pamela Sommardahl</a><small>Accounting</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/juan.jpg" class="img-responsive">
-				<h3><a>Juan Jose Guevara</a><small>Developer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/rene.jpg" class="img-responsive">
-				<h3><a>Rene Rosa</a><small>Scrum Master</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/in/renerosapastrana?trk=pub-pbmap"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/danilo.jpg" class="img-responsive">
-				<h3><a>Danilo Caballero</a><small>Developer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/profile/view?id=205783897&authType=NAME_SEARCH&authToken=3yB9&locale=es_ES&srchid=581568271400168660315&srchindex=1&srchtotal=12&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A581568271400168660315%2CVSRPtargetId%3A205783897%2CVSRPcmpt%3Aprimary"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!--<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!-- <li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li> -->
-				</ul>
-			</div>
-		</div>
-
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/alberto.jpg" class="img-responsive">
-				<h3><a>Alberto Cruz</a><small>Quality Assurance</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-			 
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/pamela.jpg" class="img-responsive">
-				<h3><a>Pamela Almendares</a><small>Developer</small></h3>			
- 				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/richard.jpg" class="img-responsive">
-				<h3><a>Richard Siwady</a><small>Developer</small></h3>
-				<!-- <p>
-					Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...
-				</p> -->
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/in/richardsiwady"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/elder.jpg" class="img-responsive">
-				<h3><a>Elder Cerrato</a><small>Quality Assurance</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/dponce.jpg" width="239" class="img-responsive">
-				<h3><a>Douglas Ponce</a><small>Developer</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/aida.jpg" class="img-responsive">
-				<h3><a>Aida Martinez</a><small>Developer</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-	
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/frank.jpg" class="img-responsive">
-				<h3><a>Frank Rodriguez</a><small>Developer</small></h3>
-				<ul class="list-unstyled list-inline team-socail">
-					<li>
-						<a href="http://www.linkedin.com/pub/franklin-rodriguez-nu%C3%B1ez/61/110/373/en"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<!-- <li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/dante.jpg" width="239" class="img-responsive">
-				<h3><a>Dante Dubon</a><small>Developer</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/dguerrero.jpg" width="239" class="img-responsive">
-				<h3><a>Douglas Guerrero</a><small>Developer</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/dorian.jpg" width="239" class="img-responsive">
-				<h3><a>Dorian Guido</a><small>Quality Assurance</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/osman.jpg" width="239" class="img-responsive">
-				<h3><a>Osman Hernandez</a><small>Developer</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/carlos.jpg" width="239" class="img-responsive">
-				<h3><a>Carlos Fontecha</a><small>Quality Assurance</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/user.jpg" width="239" class="img-responsive">				<h3><a>Pamela Ramirez</a><small>Business Analyst</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
-		<div class="col-sm-3">
-			<div class="thumbnail-style">
-				<img alt="" src="assets/img/faces/damian.jpg" width="239" class="img-responsive">		
-				<h3><a>Damian Serong</a><small>Business Development</small></h3>
-				
-				<ul class="list-unstyled list-inline team-socail">
-					<!-- <li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li> -->
-					<!--<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>-->
-				</ul>
-			</div>		
-		</div>
-
 	</div>
 
 	<div class="shadow-wrapper">
@@ -665,8 +61,26 @@ activeMenuButton: team
 			<small><em>Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship</em></small>
 		</blockquote>
 	</div>
-
-
-	
-</div><!--/container-->
+</div>
+<!--/container-->
 <!--=== End Content Part ===-->
+
+<script type="text/javascript">
+	function teamController($scope, $modal, $http) {
+	
+		function getAvatar(email){
+			return "http://www.gravatar.com/avatar/"+ md5(email);
+		}
+		
+		$scope.members = [];
+		var req = $http.get('team.json');
+		var teamJson = req.success(function(response) {					
+			response.forEach(function(m){
+				m.avatar = getAvatar(m.email)
+				$scope.members.push(m);
+			});				
+		}).catch(function(err){
+			console.log("Error when fetching the team.json file: " + err);
+		});
+	}
+</script>
