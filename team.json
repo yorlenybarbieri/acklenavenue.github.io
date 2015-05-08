@@ -12,7 +12,22 @@
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/sommardahl",
 		"stackOverflow": "http://stackoverflow.com/users/205753/byron-sommardahl",
-		"twitter": "http://twitter.com/sommardahl"
+		"twitter": "http://twitter.com/sommardahl",
+		"googlePlus": "https://plus.google.com/107057123438352887411/posts/p/pub"
+	}
+}, {
+	"name": "Damian Serong",
+	"role": "Business Development",
+	"email": "damian@acklenavenue.com",
+	"urls": {		
+	}
+}, {
+	"name": "Viktor Zavala",
+	"role": "Developer",
+	"email": "viktor@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/pub/viktor-zavala/78/903/340",
+		"twitter": "https://twitter.com/ZSolidSnake"
 	}
 }, {
 	"name": "Camilo Aguilar",
@@ -22,18 +37,13 @@
 		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar"
 	}
 }, {
-	"name": "Viktor Zavala",
-	"role": "Developer",
-	"email": "viktor@acklenavenue.com",
-	"urls": {
-
-	}
-}, {
 	"name": "Nathaniel Holzman",
 	"role": "Senior Engagement Manager",
 	"email": "nathaniel@acklenavenue.com",
 	"urls": {
-		"linkedIn": "https://www.linkedin.com/in/nathanielholzmann"
+		"linkedIn": "https://www.linkedin.com/in/nathanielholzmann",
+		"twitter": "https://twitter.com/nholzmann",
+		"googlePlus": "https://plus.google.com/+NathanielHolzmann1"
 	}
 }, {
 	"name": "Saul Mayorquin",
@@ -50,11 +60,11 @@
 		
 	}
 }, {
-	"name": "Sharon Montenegro",
-	"role": "Quality Assurance Lead",
-	"email": "sharon@acklenavenue.com",
+	"name": "Juan José Guevara",
+	"role": "Developer",
+	"email": "juanjose@acklenavenue.com",
 	"urls": {
-		"linkedIn": "http://www.linkedin.com/pub/sharon-montenegro/83/738/309"
+		
 	}
 }, {
 	"name": "Javier Suazo",
@@ -64,16 +74,17 @@
 		"linkedIn": "http://www.linkedin.com/profile/view?id=297426994"
 	}
 }, {
+	"name": "Sharon Montenegro",
+	"role": "Quality Assurance Lead",
+	"email": "sharon@acklenavenue.com",
+	"urls": {
+		"linkedIn": "http://www.linkedin.com/pub/sharon-montenegro/83/738/309",
+		"twitter": "https://twitter.com/Sharon___M"
+	}
+}, {
 	"name": "Pamela Sommardahl",
 	"role": "Accounting",
 	"email": "pamela@acklenavenue.com",
-	"urls": {
-		
-	}
-}, {
-	"name": "Javier Suazo",
-	"role": "Developer",
-	"email": "juanjose@acklenavenue.com",
 	"urls": {
 		
 	}
@@ -92,7 +103,7 @@
 		
 	}
 }, {
-	"name": "Alberto Cruz",
+	"name": "Pamela Almendares",
 	"role": "Developer",
 	"email": "pamelocho@acklenavenue.com",
 	"urls": {
@@ -109,12 +120,6 @@
 	"name": "Elder Cerrato",
 	"role": "Quality Assurance",
 	"email": "elder@acklenavenue.com",
-	"urls": {		
-	}
-}, {
-	"name": "Douglas Ponce",
-	"role": "Developer",
-	"email": "douglas@acklenavenue.com",
 	"urls": {		
 	}
 }, {
@@ -152,13 +157,16 @@
 	"name": "Dorian Guido",
 	"role": "Quality Assurance",
 	"email": "dorian@acklenavenue.com",
-	"urls": {		
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/pub/dorian-guido/aa/a85/37a"
 	}
 }, {
 	"name": "Osman Hernandez",
 	"role": "Developer",
 	"email": "osman@acklenavenue.com",
-	"urls": {		
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/osmanrdk",
+		"twitter": "https://twitter.com/rdK__"
 	}
 }, {
 	"name": "Carlos Fontecha",
@@ -167,9 +175,9 @@
 	"urls": {		
 	}
 }, {
-	"name": "Damian Serong",
-	"role": "Business Development",
-	"email": "damian@acklenavenue.com",
+	"name": "Jacob Ramirez",
+	"role": "Developer",
+	"email": "jacob@acklenavenue.com",
 	"urls": {		
 	}
 }]
