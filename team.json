@@ -31,10 +31,13 @@
 	}
 }, {
 	"name": "Camilo Aguilar",
-	"role": "Scrummaster",
+	"role": "ScrumMaster",
 	"email": "camilo@acklenavenue.com",
 	"urls": {
-		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar"
+		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar",
+		"twitter": "https://twitter.com/kmilo_aguilar",
+		"stackOverflow": "http://stackoverflow.com/users/1435499/camilo-aguilar",
+		"googlePlus" : "https://plus.google.com/+CamiloAguilarF/posts/p/pub"
 	}
 }, {
 	"name": "Nathaniel Holzman",
@@ -90,7 +93,7 @@
 	}
 }, {
 	"name": "Rene Rosa",
-	"role": "Scrummaster",
+	"role": "ScrumMaster",
 	"email": "rene@acklenavenue.com",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/renerosapastrana"
