@@ -197,4 +197,12 @@
 	"email": "fernando@acklenavenue.com",
 	"urls": {
 	}
-}]
+}, {
+	"name": "Yamil Gonzales",
+	"role": "UX Designer",
+	"email": "yamil@acklenavenue.com",
+	"urls": {
+		"linkedIn": "http://www.linkedin.com/in/yamilg",
+		"twitter": "http://twitter.com/yamilg"
+ 	}
+ }]
