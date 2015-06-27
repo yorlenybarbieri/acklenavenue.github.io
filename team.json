@@ -19,7 +19,7 @@
 	"name": "Damian Serong",
 	"role": "Business Development",
 	"email": "damian@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Viktor Zavala",
@@ -31,10 +31,13 @@
 	}
 }, {
 	"name": "Camilo Aguilar",
-	"role": "Scrummaster",
+	"role": "ScrumMaster",
 	"email": "camilo@acklenavenue.com",
 	"urls": {
-		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar"
+		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar",
+		"twitter": "https://twitter.com/kmilo_aguilar",
+		"stackOverflow": "http://stackoverflow.com/users/1435499/camilo-aguilar",
+		"googlePlus" : "https://plus.google.com/+CamiloAguilarF/posts/p/pub"
 	}
 }, {
 	"name": "Nathaniel Holzman",
@@ -50,21 +53,21 @@
 	"role": "Developer",
 	"email": "saul@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Deanna Vickers",
 	"role": "Senior Engagement Manager",
 	"email": "deanna@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Juan José Guevara",
 	"role": "Developer",
 	"email": "juanjose@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Javier Suazo",
@@ -86,11 +89,11 @@
 	"role": "Accounting",
 	"email": "pamela@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Rene Rosa",
-	"role": "Scrummaster",
+	"role": "ScrumMaster",
 	"email": "rene@acklenavenue.com",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/renerosapastrana"
@@ -100,14 +103,14 @@
 	"role": "Quality Assurance",
 	"email": "alberto@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Pamela Almendares",
 	"role": "Developer",
 	"email": "pamelocho@acklenavenue.com",
 	"urls": {
-		
+
 	}
 }, {
 	"name": "Richard Siwady",
@@ -120,13 +123,13 @@
 	"name": "Elder Cerrato",
 	"role": "Quality Assurance",
 	"email": "elder@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Aida Martinez",
 	"role": "Developer",
 	"email": "aida@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Frank Rodriguez",
@@ -139,19 +142,19 @@
 	"name": "Dante Dubon",
 	"role": "Developer",
 	"email": "dante@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Douglas Ponce",
 	"role": "Developer",
 	"email": "douglas@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Douglas Guerrero",
 	"role": "Developer",
 	"email": "dguerrero@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Dorian Guido",
@@ -172,12 +175,34 @@
 	"name": "Carlos Fontecha",
 	"role": "Quality Assurance",
 	"email": "cfontecha@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
 }, {
 	"name": "Jacob Ramirez",
 	"role": "Developer",
 	"email": "jacob@acklenavenue.com",
-	"urls": {		
+	"urls": {
 	}
-}]
+}, {
+	"name": "Ferenck Vargas",
+	"role": "Developer",
+	"email": "ferenck@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/ferenckv",
+		"twitter": "https://twitter.com/ferenckv"
+	}
+}, {
+	"name": "Fernando Guevara",
+	"role": "Quality Assurance",
+	"email": "fernando@acklenavenue.com",
+	"urls": {
+	}
+}, {
+	"name": "Yamil Gonzales",
+	"role": "UX Designer",
+	"email": "yamil@acklenavenue.com",
+	"urls": {
+		"linkedIn": "http://www.linkedin.com/in/yamilg",
+		"twitter": "http://twitter.com/yamilg"
+ 	}
+ }]

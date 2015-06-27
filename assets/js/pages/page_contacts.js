@@ -1,7 +1,7 @@
 var ContactPage = function () {
 
-	var lat = 36.1514613;
-    var lng = -86.7851693;
+	var lat = 36.1511319;
+    var lng = -86.776515;
     	
     return {
         
