@@ -209,5 +209,12 @@
 	"name": "Luis Nunez",
 	"role": "Developer",
 	"email": "luis@acklenavenue.com",
+	"urls": {
+		
+}, {
+	"name": "Stephanie Schoenherr",
+	"role": "Quality Assurance Intern",
+	"email": "stephanie@acklenavenue.com",
 	"urls": {}
+	
  }]
