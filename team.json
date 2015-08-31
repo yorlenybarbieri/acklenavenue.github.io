@@ -31,7 +31,7 @@
 	}
 }, {
 	"name": "Camilo Aguilar",
-	"role": "ScrumMaster",
+	"role": "Devops",
 	"email": "camilo@acklenavenue.com",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar",
@@ -63,7 +63,7 @@
 	}
 }, {
 	"name": "Juan José Guevara",
-	"role": "Developer",
+	"role": "Devops",
 	"email": "juanjose@acklenavenue.com",
 	"urls": {
 
@@ -92,7 +92,7 @@
 	}
 }, {
 	"name": "Rene Rosa",
-	"role": "ScrumMaster",
+	"role": "Devops",
 	"email": "rene@acklenavenue.com",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/renerosapastrana"
@@ -192,7 +192,7 @@
 	}
 }, {
 	"name": "Fernando Guevara",
-	"role": "Quality Assurance",
+	"role": "UX Designer",
 	"email": "fernando@acklenavenue.com",
 	"urls": {
 	}
@@ -212,7 +212,7 @@
 		
 }, {
 	"name": "Stephanie Schoenherr",
-	"role": "Quality Assurance Intern",
+	"role": "Quality Assurance",
 	"email": "stephanie@acklenavenue.com",
 	"urls": {}
 	
