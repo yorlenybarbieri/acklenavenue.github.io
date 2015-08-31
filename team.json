@@ -2,7 +2,7 @@
 	"name": "Colin Callahan",
 	"role": "Chief Executive Officer",
 	"email": "colin@acklenavenue.com",
-	"city": "Nashville, Tennessee"
+	"city": "Nashville, Tennessee",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/pub/colin-callahan/2/51/63b?trk=pub-pbmap"
 	}
@@ -10,7 +10,7 @@
 	"name": "Byron Sommardahl",
 	"role": "Chief Technology Officer",
 	"email": "byron@acklenavenue.com",
-	"city": "Santa Ana, Honduras"
+	"city": "Santa Ana, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/sommardahl",
 		"stackOverflow": "http://stackoverflow.com/users/205753/byron-sommardahl",
@@ -21,14 +21,14 @@
 	"name": "Damian Serong",
 	"role": "Business Development",
 	"email": "damian@acklenavenue.com",
-	"city": "Nashville, Tennessee"
+	"city": "Nashville, Tennessee",
 	"urls": {
 	}
 }, {
 	"name": "Viktor Zavala",
 	"role": "Developer",
 	"email": "viktor@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/pub/viktor-zavala/78/903/340",
 		"twitter": "https://twitter.com/ZSolidSnake"
@@ -37,7 +37,7 @@
 	"name": "Camilo Aguilar",
 	"role": "Devops",
 	"email": "camilo@acklenavenue.com",
-	"city": "San Pedro Sula, Honduras"
+	"city": "San Pedro Sula, Honduras",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/kmiloaguilar",
 		"twitter": "https://twitter.com/kmilo_aguilar",
@@ -47,7 +47,7 @@
 }, {
 	"name": "Nathaniel Holzman",
 	"role": "Senior Engagement Manager",
-	"city": "Nashville, Tennessee"
+	"city": "Nashville, Tennessee",
 	"email": "nathaniel@acklenavenue.com",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/nathanielholzmann",
@@ -56,7 +56,7 @@
 }, {
 	"name": "Saul Mayorquin",
 	"role": "Developer",
-	"city": "Comayagua, Honduras"
+	"city": "Comayagua, Honduras",
 	"email": "saul@acklenavenue.com",
 	"urls": {
 
@@ -65,14 +65,14 @@
 	"name": "Deanna Vickers",
 	"role": "Senior Engagement Manager",
 	"email": "deanna@acklenavenue.com",
-	"city": "Nashville, Tennessee"
+	"city": "Nashville, Tennessee",
 	"urls": {
 
 	}
 }, {
 	"name": "Juan José Guevara",
 	"role": "Devops",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "juanjose@acklenavenue.com",
 	"urls": {
 
@@ -81,7 +81,7 @@
 	"name": "Javier Suazo",
 	"role": "Developer",
 	"email": "javier@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/profile/view?id=297426994"
 	}
@@ -89,7 +89,7 @@
 	"name": "Sharon Montenegro",
 	"role": "Quality Assurance Lead",
 	"email": "sharon@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/pub/sharon-montenegro/83/738/309",
 		"twitter": "https://twitter.com/Sharon___M"
@@ -97,7 +97,7 @@
 }, {
 	"name": "Pamela Sommardahl",
 	"role": "Accounting",
-	"city": "Santa Ana, Honduras"
+	"city": "Santa Ana, Honduras",
 	"email": "pamela@acklenavenue.com",
 	"urls": {
 
@@ -106,14 +106,14 @@
 	"name": "Rene Rosa",
 	"role": "Devops",
 	"email": "rene@acklenavenue.com",
-	"city": "San Pedro Sula, Honduras"
+	"city": "San Pedro Sula, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/renerosapastrana"
 	}
 }, {
 	"name": "Alberto Cruz",
 	"role": "Quality Assurance",
-	"city": "Santa Ana, Honduras"
+	"city": "Santa Ana, Honduras",
 	"email": "alberto@acklenavenue.com",
 	"urls": {
 
@@ -121,7 +121,7 @@
 }, {
 	"name": "Pamela Almendares",
 	"role": "Developer",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "pamelocho@acklenavenue.com",
 	"urls": {
 
@@ -130,14 +130,14 @@
 	"name": "Richard Siwady",
 	"role": "Developer",
 	"email": "richard@acklenavenue.com",
-	"city": "Villa Nueva, Honduras"
+	"city": "Villa Nueva, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/richardsiwady"
 	}
 }, {
 	"name": "Elder Cerrato",
 	"role": "Quality Assurance",
-	"city": "Santa Ana, Honduras"
+	"city": "Santa Ana, Honduras",
 	"email": "elder@acklenavenue.com",
 	"urls": {
 	}
@@ -145,7 +145,7 @@
 	"name": "Frank Rodriguez",
 	"role": "Developer",
 	"email": "frank@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/pub/franklin-rodriguez-nu%C3%B1ez/61/110/373/en"
 	}
@@ -153,27 +153,27 @@
 	"name": "Dante Dubon",
 	"role": "Developer",
 	"email": "dante@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 	}
 }, {
 	"name": "Douglas Ponce",
 	"role": "Developer",
-	"city": "San Pedro Sula, Honduras"
+	"city": "San Pedro Sula, Honduras",
 	"email": "douglas@acklenavenue.com",
 	"urls": {
 	}
 }, {
 	"name": "Douglas Guerrero",
 	"role": "Developer",
-	"city": "San Pedro Sula, Honduras"
+	"city": "San Pedro Sula, Honduras",
 	"email": "dguerrero@acklenavenue.com",
 	"urls": {
 	}
 }, {
 	"name": "Dorian Guido",
 	"role": "Quality Assurance",
-	"city": "Columbus, Ohio"
+	"city": "Columbus, Ohio",
 	"email": "dorian@acklenavenue.com",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/pub/dorian-guido/aa/a85/37a"
@@ -182,7 +182,7 @@
 	"name": "Osman Hernandez",
 	"role": "Developer",
 	"email": "osman@acklenavenue.com",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/osmanrdk",
 		"twitter": "https://twitter.com/rdK__"
@@ -190,21 +190,21 @@
 }, {
 	"name": "Carlos Fontecha",
 	"role": "Business Analyst",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "cfontecha@acklenavenue.com",
 	"urls": {
 	}
 }, {
 	"name": "Jacob Ramirez",
 	"role": "Developer",
-	"city": "Cofradia, Honduras"
+	"city": "Cofradia, Honduras",
 	"email": "jacob@acklenavenue.com",
 	"urls": {
 	}
 }, {
 	"name": "Ferenck Vargas",
 	"role": "Developer",
-	"city": "San Pedro Sula, Honduras"
+	"city": "San Pedro Sula, Honduras",
 	"email": "ferenck@acklenavenue.com",
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/ferenckv",
@@ -213,14 +213,14 @@
 }, {
 	"name": "Fernando Guevara",
 	"role": "UX Designer",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "fernando@acklenavenue.com",
 	"urls": {
 	}
 }, {
 	"name": "Yamil Gonzales",
 	"role": "UX Designer",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "yamil@acklenavenue.com",
 	"urls": {
 		"linkedIn": "http://www.linkedin.com/in/yamilg",
@@ -229,14 +229,14 @@
  }, {
 	"name": "Luis Nunez",
 	"role": "Developer",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "luis@acklenavenue.com",
 	"urls": {}
 		
 }, {
 	"name": "Stephanie Schoenherr",
 	"role": "Quality Assurance",
-	"city": "Tegucigalpa, Honduras"
+	"city": "Tegucigalpa, Honduras",
 	"email": "stephanie@acklenavenue.com",
 	"urls": {}
 	
