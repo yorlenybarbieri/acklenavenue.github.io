@@ -41,7 +41,7 @@ Acklen Avenue has seen the parking garage problem many times. We are frequently 
 
 <i class="fa fa-check-square-o"></i>  **Tests First**: Use [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) to drive out production code.
 
-<i class="fa fa-check-square-o"></i>  **Principles**: Adhere to the [SOLID Principles](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design) of Software Engineering.
+<i class="fa fa-check-square-o"></i>  **Principles**: Adhere to the [SOLID Principles](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) of Software Engineering.
 
 
 Before starting your next green field project, consider all the costs. Remember that the cost of software doesn't stop at delivery. If your business depends on your software for profitability, you need software that will be able to change with your business and that won't make your future developers throw up their hands. You need durable software.
