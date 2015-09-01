@@ -28,3 +28,14 @@ Delivery is, many times, an afterthought, or at least something that is saved fo
 ##Dedication to the Demo
 <img src='/assets/img/posts/indignados.jpg' style="float: left; padding: 10px; width: 400px"/>
 A distant, massive goal is harder to attain than a close and clearly defined goal. Any software developer on a project would agree that the goal is to finish. But, just like any large task, it is difficult to maintain focus on the overall goal when there are so many smaller tasks to accomplish. Sometimes we say that people "miss the forest for the trees." With software development and so many incredibly complex and detailed tasks, it's more like we "miss the forest for the leaves." Agile methodologies like Scrum tell us to split the work up into short loops, starting with a defined set of tasks to complete, and ending with a demonstration of the work that got done. This is exactly what software developers need to stay focused on bringing value and high quality to clients. But we shouldn't stop at just showing what was done. The entire team should consider the demo as the sole purpose of the iteration. Every decision and action should be made in order to ensure the success of the demo, even the tasks chosen in the planning process before an iteration begins. Each demo should be spectacular and flawless, demonstrating the elegance of a complete set of features. All feature development should be focused on demo preparation. QA should be checking unit of work as if the demo depended on it (it does). The whole team, from project managers, to business analysts, from programmers to testers, shouting the same battle cry: "Demo! Demo! Demo!" This has a profound impact on software quality. From demo to demo, your team will deliver awesomeness.
+
+<div class="row tag-box tag-box-v5">
+    <div class="col-md-8">
+        <span>
+        	Need a team that's passionate about high quality software?
+    	</span>
+    </div>
+    <div class="col-md-4">
+        <p><a class="btn-u btn-u-lg btn-u-red" href="/contact.html"><i class="fa fa-life-ring"></i>&nbsp;Contact Us</a></p>
+    </div>
+</div>
