@@ -240,4 +240,13 @@
 	"email": "stephanie@acklenavenue.com",
 	"urls": {}
 	
+ },{
+	"name": "Eliseo García",
+	"role": "Developer",
+	"city": "Choloma, Honduras",
+	"email": "eliseo@acklenavenue.com",
+	"urls": {
+		"https://www.linkedin.com/in/eliyasmeth"
+	}
+	
  }]
