@@ -70,6 +70,14 @@
 
 	}
 }, {
+	"name": "Jean Lauzon",
+	"role": "Engagement Manager",
+	"city": "Nashville, Tennessee",
+	"email": "Jean@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/jeanlauzon",
+	}
+}, {
 	"name": "Juan José Guevara",
 	"role": "Hero Unit",
 	"city": "Tegucigalpa, Honduras",
