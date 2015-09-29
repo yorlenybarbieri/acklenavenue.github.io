@@ -202,21 +202,19 @@
 	"email": "cfontecha@acklenavenue.com",
 	"urls": {
 	}
+},{
+	"name": "Pamela Ramirez",
+	"role": "Quality Assurance",
+	"city": "San Pedro Sula, Honduras",
+	"email": "pramirez@acklenavenue.com",
+	"urls": {}
+	
 }, {
 	"name": "Jacob Ramirez",
 	"role": "Developer",
 	"city": "Cofradia, Honduras",
 	"email": "jacob@acklenavenue.com",
 	"urls": {
-	}
-}, {
-	"name": "Ferenck Vargas",
-	"role": "Developer",
-	"city": "San Pedro Sula, Honduras",
-	"email": "ferenck@acklenavenue.com",
-	"urls": {
-		"linkedIn": "https://www.linkedin.com/in/ferenckv",
-		"twitter": "https://twitter.com/ferenckv"
 	}
 }, {
 	"name": "Fernando Guevara",
@@ -247,13 +245,15 @@
 	"city": "Tegucigalpa, Honduras",
 	"email": "stephanie@acklenavenue.com",
 	"urls": {}
- },{
-	"name": "Pamela Ramirez",
-	"role": "Quality Assurance",
+ }, {
+	"name": "Ferenck Vargas",
+	"role": "Developer",
 	"city": "San Pedro Sula, Honduras",
-	"email": "pramirez@acklenavenue.com",
-	"urls": {}
-	
+	"email": "ferenck@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/ferenckv",
+		"twitter": "https://twitter.com/ferenckv"
+	}
 }, {
 	"name": "Eliseo García",
 	"role": "Developer",
