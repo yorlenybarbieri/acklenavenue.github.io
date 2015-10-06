@@ -262,4 +262,15 @@
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/eliyasmeth"
 	}
- }]
+ }, {
+ 	"name": "William Avila",
+	"role": "Developer",
+	"city": "El Progreso, Honduras",
+	"email": "william@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/pub/william-avila/a6/6bb/590",
+		"googlePlus": "https://plus.google.com/u/1/102163761476668940646/posts/p/pub",
+		"stackOverflow": "http://stackoverflow.com/users/4668651/william-avila",
+		"twitter": "https://twitter.com/Williamzx1"
+	}
+}]
