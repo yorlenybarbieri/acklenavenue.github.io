@@ -283,7 +283,6 @@
 		"stackOverflow": "http://stackoverflow.com/users/4668651/william-avila",
 		"twitter": "https://twitter.com/Williamzx1"
 	}
-
  }, {
  	"name": "Reniery Villafranca",
 	"role": "Developer",
@@ -300,4 +299,12 @@
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/bily-fernández-52355656"
 	}
+}, {
+	"name": "Daniel Miranda",
+	"role": "Developer",
+	"city": "Tegucigalpa, Honduras",
+	"email": "daniel@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/pub/daniel-miranda/70/157/197",
+		"twitter": "https://twitter.com/dmiranda2791"
 }]
