@@ -273,4 +273,13 @@
 		"stackOverflow": "http://stackoverflow.com/users/4668651/william-avila",
 		"twitter": "https://twitter.com/Williamzx1"
 	}
+
+ }, {
+ 	"name": "Reniery Villafranca",
+	"role": "Developer",
+	"city": "Tegucigalpa, Honduras",
+	"email": "reniery@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/pub/reniery-villafranca/60/b15/360",
+	}
 }]
