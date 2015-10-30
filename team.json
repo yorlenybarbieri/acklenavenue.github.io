@@ -233,15 +233,13 @@
 		"twitter": "http://twitter.com/yamilg"
  	}
  }, {
-	"name": “Krista David”,
-	"role": “UX Designer”,
-	"city": “Tegucigalpa, Honduras",
-	"email": “krista@acklenavenue.com",
+	"name": "Krista David",
+	"role": "UX Designer",
+	"city": "Tegucigalpa, Honduras",
+	"email": "krista@acklenavenue.com",
 	"urls": {
-		"https://www.linkedin.com/pub/krista-david/70/490/853”,
-		"https://twitter.com/KrisstaDavid”,
-		"https://www.behance.net/kristadavid”
-	
+		"linkedIn": "https://www.linkedin.com/pub/krista-david/70/490/853”,
+		"twitter": "https://twitter.com/KrisstaDavid”,
 	}
  }, {
 	"name": "Luis Nunez",
