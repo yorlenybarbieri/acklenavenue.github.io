@@ -35,7 +35,7 @@
 		<link rel="stylesheet" href="/assets/css/themes/default.css" id="style_color"/>
 
 		<!-- CSS Customization -->
-		<link rel="stylesheet" href="/assets/css/custom.css"/>		
+		<link rel="stylesheet" href="/assets/css/custom.css"/>
 	</head>
 
 	<body class="header-fixed" ng-app="acklen-site">
@@ -233,6 +233,30 @@
 											</p>
 										</div>
 									</div>
+									<div class="item">
+										<img src="/assets/img/shots/talk.jpg" alt="">
+										<div class="carousel-caption">
+											<p>
+												Giving a talk about better unit tests.
+											</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="/assets/img/shots/devs-working.jpg" alt="">
+										<div class="carousel-caption">
+											<p>
+												Developers solving a challenge.
+											</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="/assets/img/shots/devs-working2.jpg" alt="">
+										<div class="carousel-caption">
+											<p>
+												Team members in a Hackathon during the A/A summit.
+											</p>
+										</div>
+									</div>
 								</div>
 								<div class="carousel-arrow">
 									<a class="left carousel-control" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-left"></i> </a>
@@ -322,7 +346,7 @@
 		<script src="/assets/js/md5.min.js"></script>
 
 		<script type="text/javascript">
-			//disable angular carousel			
+			//disable angular carousel
 			angular.module('ui.bootstrap.carousel', ['ui.bootstrap.transition']).controller('CarouselController', ['$scope', '$timeout', '$transition', '$q',
 			function($scope, $timeout, $transition, $q) {
 			}]).directive('carousel', [
@@ -342,30 +366,30 @@
 			jQuery(document).ready(function() {
 				App.init();
 				setActive("{{page.activeMenuButton}}");
-				
+
 			});
 
 			// Smooth scroll for in page links
 			$(function(){
 			    var target, scroll;
-			
+
 			    $("a[href*=#]:not([href=#])").on("click", function(e) {
 			        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			            target = $(this.hash);
 			            target = target.length ? target : $("[id=" + this.hash.slice(1) + "]");
-			
+
 			            if (target.length) {
 			                if (typeof document.body.style.transitionProperty === 'string') {
 			                    e.preventDefault();
-			                  
+
 			                    var avail = $(document).height() - $(window).height();
-			    
+
 			                    scroll = target.offset().top;
-			                  
+
 			                    if (scroll > avail) {
 			                        scroll = avail;
 			                    }
-			
+
 			                    $("html").css({
 			                        "margin-top" : ( $(window).scrollTop() - scroll ) + "px",
 			                        "transition" : "1s ease-in-out"
@@ -379,7 +403,7 @@
 			            }
 			        }
 			    });
-			
+
 			    $("html").on("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd", function (e) {
 			        if (e.target == e.currentTarget && $(this).data("transitioning") === true) {
 			            $(this).removeAttr("style").data("transitioning", false);
