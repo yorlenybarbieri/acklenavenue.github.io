@@ -140,7 +140,8 @@
 	"email": "richard@acklenavenue.com",
 	"city": "Villanueva, Honduras",
 	"urls": {
-		"linkedIn": "http://www.linkedin.com/in/richardsiwady"
+		"linkedIn": "http://www.linkedin.com/in/richardsiwady",
+		"twitter": "http://twitter.com/rsiwady29"
 	}
 }, {
 	"name": "Elder Cerrato",
@@ -208,7 +209,7 @@
 	"city": "San Pedro Sula, Honduras",
 	"email": "pramirez@acklenavenue.com",
 	"urls": {}
-	
+
 }, {
 	"name": "Jacob Ramirez",
 	"role": "Developer",
@@ -247,7 +248,7 @@
 	"city": "Tegucigalpa, Honduras",
 	"email": "luis@acklenavenue.com",
 	"urls": {}
-		
+
 }, {
 	"name": "Stephanie Schoenherr",
 	"role": "Quality Assurance",
