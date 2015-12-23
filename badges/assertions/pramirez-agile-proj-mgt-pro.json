@@ -1,14 +1,14 @@
 {
-  "uid": "pramirez-agile-proj-mgt-pro",
+  "uid": "bfernandez-tdd-pro",
   "recipient": {
     "type": "email",
-    "identity": "pramirez@acklenavenue.com",
+    "identity": "billy@acklenavenue.com",
     "hashed": false
   },
   "issuedOn":  1450894819,
-  "badge": "http://acklenavenue.com/badges/agile-proj-mgt-pro-1.0.0.json",
+  "badge": "http://acklenavenue.com/badges/tdd-pro-1.0.0.json",
   "verify": {
     "type": "hosted",
-    "url": "http://acklenavenue.com/badges/assertions/pramirez-agile-proj-mgt-pro.json"
+    "url": "http://acklenavenue.com/badges/assertions/bfernandez-tdd-pro.json"
   }
 }
