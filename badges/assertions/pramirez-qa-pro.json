@@ -1,0 +1,14 @@
+{
+  "uid": "pramirez-qa-pro",
+  "recipient": {
+    "type": "email",
+    "identity": "pramirez@acklenavenue.com",
+    "hashed": false
+  },
+  "issuedOn":  1450894819,
+  "badge": "http://acklenaveue.com/badges/qa-pro-1.0.0.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://acklenaveue.com/badges/assertions/pramirez-qa-pro.json"
+  }
+}
