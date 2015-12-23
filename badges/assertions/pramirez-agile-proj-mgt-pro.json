@@ -1,14 +1,14 @@
 {
-  "uid": "bfernandez-tdd-pro",
+  "uid": "pramirez-software-testing-pro",
   "recipient": {
     "type": "email",
-    "identity": "billy@acklenavenue.com",
+    "identity": "pramirez@acklenavenue.com",
     "hashed": false
   },
   "issuedOn":  1450894819,
-  "badge": "http://acklenavenue.com/badges/tdd-pro-1.0.0.json",
+  "badge": "http://acklenavenue.com/badges/software-testing-pro-1.0.0.json",
   "verify": {
     "type": "hosted",
-    "url": "http://acklenavenue.com/badges/assertions/bfernandez-tdd-pro.json"
+    "url": "http://acklenavenue.com/badges/assertions/pramirez-software-testing-pro.json"
   }
 }
