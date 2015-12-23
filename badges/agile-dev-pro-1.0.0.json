@@ -1,0 +1,8 @@
+{ 
+    "version": "1.0.0", 
+    "name": "Agile Development Professional", 
+    "image": "http://acklenavenue.com/assets/img/badges/1024/0003_AgileDev.png", 
+    "description": "Has displayed mastery in agile software development.", 
+    "criteria": "http://acklenavenue.com/badges/agile-dev-pro-1.0.0.html", 
+    "issuer": "http://acklenavenue.com/badges/meta/issuer.json"
+} 
