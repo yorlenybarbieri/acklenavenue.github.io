@@ -1,0 +1,14 @@
+{
+  "uid": "rsiwady-qa-pro",
+  "recipient": {
+    "type": "email",
+    "identity": "richard@acklenavenue.com",
+    "hashed": false
+  },
+  "issuedOn":  1450894819,
+  "badge": "http://acklenavenue.com/badges/qa-pro-1.0.0.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://acklenavenue.com/badges/assertions/rsiwady-qa-pro.json"
+  }
+}
