@@ -336,4 +336,19 @@
 	"city": "Villanueva, Honduras",
 	"urls": {
 	}
+},{
+    "name": "Erick Caballero",
+    "role": "Developer",
+    "email": "erick@acklenavenue.com",
+    "city": "San Pedro Sula, Honduras",
+    "urls": {
+    }
+    
+},{
+	"name": "Daniel Chinchilla",
+	"role": "UX Designer",
+	"email": "dchinchilla@acklenavenue.com",
+	"city": "Tegucigalpa, Honduras",
+	"urls": {
+	}
 }]
