@@ -276,6 +276,14 @@
 		"linkedIn": "https://www.linkedin.com/in/eliyasmeth"
 	}
  }, {
+	"name": "Nadia Aguilar",
+	"role": "UX Designer",
+	"email": "nadia@acklenavenue.com",
+	"city": "Tegucigalpa, Honduras",
+	"urls": {
+		"twitter": "https://twitter.com/nicoll_9"
+	}
+}, {
  	"name": "William Avila",
 	"role": "Developer",
 	"city": "El Progreso, Honduras",
