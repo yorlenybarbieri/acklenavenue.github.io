@@ -381,4 +381,14 @@
 	"city": "Tegucigalpa, Honduras",
 	"urls": {
 	}
-	}]
+}, {
+ 	"name": "Oscar Soriano",
+	"role": "Developer",
+	"city": "San Pedro Sula, Honduras",
+	"email": "oscar@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/oscar-soriano-31950225",
+		"twitter": "https://twitter.com/sorioinc"
+
+	}
+}]
