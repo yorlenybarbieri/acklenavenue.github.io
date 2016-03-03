@@ -29,6 +29,14 @@
 	"urls": {
 	}
 }, {
+	"name": "Colleen Farish",
+	"role": "Business Development",
+	"email": "colleen@acklenavenue.com",
+	"city": "Nashville, Tennessee",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/colleen-farish-1b755633"
+	}
+}, {
 	"name": "Viktor Zavala",
 	"role": "Developer",
 	"email": "viktor@acklenavenue.com",
