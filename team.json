@@ -38,7 +38,7 @@
 	}
 }, {
 	"name": "Viktor Zavala",
-	"role": "Developer",
+	"role": "Senior Developer",
 	"email": "viktor@acklenavenue.com",
 	"city": "Tegucigalpa, Honduras",
 	"urls": {
@@ -56,7 +56,7 @@
 	}
 }, {
 	"name": "Saul Mayorquin",
-	"role": "Developer",
+	"role": "Senior Developer",
 	"city": "Comayagua, Honduras",
 	"email": "saul@acklenavenue.com",
 	"urls": {
@@ -80,7 +80,7 @@
 	}
 }, {
 	"name": "Juan José Guevara",
-	"role": "Hero Unit",
+	"role": "Senior Developer",
 	"city": "Tegucigalpa, Honduras",
 	"email": "juanjose@acklenavenue.com",
 	"urls": {
@@ -113,7 +113,7 @@
 	}
 }, {
 	"name": "Rene Rosa",
-	"role": "Hero Unit",
+	"role": "Senior Developer",
 	"email": "rene@acklenavenue.com",
 	"city": "San Pedro Sula, Honduras",
 	"urls": {
@@ -137,7 +137,7 @@
 	}
 }, {
 	"name": "Richard Siwady",
-	"role": "Developer",
+	"role": "Senior Developer",
 	"email": "richard@acklenavenue.com",
 	"city": "Villanueva, Honduras",
 	"urls": {
@@ -168,7 +168,7 @@
 	}
 }, {
 	"name": "Dante Dubon",
-	"role": "Developer",
+	"role": "Senior Developer",
 	"email": "dante@acklenavenue.com",
 	"city": "Tegucigalpa, Honduras",
 	"urls": {
@@ -244,13 +244,6 @@
 		"twitter": "https://twitter.com/KrisstaDavid"
 	}
  }, {
-	"name": "Luis Nunez",
-	"role": "Developer",
-	"city": "Tegucigalpa, Honduras",
-	"email": "luis@acklenavenue.com",
-	"urls": {}
-
-}, {
 	"name": "Stephanie Schoenherr",
 	"role": "Quality Assurance",
 	"city": "Tegucigalpa, Honduras",
@@ -335,14 +328,7 @@
 	"email": "ricardo@acklenavenue.com",
 	"urls": {
 	}
-},{
- 	"name": "Dennis Zepeda",
-	"role": "Quality Assurance",
-	"city": "Tegucigalpa, Honduras",
-	"email": "dennis@acklenavenue.com",
-	"urls": {
-	}
-},{
+}, {
 	"name": "Edward Siwady",
 	"role": "Developer",
 	"email": "edward@acklenavenue.com",
@@ -390,7 +376,7 @@
 	}
 }, {
     "name": "Gazy Mahomar",
-    "role": "Developer",
+    "role": "Senior Developer",
     "city": "Tegucigalpa, Honduras",
     "email": "gazy@acklenavenue.com",
     "urls": {}
