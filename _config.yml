@@ -1,5 +1,0 @@
-name: Acklen Avenue Website
-markdown: redcarpet
-gems:
-  - jekyll-gist
-  
