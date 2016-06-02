@@ -204,13 +204,6 @@
 	"urls": {
 		"linkedIn": "https://www.linkedin.com/in/cfontecha"
 	}
-},{
-	"name": "Pamela Ramirez",
-	"role": "Quality Assurance",
-	"city": "San Pedro Sula, Honduras",
-	"email": "pramirez@acklenavenue.com",
-	"urls": {}
-
 }, {
 	"name": "Jacob Ramirez",
 	"role": "Developer",
@@ -342,7 +335,6 @@
     "city": "San Pedro Sula, Honduras",
     "urls": {
     }
-    
 },{
 	"name": "Daniel Chinchilla",
 	"role": "UX Designer",

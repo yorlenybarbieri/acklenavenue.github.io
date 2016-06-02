@@ -1,0 +1,37 @@
+<section id="team">
+  <h3 class="invert">/TEAM/</h3>
+
+
+  <div class="wrapper">
+
+    {% for member in site.data.team %}
+    {% if forloop.index == 9  %}
+         <div id="full-team" class="hidden">
+    {% endif %}
+    <div class="team-member">
+      <img class="rouded-img" src="http://gravatar.com/avatar/{{ member.email | downcase | md5 }}?s=335">
+      <h6>{{ member.name }}</h6>
+      <p>{{ member.city }}<br> {{ member.role }}</p>
+      {% if member.urls.linkedIn != nil %}
+          <a href={{ member.urls.linkedIn }}><img src="img/linked-in-icon.svg"></a>
+      {% endif %}
+      {% if member.urls.twitter != nil %}
+          <a href={{ member.urls.twitter }}><img src="img/twitter-icon.svg"></a>
+      {% endif %}
+      {% if member.urls.stackOverflow != nil %}
+          <a href={{ member.urls.stackOverflow }}><img src="img/stackoverflow-icon.svg"></a>
+      {% endif %}
+      {% if member.urls.googlePlus != nil %}
+          <a href={{ member.urls.googlePlus }}><img src="img/googleplus-icon.svg"></a>
+      {% endif %}
+    </div>
+    {% if forloop.last  %}
+         </div>
+    {% endif %}
+    {% endfor %}
+
+  </div>
+
+  <a id="team-toggler" href="#full-team"><button class="btn-hollow">View full team directory</button></a>
+
+</section>
