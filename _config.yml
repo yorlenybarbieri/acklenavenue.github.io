@@ -11,5 +11,4 @@ twitter_username: acklenavenue
 gems:
   - redcarpet
   - jekyll-gist
-  - liquid-md5
 markdown: redcarpet

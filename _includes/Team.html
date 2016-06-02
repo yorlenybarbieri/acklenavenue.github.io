@@ -9,7 +9,7 @@
          <div id="full-team" class="hidden">
     {% endif %}
     <div class="team-member">
-      <img class="rouded-img" src="http://gravatar.com/avatar/{{ member.email | downcase | md5 }}?s=335">
+      <img class="rouded-img" alt="{{ member.email }}">
       <h6>{{ member.name }}</h6>
       <p>{{ member.city }}<br> {{ member.role }}</p>
       {% if member.urls.linkedIn != nil %}
