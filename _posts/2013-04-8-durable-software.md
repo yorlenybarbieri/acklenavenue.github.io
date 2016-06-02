@@ -4,7 +4,6 @@ title:  Durable Software
 date:   2013-04-08
 categories: software
 author: Byron Sommardahl
-excerpt: "Downtown Parking", an imaginary start-up, plans to build parking garages in large cities around the world. However, their leaders are a little short sighted...
 image: http://awkwardcoder.com/wp-content/uploads/2013/04/7th_Penn_Parking_Lot-300x200.jpg
 ---
 <img src='http://awkwardcoder.com/wp-content/uploads/2013/04/7th_Penn_Parking_Lot-300x200.jpg' style="float: right; padding: 10px;"/>

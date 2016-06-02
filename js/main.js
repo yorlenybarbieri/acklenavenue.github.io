@@ -28,7 +28,7 @@ $('#team-toggler').click(function(){
 
 // Team section
 
-$.getJSON("js/team.json",function(teamMembers){
+$.getJSON("/js/team.json",function(teamMembers){
   $.each(teamMembers, function(key,val){
 
   })
