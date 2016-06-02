@@ -28,15 +28,13 @@ $('.nav-icon a').click(function(){
 });
 
 $('#team-toggler').click(function(){
- $('#full-team').slideToggle();
-});
-
-// Team section
-
-$.getJSON("/js/team.json",function(teamMembers){
-  $.each(teamMembers, function(key,val){
-
-  })
+ $('#full-team').slideToggle('slow', function() {
+        if ($(this).is(':visible')) {
+             $('#team-toggler button').text('Collapse team directory');
+        } else {
+             $('#team-toggler button').text('View full team directory');
+        }
+    });
 });
 
 // mail service
