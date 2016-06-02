@@ -4,6 +4,7 @@ title:  Custom Software Development&#58; Save Money With ATDD
 date:   2014-06-26
 categories: agile
 author: Byron Sommardahl
+excerpt: Custom software is pretty expensive! Unnoticed system bugs, misunderstood requirements, and lack of developer focus can prolong a project and inflate costs...
 image: /assets/img/posts/carrot.jpg
 imageCredit: http://edwinandrewlove.blogspot.com/2012/10/cash-aint-carrots-and-i-aint-your-donkey.html (public domain)
 ---

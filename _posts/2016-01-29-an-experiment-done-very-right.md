@@ -5,6 +5,7 @@ date:   2016-01-29
 categories: greatness
 author: Byron Sommardahl
 image: http://acklenavenue.com/assets/img/shots/IMG_0886.jpg
+excerpt: Years ago, when Acklen Avenue was still very young and trying to find its place in the world, we decided to try a risky experiment.
 ---
 <img style="float: left; padding: 10px; width: 400px;" src="http://acklenavenue.com/assets/img/shots/IMG_0886.jpg" alt="Camilo Aguilar" />
 

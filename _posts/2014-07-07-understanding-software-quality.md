@@ -4,6 +4,7 @@ title:  Custom Software Development&#58; 3 Ways to Win at Quality
 date:   2014-07-07
 categories: agile
 author: Byron Sommardahl
+excerpt: I just bought some brakes for my car the other day. When I was at the auto parts store, the guy asked me which brakes I wanted. You've been there, I'm sure...
 image: /assets/img/posts/hot-air-balloons.jpg
 imageCredit: http://creativecommons.org/weblog/entry/18364, http://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg, http://commons.wikimedia.org/wiki/File:%22YOUR_BATTLESHIP_AND_HER_REQUIREMENTS%22_-_NARA_-_516243.jpg, https://www.flickr.com/photos/jurvetson/156830367/, https://www.flickr.com/photos/autohistorian/4410527136/ (creative commons)
 ---

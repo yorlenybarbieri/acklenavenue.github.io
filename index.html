@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -498,27 +500,14 @@
       <h3 class="invert">/BLOG/</h3>
 
       <div class="wrapper">
+        {% for post in site.posts limit:3 %}
         <div class="article">
-          <img src="img/article-front.jpg">
-          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
-          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
-          <a href="blog.html"><button>Read More</button></a>
+          <div class="image" style="background-image: url('{{ post.image }}');"></div>
+          <a href="{{ post.url }}"><h5>{{ post.title }}</h5></a>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url }}"><button>Read More</button></a>
         </div>
-
-        <div class="article">
-          <img src="img/article-front.jpg">
-          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
-          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
-          <a href="blog.html"><button>Read More</button></a>
-        </div>
-
-        <div class="article">
-          <img src="img/article-front.jpg">
-          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
-          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
-          <a href="blog.html"><button>Read More</button></a>
-        </div>
-        
+        {% endfor %}       
         <div class="clear"></div>
       </div>
   

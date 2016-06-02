@@ -4,6 +4,7 @@ title:  Custom Software Development&#58; Quality is Not an Option
 date:   2014-06-12
 categories: agile
 author: Byron Sommardahl
+excerpt: This article is about some lessons that my team has learned about developing custom software and making clients happy. We'll get to the lessons learned in a second...
 image: http://acklenavenue.com/assets/img/posts/climbing-15774_640.jpg
 imageCredit: http://pixabay.com/p-15774/?no_redirect (public domain)
 ---
