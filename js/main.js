@@ -22,6 +22,11 @@ $(function() {
           $(this).addClass("active");
      })
 
+//team gravatar
+$("#team .team-member .rouded-img").each(function(){
+    $(this).attr("src", "http://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=335");
+});
+
 // team toggle
 $('.nav-icon a').click(function(){
   $('nav').slideToggle();
