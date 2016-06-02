@@ -8,4 +8,7 @@ url: "http://acklenavenue.com"
 twitter_username: acklenavenue
 
 # Build settings
+gems:
+  - redcarpet
+  - jekyll-gist
 markdown: redcarpet
