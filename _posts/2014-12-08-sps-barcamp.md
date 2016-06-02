@@ -5,6 +5,7 @@ date:   2014-12-08
 categories: community
 author: Richard Siwady
 image: https://farm8.staticflickr.com/7567/15631306317_12522cb90a.jpg
+excerpt: Last November 9th, San Pedro Sula (Honduras) hosted it’s annual Barcamp, this is the second time the city hosted the event and this time things got really exciting...
 ---
 <img src='https://farm8.staticflickr.com/7567/15631306317_12522cb90a.jpg' style="float: right; padding: 10px;" width="500" height="334" />
 

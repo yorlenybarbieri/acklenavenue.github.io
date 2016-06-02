@@ -4,6 +4,7 @@ title:  The Golden Rule of Software Development
 date:   2014-01-19 10:52:48
 categories: software
 author: Byron Sommardahl
+excerpt: I’ve gone to church all my life and “The Golden Rule” has been pound into my head since I was a toddler “Do to others as you would have them do to you.”...
 image: http://awkwardcoder.com/wp-content/uploads/2014/01/Preach_it.jpg
 ---
 <img style="float: left; padding: 10px;" src="http://awkwardcoder.com/wp-content/uploads/2014/01/Preach_it.jpg" />

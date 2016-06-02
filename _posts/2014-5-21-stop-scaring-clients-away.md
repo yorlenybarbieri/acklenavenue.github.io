@@ -5,6 +5,7 @@ date:   2014-05-21
 categories: agile
 author: Colin Callahan
 image: http://acklenavenue.com/assets/img/posts/scared.JPG
+excerpt: A friend you haven’t seen in a while says that he will be in Chattanooga for the day and wants to have a beer with you. He wants to know how soon you could get there...
 ---
 
 <img style="float: left; padding: 10px;" src="http://acklenavenue.com/assets/img/posts/scared.JPG" />

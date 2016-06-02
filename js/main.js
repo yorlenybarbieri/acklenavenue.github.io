@@ -16,6 +16,11 @@ $(function() {
   });
 });
 
+ var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"));
+     $("#fixednavbar ul li a").each(function(){
+          if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+          $(this).addClass("active");
+     })
 
 // team toggle
 $('.nav-icon a').click(function(){
@@ -28,7 +33,7 @@ $('#team-toggler').click(function(){
 
 // Team section
 
-$.getJSON("js/team.json",function(teamMembers){
+$.getJSON("/js/team.json",function(teamMembers){
   $.each(teamMembers, function(key,val){
 
   })

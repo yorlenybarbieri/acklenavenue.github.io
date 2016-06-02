@@ -5,6 +5,7 @@ date:   2015-4-10
 categories: community
 author: Richard Siwady, Byron Sommardahl
 image: https://farm8.staticflickr.com/7632/16910739168_b698dc9bd9_z_d.jpg
+excerpt: Next week Acklen Avenue is hosting it’s annual Summit. We’ve hosted several summits in the past 2 years in locations like beautiful Lake Yojoa and peaceful Santa Ana...
 ---
 <img src='https://farm9.staticflickr.com/8652/16135206135_df5c1509ab_z_d.jpg' style="float: right; padding: 10px;" width="500" height="334" />
 

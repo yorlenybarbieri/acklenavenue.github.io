@@ -4,6 +4,7 @@ title:  Custom Software Development&#58; How to Keep Bugs From Eating Your Budge
 date:   2014-06-04
 categories: agile
 author: Byron Sommardahl
+excerpt: People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a custom software development project...
 image: http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.jpg
 ---
 <img style="float: left; padding: 10px; width: 400px;" src="http://acklenavenue.com/assets/img/posts/iStock_000001389194_Small.jpg" alt="Will Code For Food" />

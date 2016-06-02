@@ -5,6 +5,7 @@ date:   2015-09-01
 categories: software
 author: Byron Sommardahl
 image: /assets/img/posts/bullseye.jpg
+excerpt: Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software with a high level of quality?
 ---
 
 Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software with a high level of quality? In other words, how can we as software development professionals 1) fulfill requirements through working software and 2) ensure that our code is maintainable by others late on? Acklen Avenue does this on a daily basis and has, over the years, discovered some repeatable “secrets”.
