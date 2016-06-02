@@ -30,8 +30,7 @@ $('#team-toggler').click(function(){
 
 $.getJSON("js/team.json",function(teamMembers){
   $.each(teamMembers, function(key,val){
-    console.log(key);
-    console.log(val);
+
   })
 });
 
