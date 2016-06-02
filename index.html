@@ -1,373 +1,593 @@
----
-layout: acklen
-title: Welcome!
----
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>Acklen Avenue</title>
 
-<div ng-controller="homeController">
-	<!--=== Slider ===-->
-	<div class="layer_slider">
-		<div id="layerslider-container-fw">
-			<div id="layerslider" style="width: 100%; height: 385px; margin: 0px auto; ">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-				<!--Second Slide-->
-				<div class="ls-layer" style="slidedirection: top; ">
-					<img src="assets/img/colin-working.jpg" class="ls-bg" alt="Slide background">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Acklen Avenue is a team of agile software development professionals who are passionate about clean code and simple user experiences. Nashville, Tennessee" />
+    
+    <meta name="keywords" content="Software Development, Agile, Nashville, Web Apps, Mobile Apps, Desktop Apps" />
 
-					<span class="ls-s-1" style="left:500px; top:30px; font-size: 35px;"> <span class="slide-green">You don't have time to...</span> </span>
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
 
-					<span class="ls-s-2" style="color: #333; font-weight: 200; font-size: 22px; top:100px; left: 520px; slidedirection : left; slideoutdirection : bottom; durationin : 1500; durationout : 500; "><span class="slide-grey padding-5"> <i class="fa fa-check-square-o"></i> manage another project. </span></span>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
 
-					<span class="ls-s-2" style="color: #333; font-weight: 200; font-size: 22px; top:135px; left: 520px; slidedirection : right; slideoutdirection : bottom; durationin : 2000; durationout : 1500; "><span class="slide-grey padding-5"> <i class="fa fa-check-square-o"></i> put together another team. </span></span>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
 
-					<span class="ls-s-2" style="color: #333; font-weight: 200; font-size: 22px; top:170px; left: 520px; slidedirection : left; slideoutdirection : bottom; durationin : 2500; durationout : 2000; "><span class="slide-grey padding-5"> <i class="fa fa-check-square-o"></i> develop another .NET application. </span></span>
+  <header>
+    <div class="nav-icon">
+      <a href="#"><img src="img/hamburger-icon.svg"></a>
+    </div>
+    <a href="index.html"><img src="img/aa-logo.svg" class="logo"></a>
+    <div class="aa-square">
+      <a href="#"><img src="img/aa-logo-square.svg"></a>
+    </div>
+    
+    
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#services">Custom Software</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact-us">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+  
+ <header class="video-header">
+      
+       <div class="tagline"> 
+         <h1>We Are in Constant Pursuit of Your App Success</h1>
+         <h4>By taking an agile approach we deliver clean and useful software every two weeks, prioritizing your most important requirements.</h4>
+         <a href="about.html"><button class="btn btn-go">How we do it?</button></a>     
+       </div><!-- TAGLINE -->  
+  
+      <video id="video-bg" loop="true" preload="auto" autoplay="true" muted="muted" volume="0" poster="vid/aa-videobg-poster.jpg" >
+        <source src="vid/aa-videobg.mp4" type="video/mp4"></source>
+         "Your Browser does not support HTML 5 Video."
+     </video>
+  </header><!-- VIDEO HEADER -->
+    
+    <section id="services">
+     
 
-					<span class="ls-s-2" style="left:500px; top:220px; font-size: 30px; slidedirection : left; slideoutdirection : bottom; durationin : 3000; durationout : 2500; "> <span class="slide-green"> Let us take it off your plate! </span> </span>
+      <div class="wrapper">
+       <h3>/CUSTOM SOFTWARE/</h3>
+        
+        <div class="service" id="mobile-service">
+          
+          <div class="service-inner">
+          <div class="icon">
+              <img src="img/mobile.png">
+            </div><!-- ICON -->
+            <div class="description">
+              <h4>Mobile Apps Development</h4>
+              
+              <a href="custom-software.html">Learn More</a>
+            </div><!-- DESC -->
+            </div><!-- SERVICE INNER -->
+          
+        </div><!-- SERVICE ITEM -->
 
-					<span class="ls-s-1" style="top:280px; left: 700px; slidedirection : bottom; slideoutdirection : bottom; durationin : 5500; durationout : 3500;">
-						<button class="btn btn-lg" style="background-color:red;color:white" ng-click="getQuote()">
-							<i class="fa fa-road fa-3"></i> Get a Free Estimate
-						</button> </span>
-				</div>
-				<!--End Second Slide-->
-			</div>
-		</div>
-	</div><!--/layer_slider-->
-	<!--=== End Slider ===-->
+        <div class="service" id="web-service">
+          <div class="icon">
+            <img src="img/web.png">
+          </div>
+          <div class="description">
+            <h4>Web Apps Development</h4>
+            
+            <a href="custom-software.html">Learn More</a>
+          </div>
+        </div>
 
-	<!--=== Content Part ===-->
-	<div class="anchorPush" id="services"></div>
-	<div>
-		<!-- Service Blocks -->
-		<div class="row" style="margin-top:20px; margin-left:15px; margin-right:15px;">
-			<div class="col-md-4">
-				<div class="service" style="height:240px;">
-					<i class="fa fa-cogs service-icon"></i>
-					<div class="desc">
-						<h4>Custom Software Development</h4>
-						<p>
-							Our focus is on delivering high quality software, early and often. We specialize in building web-based .NET applications for healthcare and financial services companies. 
-						</p>
+        <div class="service" id="desktop-service">
+          <div class="icon">
+            <img src="img/desktop.png">
+          </div>
+          <div class="description">
+            <h4>Desktop Apps Development</h4>
+            
+            <a href="custom-software.html">Learn More</a>
+          </div>
+        </div><!-- SERVICE -->
+    
+    <div class="clear"></div>
+      </div><!-- .SERVICES -->
 
-							<a class="btn-u btn-u-sm" style="position:absolute;right:25px;bottom:20px;" href="services-custom-software.html">Read more</a>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="service" style="height:240px;">
-					<i class="fa fa-rocket service-icon"></i>
-					<div class="desc">
-						<h4>Systems Integration</h4>	
-						<p>
-							 There’s no reason to reinvent the wheel when you can integrate with it instead. If your business uses a SaaS product such as SalesForce or Trello, we can build custom software to integrate with those systems.
-						</p>
-						<a href="services-systems-integration.html" class="btn-u btn-u-sm" style="position:absolute;right:25px;bottom:20px;">Read more</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="service" style="height:240px;">
-					<i class="fa fa-coffee service-icon"></i>
-					<div class="desc">
-						<h4>On-Project Developer Training</h4>
-						<p>
-							You have developers that need agile training. You also need your projects to move forward. We have the expertise to train your devs while completing your project. Your devs will leave our program ready to make your future projects shine.
-						</p>
+    </section>
+    <section id="clients">
+      
+      <div class="bg">
+        <div class="wrapper">
+          <h3>/CLIENTS/</h3>
+            <h4>Customers who have trusted us:
+            </h4>
+            <ul>
+              <li><img src="img/vanderbilt.png" alt=""></li>
+              <li><img src="img/tafs.png" alt=""></li>
+              <li><img src="img/invivolink.png" alt=""></li>
+              <li><img src="img/juicebox.png" alt=""></li>
+            </ul>
 
-						<!-- <a href="service-on-project-training.html" class="btn-u btn-u-sm" style="position:absolute;right:25px;bottom:20px;">Read more</a> -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Service Blokcs -->
-	</div>
+            <div class="casestudy">
 
-	<!--=== Purchase Block ===-->
-	<div class="purchase" ng-show="duringBusinessHours" style="border-top: #EEEEEE solid 2px;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9 animated fadeInLeft">
-					<span>If you can dream it, we can create it!</span>
-					<p>
-						We want to talk with you about your hopes and dreams. Why wait to start a conversation with our product delivery specialists?
-					</p>
-				</div>
-				<div class="col-md-3 btn-buy animated fadeInRight">
-					<form action="/contact.html" method="get">
-						<br/>
-						<button type="submit" class="btn-u btn-u-lg" id="signin" name="signin"><i class="fa fa-comments-o fa-2"></i> Contact Us Today</button>
-					</form>					
-				</div>
-			</div>
-		</div>
-	</div><!--/row-->
-	<!-- End Purchase Block -->
+              <img src="img/drillnomics-mockup.png" alt="">
+              <div class="casetudy-text">
+                <h2>Drillnomics</h2>
+                <p>an easy-to-use web app that generates high value analytics for the oil and gas industry</p>
+                <a target="_blank" href="drillnomics-case-study.html"><button class="btn btn-go">View Project</button></a>
+              </div>
+            </div>
 
-	<div class="container content">
-
-		<!-- Recent Works -->
-		<div class="anchorPush" id="portfolio"></div>
-		<div class="row margin-bottom-20 news-v2">
-
-			<div class="margin-bottom-20 col-md-8">
-				
-				<div class="headline">
-					<h2>Recent Projects</h2>
-				</div>
-
-				<div class="col-md-6 sm-margin-bottom-30">
-					<div class="recent-project">
-		                <div class="news-v2-badge">
-		                    <img class="img-responsive" src="assets/img/invivolink-pic-1.jpg" alt="">
-		                    <p>
-		                        <span>InVivoLink</span>
-		                        <small></small>
-		                    </p>
-		                </div>
-		                <div class="news-v2-desc bg-color-light">
-		                    <h3><a href="#">InVivoLink</a></h3>
-		                    <small>Nashville, TN</small>
-		                    <p>Technical debt was slowing progress, so Acklen Avenue's agile coaches were called in to devise and implement a plan of action. Through agile mentoring and near-shore staffing, InVivoLink is poised to react quickly to the changing market.</p>
-		                </div>
-	                </div>
-	            </div>
-
-	            <div class="col-md-6 sm-margin-bottom-30">
-	                <div class="recent-project">
-	                	<div class="news-v2-badge">
-		                    <img class="img-responsive" src="assets/img/Piims-1.jpg" alt="">
-		                    <p>
-		                        <span>PiiMs</span>
-		                        <small></small>
-		                    </p>
-		                </div>
-		                <div class="news-v2-desc bg-color-light">
-		                    <h3><a href="#">PiiMs</a></h3>
-		                    <small>Tallahasee, FL</small>
-		                    <p>The head of a Florida hospital system had developed a fair, accurate system to track pay-for-performance metrics. But the “system” relied on an old-fashioned Excel spreadsheet that only he understood how to use. Acklen Avenue transformed this great idea from a complicated, time-consuming task into automated software that also creates a potential revenue source for our client. Our solution allows administrators to set objectives and provides a dashboard for staff to see. With the healthcare sector’s emphasis on P4P, PiiMs plans to license the program to other systems.</p>
-		                </div>
-	            	</div>
-	            </div>
-        	
-        		<div class="col-md-6 sm-margin-bottom-30">
-        			<div class="recent-project">
-		                <div class="news-v2-badge">
-		                    <img class="img-responsive" src="assets/img/vandy.gif" alt="">
-		                    <p>
-		                        <span>Vanderbilt University</span>
-		                        <small></small>
-		                    </p>
-		                </div>
-		                <div class="news-v2-desc bg-color-light">
-		                    <h3><a href="#">FACS Count</a></h3>
-		                    <small>Nashville, TN & Port de Prince, Haiti</small>
-		                    <p>A frightfully high rate of infection also makes Haiti an epicenter for AIDS research, but blood analysis machines could not store much data from blood samples without overwriting it. With a test every 5 minutes on weekdays, reams of data were at risk – each sample involved up to 100s of data points. For this Vanderbilt-funded research effort, Acklen Avenue created distinct pieces of software, one for each type of machine, to extract information into a single database. Researchers now have access to historical data and can track trends and produce reports with ease.</p>
-		                </div>
-		            </div>
-	            </div>
+        </div>
+      </div>
+    </section>
+    <section id="team">
+      <h3 class="invert">/TEAM/</h3>
 		
-	            <div class="col-md-6 sm-margin-bottom-30">
-	            	<div class="recent-project">
-		                <div class="news-v2-badge">
-		                    <img class="img-responsive" src="assets/img/visaguidelogo.jpg" alt="">
-		                    <p>
-		                        <span>US Dept of State</span>
-		                        <small></small>
-		                    </p>
-		                </div>
-		                <div class="news-v2-desc bg-color-light">
-		                    <h3><a href="#">VisaGuide HN</a></h3>
-		                    <small>Washington D.C. & Tegucigalpa, Honduras</small>
-		                    <p>The US State Dept needed a way to help people in Honduras understand how to apply for travel visas and legally enter the United States. With so much visa fraud, many travelers with good intentions find themselves in the middle of a mess! Acklen Avenue was asked to create a simple but powerful mobile app to guide people who want to travel the right way.</p>
-		                </div>
-		            </div>
-		        </div>
-        	</div>
+		
+      <div class="wrapper">
 
-        	<div class="col-md-4">
-				
-				<div class="headline">
-					<h2>Team Chat</h2>
-				</div>
-				<div ng-repeat="m in messages" class="chat-post">
-					<div class="avatar">
-						<img class="img-circle img-thumbnail" ng-src="http://www.gravatar.com/avatar/{% raw %}{{m.avatarHash}}{% endraw %}?s=50"/>	
-					</div>
-					<div class="body">
-						<h4>
-							<span ng-bind="m.author"></span>
-							<span class="time" ng-bind="m.time"></span>
-						</h4>
-						<p ng-bind-html="m.body"></p>
-					</div>						
-				</div>							
-			</div>			
-		</div>
-		<!-- End Recent Works -->
-	</div>
-</div>
+         <div class="team-member">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/9621e186b5154d2b209e7a6a35e118eb?s=335">
+          <h6>Colin Callahan</h6>
+          <p>Nashville, Tennessee <br> Chief Executive Officer</p>
+          <a href="http://www.linkedin.com/pub/colin-callahan/2/51/63b?trk=pub-pbmap"><img src="img/linked-in-icon.svg"></a>
+        </div>
 
-<!-- End Layer Slider -->
-<script type="text/javascript" src="assets/js/pages/index.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-		Index.initLayerSlider();
-	});
+        <div class="team-member">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/ded6a46b941e97bbe21aaf4a7902d643?s=335">
+          <h6>Byron Sommardahl</h6>
+          <p>Santa Ana, Honduras<br> Chief Technology Officer</p>
+          <a href="http://twitter.com/sommardahl"><img src="img/twitter-icon.svg"></a>
+          <a href="http://www.linkedin.com/in/sommardahl"><img src="img/linked-in-icon.svg"></a>
+        </div>
 
-	function homeController($scope, $modal, $http) {
+        <div class="team-member">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/4ff5890357a20a19a7a1dda68422c770?s=335">
+          <h6>Colleen Farish</h6>
+          <p>Nashville, Tennessee <br> Director of Partnerships</p>
+          <a href="https://www.linkedin.com/in/colleen-farish-1b755633"><img src="img/linked-in-icon.svg"></a>
+        </div>
 
-		$scope.messages = [];
-        $http.get('https://chat-history.herokuapp.com/api/messages/public?limit=15')
-	        .success(function (data) {
-	            
-	            var filteredMessages = _.filter(data, function(d){
-	            	return d.SlackMessage.trim()!='' && d.SlackMessage.toLowerCase().indexOf('<script>')==-1;
-	            });
+        <div class="team-member">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/a7d38652fbef890b4ad345888a53ece2?s=335">
+          <h6>Deanna Vickers</h6>
+          <p>Nashville, Tennessee <br>Senior Engagement Manager</p>
+        </div>
 
-	            $scope.messages = _.map(filteredMessages, function(d){
+        <div class="team-member">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/3b3ed397b12e3b9b12da8094e78f747b?s=335">
+          <h6>Nathaniel Holzmann</h6>
+          <p>Nashville, Tennessee <br>Senior Engagement Manager</p>
+          <a href="https://twitter.com/nholzmann"><img src="img/twitter-icon.svg"></a>
+          <a href="https://www.linkedin.com/in/nathanielholzmann"><img src="img/linked-in-icon.svg"></a>
+        </div>
 
-        			var timeSince = moment(d.SlackDateTime).fromNow();
-        			var avatarHash = md5(d.EmailAddress);
-        			var body = window.linkify(d.SlackMessage.trim());
+        <div class="team-member visible-md">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/92d8683eced472c717160f45433bde6d?s=335">
+          <h6>Jean Lauzon</h6>
+          <p>Nashville, Tennessee <br> Engagement Manager</p>
+          <a href="https://www.linkedin.com/in/jeanlauzon"><img src="img/linked-in-icon.svg"></a>
+        </div>
 
-	            	return {
-	            		avatarHash: avatarHash,
-	            		time: timeSince,
-	            		author: d.Author,
-	            		body: body
-	            	}
-	            });
-	        });
 
-		$scope.getQuote = function() {
-			var instance = $modal.open({
-				templateUrl : "quoteModal.html",
-				controller : quoteController,
-				size : 'sm',
-			});
-		};
+        <div class="team-member visible-md">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/18165f593c52e0c010848833ca7491a6?s=335">
+          <h6>Viktor Zavala</h6>
+          <p>Tegucigalpa, Honduras<br> Senior Developer</p>
+          <a href="https://twitter.com/ZSolidSnake"><img src="img/twitter-icon.svg"></a>
+          <a href="https://www.linkedin.com/pub/viktor-zavala/78/903/340"><img src="img/linked-in-icon.svg"></a>
+        </div>
+        
+        <div class="team-member visible-md">
+          <img class="rouded-img" src="http://www.gravatar.com/avatar/4980e4a91d1fbf390fd426e28f79910e?s=335">
+          <h6>Gizmo</h6>
+          <p>Nashville, Tennessee <br> Systems Architect</p>
+ 		</div>
 
-		// var businessHoursStart = moment(moment().format("MM/DD/YYYY")+ " 09:00 AM CDT").utc();
-		// var businessHoursEnd = moment(moment().format("MM/DD/YYYY")+ " 05:00 PM CDT").utc();
-		// var now = moment().utc();
-		// if(now.weekday()>0 && now.weekday()<6){
-		// 	$scope.duringBusinessHours = now>businessHoursStart && now< businessHoursEnd;
-		// }
-	};
 
-	function quoteController($scope, $modalInstance) {
+        
+        
+        
+<div id="full-team" class="hidden">
+  
+  
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/49861450b3201af9ac95d39a7ec0f0f6?s=335">
+    <h6>Saul Mayorquín</h6>
+    <p>Comayagua, Honduras <br> Developer</p>
+  </div>
 
-		$scope.budgets = ["$10,000 - $25,000", "$25,000 - $50,000", "$50,000 - $100,000", "$100,000 or more"];
-		$scope.agileExperiences = ["Novice", "Advanced beginner", "Competent", "Proficient", "Expert"];
-		$scope.gettingStartedPeriods = ["Yesterday", "2 - 4 Weeks", "1 - 3 Months", "3 - 6 Months", "Some day"];
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/6e99e51d60bf212ecbfb79d767bd3809?s=335">
+    <h6>Juan José Guevara</h6>
+    <p>Tegucigalpa, Honduras <br> Developer</p>
+  </div>
 
-		if (navigator.geolocation) {
-			navigator.geolocation.getCurrentPosition(function(position) {
-				$scope.latitude = position.coords.latitude;
-				$scope.longitude = position.coords.longitude;
-			});
-		}
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/29f32f155f495688273c2efca74c79bf?s=335">
+    <h6>Javier Suazo</h6>
+    <p>Tegucigalpa, Honduras<br> Developer</p>
+    <a href="http://www.linkedin.com/profile/view?id=297426994"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-		$scope.input = {};
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/19517493d6d955aa002020b2564d80e5?s=335">
+    <h6>Sharon Montenegro</h6>
+    <p>Tegucigalpa, Honduras <br> Quality Assurance Lead</p>
+    <a href="http://www.linkedin.com/pub/sharon-montenegro/83/738/309"><img src="img/twitter-icon.svg"></a>
+    <a href="https://twitter.com/Sharon___M"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-		$scope.save = function() {
-			$scope.saving = true;
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/1f416332cf9b9021cccf0c537cfd8002?s=335">
+    <h6>Pamela Sommardahl</h6>
+    <p> Santa Ana, Honduras<br> Human Resources</p>
+  </div>
 
-			var message = "Budget: " + $scope.input.selectedBudget + "\r\n";
-			message += "Agile Experience: " + $scope.input.selectedAgileExperience + "\r\n";
-			message += "When do I want to get started?: " + $scope.input.selectedgettingStartedPeriod + "\r\n";
-			message += "Email: " + $scope.input.email + "\r\n"
-			message += "Phone: " + $scope.input.phone + "\r\n"
-			message += "Location: <a href='https://www.google.com/maps/place/" + $scope.latitude + "," + $scope.longitude + "'>Click here</a>";
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/cbc8f94987191792a1f9b6f6cf218421?s=335">
+    <h6>René Rosa</h6>
+    <p>San Pedro Sula, Honduras <br> Developer</p>
+    <a href="http://www.linkedin.com/in/renerosapastrana"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-			var email = {
-				email : $scope.input.email,
-				name : $scope.input.email,
-				projectName : "Quote Request",
-				message : message
-			};
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/be445446124ea0a6a56dc6a4cf7c3c0a?s=335">
+    <h6>Alberto Cruz</h6>
+    <p>Santa Ana, Honduras <br> Quality Assurance</p>
+  </div>
 
-			$scope.saving = false;
-			$scope.done = true;
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/1e817b2eb59b692d30c2ae0c518af7b0?s=335">
+    <h6>Pamela Almendares</h6>
+    <p>Tegucigalpa, Honduras <br> Developer</p>
+  </div>
 
-			$.ajax({
-				type : "POST",
-				url : "http://emailer-3.apphb.com/Mail",
-				data : email
-			});
-		};
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/cf161d84464f9f7c8c0e8cc4f6df41a1?s=335">
+    <h6>Richard Siwady</h6>
+    <p>Villanueva, Honduras <br> Developer</p>
+    <a href="http://www.linkedin.com/in/richardsiwady"><img src="img/twitter-icon.svg"></a>
+    <a href="http://twitter.com/rsiwady29"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-		$scope.cancel = function() {
-			$modalInstance.dismiss('cancel');
-		};
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/a112500d7ccc0068fb90fc020397bdcf?s=335">
+    <h6>Elder Cerrato</h6>
+    <p>Santa Ana, Honduras <br> Quality Assurance</p>
+  </div>
 
-		$scope.okay = function() {
-			$modalInstance.dismiss('cancel');
-		};
-	};
-</script>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/c8b93cbf670a214b9f27aae41c849891?s=335">
+    <h6>Frank Rodríguez</h6>
+    <p>Tegucigalpa, Honduras <br>Developer</p>
+    <a href="http://www.linkedin.com/pub/franklin-rodriguez-nu%C3%B1ez/61/110/373/en"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-<script type="text/ng-template" id="quoteModal.html">
-	<form ng-submit="save()" role="form">
-	<div class="modal-header" ng-hide="done">
-	<h3 class="modal-title">Get an Estimate</h3>
-	</div>
-	<div class="modal-header" ng-show="done">
-	<h3 class="modal-title">Thanks!</h3>
-	</div>
-	<div class="modal-body" ng-show="done">
-	<p>Someone will be getting in touch with you today or tomorrow.</p>
-	</div>
-	<div class="modal-body" ng-hide="done">
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/a961779a31a7f8f73d2b8ca285f95408?s=335">
+    <h6>Dante Dubón</h6>
+    <p>Tegucigalpa, Honduras <br> Developer</p>
+  </div>
 
-	<div class="form-group">
-	<i class="fa fa-star" style="float: right; color: #428BCA"></i>
-	<label for="selectedBudget">Project Budget:</label>
-	<select id="selectedBudget" class="form-control" ng-model="input.selectedBudget" ng-options="budget for budget in budgets" required>
-	<option value="">Please select one</option>
-	</select>
-	</div>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/c82b74bf70e42129d005dfd58c928aa0?s=335">
+    <h6>Douglas Ponce</h6>
+    <p>San Pedro Sula, Honduras <br>Developer</p>
+  </div>
 
-	<div class="form-group">
-	<i class="fa fa-star" style="float: right; color: #428BCA"></i>
-	<label for="selectedAgileExperience">Knowledge of Agile Development:</label>
-	<select id="selectedAgileExperience" class="form-control" ng-model="input.selectedAgileExperience" ng-options="experience for experience in agileExperiences" required>
-	<option value="">Please select one</option>
-	</select>
-	</div>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/2e85823e288d795c74fd23c430f20985?s=335">
+    <h6>Douglas Guerrero</h6>
+    <p>San Pedro Sula, Honduras <br>Developer</p>
+  </div>
 
-	<div class="form-group">
-	<i class="fa fa-star" style="float: right; color: #428BCA"></i>
-	<label for="selectedgettingStartedPeriod">When would you like to get started?</label>
-	<select id="selectedgettingStartedPeriod" class="form-control" ng-model="input.selectedgettingStartedPeriod" ng-options="period for period in gettingStartedPeriods" required>
-	<option value="">Please select one</option>
-	</select>
-	</div>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/7f61ef2337fd3469cdf60322dbb24fce?s=335">
+    <h6>Ósman Hernández</h6>
+    <p>Tegucigalpa, Honduras<br>Developer</p>
+    <a href="https://twitter.com/rdK__"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/in/osmanrdk"><img src="img/linked-in-icon.svg"></a>
+  </div>
 
-	<div class="form-group">
-	<i class="fa fa-star" style="float: right; color: #428BCA"></i>
-	<label for="email">Email Address</label>
-	<input id="email" class="form-control" type="email" ng-model="input.email" required placeholder="Email Address"/>
-	</div>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/17925961c6c29ca10a7ca9b8a0fad6ea?s=335">
+    <h6>Carlos Fontecha</h6>
+    <p>Tegucigalpa, Honduras <br> Business Analyst</p>
+    <a href="https://www.linkedin.com/in/cfontecha"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
 
-	<div class="form-group">
-	<label for="phone">Phone Number</label>
-	<input id="phone" class="form-control" type="tel" ng-model="input.phone" placeholder="Phone Number" />
-	</div>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/d4a5a318cf6c6a30de0b8ce590c1d3fb?s=335">
+    <h6>Jacob Ramírez</h6>
+    <p>Cofradía, Honduras <br> Developer</p>
 
-	<i class="fa fa-star" style="color: #428BCA; text-align: center; width: 100%;"> means "we really want to know."</i>
+  </div>
+  <!-- TEAM MEMBER -->
 
-	</div>
-	<div class="modal-footer" ng-show="done">
-	<button class="btn btn-primary" ng-click="okay()">Ok</button>
-	</div>
-	<div class="modal-footer" ng-show="saving">
-	Sending request...
-	</div>
-	<div class="modal-footer" ng-hide="saving || done">
-	<input type="submit" class="btn btn-primary" value="Get a Response"/>
-	<button class="btn btn-warning" ng-click="cancel()">Cancel</button>
-	</div>
-	</form>
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/dd316d4ebe3fca1bfedc5fea9a69cf26?s=335">
+    <h6>Fernando Guevara</h6>
+    <p>Tegucigalpa, Honduras <br> UX Designer</p>
 
-</script>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/5618821f779547bab604f6ff2480b037?s=335">
+    <h6>Yamil Gonzáles</h6>
+    <p>Tegucigalpa, Honduras <br> UX Designer</p>
+    <a href="http://twitter.com/yamilg"><img src="img/twitter-icon.svg"></a>
+    <a href="http://www.linkedin.com/in/yamilg"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/9e37da19dd351de000845b1cf97ff447?s=335">
+    <h6>Krista David</h6>
+    <p>Tegucigalpa, Honduras <br> UX Designer</p>
+    <a href="https://twitter.com/KrisstaDavid"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/pub/krista-david/70/490/853"><img src="img/linked-in-icon.svg"></a>
+
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/18622cc9cfac258dc0609b926ed9489c?s=335">
+    <h6>Stephanie Schoenherr</h6>
+    <p>Tegucigalpa, Honduras <br> Quality Assurance</p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/86290cbeb7d780d169fabd931a4adc18?s=335">
+    <h6>Ferenck Vargas</h6>
+    <p>San Pedro Sula, Honduras <br> Developer</p>
+    <a href="https://twitter.com/ferenckv"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/in/ferenckv"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/37c593856d933f8743fc9280bdba32bb?s=335">
+    <h6>Eliseo García</h6>
+    <p>Choloma, Honduras <br> Developer</p>
+    <a href="https://www.linkedin.com/in/eliyasmeth"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/95dfb54de4303650bc4776f432fd465c?s=335">
+    <h6>Nadia Aguilar</h6>
+    <p>Tegucigalpa, Honduras <br> UX Designer</p>
+    <a href="https://twitter.com/nicoll_9"><img src="img/twitter-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/1a96d6b8195e50d7effb8f3323cf5b0c?s=335">
+    <h6>William Ávila</h6>
+    <p>El Progreso, Honduras <br> Developer</p>
+    <a href="https://twitter.com/Williamzx1"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/pub/william-avila/a6/6bb/590"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/051f92a1019c94bc0d9acc4947e374ee?s=335">
+    <h6>Reiniery Villafranca</h6>
+    <p>Tegucigalpa Honduras <br> Developer</p>
+    <a href="https://www.linkedin.com/pub/reniery-villafranca/60/b15/360"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/0eae4d0dd6dc919ae00b9aba67388e4d?s=335">
+    <h6>Bily Fernández</h6>
+    <p>Villanueva, Honduras <br> Developer </p>
+    <a href="https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/ad2a6262c473e0e144d5db0908c76221?s=335">
+    <h6>Daniel Miranda</h6>
+    <p>Tegucigalpa, Honduras <br> Developer </p>
+    <a href="https://twitter.com/dmiranda2791"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/pub/daniel-miranda/70/157/197"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/ba26f55496b215b1b57e1ef5d8b51d1d?s=335">
+    <h6>Camilo Rivera</h6>
+    <p>San Pedro Sula, Honduras <br> Developer</p>
+    <a href="https://twitter.com/camiloripi"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/in/camilo-rivera-9229b864"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/1740be58f5ed8d3ee6b6bef1fdf92f31?s=335">
+    <h6>Ricky Casco</h6>
+    <p>Tegucigalpa, Honduras <br> Quality Assurance</p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/b32b9ee2fd116e814ba3665a957d55b0?s=335">
+    <h6>Edward Siwady</h6>
+    <p>San Pedro Sula, Honduras <br> Developer </p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/65d4269a906769c5fc7ff78040ccd654?s=335">
+    <h6>Erick Caballero</h6>
+    <p>San Pedro Sula, Honduras <br> Quality Assurance</p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/05b745ea93f6ca1c24a6f641145b38c1?s=335">
+    <h6>Daniel N Chinchilla</h6>
+    <p>Tegucigalpa, Honduras <br> UX Designer</p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/dc643968014529e58d8e3a9eda2c9394?s=335">
+    <h6>Donald Guevara</h6>
+    <p>Tegucigalpa, Honduras <br> Quality Assurance </p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/7a00e177f1c6838d57401a2bf6962d9b?s=335">
+    <h6>Paulette Talavera</h6>
+    <p>Tegucigalpa, Honduras <br> Business Analyst </p>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/888253aea398780620e3848abc4fd861?s=335">
+    <h6>Oscar Soriano</h6>
+    <p>San Pedro Sula, Honduras <br> Developer</p>
+    <a href="https://twitter.com/sorioinc"><img src="img/twitter-icon.svg"></a>
+    <a href="https://www.linkedin.com/in/oscar-soriano-31950225"><img src="img/linked-in-icon.svg"></a>
+  </div>
+  <!-- TEAM MEMBER -->
+
+  <div class="team-member">
+    <img class="rouded-img" src="http://www.gravatar.com/avatar/2c097186b346077d165c97b7066632a9?s=335">
+    <h6>Gazy Mahormar</h6>
+    <p>Tegucigalpa, Honduras <br> Developer </p>
+  </div><!-- TEAM MEMBER -->
+    
+</div><!-- #FULL-TEAM -->
+
+      </div><!-- #TEAM .WRAPPER /  -->
+
+      <a id="team-toggler" href="#full-team"><button class="btn-hollow">View full team directory</button></a>
+
+    </section>
+    <section id="blog">
+      <h3 class="invert">/BLOG/</h3>
+
+      <div class="wrapper">
+        <div class="article">
+          <img src="img/article-front.jpg">
+          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
+          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
+          <a href="blog.html"><button>Read More</button></a>
+        </div>
+
+        <div class="article">
+          <img src="img/article-front.jpg">
+          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
+          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
+          <a href="blog.html"><button>Read More</button></a>
+        </div>
+
+        <div class="article">
+          <img src="img/article-front.jpg">
+          <a href="#"><h5>5 Secrets to Quality Software Delivery</h5></a>
+          <p>Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software…</p>
+          <a href="blog.html"><button>Read More</button></a>
+        </div><!-- ARTICLE -->
+        
+        <div class="clear"></div>
+      </div><!-- WRAPPER -->
+  
+    </section><!-- SECTION ID BLOG -->
+
+    <section id="tagline">
+      <img src="img/pixelheart.svg">
+      <h2>Custom Software <br> Development with Heart</h2>
+    </section>
+
+    <section id="contact-us">
+      <h3>/CONTACT US/</h3>
+
+      <div class="wrapper">
+        <div class="contact-form">
+          <form id="contact-form" >
+            <input type="text" id="contact-name" placeholder="Name" />
+            <input type="email" id="contact-email" placeholder="E-mail" required />
+            <input type="text" id="contact-project" placeholder="Subject" />
+            <textarea id="contact-message" placeholder="Message"></textarea>
+            <input type="submit" value="SEND MESSAGE" />
+          </form>
+          <div id="sending-message" class="hidden">
+                <h2>Your message is being sent...</h2>
+          </div>
+          <div id="success-message" class="hidden" >
+            <h2>Prepare to be Rocked...</h2>
+          </div>
+
+        </div>
+
+        <div class="contact-info">
+          <ul>
+            <li><img src="img/icon-home.svg"> 1033 Demonbreun Street #300, Nashville, TN 37203</li>
+            <li><img src="img/icon-mail.svg"> info@acklenavenue.com</li>
+            <li><img src="img/icon-tel.svg"> (615) 988-4700</li>
+          </ul>
+
+          <div class="social-links">
+            <h4>/STAY CONNECTED/</h4>
+
+            <div class="social-icons">
+              <a target="_blank" href="https://www.facebook.com/acklenavenue/"><img src="img/facebook-icon.svg"></a>
+              <a target="_blank" href="https://twitter.com/acklenavenue"><img src="img/twitter-icon.svg"></a>
+              <a target="_blank" href="https://www.linkedin.com/company/acklen-avenue"><img src="img/linked-in-icon.svg"></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="text-center">2016 &copy; Acklen Avenue, LLC. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.12.0.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+
+  
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+  </body>
+</html>
