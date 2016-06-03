@@ -14,52 +14,12 @@ title: Acklen Avenue | Blog
 
   <ul class="blog-list">
 
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-1.png" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Yo! This post has 3 lines of text as a Title, It aint breakin tho!</a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-2.jpg" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Hey A Short Title! </a>
-    </li>
-
     {% for post in site.posts %}
     <li class="blog-list-item">
       <a class="blog-list-thumb" href="{{ post.url }}"><img src="{{ post.image }}" alt="" /></a>
       <a class="blog-list-item-title" href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-3.jpg" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Røyksopp! Testing Unicode Characters</a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-4.jpg" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">I'm Learning to speak русский!</a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-1.png" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Yo! This post has 3 lines of text as a Title, It aint breakin tho!</a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-3.jpg" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Røyksopp! Testing Unicode Characters</a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-2.jpg" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">Hey A Short Title! </a>
-    </li>
-
-    <li class="blog-list-item">
-      <a class="blog-list-thumb" href="blog-item.html"><img src="ByronStill-1.png" alt="" /></a>
-      <a class="blog-list-item-title" href="blog-item.html">I'm Learning to speak русский!</a>
-    </li>
 
     <div class="clear"></div>
   </ul>

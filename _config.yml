@@ -9,6 +9,5 @@ twitter_username: acklenavenue
 
 # Build settings
 gems:
-  - redcarpet
   - jekyll-gist
-markdown: redcarpet
+markdown: kramdown
