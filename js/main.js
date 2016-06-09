@@ -64,7 +64,7 @@ $("#contact-form").submit(function(e) {
       $("#sending-message").hide();
       $("#success-message").show();
     },
-    error : function(error) {      
+    error : function(error) {
       $("#sending-message").hide();
       $("#contact-form").show();
     }
@@ -74,7 +74,7 @@ $("#contact-form").submit(function(e) {
   $("#client-project").val("");
   $("#client-message").val("");
   return false;
-}); 
+});
 
 });
 
