@@ -44,6 +44,8 @@ $('#team-toggler').click(function(){
 
 // mail service
 
+// mail service
+
 $("#contact-form").submit(function(e) {
   e.preventDefault();
 
@@ -59,7 +61,8 @@ $("#contact-form").submit(function(e) {
   $.ajax({
     type : "POST",
     url : "http://emailer-3.apphb.com/Mail",
-    data : mailModel,
+    data : JSON.stringify(mailModel),
+    contentType: "application/json; charset=utf-8",
     success : function(msg) {
       $("#sending-message").hide();
       $("#success-message").show();
@@ -67,12 +70,14 @@ $("#contact-form").submit(function(e) {
     error : function(error) {
       $("#sending-message").hide();
       $("#contact-form").show();
+      console.log(error);
     }
   });
-  $("#client-name").val("");
-  $("#client-email").val("");
-  $("#client-project").val("");
-  $("#client-message").val("");
+
+  $("#contact-name").val("");
+  $("#contact-email").val("");
+  $("#contact-project").val("");
+  $("#contact-message").val("");
   return false;
 });
 
