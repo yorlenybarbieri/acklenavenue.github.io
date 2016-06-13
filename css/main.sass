@@ -362,6 +362,15 @@ nav
   background-color: $light-gray
   display: none
 
+  &.affix
+    top: 0px
+    position: fixed
+    z-index: 1000
+    width: 100%
+
+    a
+      padding: 10px
+
   ul
     list-style: none
     display: table
@@ -379,6 +388,9 @@ nav
         text-transform: uppercase
         color: $mid-gray
         font-weight: 400
+        -webkit-transition: all .35s
+        -moz-transition: all .35s
+        transition: all .35s
         padding: 20px
         border-bottom: 3px solid transparent
 
