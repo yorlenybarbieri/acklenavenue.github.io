@@ -18,54 +18,54 @@ $(document).ready(function() {
 
   var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"));
   $("#fixednavbar ul li a").each(function() {
-    if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
-      $(this).addClass("active");
-  })
-  //Modernizr.csstransitions = false;
+      if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+        $(this).addClass("active");
+    })
+    //Modernizr.csstransitions = false;
   var previousScroll = 0;
   navbar = $('#fixednavbar');
   if (!Modernizr.csstransitions) navbar.removeClass('nav')
   $(window).bind('scroll', function() {
     var currentScroll = $(this).scrollTop();
-    if(currentScroll > 50) {
-        if (currentScroll > previousScroll) {
-            hideNav();
-        } else {
-            fixNav();
-            showNav();
-        }
+    if (currentScroll > 50) {
+      if (currentScroll > previousScroll) {
+        hideNav();
+      } else {
+        fixNav();
+        showNav();
+      }
     } else {
-         unFixNav();   
+      unFixNav();
     }
     previousScroll = currentScroll;
   });
 
-function fixNav() {
-  navbar.addClass('fixed-nav');
-  if (!Modernizr.csstransitions) navbar.addClass('fixed-nav-show'); 
-}
-
-function unFixNav() {
-  navbar.removeClass('fixed-nav fixed-nav-hide fixed-nav-show');
-}
-
-function showNav() {
-  if (Modernizr.csstransitions) {
-    navbar.removeClass('fixed-nav-hide');
-    navbar.addClass('fixed-nav-show');
-  } else {
-    navbar.fadeIn();
+  function fixNav() {
+    navbar.addClass('fixed-nav');
+    if (!Modernizr.csstransitions) navbar.addClass('fixed-nav-show');
   }
-}
 
-function hideNav() {
-  if (Modernizr.csstransitions) {
-    navbar.removeClass('fixed-nav-show');
-    navbar.addClass('fixed-nav-hide');
-  } else {
-    navbar.fadeOut();
+  function unFixNav() {
+    navbar.removeClass('fixed-nav fixed-nav-hide fixed-nav-show');
   }
-}
+
+  function showNav() {
+    if (Modernizr.csstransitions) {
+      navbar.removeClass('fixed-nav-hide');
+      navbar.addClass('fixed-nav-show');
+    } else {
+      navbar.fadeIn();
+    }
+  }
+
+  function hideNav() {
+    if (Modernizr.csstransitions) {
+      navbar.removeClass('fixed-nav-show');
+      navbar.addClass('fixed-nav-hide');
+    } else {
+      navbar.fadeOut();
+    }
+  }
 
   //team gravatar
   $("#team .team-member .rouded-img").each(function() {
@@ -86,8 +86,6 @@ function hideNav() {
       }
     });
   });
-
-  // mail service
 
   // mail service
 
@@ -115,7 +113,6 @@ function hideNav() {
       error: function(error) {
         $("#sending-message").hide();
         $("#contact-form").show();
-        console.log(error);
       }
     });
 
@@ -133,11 +130,11 @@ function hideNav() {
     jqForm.submit(function(event) { // when someone submits the form(s)
       event.preventDefault(); // don't submit the form yet
       ga('send', {
-          hitType: 'event',
-          eventCategory: 'Forms',
-          eventAction: 'Message Sent',
-          transport: 'beacon'
-        });
+        hitType: 'event',
+        eventCategory: 'Forms',
+        eventAction: 'Message Sent',
+        transport: 'beacon'
+      });
       setTimeout(function() { // now wait 300 milliseconds...
         jsForm.submit(); // ... and continue with the form submission
       }, 300);
@@ -171,33 +168,33 @@ function hideNav() {
       }, 300);
     });
   });
-  });
-  $("a").each(function() {
-    var href = $(this).attr("href");
-    var target = $(this).attr("target");
-    var text = $(this).text();
-    $(this).click(function(event) { // when someone clicks these links
-      event.preventDefault(); // don't open the link yet
-      if (event.currentTarget.host != window.location.host) {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Outbound Link',
-          eventAction: 'link',
-          eventLabel: href,
-          transport: 'beacon'
-        });
-      } else {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Link',
-          eventAction: 'link',
-          eventLabel: text,
-          transport: 'beacon'
-        });
-      }
-      setTimeout(function() { // now wait 300 milliseconds...
-        window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
-      }, 300);
-    });
+});
+
+$("a").each(function() {
+  var href = $(this).attr("href");
+  var target = $(this).attr("target");
+  var text = $(this).text();
+  $(this).click(function(event) { // when someone clicks these links
+    event.preventDefault(); // don't open the link yet
+    if (event.currentTarget.host != window.location.host) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Outbound Link',
+        eventAction: 'link',
+        eventLabel: href,
+        transport: 'beacon'
+      });
+    } else {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Link',
+        eventAction: 'link',
+        eventLabel: text,
+        transport: 'beacon'
+      });
+    }
+    setTimeout(function() { // now wait 300 milliseconds...
+      window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
+    }, 300);
   });
 });
