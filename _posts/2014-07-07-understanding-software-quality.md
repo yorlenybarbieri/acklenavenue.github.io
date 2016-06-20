@@ -39,9 +39,9 @@ Now, don't get me wrong, even as I write this article, my brakes are working as 
 
 This is a blog about custom software development, not about brakes. But at the end of the day, software is a product, and some of the same principles of quality apply. And for every software development project, decisions and compromises are made regarding quality. Some can afford higher quality now, and others need a quicker fix, understanding that more cost will come later.  Whatever boat you're in, it's important to understand the impact your decisions can make on quality, and how quality can impact your budget.
 
-#3 Sides to Software Quality
+# 3 Sides to Software Quality
 
-###Completes Requirements
+### Completes Requirements
 <div class="col-md-4 shadow-wrapper pull-right">
 	<div class="box-shadow shadow-effect-2">
         <img class="img-responsive img-bordered" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/%22YOUR_BATTLESHIP_AND_HER_REQUIREMENTS%22_-_NARA_-_516243.jpg/1502px-%22YOUR_BATTLESHIP_AND_HER_REQUIREMENTS%22_-_NARA_-_516243.jpg" alt="Battleship Requirements">
@@ -49,7 +49,7 @@ This is a blog about custom software development, not about brakes. But at the e
 </div>
 Software absolutely must do what you require it to do, or you wasted your money building it. I started with this point because it's almost a no-brainer. No software would ever be considered "high quality" or even "quality" unless it does what you need it to do. However, more often than the software industry would like to admit, requirements are missed and misunderstood every day. It's very important that you, as the dreamer and expert of your desires, are very clear in what you want and how things should work. Be sure to talk to your development team about the best format in which you can provide the software requirements. For me, for instance, I prefer user stores and acceptance criteria. Your team might prefer something else. But the point is transferring your knowledge to them so that they can make your dreams come true. There's simply no way to justify spending hard earned money on software that doesn't meet business requirements. Make sure this aspect of software quality it met!
 
-###Low Rate of Defects
+### Low Rate of Defects
 <div class="col-md-4 shadow-wrapper pull-right">
 	<div class="box-shadow shadow-effect-2">
         <img class="img-responsive img-bordered" src="https://c1.staticflickr.com/1/77/156830367_ea6525fc62_z.jpg?zz=1" alt="Diamond with defects">
@@ -57,7 +57,7 @@ Software absolutely must do what you require it to do, or you wasted your money 
 </div>
 Believe it or not, I've seen custom software in large corporations where employees work around bugs on a regular basis. Bugs can even become part of business processes. The truth is that software, even with bugs, can bring business value (as long as the bugs don't block operations). Software might meet requirements, but if it has a high rate of defects, it's not meeting them very well. Defects slow us down. They confuse. They disrupt. But it's possible to save money and deliver faster if defects are left in place. For instance, as a customer of custom software, you might be able to forego QA, doing it yourself, and saving some money. You can choose which defects get fixed and which remain. No offense to you, but realistically, this approach will produce a lower quality product. And, like lower quality brakes, you might be okay with that and ready to handle the consequences. On the other hand, if a high rate of defects is unacceptable for your business, you need to make sure your dev team is focusing on defect prevention, quick detection, and immediate developer turnaround.
 
-###Durability
+### Durability
 <div class="col-md-4 shadow-wrapper pull-right">
 	<div class="box-shadow shadow-effect-2">
         <img class="img-responsive img-bordered" src="https://yy1.staticflickr.com/4071/4410527136_932e8721bc_z.jpg?zz=1" alt="Ford Truck Ad">
@@ -65,7 +65,7 @@ Believe it or not, I've seen custom software in large corporations where employe
 </div>
 Software doesn't "exactly" wear down like brakes. In fact, most of the time, when a feature works, it continues working in the same way for longer than the computer that runs it. But software can suffer a lack of durability if it is unable or unwilling to accept future changes. This means that the code itself is not "high quality", even if the features work as expected. If the source code is rigid, unwelcoming, and/or difficult for other programmers to understand, then it will be tedious and, thus, time consuming to repair or extend. Source code quality can suffer for a few reasons, such as a rushed job, inexperienced developers, or a general lack of consideration for future developers or the client. High software durability costs more up front, but quickly pays off in the first few upgrades and feature modifications. High durability is the way to go if you know your app will require changes in the future. Low durability, on the other hand, provides quicker and cheaper results, and might be the way to go if you don't plan on modifying the app later on.
 
-#Consequences
+# Consequences
 
 There are good and bad consequences, and every decision carries one or the other. As you are ramping up your next custom software development project, remember to consider "quality" in its three flavors and the consequences of skipping one or more of them. Do you need to go to market faster and don't care as much about feature upgrades and modifications? Go for the cheaper brakes! Do you have enough budget or time up front to invest in higher quality but want your software to cost less in the long run? Buy the better brakes. It will pay off later!
 
