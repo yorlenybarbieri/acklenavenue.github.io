@@ -587,23 +587,27 @@ header
       padding: 20px
 
 .tagline
-  max-width: 890px
   margin: 0 auto
   color: white
   position: relative
   z-index: 1000
-  padding: 0 5%
+  padding: 0 30%
 
   h1
     font-size: 3.4em
     line-height: 1
     letter-spacing: -2px
     -webkit-font-smoothing: antialiased
+    margin-bottom: 8px
+
+  img
+    width: 40px
 
   h4
     font-size: 1.1em
     font-weight: normal
     line-height: initial
+    margin-top: 8px
 
 main
   header
@@ -672,7 +676,7 @@ main
 
 .video-header
   position: relative
-  min-height: auto
+  min-height: 500px
   height: 55vh
   width: 100%
   display: flex
@@ -1100,10 +1104,14 @@ a.post-author-link:hover
 @media (min-width: 1440px)
   .blog-post-header h1
     font-size: 46px
+ 
 
 @media (min-width: 320px) and (max-width: 1440px)
   .blog-post-header h1
     font-size: 36px
+
+  .tagline
+    padding: 0 19%    
 
 @media (min-width: 320px) and (max-width: 960px)
   .video-header
@@ -1120,6 +1128,9 @@ a.post-author-link:hover
       background-size: cover
       opacity: 0.9
       z-index: -5
+
+  .tagline
+    padding: 0 8%     
 
   .blog-list-item
     width: 30%
@@ -1182,6 +1193,8 @@ a.post-author-link:hover
 
 
   .tagline
+    padding: 0 3% 
+
     h1
       font-size: 2.8em
 
