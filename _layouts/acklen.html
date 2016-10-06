@@ -51,7 +51,7 @@
 
 <body>
 
-    <header>
+    <header id="fixednavbar" >
         <div class="nav-icon">
             <a href="#"><img src="/img/hamburger-icon.svg"></a>
         </div>
@@ -59,10 +59,7 @@
         <div class="aa-square">
             <a href="#"><img src="/img/aa-logo-square.svg"></a>
         </div>
-
-
-    </header>
-    <nav id="fixednavbar" class="nav">
+ <nav class="nav">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/custom-software.html">Custom Software</a></li>
@@ -72,7 +69,10 @@
             <li><a href="#contact-us">Contact</a></li>
         </ul>
     </nav>
-    <main>
+
+
+    </header>
+       <main>
         {{ content }}
     </main>
     <footer>
