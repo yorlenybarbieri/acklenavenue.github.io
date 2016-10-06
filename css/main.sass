@@ -341,11 +341,11 @@ h6
       position: absolute
       top: 8px
       left: 6px
-      border: 5px solid #76be00
+      border: 5px solid #ffffff
       border-top: none
       border-right: none
       background: transparent
-      opacity: 0
+      opacity: 0.1
       transform: rotate(-45deg)
     &:hover::after
       opacity: 0.2
@@ -356,6 +356,7 @@ h6
     visibility: hidden
     &:checked + label:after
       opacity: 1
+      border-color: #76be00
 
 h2.quiz-title
   display: block
@@ -689,7 +690,7 @@ a
 
 header
   background-color: $mid-gray
-  padding: 10px 0
+  padding: 10px 0 0 0
   text-align: center
   position: relative
 
@@ -717,7 +718,7 @@ header
 
     a
       display: block
-      padding: 20px
+      padding: 12px 22px
 
 .tagline
   margin: 0 auto
@@ -1468,7 +1469,7 @@ a.post-author-link:hover
   
   .quiz-block
     margin: 30px auto
-    width: 50%
+    width: 60%
     max-width: 400px
 
 @media (min-width: 320px) and (max-width: 480px)
