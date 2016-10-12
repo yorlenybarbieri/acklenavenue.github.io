@@ -394,4 +394,12 @@
 	"urls": {}
 		
 
-	}]
+	}, {
+ 	"name": "Alfredo Diaz del Valle",
+	"role": "Product Owner",
+	"city": "Tegucigalpa, Honduras",
+	"email": "alfredo@acklenavenue.com",
+	"urls": {
+		"twitter": "https://twitter.com/adiazdelvalle"
+	}
+}]
