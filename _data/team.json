@@ -401,4 +401,10 @@
 	"urls": {
 		"twitter": "https://twitter.com/adiazdelvalle"
 	}
+}, {
+ 	"name": "Mario Maradiaga",
+	"role": "Developer",
+	"city": "Tegucigalpa, Honduras",
+	"email": "mario@acklenavenue.com",
+	"urls": {}
 }]
