@@ -506,28 +506,23 @@ h6 {
 
 .btn-go {
   background-color: #72C02C;
-  color: white; }
+  color: white;
+  cursor: pointer; }
   .btn-go:hover {
     background-color: #176433; }
-
-.quiz-wrapper {
-  background: url("../img/slant06.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  padding-bottom: 150px;
-  background-size: 100%; }
-  .quiz-wrapper #success-message {
+  .btn-go #success-message {
     text-align: center;
     color: #72C02C; }
-  .quiz-wrapper #sending-message {
+  .btn-go #sending-message {
     text-align: center;
     color: #4F4F4F; }
 
 #leads-quiz {
-  background: #282828 url("../img/slant04.png");
+  background: url("../img/slant04.png") top, url("../img/slant06.png") bottom;
+  background-color: #282828;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 90px 0 40px 0; }
+  padding: 90px 0 90px 0; }
   #leads-quiz label {
     color: #e1e1e1;
     font-size: 18px;
@@ -541,6 +536,7 @@ h6 {
   display: flex;
   max-width: 1100px;
   margin: 20px auto;
+  padding-bottom: 50px;
   justify-content: space-around;
   color: #e1e1e1; }
 
@@ -973,7 +969,7 @@ main header {
     display: block; }
 
   #blog .wrapper {
-    max-width: 980px; } }
+    max-width: 1280px; } }
 @media (min-width: 1200px) {
   header h2 {
     font-size: 45px; } }
