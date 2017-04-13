@@ -31,7 +31,7 @@
 	}
 }, {
 	"name": "Viktor Zavala",
-	"role": "Senior Developer",
+	"role": "Development Manager",
 	"email": "viktor@acklenavenue.com",
 	"city": "Tegucigalpa, Honduras",
 	"urls": {
@@ -90,7 +90,7 @@
 	}
 }, {
 	"name": "Sharon Montenegro",
-	"role": "Growth and New Development Manager",
+	"role": "Quality Assurance Manager",
 	"email": "sharon@acklenavenue.com",
 	"city": "Tegucigalpa, Honduras",
 	"urls": {
@@ -299,7 +299,7 @@
 	}
 }, {
  	"name": "Camilo Rivera",
-	"role": "Lead DevOps Engineer",
+	"role": "DevOps Manager",
 	"city": "San Pedro Sula, Honduras",
 	"email": "crivera@acklenavenue.com",
 	"urls": {
