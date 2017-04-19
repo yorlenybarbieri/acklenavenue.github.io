@@ -44,4 +44,4 @@ We haven’t even scratched the surface of how to capture the value that agile o
 
 Download our infographic to see what agile looks like in the real world.
 
-CTA (button)
+CTA (button) 
