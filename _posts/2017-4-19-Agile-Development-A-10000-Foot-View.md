@@ -5,7 +5,7 @@ date:   2017-04-19
 categories: agile development
 author: Byron Sommardahl
 excerpt: Every startup or tech company talks about being or going agile. Do they know what agile is? Do you?
-image: /assets/img/posts/workflow.jpg
+image: http://acklenavenue.com/assets/img/posts/workflow.jpg
 ---
 _This is a first in a blog series devoted to Agile Development. 
 We’ll cover everything from a conceptual overview to the granular details._ 
@@ -26,7 +26,8 @@ While Mark Zuckerberg obviously is a visionary who went on to change the world, 
 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product? 
 
-[Download the infographic](http://acklenavenue.com/assets/img/posts/Agile-scrum.png "Download the infographic")
+
+<a href="http://acklenavenue.com/assets/img/posts/Agile-scrum.png" class="btn btn-go" >Download the Infographic</a>
 
 ## Agile Development Background
 
@@ -44,4 +45,5 @@ We haven’t even scratched the surface of how to capture the value that agile o
 
 Download our infographic to see what agile looks like in the real world.
 
-CTA (button) 
+<a href="http://acklenavenue.com/assets/img/posts/Agile-scrum.png" class="btn btn-go" >Download the Infographic</a>
+
