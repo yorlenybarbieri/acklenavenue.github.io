@@ -28,9 +28,11 @@ This is the benefit of focusing on small, critical slices. As much as you think 
 
 [Download the infographic] (http://acklenavenue.com/assets/img/posts/Agile-scrum.png)
 
+##Agile Development Background
+
 For additional context, the opposite of agile methodology is waterfall, which demands that you prepare all the requirements for your product in great detail prior to starting development. This seems like it would make a project less risky due to the extensive thought and planning put into it, but its actual effect is that the product is far more likely to fail. We’ll get deeper into that discussion in future posts.
 
-So we’ve given you a taste of why agile works for product and software development and where it was born. But the deep principles it relies on are far-reaching in their understanding of humans and our beautiful brains. 
+So, we’ve given you a taste of why agile works for product and software development and where it was born. But the deep principles it relies on are far-reaching in their understanding of humans and our beautiful brains. 
 
 Small slicing any project in the beginning frees the brain from feeling overwhelmed by scale before you’ve even began. 
 
