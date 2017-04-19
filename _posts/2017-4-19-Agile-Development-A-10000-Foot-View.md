@@ -26,7 +26,7 @@ While Mark Zuckerberg obviously is a visionary who went on to change the world, 
 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product? 
 
-[Download the infographic] (http://http://acklenavenue.com/assets/img/posts/Agile-scrum.png)
+[Download the infographic (http://http://acklenavenue.com/assets/img/posts/Agile-scrum.png)]
 
 For additional context, the opposite of agile methodology is waterfall, which demands that you prepare all the requirements for your product in great detail prior to starting development. This seems like it would make a project less risky due to the extensive thought and planning put into it, but its actual effect is that the product is far more likely to fail. We’ll get deeper into that discussion in future posts.
 
