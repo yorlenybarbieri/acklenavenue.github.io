@@ -22,6 +22,8 @@ These small slices are built, tested, and put into users’ hands so that one ca
 
 For example: Remember when Facebook’s (sorry, THE Facebook) functionality was that, as this screenshot shows, you can “search for people at your school, find out who are in your classes, look up your friends’ friends, and see a visualization of your social network”? Because by the way, it was only available to college students? 
 
+![Old facebook homepage](http://acklenavenue.com/assets/img/posts/%20Old%20school%20FB%20image%20for%20agile%20dev%20post.png "Old Facebook homepage")
+
 While Mark Zuckerberg obviously is a visionary who went on to change the world, he focused on a relatively specific feature set and let the market and user feedback inform the roadmap.
 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product? 
