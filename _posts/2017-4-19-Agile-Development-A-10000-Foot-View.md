@@ -4,7 +4,7 @@ title:  Agile Development: A 10,000 Foot View
 date:   2017-04-19
 categories: agile development
 author: Byron Sommardahl
-excerpt: People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a custom software development project...
+excerpt: Every startup or tech company talks about being or going agile. Do they know what agile is? Do you?
 image: /assets/img/posts/workflow.jpg
 ---
 _This is a first in a blog series devoted to Agile Development. 
@@ -26,9 +26,9 @@ While Mark Zuckerberg obviously is a visionary who went on to change the world, 
 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product? 
 
-[Download the infographic] (http://acklenavenue.com/assets/img/posts/Agile-scrum.png)
+(http://acklenavenue.com/assets/img/posts/Agile-scrum.png "Download the infographic")
 
-##Agile Development Background
+## Agile Development Background
 
 For additional context, the opposite of agile methodology is waterfall, which demands that you prepare all the requirements for your product in great detail prior to starting development. This seems like it would make a project less risky due to the extensive thought and planning put into it, but its actual effect is that the product is far more likely to fail. We’ll get deeper into that discussion in future posts.
 
