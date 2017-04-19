@@ -26,7 +26,7 @@ While Mark Zuckerberg obviously is a visionary who went on to change the world, 
 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product? 
 
-(http://acklenavenue.com/assets/img/posts/Agile-scrum.png "Download the infographic")
+[Download the infographic](http://acklenavenue.com/assets/img/posts/Agile-scrum.png "Download the infographic")
 
 ## Agile Development Background
 
