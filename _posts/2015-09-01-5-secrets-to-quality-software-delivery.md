@@ -37,14 +37,3 @@ A distant, massive goal is harder to attain than a close and clearly defined goa
 <div style="text-align:center; padding:50px 30px;">
   <a href="http://acklenavenue.com/assets/img/posts/5-secrets-infographic.png" class="btn btn-go">Download the Infographic</a>
 </div>
-
-<div class="row tag-box tag-box-v5">
-    <div class="col-md-8">
-        <span>
-        	Need a team that's passionate about high quality software?
-    	</span>
-    </div>
-    <div class="col-md-4">
-        <p><a class="btn-u btn-u-lg btn-u-red" href="#contact-us"><i class="fa fa-life-ring"></i>&nbsp;Contact Us</a></p>
-    </div>
-</div>
