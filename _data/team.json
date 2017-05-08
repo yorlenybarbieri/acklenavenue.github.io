@@ -73,14 +73,6 @@
 		"linkedIn": "https://www.linkedin.com/in/jeanlauzon"
 	}
 }, {
-	"name": "Juan José Guevara",
-	"role": "Senior Developer",
-	"city": "Tegucigalpa, Honduras",
-	"email": "juanjose@acklenavenue.com",
-	"urls": {
-
-	}
-}, {
 	"name": "Javier Suazo",
 	"role": "Developer",
 	"email": "javier@acklenavenue.com",
@@ -120,23 +112,6 @@
 	"email": "alberto@acklenavenue.com",
 	"urls": {
 
-	}
-}, {
-	"name": "Pamela Almendares",
-	"role": "Developer",
-	"city": "Tegucigalpa, Honduras",
-	"email": "pamelocho@acklenavenue.com",
-	"urls": {
-
-	}
-}, {
-	"name": "Richard Siwady",
-	"role": "Senior Developer",
-	"email": "richard@acklenavenue.com",
-	"city": "Villanueva, Honduras",
-	"urls": {
-		"linkedIn": "http://www.linkedin.com/in/richardsiwady",
-		"twitter": "http://twitter.com/rsiwady29"
 	}
 }, {
 	"name": "Elder Cerrato",
@@ -273,14 +248,6 @@
 		"twitter": "https://twitter.com/Williamzx1"
 	}
  }, {
- 	"name": "Reniery Villafranca",
-	"role": "Developer",
-	"city": "Tegucigalpa, Honduras",
-	"email": "reniery@acklenavenue.com",
-	"urls": {
-		"linkedIn": "https://www.linkedin.com/pub/reniery-villafranca/60/b15/360"
-	}
- }, {
  	"name": "Bily Fernández",
 	"role": "Developer",
 	"city": "Villanueva, Honduras",
@@ -402,12 +369,6 @@
 		"twitter": "https://twitter.com/adiazdelvalle"
 	}
 }, {
- 	"name": "Mario Maradiaga",
-	"role": "Developer",
-	"city": "Tegucigalpa, Honduras",
-	"email": "mario@acklenavenue.com",
-	"urls": {}
- }, {
  	"name": "Julio Seaman",
 	"role": "Developer",
 	"city": "Tegucigalpa, Honduras",
