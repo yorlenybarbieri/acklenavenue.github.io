@@ -378,4 +378,13 @@
 	"city": "Tegucigalpa, Honduras",
 	"email": "dennis.cheong@acklenavenue.com",
 	"urls": {}
+}, {
+ 	"name": "Cristian Echeverría",
+	"role": "Developer",
+	"city": "San Pedro Sula, Honduras",
+	"email": "cristian@acklenavenue.com",
+	"urls": {
+		"linkedIn": "https://www.linkedin.com/in/cristian-echeverria-ba650159/",
+		"twitter": "https://twitter.com/cecheverri4"
+	}
 }]
