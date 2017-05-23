@@ -67,6 +67,18 @@
       padding: 10px 10px 25px;
     }
 
+    .btn {
+    padding: 15px 20px;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    border: none;
+    background: #72C02C;
+    color:#ffffff;
+    }
+
   </style>
 
   </head>
@@ -81,33 +93,33 @@
           Please copy &amp; paste, if you need help you can follow <a target="_blank" href="https://support.google.com/mail/answer/8395?hl=es&authuser=0">gmail instructions</a> to change your email signature 
         </p>
         <div class="card">
-          <table border="0" cellpadding="0" cellspacing="0">
+          <table id="tableId" border="0" cellpadding="0" cellspacing="0">
             <tbody>
               <tr>
                 <td style="padding: 15px;">
                 <img width="70" src="http://acklenavenue.com/img/pixelheart.png" alt="acklen avenue pixel heart">
                 </td>
-                <td style="padding-left: 15px; border-left:2px solid #72C02C ">
-                    <table border="0" cellpadding="0" cellspacing="0">
+                <td width="300" style="padding-left: 15px; border-left:2px solid #72C02C ">
+                    <table border="0" cellpadding="0" cellspacing="0" width="300">
                       <tbody>
                         <tr>
-                          <td style="text-align: left; font-size:18px; ">
-                            <strong>Byron Sommardahl</strong>
+                          <td style="text-align: left; font-size:18px; font-weight: bold;">
+                            Byron Sommardahl
                           </td>
                         </tr>
                         <tr>
                           <td style="text-align: left; font-size:12px; padding-top: 3px; ">
-                            <p>Chief Technology Officer, Acklen Avenue</p>
+                            Chief Technology Officer, Acklen / Avenue
                           </td>
                         </tr>
                         <tr>
                           <td style="text-align: left; font-size:12px; padding-top: 3px; ">
-                            <p>(615) 988-4700 <span style="color:#72C02C;">|</span> <a href="http://acklenavenue.com/" style="text-decoration: none; color:#4F4F4F; font-size:12px;"> acklenavenue.com</a></p>
+                            (615) 988-4700 <span style="color:#72C02C;">|</span> <a href="http://acklenavenue.com/" style="text-decoration: none; color:#4F4F4F; font-size:12px;"> acklenavenue.com</a>
                           </td>
                         </tr>
                         <tr>
                           <td style="text-align: left; font-size:12px; padding-top: 3px; color:#999999; ">
-                            <p><em>Clean Code Creators with Heart</em></p>
+                            <em>Clean Code Creators with Heart</em>
                           </td>
                         </tr>
                         <tr>
@@ -122,6 +134,34 @@
             </tbody>
           </table>
         </div>
+         <input class="btn" id="myButton1" type="button" value="Copy to clipboard" onclick="selectElementContents( document.getElementById('tableId') );">        
+        
   	</div>
+    <script>
+        function selectElementContents(el) {
+          var body = document.body, range, sel;
+          if (document.createRange && window.getSelection) {
+              range = document.createRange();
+              sel = window.getSelection();
+              sel.removeAllRanges();
+              try {
+                  range.selectNodeContents(el);
+                  sel.addRange(range);
+              } catch (e) {
+                  range.selectNode(el);
+                  sel.addRange(range);
+              }
+              document.execCommand("copy");
+
+          } else if (body.createTextRange) {
+              range = body.createTextRange();
+              range.moveToElementText(el);
+              range.select();
+              range.execCommand("Copy");
+          }
+          document.getElementById("myButton1").value="Copied!";
+      }
+
+    </script>
   </body>
 </html>
