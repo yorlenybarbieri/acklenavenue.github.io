@@ -5,7 +5,7 @@ date:   2017-06-12
 categories: agile development
 author: Byron Sommardahl
 excerpt: Many businesses claim to be agile. Few actually practice what they preach.
-image: assets/img/posts/agile-in-title-only.png 
+image: http://acklenavenue.com/assets/img/posts/agile-in-title-only.png
 ---
 _This is the second post in our Agile Development blog series._
 > **Agile get its users from idea to revenue as fast as possible.**
