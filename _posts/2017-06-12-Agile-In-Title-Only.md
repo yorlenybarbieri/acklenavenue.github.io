@@ -37,13 +37,13 @@ Let’s briefly discuss what agile is not before we dive into how to figure out 
 If you want to learn more about what agile is, we wrote about it [here](http://acklenavenue.com/agile/development/2017/04/19/Agile-Development-A-10000-Foot-View.html). 
  
 Here is what agile is not:
-  *Sprint planning
-  *Daily stand-ups
-  *Sprint reviews
-  *Sprint retrospectives
-  *Burndown charts
-  *Scrum/Kanban boards
-  *Product backlogs and more...
+  * Sprint planning
+  * Daily stand-ups
+  * Sprint reviews
+  * Sprint retrospectives
+  * Burndown charts
+  * Scrum/Kanban boards
+  * Product backlogs and more...
  
 These are all elements of agile, or more appropriately, [ceremonies](https://gurtejpsingh.wordpress.com/2013/07/04/scrum-ceremonies-and-artifacts/), but that is all they are. If the ceremonies aren’t 
 driving you and your team into action that is a major indicator that your organization is AITO.
@@ -63,15 +63,15 @@ Allow us to be blunt - if this is true at your organization you are directly opp
  
 Below are a few of the 12 principles of the Agile Manifesto:
  
-  *Our **highest priority** is to satisfy the customer through early and **continuous delivery of valuable software**
-  *Deliver **working software frequently**, from a couple of weeks to a couple of months, with a preference to the **shorter timescale**
-  *Working software is the **primary measure of progress**
+  * Our **highest priority** is to satisfy the customer through early and **continuous delivery of valuable software**
+  * Deliver **working software frequently**, from a couple of weeks to a couple of months, with a preference to the **shorter timescale**
+  * Working software is the **primary measure of progress**
  
 See the inherent tension here? If you wait until everything is complete:
  
-  *Your highest priority is not continuous delivery of valuable software. It’s likely making sure the app is perfect before anyone sees it (but long after they actually want it). 
-  *You don’t have a release schedule if you only release once, after everything has been built. Your client is left with weeks (months?) of wondering when they will be able to see progress of any kind.
-  *Lastly, if you claim to be agile but don’t release to real users until everything has been built how can you measure your progress on the project? More importantly how do you know that what you are building is what people want?
+  * Your highest priority is not continuous delivery of valuable software. It’s likely making sure the app is perfect before anyone sees it (but long after they actually want it). 
+  * You don’t have a release schedule if you only release once, after everything has been built. Your client is left with weeks (months?) of wondering when they will be able to see progress of any kind.
+  * Lastly, if you claim to be agile but don’t release to real users until everything has been built how can you measure your progress on the project? More importantly how do you know that what you are building is what people want?
  
 If this is how you build software, you aren’t agile. You’re probably doing [this](http://learnaccessvba.com/application_development/waterfall_method.htm).
  
