@@ -5,7 +5,7 @@ date:   2017-06-21
 categories: agiledevelopment
 author: Byron Sommardahl
 excerpt: You need help getting your idea to your users. Does it matter how the job gets done?
-image: /assets/img/posts/workflow.jpg
+image: /assets/img/posts/3-questions-to-ask.jpg
 ---
 
 _This is our third installment of our agile development blog series_
