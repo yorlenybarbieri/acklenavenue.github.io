@@ -8,6 +8,8 @@ excerpt: You need help getting your idea to your users. Does it matter how the j
 image: /assets/img/posts/workflow.jpg
 ---
 
+_This is our third installment of our agile development blog series_
+
 Does any part of this story sound familiar? You’ve got an earth-shattering idea. One that will disrupt an entire industry. 
  
 But you need some help making this idea become a reality. 
@@ -36,7 +38,7 @@ An idea that is less complex and more defined could benefit from a [waterfall ap
 Because everything is agreed upon at the start of the project, you and your development team can plan, design, build, 
 and release your idea with ease. 
  
-##Am I concerned about being beaten to market?##
+## Am I concerned about being beaten to market? ##
  
 Speed to market is at the core of the agile development mindset. In fact, three of the twelve principles of the [manifesto for 
 agile development](http://agilemanifesto.org/principles.html) address this:
@@ -51,7 +53,7 @@ sacrificing quality and without killing your people.”
  
 If speed to market is important, an agile development team is your solution.
  
-##What kind of dev solution will get me the most for my money?##
+## What kind of dev solution will get me the most for my money? ##
  
 There is no guarantee that a certain type of team or development method will save you money on your project.
  
@@ -72,7 +74,8 @@ based on what you and your users want.
  
 The above process, done well, will save you money.
  
-##Conclusion##
+## Conclusion ##
+
 In case you couldn’t tell, we’re fans of agile development, we use it ourselves. And while it isn’t applicable to every 
 project, most software projects we come across can absolutely benefit from an agile development approach.
 
