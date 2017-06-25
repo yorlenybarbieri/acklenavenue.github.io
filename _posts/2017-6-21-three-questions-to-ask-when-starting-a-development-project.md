@@ -19,7 +19,7 @@ they get the job done, does the development method matter?
  
 Below are three questions to ask yourself before selecting your development team
  
-##What kind of idea do I have and what do I know about it?##
+## What kind of idea do I have and what do I know about it? ##
  
 Is your idea a fairly complex one, that is slowly taking shape in your head? Maybe the features and functionality aren’t 100% 
 defined and there is still a fair amount of uncertainty about it.
