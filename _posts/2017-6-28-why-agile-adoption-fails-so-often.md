@@ -5,7 +5,7 @@ date:   2017-06-28
 categories: agile development
 author: Matthew Phillip
 excerpt: Why does agile adoption fail so often? Why is there so much pushback? Because there is a fundamental misunderstanding of what “agile” actually is.
-image: acklenavenue.github.io/assets/img/posts/agile-adoption-failure-1.jpg
+image: assets/img/posts/agile-adoption-failure-1.jpg
 ---
 
 > “**Agile is not what you do. Agility is how you do it**” - Dave Thomas
@@ -17,14 +17,9 @@ Have a look at [this thread](https://www.quora.com/In-a-nutshell-why-do-a-lot-of
 yourself nodding your head in agreement with most of the answers to the question, “In a nutshell, why do a lot of developers
 dislike agile?”
  
-> “I can’t tell you the number of managers I’ve seen that couldn’t manage their way out of a box — and adopt Agile as a way to 
-> wave their hands and talk a lot to distract people from noticing.”
- 
-> “Agile doesn't account for the career needs of engineers at all, and that's something that a good manager has to keep in mind 
-> when allocating work. Nor does it give engineers the ability to define or direct their own work in a meaningful way, and this
-> repels senior talent and causes the Dead Sea Effect (most successful talent leaves most often) to set in.”
-
-> "Agile" is mostly micromanagement, just sold in a way that clueless young engineers might think of it as a good thing.”
+  _“I can’t tell you the number of managers I’ve seen that couldn’t manage their way out of a box — and adopt Agile as a way      to wave their hands and talk a lot to distract people from noticing.”_  
+  _“Agile doesn't account for the career needs of engineers at all, and that's something that a good manager has to keep in        mind when allocating work. Nor does it give engineers the ability to define or direct their own work in a meaningful way,      and this repels senior talent and causes the Dead Sea Effect (most successful talent leaves most often) to set in.”_  
+  _"Agile" is mostly micromanagement, just sold in a way that clueless young engineers might think of it as a good thing.”_  
 
 ![Why agile adoption fails](acklenavenue.github.io/assets/img/posts/agile-adoption-failure-3.jpg)
 
