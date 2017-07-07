@@ -5,7 +5,7 @@ date:   2017-06-28
 categories: agile development
 author: Matthew Phillip
 excerpt: Why does agile adoption fail so often? Why is there so much pushback? Because there is a fundamental misunderstanding of what “agile” actually is.
-image: assets/img/posts/agile-adoption-failure-1.jpg
+image: http://acklenavenue.com/assets/img/posts/agile-adoption-failure-1.jpg
 ---
 
 > “**Agile is not what you do. Agility is how you do it**” - Dave Thomas
@@ -21,7 +21,7 @@ dislike agile?”
   _“Agile doesn't account for the career needs of engineers at all, and that's something that a good manager has to keep in        mind when allocating work. Nor does it give engineers the ability to define or direct their own work in a meaningful way,      and this repels senior talent and causes the Dead Sea Effect (most successful talent leaves most often) to set in.”_  
   _"Agile" is mostly micromanagement, just sold in a way that clueless young engineers might think of it as a good thing.”_  
 
-![Why agile adoption fails](acklenavenue.github.io/assets/img/posts/agile-adoption-failure-3.jpg)
+![Why agile adoption fails](http://acklenavenue.com/assets/img/posts/agile-adoption-failure-3.jpg)
 
 Notice a common theme? The concepts of the manifesto for agile software development are not the problem. The adoption and 
 implementation of those concepts, however, is a major pain point. 
@@ -54,7 +54,7 @@ These are not bad things! But they are _micro_-level changes.
 And when they are cherry-picked and presented as the silver bullet to solving quality and deliverability issues, the problems
 begin to appear. Adoption failure usually isn’t far behind.
 
-![Agile adoption failure](acklenavenue.github.io/assets/img/posts/agile-adoption-failure-2.jpg)
+![Agile adoption failure](http://acklenavenue.com/assets/img/posts/agile-adoption-failure-2.jpg)
  
 True agile adoption means changing the way you think about your company culture, how you do business, how you deal with 
 employees and clients and, yes, how you develop software. 
