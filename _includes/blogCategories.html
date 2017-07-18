@@ -1,0 +1,23 @@
+<aside class="categories-nav">
+    <h2>Categories:</h2>
+        <ul>
+            <li>
+                <a href onclick="filter('all'); return false;" class="chips active">All</a>
+            </li>
+
+            {% assign sorted_tags = site.tags | sort %}
+            {% for tag in sorted_tags %}
+                {% assign t = tag | first %}
+
+                {% assign tagText = ''  %}
+                {% assign words = t | split: '_' %}
+                {% for word in words %}
+                    {% assign tagText = tagText | append: ' ' | append: word %}
+                {% endfor %}
+                <li>
+                    <a href onclick="filter('{{ t }}'); return false;"
+                        class="list-group-item chips" id="{{ t }}-item">{{ tagText | capitalize }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+</aside>

@@ -1,0 +1,31 @@
+
+{% include blogCategories.html %}
+{% include baseUrl.html %}
+
+<section id="blog-feed">
+	<div class="blog-feed__container" id="all-container">
+	{% for post in site.posts | sort: 'date' | reverse %}
+		{% include blogCardArticle.html %}
+	{% endfor %}
+	</div>
+</section>
+
+<section id="blog-feed">
+    {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        {% assign numPosts = posts | size %}
+
+		{% include blogPostsCounter.html %}
+
+        <div class="blog-feed__container hidden" id="{{ t }}-container">
+            {% for post in site.posts %}
+                {% if post.tags contains t %}
+                    {% include blogCardArticle.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+

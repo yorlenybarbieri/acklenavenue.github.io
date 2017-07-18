@@ -1,28 +1,23 @@
 ---
-layout: acklen
+layout: blog
 ---
-<header class="blog-post-header">
-    <div class="thumb-block">
-        <img src="{{ page.image }}" alt="" class="blog-header-thumb" />
-    </div>
-    <!-- THUMB BLOCK -->
 
-    <div class="title-block">
-        <h1>{{ page.title }}</h1>
-    </div>
-    <!-- TITLE BLOCK -->
-
-    <span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span>
-    <span class="post-author">by <a href="#" class="post-author-link">{{ page.author }}</a></span>
-
-    <div class="clear"></div>
+<header class="page-header">
+	{% include menu.html %}
+	<h1>{{ page.title }}</h1>
 </header>
-<!-- BLOG HEADER -->
 
-<section class="blog-content">
-    {{ content }}
-</section>
-<!-- BLOG CONTENT -->
+<article class="article">
+    <div class="article-content">
+        {% include postCategories.html %}
 
-{% include DevelopmentWithHeart.html %}
-{% include ContactUs.html %}
+	    <markdown markdown="1">
+    	    {{ page.content | unindent | markdownify }}
+		</markdown>
+
+		{% include signUp.html %}
+    </div>
+
+    {% include postRelateds.html %}
+</article>
+{% include postShare.html %}

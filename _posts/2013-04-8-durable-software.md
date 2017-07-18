@@ -2,10 +2,12 @@
 layout: post
 title:  Durable Software
 date:   2013-04-08
-categories: software
 author: Byron Sommardahl
-image: /assets/img/posts/DurableSoftware.jpg
+excerpt: “Downtown Parking”, an imaginary start-up, plans to build parking garages in large cities around the world. However, their leaders
+image: /img/posts/durable-software.jpg
+tags: software_development
 ---
+
 "Downtown Parking", an imaginary start-up, plans to build parking garages in large cities around the world. However, their leaders are a little short sighted and are hurrying through the construction process. Without truly understanding the ramifications, they are encouraging their construction workers to take shortcuts in order to finish faster. Meanwhile, the company leaders are keeping a close watch on the books. They are ensuring that their accounting staff are following best practices and never have errors.
 
 **Fast forward three years.** The company's bookkeeping records are still perfect after years of close attention to best practices. Well, almost perfect. You see, the quality of their parking garage structures was not a priority and now they are almost unusable. Entire sections of the parking garages cannot even be repaired and have closed. So the company is spending more than it is taking in, and the books are red hot.
@@ -22,7 +24,7 @@ As preposterous as it may seem, business leaders do this kind of thing all the t
 		<blockquote class="hero box-shadow shadow-effect-2">
 			<p>
 				<em>This is no way to run a business. It's no way to create software. It doesn't have to be this way. Consider the concept of "durable software".</em>
-			</p>			
+			</p>
 		</blockquote>
 	</div>
 

@@ -1,197 +1,140 @@
 $(document).ready(function () {
 
-  // smoth scroll 
-  $(function () {
-    $('a[href*="#"]:not([href="#"])').click(function () {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
+    $(function() {
+        $('.tabs li').on('click', function() {
+            var $panel = $(this).closest('.tab-panels');
+
+            $panel.find('.tabs li.active').removeClass('active');
+            $(this).addClass('active');
+
+            //figure out which panel to show
+            var panelToShow = $(this).attr('rel');
+
+            //hide current panel
+            $panel.find('.panel.active').fadeOut(400, showNextPanel);
+
+            //show next panel
+            function showNextPanel() {
+                $(this).removeClass('active');
+
+                $('#'+panelToShow).fadeIn(300, function() {
+                    $(this).addClass('active');
+                });
+            }
+        });
+
+        $('.tech .tech__tabs li').on('click', function() {
+            var $panel = $(this).closest('.tech');
+
+            $panel.find('.tech__tabs li.tech--active').removeClass('tech--active');
+            $(this).addClass('tech--active');
+
+            //figure out which panel to show
+            var panelToShow = $(this).attr('rel');
+
+            //hide current panel
+            $panel.find('.tech__panel.tech--active').fadeOut(300, showNextPanel);
+
+            //show next panel
+            function showNextPanel() {
+                $(this).removeClass('tech--active');
+
+                $('#'+panelToShow).fadeIn(300, function() {
+                    $(this).addClass('tech--active');
+                });
+            }
+        });
+
+
+        var formContainerID = '#form-container';
+        var confirmationID = '#md-confirmation';
+        var subscribeFront = '#subscribe-front';
+        var subscribeBack = '#subscribe-back';
+        var subscribeLabel = '#subscribe-labels';
+        showDOMElement = function(show, domElement) {
+            if (show) {
+                var modal = document.querySelector(domElement);
+                classie.remove(modal, 'md-hide');
+                classie.add(modal, 'md-show');
+            } else {
+                var modal = document.querySelector(domElement);
+                classie.remove(modal, 'md-show');
+                classie.add(modal, 'md-hide');
+            }
         }
-      }
-    });
-  });
 
-  var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"));
-  $("#fixednavbar ul li a").each(function () {
-    if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
-      $(this).addClass("active");
-  })
-  //Modernizr.csstransitions = false;
-  var previousScroll = 0;
-  navbar = $('#fixednavbar');
-  if (!Modernizr.csstransitions) navbar.removeClass('nav')
-  $(window).bind('scroll', function () {
-    var currentScroll = $(this).scrollTop();
-    if (currentScroll > 50) {
-      if (currentScroll > previousScroll) {
-        hideNav();
-      } else {
-        fixNav();
-        showNav();
-      }
-    } else {
-      unFixNav();
-    }
-    previousScroll = currentScroll;
-  });
+        fadeOutTimeMs = 3000;
+        fadeOutViewModel = function(factor) {
+            $("#modal-13").fadeOut(factor);
+            var modal = document.querySelector('#modal-13');
+            classie.remove( modal, 'md-show' );
+        }
 
-  function fixNav() {
-    navbar.addClass('fixed-nav');
-    if (!Modernizr.csstransitions) navbar.addClass('fixed-nav-show');
-  }
+        resetFormFields = function() {
+            $("#contact-name").val("");
+            $("#contact-email").val("");
+            $("#contact-message").val("");
+        }
 
-  function unFixNav() {
-    navbar.removeClass('fixed-nav fixed-nav-hide fixed-nav-show');
-  }
+        resetSubscribeFields = function() {
+            $("#subscribe-email").val("");
+        }
 
-  function showNav() {
-    if (Modernizr.csstransitions) {
-      navbar.removeClass('fixed-nav-hide');
-      navbar.addClass('fixed-nav-show');
-    } else {
-      navbar.fadeIn();
-    }
-  }
+        // mail service
+        $("#contact-form").submit(function (e) {
+            e.preventDefault();
 
-  function hideNav() {
-    if (Modernizr.csstransitions) {
-      navbar.removeClass('fixed-nav-show');
-      navbar.addClass('fixed-nav-hide');
-    } else {
-      navbar.fadeOut();
-    }
-  }
+            var mailModel = {
+                Name: $("#contact-name").val(),
+                Email: $("#contact-email").val(),
+                Message: $("#contact-message").val()
+            };
 
-  //team gravatar
-  $("#team .team-member .rouded-img").each(function () {
-    $(this).attr("src", "http://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=335");
-  });
+            $.ajax({
+                type: "POST",
+                url: "http://emailer-3.apphb.com/Mail",
+                data: JSON.stringify(mailModel),
+                contentType: "application/json; charset=utf-8",
+                success: function (msg) {
+                    showDOMElement(false, formContainerID);
+                    showDOMElement(true, confirmationID);
 
-  // team toggle
-  $('.nav-icon a').click(function () {
-    $('nav').slideToggle();
-  });
-
-  $('#team-toggler').click(function () {
-    $('#full-team').slideToggle('slow', function () {
-      if ($(this).is(':visible')) {
-        $('#team-toggler button').text('Collapse team directory');
-      } else {
-        $('#team-toggler button').text('View full team directory');
-      }
-    });
-  });
-
-  // mail service
-
-  $("#leads-form").submit(function (e) {
-    e.preventDefault();
-
-    $("#sending-message").show();
-    var mailModel = {
-      Name: $("#leads-name").val(),
-      Email: $("#leads-email").val(),
-      Message: "This is a message from Quiz Form from the company: " + $("#leads-company").val()
-    };
-
-    $.ajax({
-      type: "POST",
-      url: "http://emailer-3.apphb.com/Mail",
-      data: JSON.stringify(mailModel),
-      contentType: "application/json; charset=utf-8",
-      success: function (msg) {
-        $("#sending-message").hide();
-        $("#success-message").show();
-      },
-      error: function (error) {
-        $("#sending-message").hide();
-      }
-    });
-  });
-
-  $("#contact-form").submit(function (e) {
-    e.preventDefault();
-
-    var mailModel = {
-      Name: $("#contact-name").val(),
-      Email: $("#contact-email").val(),
-      ProjectName: $("#contact-project").val(),
-      Message: $("#contact-message").val()
-    };
-
-    $("#contact-form").hide();
-    $("#sending-message").show();
-    $.ajax({
-      type: "POST",
-      url: "http://emailer-3.apphb.com/Mail",
-      data: JSON.stringify(mailModel),
-      contentType: "application/json; charset=utf-8",
-      success: function (msg) {
-        $("#sending-message").hide();
-        $("#success-message").show();
-      },
-      error: function (error) {
-        $("#sending-message").hide();
-        $("#contact-form").show();
-      }
-    });
-
-    $("#contact-name").val("");
-    $("#contact-email").val("");
-    $("#contact-project").val("");
-    $("#contact-message").val("");
-    return false;
-  });
-
-  $("form#contact-form").each(function () {
-    var jqForm = $(this);
-    var jsForm = this;
-    var action = jqForm.attr("action");
-    jqForm.submit(function (event) { // when someone submits the form(s)
-      event.preventDefault(); // don't submit the form yet
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Forms',
-        eventAction: 'Message Sent',
-        transport: 'beacon'
-      });
-      setTimeout(function () { // now wait 300 milliseconds...
-        jsForm.submit(); // ... and continue with the form submission
-      }, 300);
-    });
-  });
-
-  $("a").each(function () {
-    var href = $(this).attr("href");
-    var target = $(this).attr("target");
-    var text = $(this).text();
-    $(this).click(function (event) { // when someone clicks these links
-      event.preventDefault(); // don't open the link yet
-      if (event.currentTarget.host != window.location.host) {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Outbound Link',
-          eventAction: 'link',
-          eventLabel: href,
-          transport: 'beacon'
+                    setTimeout(function(){
+                        fadeOutViewModel(300);
+                    }, fadeOutTimeMs);
+                }
+            }).then(function(data) {
+                resetFormFields();
+            });
         });
-      } else {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Link',
-          eventAction: 'link',
-          eventLabel: text,
-          transport: 'beacon'
+
+        // mailgun mailing list - subscribe service
+        $(document).ready(function() {
+            $("#acklen-subscribe").submit(function(e){
+                e.preventDefault();
+
+                var model={
+                    "email": $("#subscribe-email").val(),
+                    "id": "5968f1a1f36d280e6aca4858"
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://ancient-crag-99619.herokuapp.com/send-email",
+                    data: JSON.stringify(model),
+                    contentType: "application/json; charset=utf-8",
+                    success: function(msg) {
+                        showDOMElement(false, subscribeFront);
+                        showDOMElement(false, subscribeLabel);
+                        showDOMElement(true, subscribeBack);
+                    }
+                }).then(function(data) {
+                    resetSubscribeFields();
+                });
+                return false;
+            });
         });
-      }
-      setTimeout(function () { // now wait 300 milliseconds...
-        window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
-      }, 300);
+
+
     });
-  });
 });

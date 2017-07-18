@@ -1,0 +1,209 @@
+.article
+  max-width: 1140px
+  margin: 40px auto
+  padding: 0 5%
+  display: flex
+  box-sizing: border-box
+
+.article-meta
+  width: 100%
+  display: flex
+  flex-direction: column
+  margin-bottom: 40px
+  .blogpost-author
+    font-size: $big
+  .blogpost-meta
+    font-size: $big
+    padding: 0
+
+.article-author-date
+  display: flex
+  justify-content: space-between
+  margin: 20px 0
+
+.blog-breadcrumbs
+  font-size: $small
+  color: $black-30
+  margin: 0px 0 20px 0
+  a
+    color: $black-30
+    font-size: $small
+    &:hover
+      color: $apple-green
+  span
+    color: $black-50
+    font-size: $small
+
+.blogpost-tags
+  display: flex
+  justify-content: flex-start
+  margin: 20px 0
+
+a.tags
+  border: 1px solid $pale-grey
+  padding: 8px 20px
+  border-radius: 50px
+  margin: 0 20px
+  background: $pale-grey
+  color: $black-50
+  font-size: $small
+  text-decoration: none
+  &:first-child
+    margin-left: 0
+  &:hover
+    background: $apple-green
+    color: $white
+
+.article-sidebar
+  width: 30%
+  margin-top: 130px
+  > h2
+    font-size: $title
+    font-weight: lighter
+    padding: 20px 5%
+    text-align: center
+  .blog-card
+    height: auto
+    width: 100%
+    margin: 20px 0
+  a.text-link
+    display: block
+    text-align: center
+    font-weight: bold
+    margin: 40px auto
+
+.article-content
+  width: 70%
+  padding-right: 5%
+  box-sizing: border-box
+  img
+    display: block
+    height: auto
+    max-width: 100%
+    margin: 20px auto
+  p
+    margin: 40px 0
+    font-size: $big
+    line-height: 1.9em
+    -webkit-font-smoothing: antialiased
+    letter-spacing: 0
+  em
+    letter-spacing: 0
+  ul, ol
+    margin: 20px 0px 20px 40px
+    li
+      padding: 7px 0
+      line-height: 24px
+  blockquote
+    font-size: $big
+    margin: 60px 0 40px 0
+    background: $pale-grey
+    padding: 60px
+    line-height: 1.8em
+    text-align: center
+    position: relative
+    &::before
+      content: ''
+      display: block
+      height: 50px
+      width: 70px
+      background: url(../img/quote.svg)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      position: absolute
+      top: -25px
+      left: 50%
+
+  h3
+    font-weight: lighter
+  h4
+    letter-spacing: 0.08em
+    font-weight: lighter
+    text-transform: uppercase
+  h5
+    font-weight: normal
+
+.share-bar
+  text-align: center
+  background: $white
+  border-radius: $radius
+  width: 100px
+  height: 220px
+  padding: 30px
+  box-sizing: border-box
+  z-index: 1
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  position: fixed
+  top: 17%
+  left: 60px
+  display: none
+  img
+    padding: 8px 0
+  a
+    opacity: 0.75
+    &:hover
+      opacity: 1
+
+.subscribe-form
+  width: 100%
+  max-width: 400px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.subscribe-box
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  box-shadow: $subscribe-shadow
+  border-radius: $radius
+  padding: 30px 5%
+  text-align: center
+  h4
+    color: $apple-green
+    font-weight: bold
+    font-size: 2em
+    padding: 20px
+    text-transform: initial
+    letter-spacing: 1px
+  p
+    padding: 0px 5%
+    margin: 20px 5%
+  small
+    color: $black-30
+
+@media (max-width: 840px)
+  .article
+    flex-direction: column
+
+  .article-content
+    width: 100%
+    padding: 0
+  .article-sidebar
+    width: 100%
+    margin-top: 30px
+
+  .share-bar
+    width: 100%
+    height: 130px
+    padding: 40px
+    z-index: 0
+    flex-direction: row
+    align-items: center
+    position: relative
+    top: 0
+    left: 0
+
+@media (max-width: 580px)
+  .article-meta
+    .blogpost-meta
+      text-align: right
+    .blogpost-author
+      text-align: left
