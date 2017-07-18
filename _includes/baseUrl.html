@@ -1,0 +1,5 @@
+
+{% assign base_url = blank  %}
+{% if site.environment == "development" %}
+    {% assign base_url = site.url  %}
+{% endif %}

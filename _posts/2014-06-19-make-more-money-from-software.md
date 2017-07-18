@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  Custom Software Development&#58; 5 Ways to Kill Your ROI
+title:  5 Ways to Kill Your ROI
 date:   2014-06-19
-categories: agile
 author: Byron Sommardahl
-excerpt: Your company is getting ready to make a major investment in custom software that might take you to the next level. How exciting and nerve-racking at the same time!
-image: /assets/img/posts/ROI.jpg
+excerpt: Your company is getting ready to make a major investment in custom software that might take you to the next level. How exciting
 imageCredit: image from https://c2.staticflickr.com/4/3001/5857968442_2909c971f2_z.jpg (public domain)
+image: /img/posts/roi.jpg
+tags: software_development
 ---
+
 Your company is getting ready to make a major investment in custom software that might take you to the next level. How exciting and nerve-racking at the same time! You stand to benefit in huge ways by this software. As long as you've done your homework and have a good team, you'll probably accomplish what you set out to do. However, if you don't avoid some typical "time sucks", **you're killing your ROI!!**
 
 # Software Development ROI Killers
@@ -20,7 +21,7 @@ Your company is getting ready to make a major investment in custom software that
 
 ### ROI Killer 1: Poor Developer Communication
 
-Let's face it, programmers are not always the best communicators (no offense to my programmer friends reading this article, but c'mon... am I wrong?). Poor communication amongst developers leads to time spent on misunderstood requirements. Programmers are notorious for being very sure of themselves and might assume they understand something even when there are huge gaps. Agile or not, if developers don't understand how everything works together, they can end up painting themselves into corners. Nice thing about programmers is they can always turn lemons into lemonade. But the bad news is that getting that lemonade took longer than it should have and it probably left behind technical debt (that will cost you more later). 
+Let's face it, programmers are not always the best communicators (no offense to my programmer friends reading this article, but c'mon... am I wrong?). Poor communication amongst developers leads to time spent on misunderstood requirements. Programmers are notorious for being very sure of themselves and might assume they understand something even when there are huge gaps. Agile or not, if developers don't understand how everything works together, they can end up painting themselves into corners. Nice thing about programmers is they can always turn lemons into lemonade. But the bad news is that getting that lemonade took longer than it should have and it probably left behind technical debt (that will cost you more later).
 
 ### ROI Killer 2: Poorly Defined Requirements
 

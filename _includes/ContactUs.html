@@ -1,46 +1,32 @@
-<section id="contact-us">
-    <h3>/CONTACT US/</h3>
-    <div class="wrapper">
-        <div class="contact-form">
-            <form id="contact-form">
-                <input type="text" id="contact-name" placeholder="Name" />
-                <input type="email" id="contact-email" placeholder="E-mail" required />
-                <input type="text" id="contact-project" placeholder="Subject" />
-                <textarea id="contact-message" placeholder="Message"></textarea>
-                <input type="submit" value="SEND MESSAGE" />
-            </form>
-            <div id="sending-message" class="hidden">
-                <h2>Your message is being sent...</h2>
-            </div>
-            <div id="success-message" class="hidden">
-                <h2>Your message has been sent</h2>
-            </div>
+
+<footer>
+    {% include hatchbuckTracking.html %}
+
+    <div class="footer__container">
+        <div class="flex-33">
+            <img src="img/aa-logo.svg" alt="Acklen Avenue Logo">
         </div>
-        <div class="contact-info">
-            <div class="social-links">
-                <h4>/STAY CONNECTED/</h4>
-                <div class="social-icons">
-                    <a target="_blank" href="https://www.facebook.com/acklenavenue/"><img src="/img/facebook-icon.svg" alt="facebook icon"></a>
-                    <a target="_blank" href="https://twitter.com/acklenavenue"><img src="/img/twitter-icon.svg" alt="twitter icon"></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/acklen-avenue"><img src="/img/linked-in-icon.svg" alt="linkedin icon"></a>
-                </div>
-            </div>
+        <div class="flex-33 contact">
+            <h4>CONTACT</h4>
+            <ul>
+                <li> (615) 988-4700 </li>
+                <li class="contact-info-email"><a href="mailto:info@acklenavenue.com;">info@acklenavenue.com</a> </li>
+                <li> 1033 Demonbreun Street #300,<br >Nashville, TN 37203 </li>
+             </ul>
         </div>
-        <div class="contact-info">
-            <h4>/TENNESSEE, USA/</h4>
+         <div class="flex-33 followUs">
+            <h4>Follow Us</h4>
             <ul>
-                <li><img src="/img/icon-home.svg" alt="home icon"> 1033 Demonbreun Street #300, <span>Nashville, TN 37203</span></li>
-                <li><img src="/img/icon-mail.svg" alt="mail icon"> info@acklenavenue.com</li>
-                <li><img src="/img/icon-tel.svg" alt="telephone icon"> (615) 988-4700</li>
-            </ul>
-            <h4>/TEGUCIGALPA, HONDURAS/</h4>
-            <ul>
-                <li><img src="/img/icon-home.svg" alt="home icon"> Centro de Negocios La Reforma, Local E1</li>
-                <li><img src="/img/icon-tel.svg" alt="telephone icon"> (504) 2205-5829</li>
-            </ul>
-            
+                <li><a href="https://twitter.com/acklenavenue"><img src="img/twitter.svg" alt=""></a></li>
+                <li><a href="https://www.facebook.com/acklenavenue/"><img src="img/facebook.svg" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/company/acklen-avenue"><img src="img/linkedin.svg" alt=""></a></li>
+                <li><a href="https://github.com/AcklenAvenue"><img src="img/github.svg" alt=""></a></li>
+
+             </ul>
         </div>
     </div>
-</section>
-
-<script async defer src="https://boiling-woodland-85980.herokuapp.com/slackin.js"></script>
+    <hr>
+    <div class="copyright">
+        <p>2017 © Acklen Avenue, LLC. All Rights Reserved.</p>
+    </div>
+</footer>

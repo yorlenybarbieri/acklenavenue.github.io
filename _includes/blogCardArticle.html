@@ -1,0 +1,23 @@
+
+<article class="blog-card">
+	{% assign tagCategory = post.tags | join: " " %}
+	{% assign tagText = ''  %}
+	{% assign words = tagCategory | split: '_' %}
+	{% for word in words %}
+		{% assign tagText = tagText | append: ' ' | append: word %}
+	{% endfor %}
+
+	<a href="{{ post.url | prepend: base_url }}"><img class="blogpost-thumb"
+		src="{{ post.image | prepend: base_url }}" alt=""></a>
+	<div class="blogpost-meta">
+		<a href="{{ post.url | prepend: base_url }}">{{ tagText }}</a> /
+		<span class="blogpost-date">{{ post.date | date_to_string }}</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="{{ post.url | prepend: base_url }}">
+		{{ post.title }}
+		</a>
+	</h2>
+	<span class="blogpost-author">by <a href="#">{{ post.author }}</a></span>
+	<p class="blogpost-excerpt">{{ post.excerpt | strip_html | truncatewords:16 }}</p>
+</article>

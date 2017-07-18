@@ -1,0 +1,21 @@
+
+<section class="article-meta">
+	<div class="article-author-date">
+		<span class="blogpost-author">by <a href="#">{{ page.author }}</a></span>
+		<div class="blogpost-meta">
+			<a href="#">{{ page.categories }}</a>
+			<span class="blogpost-date">{{ page.date | date_to_string }}</span>
+		</div>
+	</div>
+	<div class="blogpost-tags">
+		{% for tag in page.tags %}
+			{% assign tagText = ''  %}
+            {% assign words = tag | split: '_' %}
+            {% for word in words %}
+				{% assign tagText = tagText | append: ' ' | append: word %}
+            {% endfor %}
+
+			<a href="#" class="tags">{{ tagText | capitalize }}</a>
+		{% endfor %}
+	</div>
+</section>

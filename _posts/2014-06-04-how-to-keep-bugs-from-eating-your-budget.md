@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  Custom Software Development&#58; How to Keep Bugs From Eating Your Budget
+title:  How to Keep Bugs From Eating Your Budget
 date:   2014-06-04
-categories: agile
 author: Byron Sommardahl
-excerpt: People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a custom software development project...
-image: /assets/img/posts/WillProgramForFood.jpg
+excerpt: People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a
+image: /img/posts/will-program-for-food.jpg
+tags: tips_,_tricks_&_secrets
 ---
+
 People who complain about paying $149 for a shrink wrapped copy of Quickbooks Pro have obviously never been in charge of a custom software development project. Developing custom software is expensive and risky. In fact, 60% of all software projects end in failure. But why so expensive? Well, for one thing, custom software doesn't build itself. Software developers are some of the highest paid folks in the workforce. For another thing, those highly-paid software developers don't just create software. They create bugs.
 
 Bugs account for 80% of nationwide software costs according to [Initial State](https://initialstate.com), a company that specializes in providing log analysis tools to debug products. They also claim that development teams DELIVER, on average, 15 bugs per 1000 lines of code. To give you some perspective, a medium sized software project might be around 50,000 lines of code. So, on delivery day, when everyone feels really good about the software going live, there are somewhere around 750 unknown bugs hidden in those 50,000 lines. Those bugs will present themselves slowly, over time.

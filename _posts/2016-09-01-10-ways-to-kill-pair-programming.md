@@ -2,11 +2,11 @@
 layout: post
 title:  10 Ways to Kill Pair Programming
 date:   2016-09-01
-categories: agile
 author: Byron Sommardahl
 excerpt: If you have a hard time working with other humans or find that other humans have a hard time working with you, you may want to continue reading...
-image: /assets/img/posts/10-Ways-to-Kill-Pair-Programming.jpeg
 imageCredit: By Kabren (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+image: /img/posts/10-ways-to-kill-pair-programming.jpeg
+tags: software_development
 ---
 
 If you have a hard time working with other humans or find that other humans have a hard time working with you, you may want to continue reading. If you value your own opinion over any other regardless of validity, then listen up. If you are a better coder than anyone on your team and you want to keep it that way, then lean in closer. There is a software development technique that is gaining popularity amongst the “agile crazies” that threatens your quiet, peaceful, lonely existence. They call this technique, “Pair Programming.”
@@ -15,7 +15,7 @@ Wikipedia.com describes “Pair Programming” this way:
 
 >_**Pair programming** is an <a style="color:#ffffff;" href="https://en.wikipedia.org/wiki/Agile_software_development">agile software development</a> technique in which two
 ><a style="color:#ffffff;" href="https://en.wikipedia.org/wiki/Programmer">programmers</a> work together at one work station. One types in <a style="color:#ffffff;" href="">code</a> while the
->other <a style="color:#ffffff;" href="https://en.wikipedia.org/wiki/Code_review">reviews</a> each line of code as it is typed in. The person typing is 
+>other <a style="color:#ffffff;" href="https://en.wikipedia.org/wiki/Code_review">reviews</a> each line of code as it is typed in. The person typing is
 >called the **driver**. The person reviewing the code is called the **observer** (or **navigator**[1]). The two programmers switch roles frequently._
 
 Sounds nice, right? Well, if I described you correctly in the paragraph above, then the answer is, “wrong!” Working so closely with another programmer is likely to end badly for you. However, “Pair Programming” has been building momentum over the last few years, especially since there has been an increased focus in software engineering practices, code quality, and ethical programming. But who needs any of those things? You make great software and you don’t feel like you should have to change the way you work… ever.

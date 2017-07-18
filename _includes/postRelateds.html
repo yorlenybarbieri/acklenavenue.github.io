@@ -1,0 +1,23 @@
+
+<aside class="article-sidebar">
+	{% assign related = page.tags | join: " " %}
+	{% assign tagText = ''  %}
+	{% assign words = related | split: '_' %}
+	{% for word in words %}
+		{% assign tagText = tagText | append: ' ' | append: word %}
+	{% endfor %}
+
+	<h2>More in {{ tagText }}:</h2>
+    {% assign t = page.tags %}
+	{% assign numPosts = 0 %}
+	{% for post in site.posts %}
+		{% if numPosts < 3 and post.tags == t and post.excerpt != page.excerpt%}
+			{% assign numPosts = numPosts | plus: 1 %}
+			{% include blogCardArticle.html  %}
+		{% endif %}
+	{% endfor %}
+
+	{% if numPosts > 0 %}
+		<a class="text-link" href="{{ "/blogHome.html" | prepend: base_url }}">See All ></a>
+	{% endif %}
+</aside>

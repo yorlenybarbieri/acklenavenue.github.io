@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Custom Software Development&#58; 3 Ways to Win at Quality
+title:  3 Ways to Win at Quality
 date:   2014-07-07
-categories: agile
 author: Byron Sommardahl
 excerpt: I just bought some brakes for my car the other day. When I was at the auto parts store, the guy asked me which brakes I wanted. You've been there, I'm sure...
-image: /assets/img/posts/Globes.jpg
 imageCredit: http://creativecommons.org/weblog/entry/18364, http://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg, http://commons.wikimedia.org/wiki/File:%22YOUR_BATTLESHIP_AND_HER_REQUIREMENTS%22_-_NARA_-_516243.jpg, https://www.flickr.com/photos/jurvetson/156830367/, https://www.flickr.com/photos/autohistorian/4410527136/ (creative commons)
+image: /img/posts/globes.jpg
+tags: tips_,_tricks_&_secrets
 ---
 
 <div class="col-md-4 pull-right">
@@ -15,15 +15,15 @@ imageCredit: http://creativecommons.org/weblog/entry/18364, http://commons.wikim
             <div class="item active">
                 <p class="rounded-2x">“Quality means doing it right when no one is looking.”</p>
                 <div class="testimonial-info">
-                    <img class="rounded-2x" src="/assets/img/posts/Henry_ford.jpg" alt="Henry Ford">
+                    <img class="rounded-2x" src="/img/posts/Henry_ford.jpg" alt="Henry Ford">
                     <span class="testimonial-author">
-                        Henry Ford 
+                        Henry Ford
                         <em>Father of Mass Production</em>
                     </span>
                 </div>
             </div>
         </div>
-    </div>                    
+    </div>
 </div>
 
 I just bought some brakes for my car the other day. When I was at the auto parts store, the guy asked me which brakes I wanted. You've been there, I'm sure. It's a big decision. Buy the cheaper brakes and you'll be coming back to the auto parts guy again soon. Buy the more expensive brakes today and no Starbucks runs for the next couple of weeks... But you won't have to come back to buy more for another couple years. I chose the cheaper brakes because money was tight. I **consciously** chose a product of lesser quality. But I understood the consequences.
@@ -31,7 +31,7 @@ I just bought some brakes for my car the other day. When I was at the auto parts
 <div class="col-md-5 shadow-wrapper easy-block-v1">
 	<div class="box-shadow shadow-effect-2">
     <div class="easy-block-v1-badge rgba-default">Sometimes Quality is a Requirement</div>
-        <img class="img-responsive img-bordered" src="/assets/img/posts/hot-air-balloons.jpg" alt="Hot air balloons">
+        <img class="img-responsive img-bordered" src="/img/posts/hot-air-balloons.jpg" alt="Hot air balloons">
     </div>
 </div>
 

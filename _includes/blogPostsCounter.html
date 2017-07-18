@@ -1,0 +1,20 @@
+
+<section id="blog__counter">
+	{% assign tagText = ''  %}
+	{% assign words = t | split: '_' %}
+	{% for word in words %}
+		{% assign tagText = tagText | append: ' ' | append: word %}
+	{% endfor %}
+
+	{% if numPosts == 1 %}
+		<div class="blog-count-posts" id="{{ t }}-label">
+			<span class="blog-count-detail"><u>{{ posts | size }} post</u> containing tag </span>
+			<span class="blog-count-tag">{{ tagText }}</span>
+		</div>
+	{% else %}
+		<div class="blog-count-posts" id="{{ t }}-label">
+			<span class="blog-count-detail"><u>{{ posts | size }} posts</u> containing tag </span>
+			<span class="blog-count-tag">{{ tagText }}</span>
+		</div>
+	{% endif %}
+</section>

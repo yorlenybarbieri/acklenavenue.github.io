@@ -1,0 +1,553 @@
+header
+  background: $slate-purple url(../img/bg-photo.jpg) no-repeat center bottom
+  background-size: cover
+  min-height: 800px
+
+  .hero-header
+    max-width: 900px
+    margin: 0 auto
+    padding-top: 100px
+    color: #ffffff
+    &__phrase
+      font-weight: 800
+    & h1
+      font-weight: 300
+      color: $white
+      max-width: 33.2em
+      padding: 30px 0
+      font-size: $big
+    & p
+      font-size: $banner
+      color: white
+    & a
+      margin: 0
+
+  .first-sentence
+    padding: 0 0 20px 0
+    font-weight: 800
+    text-transform: uppercase
+
+  .last-sentence
+    padding: 100px 0 20px 0
+    & span
+      font-weight: 800
+      text-transform: uppercase  
+
+
+  .down-arrow
+    position: absolute
+    bottom: 30px
+    left: 50%
+
+  .hero-animate-words
+    display: inline
+
+  .hero-animate-words span
+    color: #ffffff
+    position: absolute
+    opacity: 0
+    overflow: hidden
+    text-transform: uppercase
+    font-size: $banner
+    animation: heroAnimation 12s ease-in infinite 0s
+
+  .hero-words
+    display: inline
+    span
+      &:nth-child(2)
+        animation-delay: 4s
+      &:nth-child(3)
+        animation-delay: 8s
+
+  @keyframes heroAnimation
+    0%
+      opacity: 0
+      transform: translateY(10%)
+
+    4%
+      transform: translateY(0%)
+
+    10%
+      opacity: 1
+
+    31%
+      opacity: 1
+      transform: translateY(0%)
+
+    35%
+      transform: translateY(-10%)
+
+    36%
+      opacity: 0
+
+#StressFreeWizardry
+  max-width: 1100px
+  margin: 0 auto
+  padding: 120px 5% 80px
+  text-align: center
+  color: $black-80
+  p
+    line-height: 1.7em
+    font-size: $title
+    max-width: 720px
+    margin: 0 auto 40px auto
+  h2
+    font-size: $headline
+    color: $apple-green
+    margin-bottom: 80px
+
+
+#drivenByPassion
+  max-width: 1100px
+  margin: 0 auto
+  text-align: center
+  padding: 40px 0
+  & h2
+    padding: 20px 0 40px
+
+  .card-container
+    display: inline-block
+    margin: 0 auto
+    padding: 15px
+    perspective: 900px
+    text-align: center
+
+  .card
+    position: relative
+    width: 300px
+    height: 365px
+    transition: all 0.6s ease
+    transform-style: preserve-3d
+
+  .front, .back
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    border-radius: 8px
+    color: white
+    box-shadow: $shadow-one
+    backface-visibility: hidden
+
+  .front
+    background: white
+
+  .front .card-img
+    -webkit-border-top-left-radius: 8px
+    -webkit-border-top-right-radius: 8px
+    -moz-border-radius-topleft: 8px
+    -moz-border-radius-topright: 8px
+    border-top-left-radius: 8px
+    border-top-right-radius: 8px
+    background: $apple-green
+    width: 100%
+    height: 170px
+    margin-bottom: 50px
+    overflow: hidden
+    &::after
+      content: ""
+      position: absolute
+      background: $apple-green
+      top: 159px
+      left: 0
+      transform: skewY(4deg)
+      height: 22px
+      width: 100%
+
+    & img
+      max-width: 145px
+      padding-top: 25px
+
+  .card-body
+    width: 100%
+    height: 150px
+    color: #4F4F4F
+    h3
+      font-weight: 300
+      font-size: $headline
+
+  .back
+    background: white
+    transform: rotateY(180deg)
+    color: rgba(0, 0, 0, 0.8)
+    padding: 25px
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .card-container:hover .card
+    transform: rotateY(180deg)
+
+
+#testimonialSingle
+  padding: 40px
+  position: relative
+
+  &:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    min-height: 500px
+    top: 30px
+    left: 0
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: $pale-grey
+    border-top: 1px solid rgba(0, 0, 0, 0.12)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+
+  & .testimonial__contain
+    max-width: 630px
+    margin: 0 auto
+    text-align: center
+
+  .testimonial-founder
+    font-style: italic
+    color: (0,0, 0, 0.5)
+    font-weight: 300
+    text-align: center
+    color: var(--black-50)
+
+  .rouded-img
+    width: 120px
+    -webkit-border-radius: 400px
+    -moz-border-radius: 400px
+    border-radius: 400px
+    box-shadow: 0px 2px 11px 3px rgba(8, 8, 8, 0.35)
+  h3
+    font-size: $big
+    font-weight: 800
+    padding: 25px 0 10px
+  h4
+    font-size: $normal
+    font-weight: 300
+    color: $black-50
+
+  .quotesign
+    font-weight: 800
+    color: $apple-green
+    font-size: $quoteSign
+    padding-top: 30px
+  p
+    font-size: $title
+    line-height: 43px
+    font-weight: 300
+    color: $black-80
+    margin: -53px 0px 30px
+
+
+
+
+#workForYou
+  text-align: center
+  margin: 110px 0px
+  h2
+    padding: 70px 40px
+
+  .tab-panels
+    max-width: 700px
+    margin: 0 auto
+
+    .tabs
+      width: 100%
+      display: flex
+      li
+        flex: 1
+        list-style-type: none
+        background: white
+        padding: 20px
+        color: $black-50
+        font-weight: 300
+        cursor: pointer
+        font-size: 16px
+        text-align: center
+        margin: 5px
+        box-shadow: $shadow-one
+        & img
+          width: 100%
+          padding: 28px
+
+        &.active
+          border-bottom: 5px solid $apple-green
+          background: white
+          color: $apple-green
+          box-shadow: $shadow-two
+          position: relative
+          transform: scale(1.2)
+          z-index: 1
+          transition: all .2s ease-in-out
+    .panel
+      display: none
+      padding: 50px 20px
+      text-align: center
+
+      &.active
+        display: block
+
+    .thingToRead
+      display: block
+      max-width: 450px
+      margin: 0 auto
+      p,h4
+        padding: 20px
+
+
+#factsAndTech
+  width: 100%
+  margin: 0 auto
+  position: relative
+
+  &:after
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    height: 1100px
+    left: 0
+    top: 60px
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: $pale-grey
+    border-top: 1px solid rgba(0, 0, 0, 0.12)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+
+  .facts
+    max-width: 1100px
+    margin: 0 auto
+    display: flex
+    color: white
+    box-shadow: $shadow-two
+    border-radius: $radius
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+
+  .facts__photo
+    background-image: url('../img/facts-background.jpg')
+    background-size: cover
+    min-height: 430px
+    border-radius: $radius
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+
+  .facts__content
+    background-color: #4F4959
+    position: relative
+    border-radius: $radius
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    z-index: 1
+    padding: 40px 60px
+    h2, p
+      color: white
+      padding: 15px
+
+  .facts__content:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 80%
+    height: 100%
+    left: 60px
+    top: 0
+    transform: skew(-12deg)
+    background: #4F4959
+
+  .facts__content:after
+    content: ""
+    position: absolute
+    z-index: -2
+    width: 100%
+    height: 100%
+    left: 60px
+    top: 0
+    transform: skew(-12deg)
+    background: #645C71
+
+  .tech
+    max-width: 1100px
+    margin: 0 auto
+    padding: 150px 70px
+    display: flex
+
+  .tech__content
+    p,h2
+      padding: 5px
+
+  .tech__description
+    color: rgba(0, 0, 0, 0.5)
+
+  .tech__img
+    text-align: center
+    img
+      width: 100%
+      padding: 40px
+
+  ul.tech__tabs li
+    box-shadow: $shadow-one
+    border-radius: $radius
+    cursor: pointer
+    list-style-type: none
+    background: white
+    width: 80%
+    margin: 25px 0
+    padding: 25px
+    text-align: center
+    font-size: $title
+    &.tech--active
+      background: $apple-green
+      color: white
+      transition: all .2s ease-in-out
+      &:before
+        content: ">"
+        position: relative
+        color: $apple-green
+        background: white
+        padding: 8px 17px
+        top: -8px
+        float: right
+        border-radius: 238em
+        z-index: 1
+
+
+  .tech .tech__panel
+    display: none
+
+  .tech .tech__panel.tech--active
+    display: block
+
+#teamStructure
+  max-width: 950px
+  margin: 0 auto
+  padding: 100px 0
+  text-align: center
+  p
+    max-width: 890px
+    margin: 30px auto
+    padding: 0 5%
+    font-size: $big
+  & h2
+    padding: 40px
+  & img
+    width: 100%
+    padding: 40px
+
+  & .teamStructure__cta
+    max-width: 600px
+    text-align: center
+    margin: 0 auto
+  & h3
+    font-size: $headline
+    font-weight: 300
+    padding: 40px 45px 20px
+
+@media (min-width: $screen-xm-min) and (max-width: $screen-sm-min)
+  header .hero-header
+    &__phrase span
+      font-size: 2.5em
+      padding: 0 20px
+    & h1
+      padding: 20px 20px
+    & p
+      font-size: 3em
+    & a
+      margin: 20px
+  header .first-sentence
+    padding: 20px
+
+  header .last-sentence
+    padding: 110px 20px 20px 20px
+    line-height: 45px
+
+  header .down-arrow
+    display: none
+
+  #drivenByPassion h2
+    padding: 20px 20px 40px
+
+
+  #testimonialSingle:before
+    min-height: 640px
+    top: 80px
+
+  #workForYou
+    margin: 80px 0px
+    .tabs
+      flex-direction: column
+    & img
+      display: none
+
+    & .tab-panels .tabs li.active
+      transform: initial
+
+  #factsAndTech
+    .facts,.tech
+      flex-direction: column
+
+    &:after
+      min-height: 1900px
+
+    & .facts__content
+      padding: 40px 20px
+      -webkit-border-radius: 0px
+      -webkit-border-top-left-radius: 8px
+      -webkit-border-top-right-radius: 8px
+      -moz-border-radius: 0px
+      -moz-border-radius-topleft: 8px
+      -moz-border-radius-topright: 8px
+      border-radius: 0px
+      border-top-left-radius: 8px
+      border-top-right-radius: 8px
+
+    & .facts__content:after
+      display: none
+
+    & .facts__content:before
+      display: none
+
+    & .facts__photo
+      -webkit-border-radius: 8px
+      -webkit-border-top-left-radius: 0px
+      -webkit-border-top-right-radius: 0px
+      -moz-border-radius: 8px
+      -moz-border-radius-topleft: 0px
+      -moz-border-radius-topright: 0px
+      border-radius: 8px
+      border-top-left-radius: 0px
+      border-top-right-radius: 0px
+    & .tech
+      padding: 80px 30px
+    & ul.tech__tabs li
+      width: 100%
+
+  #contact-form
+    & .flex-direction
+      flex-direction: column
+
+
+
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-min)
+  header .hero-header
+    padding: 60px
+    &__phrase span
+      font-size: 3.5em
+    & p
+      font-size: 3.5em
+
+  header .last-sentence
+    line-height: 65px
+    padding: 120px 0px 20px
+
+  #testimonialSingle:before
+    min-height: 550px
+    top: 50px
+
+  #factsAndTech
+    & .facts__content
+      padding: 40px 20px
+      
+  #contact-form
+    & .flex-direction
+      flex-direction: column
