@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     $(function() {
         $('.tabs li').on('click', function() {
@@ -17,7 +17,7 @@ $(document).ready(function () {
             function showNextPanel() {
                 $(this).removeClass('active');
 
-                $('#'+panelToShow).fadeIn(300, function() {
+                $('#' + panelToShow).fadeIn(300, function() {
                     $(this).addClass('active');
                 });
             }
@@ -39,7 +39,7 @@ $(document).ready(function () {
             function showNextPanel() {
                 $(this).removeClass('tech--active');
 
-                $('#'+panelToShow).fadeIn(300, function() {
+                $('#' + panelToShow).fadeIn(300, function() {
                     $(this).addClass('tech--active');
                 });
             }
@@ -51,6 +51,7 @@ $(document).ready(function () {
         var subscribeFront = '#subscribe-front';
         var subscribeBack = '#subscribe-back';
         var subscribeLabel = '#subscribe-labels';
+        var overlay = '.md-overlay';
         showDOMElement = function(show, domElement) {
             if (show) {
                 var modal = document.querySelector(domElement);
@@ -67,7 +68,7 @@ $(document).ready(function () {
         fadeOutViewModel = function(factor) {
             $("#modal-13").fadeOut(factor);
             var modal = document.querySelector('#modal-13');
-            classie.remove( modal, 'md-show' );
+            classie.remove(modal, 'md-show');
         }
 
         resetFormFields = function() {
@@ -81,39 +82,35 @@ $(document).ready(function () {
         }
 
         // mail service
-        $("#contact-form").submit(function (e) {
+        $("#contact-form").submit(function(e) {
             e.preventDefault();
-
             var mailModel = {
                 Name: $("#contact-name").val(),
                 Email: $("#contact-email").val(),
                 Message: $("#contact-message").val()
             };
-
             $.ajax({
                 type: "POST",
                 url: "http://emailer-3.apphb.com/Mail",
                 data: JSON.stringify(mailModel),
                 contentType: "application/json; charset=utf-8",
-                success: function (msg) {
-                    showDOMElement(false, formContainerID);
-                    showDOMElement(true, confirmationID);
-
-                    setTimeout(function(){
-                        fadeOutViewModel(300);
-                    }, fadeOutTimeMs);
+                success: function(msg) {
+                    $(formContainerID).hide();
+                    $(overlay).delay(1200).hide(600);
+                    $(confirmationID).show().delay(2000).fadeOut(300);
                 }
             }).then(function(data) {
                 resetFormFields();
             });
+            return false;
         });
 
         // mailgun mailing list - subscribe service
-        $(document).ready(function() {
-            $("#acklen-subscribe").submit(function(e){
+        $(this).ready(function() {
+            $("#acklen-subscribe").submit(function(e) {
                 e.preventDefault();
 
-                var model={
+                var model = {
                     "email": $("#subscribe-email").val(),
                     "id": "5968f1a1f36d280e6aca4858"
                 };
