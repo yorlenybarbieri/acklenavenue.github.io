@@ -7,6 +7,7 @@ excerpt: Years ago, when Acklen Avenue was still very young and trying to find i
 image: /img/posts/coding-developer.jpg
 tags: news
 ---
+_This blog is about one of our first Honduran hires, Camilo Aguilar. He has since left Acklen Avenue but our Honduran team has continued to grow by leaps and bounds! Currently, Acklen Avenue employs 42 full-time Honduran developers, designers, QA-ers, architects and product owners._
 
 Years ago, when Acklen Avenue was still very young and trying to find its place in the world, we decided to try a risky experiment. You see, I had recently sold everything and moved to Honduras after marrying the girl of my dreams. After finding the quiet tech community in Honduras and getting as involved as they would allow, I started to realize just how much incredible talent there is in Central America. My eyes were also opened to how many english speakers there are in the tech community. WOW! Then I started to notice certain characteristics of the culture in Honduras that seemed to lend itself to a strong work ethic and a healthy respect for learning and growing. I don’t know about you, but all that sounded to me like a recipe for success! Our risky experiment was to hire a few Honduran developers and build some software together.
 
