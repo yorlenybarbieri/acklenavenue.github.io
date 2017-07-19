@@ -100,7 +100,7 @@ $(document).ready(function() {
                     $(confirmationID).show().delay(2000).fadeOut(300);
                 }
             }).then(function(data) {
-                resetSubscribeFields();
+                resetFormFields();
             });
             return false;
         });
