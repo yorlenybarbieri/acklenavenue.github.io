@@ -1,9 +1,9 @@
 
 <section class="article-meta">
 	<div class="article-author-date">
-		<span class="blogpost-author">by <a href="#">{{ page.author }}</a></span>
+		<span class="blogpost-author">by {{ page.author }}</span>
 		<div class="blogpost-meta">
-			<a href="#">{{ page.categories }}</a>
+			{{ page.categories }}
 			<span class="blogpost-date">{{ page.date | date_to_string }}</span>
 		</div>
 	</div>
@@ -15,7 +15,7 @@
 				{% assign tagText = tagText | append: ' ' | append: word %}
             {% endfor %}
 
-			<a href="#" class="tags">{{ tagText | capitalize }}</a>
+			<a style="display:none;" href="#" class="tags">{{ tagText | capitalize }}</a>
 		{% endfor %}
 	</div>
 </section>
