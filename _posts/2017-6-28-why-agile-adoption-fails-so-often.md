@@ -31,7 +31,7 @@ implementation of those concepts, however, is a major pain point.
 Why does agile adoption fail so often? Why is there so much pushback? Because there is a fundamental misunderstanding of 
 what “agile” actually is.
 
-![why agile adoption fails so often](acklenavenue.github.io/img/posts/agile-adoption-failure-3.jpg)
+![why agile adoption fails so often](http://acklenavenue.github.io/img/posts/agile-adoption-failure-3.jpg)
 
 This is perfectly encapsulated in a talk given at a conference in Amsterdam from 2015, called [Agile is Dead](https://www.youtube.com/watch?time_continue=2244&v=a-BOSpxYJ9M),
 from one of the creators of the manifesto, Dave Thomas. 
@@ -58,7 +58,7 @@ These are not bad things! But they are _micro_-level changes.
 And when they are cherry-picked and presented as the silver bullet to solving quality and deliverability issues, the 
 problems begin to appear. Adoption failure usually isn’t far behind.
 
-![why agile adoption fails so often](acklenavenue.github.io/img/posts/agile-adoption-failure-2.jpg)
+![why agile adoption fails so often](http://acklenavenue.github.io/img/posts/agile-adoption-failure-2.jpg)
 
 True agile adoption means changing the way you think about your company culture, how you do business, how you deal with 
 employees and clients and, yes, how you develop software. 
