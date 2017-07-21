@@ -10,7 +10,7 @@
 	<a href="{{ post.url | prepend: base_url }}"><img class="blogpost-thumb"
 		src="{{ post.image | prepend: base_url }}" alt=""></a>
 	<div class="blogpost-meta">
-		<a href="{{ post.url | prepend: base_url }}">{{ tagText }}</a> /
+		{{ tagText }} /
 		<span class="blogpost-date">{{ post.date | date_to_string }}</span>
 	</div>
 	<h2 class="blog-card-title">
@@ -18,6 +18,6 @@
 		{{ post.title }}
 		</a>
 	</h2>
-	<span class="blogpost-author">by <a href="#">{{ post.author }}</a></span>
+	<span class="blogpost-author">by {{ post.author }}</span>
 	<p class="blogpost-excerpt">{{ post.excerpt | strip_html | truncatewords:16 }}</p>
 </article>

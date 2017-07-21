@@ -7,7 +7,7 @@
 		{% assign tagText = tagText | append: ' ' | append: word %}
 	{% endfor %}
 
-	<h2>More in {{ tagText }}:</h2>
+	<h2>More in <span class="capitalize">{{ tagText }}:</span></h2>
     {% assign t = page.tags %}
 	{% assign numPosts = 0 %}
 	{% for post in site.posts %}
