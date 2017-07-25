@@ -84,19 +84,19 @@ $(document).ready(function() {
         // mail service
         $("#contact-form").submit(function(e) {
             e.preventDefault();
+            $(formContainerID).hide();
             var mailModel = {
                 Name: $("#contact-name").val(),
                 Email: $("#contact-email").val(),
                 Message: $("#contact-message").val()
             };
-            $.ajax({
+        $.ajax({
                 type: "POST",
                 url: "http://emailer-3.apphb.com/Mail",
                 data: JSON.stringify(mailModel),
                 contentType: "application/json; charset=utf-8",
-                success: function(msg) {
-                    $(formContainerID).hide();
-                    $(overlay).delay(1200).hide(600);
+                success: function(msg) {         
+                    $(overlay).delay(1200).fadeOut(600);
                     $(confirmationID).show().delay(2000).fadeOut(300);
                 }
             }).then(function(data) {

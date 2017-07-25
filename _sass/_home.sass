@@ -117,6 +117,10 @@ header
     height: 365px
     transition: all 0.6s ease
     transform-style: preserve-3d
+    -webkit-transform-style: preserve-3d
+    -moz-transform-style: preserve-3d
+    -ms-transform-style: preserve-3d
+
 
   .front, .back
     position: absolute
@@ -126,12 +130,14 @@ header
     height: 100%
     border-radius: 8px
     color: white
+    background: white
     box-shadow: $shadow-one
     backface-visibility: hidden
-
-  .front
-    background: white
-
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility: hidden
+    -ms-backface-visibilitys: hidden
+    z-index: 2000 
+    
   .front .card-img
     -webkit-border-top-left-radius: 8px
     -webkit-border-top-right-radius: 8px
@@ -153,7 +159,8 @@ header
       transform: skewY(4deg)
       height: 22px
       width: 100%
-
+      overflow: hidden
+  
     & img
       max-width: 145px
       padding-top: 25px
@@ -169,14 +176,22 @@ header
   .back
     background: white
     transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg)
+    -moz-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg) 
     color: rgba(0, 0, 0, 0.8)
     padding: 25px
     display: flex
     justify-content: center
     align-items: center
 
+  
+
   .card-container:hover .card
     transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg)
+    -moz-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg) 
 
 
 #testimonialSingle
