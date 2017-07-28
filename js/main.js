@@ -45,7 +45,7 @@ $(document).ready(function() {
             }
         });
 
-          // smoth scroll 
+          // smoth scroll
           $(function () {
             $('a[href*="#"]:not([href="#"])').click(function () {
               if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -103,14 +103,15 @@ $(document).ready(function() {
             var mailModel = {
                 Name: $("#contact-name").val(),
                 Email: $("#contact-email").val(),
-                Message: $("#contact-message").val()
+                Message: $("#contact-message").val(),
+                ProjectName: 'Contact Form'
             };
         $.ajax({
                 type: "POST",
                 url: "http://emailer-3.apphb.com/Mail",
                 data: JSON.stringify(mailModel),
                 contentType: "application/json; charset=utf-8",
-                success: function(msg) {         
+                success: function(msg) {
                     $(overlay).delay(1200).fadeOut(600);
                     $(confirmationID).show().delay(2000).fadeOut(300);
                 }
