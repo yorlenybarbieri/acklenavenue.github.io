@@ -45,6 +45,21 @@ $(document).ready(function() {
             }
         });
 
+          // smoth scroll
+          $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+              if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                  $('html, body').animate({
+                    scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+                }
+              }
+            });
+          });
 
         var formContainerID = '#form-container';
         var confirmationID = '#md-confirmation';
@@ -84,19 +99,20 @@ $(document).ready(function() {
         // mail service
         $("#contact-form").submit(function(e) {
             e.preventDefault();
+            $(formContainerID).hide();
             var mailModel = {
                 Name: $("#contact-name").val(),
                 Email: $("#contact-email").val(),
-                Message: $("#contact-message").val()
+                Message: $("#contact-message").val(),
+                ProjectName: 'Contact Form'
             };
-            $.ajax({
+        $.ajax({
                 type: "POST",
                 url: "http://emailer-3.apphb.com/Mail",
                 data: JSON.stringify(mailModel),
                 contentType: "application/json; charset=utf-8",
                 success: function(msg) {
-                    $(formContainerID).hide();
-                    $(overlay).delay(1200).hide(600);
+                    $(overlay).delay(1200).fadeOut(600);
                     $(confirmationID).show().delay(2000).fadeOut(300);
                 }
             }).then(function(data) {

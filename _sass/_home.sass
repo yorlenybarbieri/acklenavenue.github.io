@@ -89,8 +89,10 @@ header
   p
     line-height: 1.7em
     font-size: $title
-    max-width: 600px
+    max-width: 660px
     margin: 0 auto 40px auto
+    span
+      color: $apple-green
   h2
     font-size: $title
     color: $apple-green
@@ -117,6 +119,10 @@ header
     height: 365px
     transition: all 0.6s ease
     transform-style: preserve-3d
+    -webkit-transform-style: preserve-3d
+    -moz-transform-style: preserve-3d
+    -ms-transform-style: preserve-3d
+
 
   .front, .back
     position: absolute
@@ -126,12 +132,14 @@ header
     height: 100%
     border-radius: 8px
     color: white
+    background: white
     box-shadow: $shadow-one
     backface-visibility: hidden
-
-  .front
-    background: white
-
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility: hidden
+    -ms-backface-visibilitys: hidden
+    z-index: 2000 
+    
   .front .card-img
     -webkit-border-top-left-radius: 8px
     -webkit-border-top-right-radius: 8px
@@ -153,7 +161,8 @@ header
       transform: skewY(4deg)
       height: 22px
       width: 100%
-
+      overflow: hidden
+  
     & img
       max-width: 145px
       padding-top: 25px
@@ -169,14 +178,22 @@ header
   .back
     background: white
     transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg)
+    -moz-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg) 
     color: rgba(0, 0, 0, 0.8)
     padding: 25px
     display: flex
     justify-content: center
     align-items: center
 
+  
+
   .card-container:hover .card
     transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg)
+    -moz-transform: rotateY(180deg)
+    -ms-transform: rotateY(180deg) 
 
 
 #testimonialSingle
@@ -449,7 +466,7 @@ header
     & h1
       padding: 20px 20px
     & p
-      font-size: 3em
+      font-size: 2.5em
     & a
       margin: 20px
   header .first-sentence
@@ -462,9 +479,15 @@ header
   header .down-arrow
     display: none
 
+
+
   #drivenByPassion h2
     padding: 20px 20px 40px
 
+  
+  #StressFreeWizardry
+    p
+      font-size: $normal  
 
   #testimonialSingle:before
     min-height: 640px
