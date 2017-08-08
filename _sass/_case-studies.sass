@@ -1,0 +1,112 @@
+section#case-studies-feed
+  max-width: 1120px
+  margin: 0 5%
+
+article.case-study-card
+  display: flex
+  flex-direction: row
+  width: 100%
+  height: 600px
+  margin: 120px auto
+  border-radius: $radius
+  box-shadow: $shadow-one
+  position: relative
+
+.cs-data
+  width: 40%
+  padding: 40px 60px
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  z-index: 10
+  background: white
+
+
+.cs-title
+  font-size: $headline
+
+.cs-slanted-cover
+  width: 60%
+  position: relative
+  .cs-cover-wrapper
+    height: 600px
+    overflow: hidden
+    position: relative
+    border-top-right-radius: $radius
+    border-bottom-right-radius: $radius
+    &::after
+      // Light Purple Slant
+      content: ""
+      position: absolute
+      z-index: 4
+      width: 102%
+      height: 15%
+      left: -10px
+      bottom: 0px
+      transform: rotate(5deg)
+      background: #645C71
+      overflow: hidden
+    &::before
+      // Dark Purple Slant
+      content: ""
+      position: absolute
+      z-index: 5
+      width: 102%
+      height: 15%
+      left: -10px
+      bottom: -60px
+      transform: rotate(5deg)
+      background: #4F4959
+      overflow: hidden
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      z-index: 4
+      position: relative
+  &::before
+    // White Dash
+    content: ""
+    position: absolute
+    z-index: 6
+    width: 100px
+    height: 100%
+    left: -60px
+    top: 0
+    transform: skew(8deg)
+    background: white
+
+.fullcover-case
+  color: white
+  a, .cs-title, .cs-description
+    color: white
+  .cs-data
+    width: 45%
+    background: transparent
+
+.cs-thumbs-wrapper
+  width: 55%
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 11
+
+.cs-thumb-card
+  width: 480px
+  height: 320px
+  border: 15px solid white
+  border-radius: $radius
+  box-shadow: $shadow-one
+  img
+    height: 100%
+    width: 100%
+    object-fit: cover
+
+.fullcover-case-bg
+  display: block
+  width: 100%
+  height: 100%
+  position: absolute
+  z-index: 9
+  border-radius: $radius
+  opacity: 0.85
