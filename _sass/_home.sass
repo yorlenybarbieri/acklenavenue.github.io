@@ -31,7 +31,7 @@ header
     padding: 100px 0 20px 0
     & span
       font-weight: 800
-      text-transform: uppercase  
+      text-transform: uppercase
 
 
   .down-arrow
@@ -49,36 +49,53 @@ header
     overflow: hidden
     text-transform: uppercase
     font-size: $banner
-    animation: heroAnimation 12s ease-in infinite 0s
+    animation: heroAnimation 34s ease-in infinite 0s
 
   .hero-words
     display: inline
     span
       &:nth-child(2)
-        animation-delay: 4s
+        animation-delay: 3s
       &:nth-child(3)
-        animation-delay: 8s
+        animation-delay: 6s
+      &:nth-child(4)
+        animation-delay: 9s
+      &:nth-child(5)
+        animation-delay: 12s
+      &:nth-child(6)
+        animation-delay: 15s
+      &:nth-child(7)
+        animation-delay: 18s
+      &:nth-child(8)
+        animation-delay: 21s
+      &:nth-child(9)
+        animation-delay: 24s
+      &:nth-child(10)
+        animation-delay: 27s
+      &:nth-child(11)
+        animation-delay: 30s
 
   @keyframes heroAnimation
     0%
       opacity: 0
       transform: translateY(10%)
 
+    1%
+      transform: translateY(0%)
+
+    2%
+      opacity: 1
+
     4%
-      transform: translateY(0%)
-
-    10%
-      opacity: 1
-
-    31%
       opacity: 1
       transform: translateY(0%)
 
-    35%
-      transform: translateY(-10%)
-
-    36%
+    5%
       opacity: 0
+
+
+    6%
+      transform: translateY(-20%)
 
 #StressFreeWizardry
   max-width: 1100px
@@ -138,8 +155,8 @@ header
     -webkit-backface-visibility: hidden
     -moz-backface-visibility: hidden
     -ms-backface-visibilitys: hidden
-    z-index: 2000 
-    
+    z-index: 2000
+
   .front .card-img
     -webkit-border-top-left-radius: 8px
     -webkit-border-top-right-radius: 8px
@@ -162,7 +179,7 @@ header
       height: 22px
       width: 100%
       overflow: hidden
-  
+
     & img
       max-width: 145px
       padding-top: 25px
@@ -180,20 +197,20 @@ header
     transform: rotateY(180deg)
     -webkit-transform: rotateY(180deg)
     -moz-transform: rotateY(180deg)
-    -ms-transform: rotateY(180deg) 
+    -ms-transform: rotateY(180deg)
     color: rgba(0, 0, 0, 0.8)
     padding: 25px
     display: flex
     justify-content: center
     align-items: center
 
-  
+
 
   .card-container:hover .card
     transform: rotateY(180deg)
     -webkit-transform: rotateY(180deg)
     -moz-transform: rotateY(180deg)
-    -ms-transform: rotateY(180deg) 
+    -ms-transform: rotateY(180deg)
 
 
 #testimonialSingle
@@ -486,10 +503,10 @@ header
   #drivenByPassion h2
     padding: 20px 20px 40px
 
-  
+
   #StressFreeWizardry
     p
-      font-size: $normal  
+      font-size: $normal
 
   #testimonialSingle:before
     min-height: 640px
@@ -571,7 +588,7 @@ header
   #factsAndTech
     & .facts__content
       padding: 40px 20px
-      
+
   #contact-form
     & .flex-direction
       flex-direction: column
