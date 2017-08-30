@@ -21,7 +21,6 @@ article.case-study-card
   z-index: 10
   background: white
 
-
 .cs-title
   font-size: $headline
 
@@ -81,10 +80,10 @@ article.case-study-card
   position: absolute
   height: auto
   max-width: 300px
+  max-height: 500px
   z-index: 4
   bottom: 10px
-  right: 20%
-  border: 10px solid white
+  right: 25%
   border-radius: $radius
   overflow: hidden
   box-shadow: $shadow-one
@@ -96,6 +95,7 @@ article.case-study-card
   .cs-data
     width: 45%
     background: transparent
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
 
 .cs-thumbs-wrapper
   width: 55%
@@ -105,15 +105,15 @@ article.case-study-card
   z-index: 11
 
 .cs-thumb-card
-  width: 480px
-  height: 320px
-  border: 15px solid white
+  width: 560px
+  height: 360px
+  // border: 15px solid white
   border-radius: $radius
-  box-shadow: $shadow-one
+  // box-shadow: $shadow-one
   img
     height: 100%
     width: 100%
-    object-fit: cover
+    object-fit: contain
 
 .fullcover-case-bg
   display: block
