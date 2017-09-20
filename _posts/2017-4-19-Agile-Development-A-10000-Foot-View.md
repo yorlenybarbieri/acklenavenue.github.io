@@ -30,7 +30,7 @@ While Mark Zuckerberg obviously is a visionary who went on to change the world, 
 This is the benefit of focusing on small, critical slices. As much as you think you know exactly what you want, at the beginning of any project, you stand at the Point of Maximum Ignorance. Why would you invest a day more than you have to without testing and validating and watching your users play with your product?
 
 <div style="text-align:center; padding:50px 30px;">
-  <a href="/img/posts/agile-scrum.png" class="btn btn--apple hvr-ripple-out" >Download the Infographic</a>
+  <a href="/img/posts/Agile-scrum.png" class="btn btn--apple hvr-ripple-out" >Download the Infographic</a>
 </div>
 
 ## Agile Development Background
@@ -49,5 +49,5 @@ We haven’t even scratched the surface of how to capture the value that agile o
 
 Download our infographic to see what agile looks like in the real world.
 <div style="text-align:center; padding:50px 30px;">
-  <a href="/img/posts/agile-scrum.png" class="btn btn--apple hvr-ripple-out" >Download the Infographic</a>
+  <a href="/img/posts/Agile-scrum.png" class="btn btn--apple hvr-ripple-out" >Download the Infographic</a>
 </div>
