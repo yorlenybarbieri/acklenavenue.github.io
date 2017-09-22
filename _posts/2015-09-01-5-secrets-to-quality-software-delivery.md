@@ -11,7 +11,7 @@ tags: tips_,_tricks_&_secrets
 Quality Software works as expected today and can be easily modified 6 months later. How can a team consistently produce software with a high level of quality? In other words, how can we as software development professionals 1) fulfill requirements through working software and 2) ensure that our code is maintainable by others late on? Acklen Avenue does this on a daily basis and has, over the years, discovered some repeatable “secrets”.
 
 ## Manage client expectations
-<img src='/img/posts/client-expectations.jpg' style="float: left; padding: 10px;width:200px"/>
+<img src='/img/posts/Client-Expectations.jpg' style="float: left; padding: 10px;width:200px"/>
 The client's perception of the quality of your software is what decides the level of quality. If they feel like they're getting a raw deal, then it ruins any effort you have made to maintain high quality in other areas. The #1 most important key to delivering high quality software is "managing client expectations" regarding doneness, timeframe, and cost. You can deliver the highest quality piece of code ever written, but if it is delivered late, costs more than budgeted, doesn’t meet client desires, and the client was not prepared -- then everything you did (great or not) is colored by a bad perception. Perception is reality, therefore you failed to deliver high quality. On the other hand, if the client is 1) well informed from day 0 (way before the project starts), 2) they know what to expect every step of the way, and 3)they have had a hand in deciding what to do when a feature is discovered to be underestimated, then your clients favorable perception will allow the quality of your delivered product to shine through.
 
 ## QA on the Heels of Devs
