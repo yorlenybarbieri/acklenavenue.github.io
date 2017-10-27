@@ -50,7 +50,7 @@ These are all elements of agile, or more appropriately, [ceremonies](https://gur
 driving you and your team into action that is a major indicator that your organization is AITO.
 
 <div style="text-align:center; padding:50px 30px;">
-  <a href="/img/posts/Agile-scrum.png" class="btn btn--apple hvr-ripple-out" >So what does agile look like?</a>
+  <a href="/img/posts/agile-scrum.png" class="btn btn--apple hvr-ripple-out" >So what does agile look like?</a>
 </div>
 
 ## Are you AITO?

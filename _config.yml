@@ -20,6 +20,8 @@ source: .
 destination: ./_site
 permalink: /:title
 
+permalink: /404.html 
+
 development:
   app_url: "http://localhost:4000/"
 
