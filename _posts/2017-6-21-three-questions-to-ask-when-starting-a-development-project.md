@@ -15,7 +15,7 @@ But you need some help making this idea become a reality.
 You know you need to hire a development team, and you want to get your idea to market as fast as possible. As long as
 they get the job done, does the development method matter?
 
-Below are three questions to ask yourself before selecting your development team
+Below are three questions to ask yourself before selecting your development team.
 
 ## What kind of idea do I have and what do I know about it? ##
 
