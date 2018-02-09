@@ -1,0 +1,541 @@
+header.page-header
+  &--hurdl
+    background: $slate-purple url(../img/bg-hurdl-case-study.png) no-repeat center bottom
+  &--tafs
+    background: $slate-purple url(../img/bg-tafs-case-study.png) no-repeat center bottom
+  &--drillnomics
+    background: $slate-purple url(../img/bg-drillnomics-case-study.png) no-repeat center bottom
+
+
+.text-block
+  max-width: 1100px
+  margin: 0 auto
+  text-align: center
+  padding: 80px 25px
+  text-align: left
+  & h2
+    padding: 30px
+    text-align: center
+  & p
+    line-height: 40px
+  &--small
+    max-width: 650px
+  &--centered
+    text-align: center
+  &--two-columns
+    column-count: 2
+    column-gap: 65px
+
+.showcase
+  max-width: 900px
+  margin: 0 auto
+  text-align: center
+  padding: 50px 0
+  & small
+    display: block
+    font-style: italic
+    padding: 20px
+    max-width: 500px
+    margin: 0 auto
+
+  &__hurdl
+    &--pixl
+      max-width: 400px
+    &--raspberry
+      max-width: 650px
+      transform: rotate(-12deg)
+
+.screens
+  text-align: center
+  padding: 80px 20px
+  position: relative
+  &--hurdl
+    max-width: 900px
+    margin: 0 auto
+    padding: 30px
+    &__caption
+      padding: 50px 0
+    & h2
+      padding: 30px 0
+  &--hurdl:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    min-height: 500px
+    top: 460px
+    left: 0
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: $pale-grey
+    border-top: 1px solid $black-12
+    border-bottom: 1px solid $black-12
+  &--hurdl__twoScreens
+    position: relative
+    &__one
+      position: relative
+      top: 0
+      right: 200px
+      padding: 20px
+    &__two
+      position: absolute
+      top: 180px
+      left: 200px
+      padding: 20px
+
+  &--tafs
+    max-width: 1100px
+    margin: 0 auto
+    padding: 30px
+    &__caption
+      padding: 50px 0
+    & h2
+      padding: 30px 0
+    & p
+      text-align: left
+      padding: 10px
+
+  &--tafs:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    min-height: 1400px
+    bottom: 700px
+    left: 0
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: $pale-grey
+    border-top: 1px solid $black-12
+    border-bottom: 1px solid $black-12
+
+  &--tafs__screens
+    padding: 100px 0
+    &__one
+      max-width: 300px
+ 
+    &__two
+      max-width: 300px
+      position: relative
+      top: 50px
+     
+    &__three
+      max-width: 300px
+      position: relative
+      top: 100px
+
+  &--drillnomics
+    max-width: 900px
+    margin: 0 auto
+    padding: 30px 0
+    &__caption
+      padding: 50px 0
+      & h2
+        padding: 30px 0
+  &--drillnomics:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    min-height: 1000px
+    top: 460px
+    left: 0
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: $pale-grey
+    border-top: 1px solid $black-12
+    border-bottom: 1px solid $black-12
+  &--drillnomics__twoScreens
+    position: relative
+    &__one
+      position: relative
+      top: 0
+      right: 200px
+      padding: 20px
+    &__two
+      position: absolute
+      top: 80px
+      left: 200px
+      padding: 20px
+   
+.iconHurdl
+  width: 90px
+  height: 94px
+  margin: 30px
+
+.approach
+  max-width: 1100px
+  margin: 0 auto
+  text-align: center
+  padding: 80px 20px
+  text-align: center
+  & h2
+    padding: 30px
+  &__card-container
+    margin: 0 auto
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    &__card
+      margin: 15px
+      box-shadow: $shadow-one
+      display: inline-block
+      background: white
+      border-radius: $radius
+      padding: 25px
+      width: 300px
+      height: 365px
+ 
+.theEvolution--hurdl
+  text-align: center
+  padding: 600px 20px 80px
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    min-height: 700px
+    top: 0
+    left: 0
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: url(../img/bg-hurdl-theEvolution.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    background-attachment: fixed
+  &__box
+    box-shadow: $shadow-one
+    background: white
+    border-radius: $radius
+    max-width: 900px
+    margin: 0 auto
+    padding: 30px
+    & h2
+      padding: 30px
+    &__item
+      display: flex
+      padding: 20px 0
+      text-align: left 
+
+.tecnologiesUsed
+  max-width: 1100px
+  margin: 0 auto
+  text-align: center
+  padding: 80px 20px
+  & h2
+    padding: 30px 0
+  & ul li
+    display: inline-block
+    text-decoration: none
+    padding: 20px 60px
+    border: 1px solid $black-12
+    margin: 10px
+    border-radius: $radius
+  	
+.theResults
+  text-align: center
+  position: relative
+  &__box
+    box-shadow: $shadow-one
+    background: white
+    border-radius: $radius
+    max-width: 900px
+    margin: 0 auto
+    padding: 60px
+    & h2
+      padding: 30px
+  &--hurdl
+    padding: 120px 20px 250px
+    &:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 600px
+      top: 450px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $slate-purple url(../img/bg-hurdl.jpg)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+
+  &--tafs
+    padding: 120px 20px 250px
+    &:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 600px
+      top: 200px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $slate-purple url(../img/bg-tafs.jpg)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+  &--drillnomics
+    padding: 120px 20px 250px
+    &:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 600px
+      top: 220px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $slate-purple url(../img/bg-drillnomics-case-study.png)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+
+.callToAction
+  max-width: 700px
+  margin: 80px auto
+  text-align: center
+  padding: 80px 20px
+  & h2
+    padding: 20px 
+    font-weight: 300
+
+@media (min-width: $screen-xm-min) and (max-width: $screen-sm-min)
+  .text-block
+    &--two-columns
+      column-count: 1
+      column-gap: 0
+  .showcase
+    max-width: 900px
+    margin: 0 auto
+    text-align: center
+    padding: 50px 20px
+    & small
+      display: block
+      font-style: italic
+      padding: 20px
+      max-width: 500px
+      margin: 0 auto
+
+    &__hurdl
+      &--pixl
+        max-width: 400px
+      &--raspberry
+        max-width: 650px
+        transform: none
+
+  .approach
+    &__card-container
+      flex-direction: column
+  .theEvolution--hurdl
+    text-align: center
+    padding: 600px 20px 80px
+    position: relative
+    &:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 700px
+      top: 0
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: url(../img/bg-hurdl-theEvolution.png)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: -100px 0
+      background-attachment: fixed
+    &__box
+      box-shadow: $shadow-one
+      background: white
+      border-radius: $radius
+      max-width: 900px
+      margin: 0 auto
+      padding: 30px
+      & h2
+        padding: 30px
+      &__item
+        display: flex
+        padding: 20px 0
+        text-align: left
+        flex-direction: column
+        align-items: center 
+
+  .screens
+    text-align: center
+    padding: 80px 20px
+    position: relative
+    &--hurdl
+      max-width: 900px
+      margin: 0 auto
+      padding: 30px
+      &__caption
+        padding: 50px
+      & h2
+        padding: 30px
+    &--hurdl:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 500px
+      top: 160px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $pale-grey
+      border-top: 1px solid $black-12
+      border-bottom: 1px solid $black-12
+    &--hurdl__twoScreens
+      position: relative
+      &__one
+        position: relative
+        top: 0
+        right: 0px
+        padding: 0px
+      &__two
+        position: absolute
+        top: 190px
+        left: 0px
+        padding: 0px
+
+    &--tafs
+      max-width: 1100px
+      margin: 0 auto
+      padding: 0px
+      &__caption
+        padding: 50px 0
+      & h2
+        padding: 30px 0
+      & p
+        text-align: left
+        padding: 10px
+
+    &--tafs:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 1400px
+      bottom: 225px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $pale-grey
+      border-top: 1px solid $black-12
+      border-bottom: 1px solid $black-12
+
+    &--tafs__screens
+      padding: 50px 0
+      &__one
+        max-width: 300px
+   
+      &__two
+        max-width: 300px
+        position: relative
+        top: 50px
+       
+      &__three
+        max-width: 300px
+        position: relative
+        top: 100px
+
+    &--drillnomics:before
+      content: ""
+      position: absolute
+      z-index: -1
+      width: 100%
+      min-height: 900px
+      top: 60px
+      left: 0
+      transform: skewY(6deg)
+      transform-origin: 0
+      background: $pale-grey
+      border-top: 1px solid $black-12
+      border-bottom: 1px solid $black-12
+    &--drillnomics__twoScreens
+      position: relative
+      &__one
+        position: relative
+        top: -180px
+        right: 0px
+        padding: 0px
+      &__two
+        position: absolute
+        top: 0px
+        left: 0px
+        padding: 0px
+
+  .tecnologiesUsed
+    & ul li
+      width: 100%
+      margin: 10px 0
+
+  .theResults
+    text-align: center
+    position: relative
+    &__box
+      box-shadow: $shadow-one
+      background: white
+      border-radius: $radius
+      max-width: 900px
+      margin: 0 auto
+      padding: 25px
+      & h2
+        padding: 30px
+    &--hurdl
+      padding: 60px 20px 250px
+      &:before
+        content: ""
+        position: absolute
+        z-index: -1
+        width: 100%
+        min-height: 1200px
+        top: 450px
+        left: 0
+        transform: skewY(6deg)
+        transform-origin: 0
+        background: $slate-purple url(../img/bg-hurdl.jpg)
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+
+    &--tafs
+      padding: 120px 20px 250px
+      &:before
+        content: ""
+        position: absolute
+        z-index: -1
+        width: 100%
+        min-height: 600px
+        top: 425px
+        left: 0
+        transform: skewY(6deg)
+        transform-origin: 0
+        background: $slate-purple url(../img/bg-tafs.jpg)
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+    &--drillnomics
+      padding: 120px 20px 250px
+      &:before
+        content: ""
+        position: absolute
+        z-index: -1
+        width: 100%
+        min-height: 600px
+        top: 450px
+        left: 0
+        transform: skewY(6deg)
+        transform-origin: 0
+        background: $slate-purple url(../img/bg-drillnomics-case-study.png)
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
