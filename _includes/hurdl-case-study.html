@@ -1,0 +1,115 @@
+<section class="text-block">
+	<h2>Project Summary</h2>
+	<p class="text-block--two-columns" >Hurdl is a wearable device and big data startup in the entertainment industry. They provide customizable wearables (Pixl) for large events (concerts, games, etc).
+	Each Pixl is  custom-programmed by the wearer using an event-specific survey via SMS. Prior to Acklen Avenue, Hurdl had the ability to custom-program the devices, but couldn’t conduct surveys of the users or send the configuration data from the cloud to the user.
+	</p>
+</section>
+<section class="showcase ">
+	<img class="showcase__hurdl--pixl" src="img/pixl-device.png" alt="pixl device">
+	<small>Pixl Device</small>
+</section>
+<section class="text-block text-block--small">
+	<h2>The Challenge</h2>
+	<p class="text-block--centered">Hurdl was able to custom program their wearables (Pixl) but they were not able to conduct surveys of users or send configuration data from the cloud to the user.</p>
+</section>
+<section class="approach">
+	<h2>The Approach</h2>
+	<div class="approach__card-container">
+		<div class="approach__card-container__card">
+			<img class="iconHurdl" src="img/iconHurdl--device.svg" alt="device">
+			<p>Built a SMS-based survey system for Twillio w/ ability to migrate to other vendors if needed</p>
+		</div>
+		<div  class="approach__card-container__card">
+			<img class="iconHurdl" src="img/iconHurdl--gear.svg" alt="gear">
+			<p>Built a backend to create survey questions (AWS)</p>
+		</div>
+		<div class="approach__card-container__card">
+			<img class="iconHurdl" src="img/iconHurdl--raspberry.svg" alt="raspberry">
+			<p>Built Raspberry Pi software to pull survey answers and broadcast to the Pixl devices</p>
+		</div>
+	</div>
+</section>
+<section class="showcase">
+	<img class="showcase__hurdl--raspberry" src="/img/raspberry_limeball.png" alt="">
+	<div class="showcase__caption"><small>We built the Hurdle Antenna Interface. A bridge between the registration database, a DMX Console and the Pixls.</small></div>
+</section>
+<section class="theEvolution--hurdl">
+	<div class="theEvolution--hurdl__box">
+		<h2>The Evolution</h2>
+	<div class="theEvolution--hurdl__box__item">
+		<div class="flex-25">
+			<img class="iconHurdl" src="img/iconHurdl--sway.svg" alt="">
+		</div>
+		<div class="flex-75">
+			<h3>Repeated zig-zags based on client need</h3>
+			<ul class="check">
+				<li><span>Researching &amp; integrating 3rd party datasets</span></li>
+				<li><span>Migrate website to AWS platform</span></li>
+				<li><span>Other ‘urgent’ requests because of startup nature of business</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="theEvolution--hurdl__box__item">
+		<div class="flex-25">
+			<img class="iconHurdl" src="img/iconHurdl--comment.svg" alt="">
+		</div>
+		<div class="flex-75">
+			<h3>Client had other visions/goals that we helped evaluate </h3>
+			<ul class="check">
+				<li><span>Big data</span></li>
+				<li><span>Migrate website to AWS platform</span></li>
+				<li><span>Other ‘urgent’ requests because of startup nature of business</span></li>
+			</ul>
+		</div>
+	</div>
+	</div>	
+</section>
+<section class="screens" >
+	<div class="screens--hurdl">
+		<img src="img/hurdl-dashboard-1.png" alt="">
+		<div class="screens--hurdl__caption">
+			<small>Users can manage SMS questions and events preferences through the platform in real-time </small>
+		</div>
+		<div class="screens--hurdl__twoScreens" >
+			<img class="screens--hurdl__twoScreens__one" src="img/hurdl-dashboard-3.png" alt="">
+			<img class="screens--hurdl__twoScreens__two" src="img/hurdl-dashboard-2.png" alt="">
+		</div>
+	</div>
+</section>
+<section class="tecnologiesUsed">
+	<h2>Technologies Used</h2>
+	<ul>
+		<li>Nancy Fx</li>
+		<li>SQL server</li>
+		<li>.NET</li>
+		<li>Angular Material</li>
+		<li>AWS Lambda</li>
+		<li>Nhibernate</li>
+		<li>Angular JS</li>
+		<li>Electron</li>
+	</ul>
+</section>
+<section class="theResults theResults--hurdl">
+	<div class="theResults__box">
+		<h2>The Results</h2>
+		<ul class="check">
+			<li><span>We built an SMS platform capable of interacting with any cloud-based SMS vendor</span></li>
+			<li><span>A website so users could easily log in, add new events, update questions and see real-time data from the event</span></li>
+			<li><span>An app for Raspberry Pi to download the survey results and transmit them to the Pixls</span></li>
+			<li><span>Hurdl now has in-house developer(s) continuing working on project and using our code to further their company goals.</span></li>
+			<li><span>Hurdl identified that there were two discrete products (big data play &amp; SMS Pixl) and went through a re-org to help them grow both. While we didn’t directly influence, our involvement helped them ID the pain point &amp; indirectly led to a solution.</span></li>
+		</ul>
+		<a class="hvr-icon-forward" target="_blank" href="https://www.hurdl.com/">www.hurdl.com</a>
+	</div>
+</section>
+<section id="testimonialSingle" >
+	<div class="testimonial__contain">
+		<img class="rouded-img"  src="img/zach-shunk.jpg">
+		<h3>Zach Shunk</h3>
+		<h4 class="testimonial-founder">Co-Founder / CTO at Hurdl Enterprises</h4>
+		<span class="quotesign">&#8220;</span>
+		<p><em>They have been able to help non-tech people understand advanced software development. They have your best interests at heart and they take ownership. They’re a great team and tool. They make software make sense</em></p>
+
+	</div>
+</section>
+{% include callToAction.html %}

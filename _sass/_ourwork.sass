@@ -1,0 +1,181 @@
+
+header.page-header--ourwork h1
+  margin: 25px 5% 10px 5%
+
+#ourwork
+  width: 100%
+  margin: 0 auto
+  position: relative
+  padding: 70px 0
+
+  &:after
+    content: ""
+    position: absolute
+    z-index: -1
+    width: 100%
+    height: 100vh
+    left: 0
+    top: 200px
+    transform: skewY(6deg)
+    transform-origin: 0
+    background: white
+    border-top: 1px solid rgba(0, 0, 0, 0.12)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+
+
+  .casestudy
+    max-width: 1100px
+    margin: 80px auto
+    display: flex
+    box-shadow: $shadow-two
+    border-radius: $radius
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+  
+    &__photo--layout-A
+      background-size: cover
+      min-height: 430px
+      border-radius: $radius
+      -webkit-border-radius: $radius
+      -moz-border-radius: $radius
+      position: relative
+      overflow: hidden
+      &--tafs1
+        max-width: 336px
+        bottom: -114px
+        z-index: 3
+      &--tafs2
+        max-width: 300px
+        right: 40px
+        bottom: -100px
+      & img
+        position: absolute
+
+      &--background-one
+        background-image: url('../img/bg-tafs.jpg')
+        background-size: cover
+
+    &__content--layout-A
+      background-color: white
+      position: relative
+      border-radius: $radius
+      -webkit-border-radius: $radius
+      -moz-border-radius: $radius
+      z-index: 1
+      padding: 60px 60px
+      &__clientsite
+        color: $apple-green
+        padding: 15px
+      h2, p
+        color: $black-80
+        padding: 15px
+      h2
+        font-size: 2.1em
+
+    &__content--layout-A:after
+      content: ""
+      position: absolute
+      z-index: -2
+      width: 100%
+      height: 100%
+      left: 70px
+      top: 0
+      transform: skew(-12deg)
+      background: white
+    
+    &__photo--layout-B
+      position: relative
+      & img
+        position: absolute
+      &--hurdl1
+        max-width: 500px
+        bottom: 60px
+      &--hurdl2
+        max-width: 192px
+        bottom: 8px
+      &--drillnomics
+        max-width: 600px
+        top: 122px
+        left: -20px
+   
+    &__content--layout-B
+      position: relative
+      border-radius: $radius
+      -webkit-border-radius: $radius
+      -moz-border-radius: $radius
+      z-index: 1
+      padding: 60px 60px
+      &__clientsite
+        color: white
+        padding: 15px
+      h2, p
+        color: white
+        padding: 15px
+      a h2
+        font-size: 2.1em
+
+    &--background-one
+      background-image: url('../img/bg-hurdl.jpg')
+      background-size: cover
+    &--background-two
+      background-image: url('../img/bg-drillnomics.jpg')
+      background-size: cover
+      background-position: bottom
+
+
+@media (min-width: $screen-xm-min) and (max-width: $screen-sm-min)
+  header.page-header--ourwork h1
+    margin: 65px 5% 10px 5%
+
+  #ourwork
+    padding: 10px 15px
+    &:after
+      display: none
+
+    .casestudy
+      margin: 40px auto
+      display: flex
+    
+      &__photo--layout-A
+        display: none
+
+      &__content--layout-A
+        background-color: white
+        position: relative
+        border-radius: $radius
+        -webkit-border-radius: $radius
+        -moz-border-radius: $radius
+        z-index: 1
+        padding: 60px 30px
+        &__clientsite
+          color: $apple-green
+          padding: 15px
+        h2, p
+          color: $black-80
+          padding: 15px
+        h2
+          font-size: 2.3em
+
+      &__content--layout-A:after
+        display: none
+      
+      &__photo--layout-B
+        display: none
+     
+      &__content--layout-B
+        position: relative
+        border-radius: $radius
+        -webkit-border-radius: $radius
+        -moz-border-radius: $radius
+        z-index: 1
+        padding: 60px 30px
+        &__clientsite
+          color: white
+          padding: 15px
+        h2, p
+          color: white
+          padding: 15px
+        h2
+          font-size: 2.3em
+      
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-min)
