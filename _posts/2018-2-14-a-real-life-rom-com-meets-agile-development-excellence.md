@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Acklen Avenue, A Real-Life Rom Com Meets Agile Development Excellence
+title:  A Real-Life Rom Com Meets Agile Development Excellence
 date:   2018-2-14
 author: Fernanda Mezquita & Byron Sommardahl
 excerpt: The story behind Acklen Avenue has nothing to do with business strategy. It is a story born out of love.
