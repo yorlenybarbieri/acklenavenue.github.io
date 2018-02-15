@@ -2,16 +2,15 @@
 layout: post
 title:  A Real-Life Rom Com Meets Agile Development Excellence
 date:   2018-2-14
-author: Fernanda Mezquita & Byron Sommardahl
+author: Fernanda Mezquita 
 excerpt: The story behind Acklen Avenue has nothing to do with business strategy. It is a story born out of love.
 image: /img/posts/sommardahl-family.jpg
 tags: news
 ---
-The most frequently asked question potential clients make have absolutely nothing to do with business. It's not, “How long will a project take,” or even, “How much will it cost?” The most popular question for Acklen Avenue is, “Why is Byron in Honduras?”. 
 
 It was never in the business plan for Acklen cofounders Colin Callahan and Byron Sommardahl to work with developers outside the United States. They knew they wanted to build excellent software that makes the world a better place, and in those early days, they were the coding manpower that made it happen. So how did Acklen go from two devs in middle Tennessee to being a bi-national company of nearly 80 full-time employees, and the largest employer of developers in Honduras? 
 
-The story behind this “why” has also nothing to do with business strategy or cost savings. It is not a story about supply and demand of software services, or unfulfilled market needs. The story behind Acklen Avenue is born out of love.
+The story behind this “how” has also nothing to do with business strategy or cost savings. It is not a story about supply and demand of software services, or unfulfilled market needs. The story behind Acklen Avenue is born out of love.
 
 Let’s go back a few years, circa 2009, just before Acklen Avenue was born. Byron, a developer from Murfreesboro, Tennessee, found himself surrounded with family and friends who were getting married or growing families. Being a bit distant from this scenario, Byron heard a sermon at his church that stuck with him. 
 
