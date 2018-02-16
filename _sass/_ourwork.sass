@@ -50,6 +50,10 @@ header.page-header--ourwork h1
         bottom: -100px
       & img
         position: absolute
+        transition: 200ms ease-in-out
+      & img:hover
+        transition: 200ms ease-in-out
+        transform: translate(0,-15px)
 
       &--background-one
         background-image: url('../img/bg-tafs.jpg')
@@ -87,6 +91,10 @@ header.page-header--ourwork h1
       position: relative
       & img
         position: absolute
+        transition: 200ms ease-in-out
+      & img:hover
+        transition: 200ms ease-in-out
+        transform: translate(0,-15px)
       &--hurdl1
         max-width: 500px
         bottom: 60px
@@ -111,7 +119,7 @@ header.page-header--ourwork h1
       h2, p
         color: white
         padding: 15px
-      a h2
+      h2
         font-size: 2.1em
 
     &--background-one
@@ -154,7 +162,7 @@ header.page-header--ourwork h1
           color: $black-80
           padding: 15px
         h2
-          font-size: 2.3em
+          font-size: $title
 
       &__content--layout-A:after
         display: none
@@ -176,6 +184,4 @@ header.page-header--ourwork h1
           color: white
           padding: 15px
         h2
-          font-size: 2.3em
-      
-@media (min-width: $screen-sm-min) and (max-width: $screen-md-min)
+          font-size: $title
