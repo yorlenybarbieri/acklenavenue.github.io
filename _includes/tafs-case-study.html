@@ -5,7 +5,7 @@
 	</p>
 </section>
 <section class="showcase">
-	<img src="img/tafs-app.png" alt="pixl device">
+	<img src="{{ "/img/tafs-app.png" | prepend: base_url }}" alt="pixl device">
 	<small>Tafs Mobile App</small>
 </section>
 <section class="text-block text-block--small">
@@ -23,9 +23,9 @@
 <section class="screens" >
 	<div class="screens--tafs ">
 		<div class="screens--tafs__screens">
-			<img class="screens--tafs__screens__one" src="img/tafs-screens-1.png" alt="">
-			<img class="screens--tafs__screens__two" src="img/tafs-screens-2.png" alt="">
-			<img class="screens--tafs__screens__three" src="img/tafs-screens-3.png" alt="">
+			<img class="screens--tafs__screens__one" src="{{ "/img/tafs-screens-1.png" | prepend: base_url }}" alt="">
+			<img class="screens--tafs__screens__two" src="{{ "/img/tafs-screens-2.png" | prepend: base_url }}" alt="">
+			<img class="screens--tafs__screens__three" src="{{ "/img/tafs-screens-3.png" | prepend: base_url }}" alt="">
 		</div>
 		<div class="screens--tafs__caption">
 			<h2>The Evolution</h2>
@@ -33,7 +33,7 @@
 			</p>
 			<p>The camera functionality was especially challenging on IOS but over the course of a few sprints we were able to find a solution that worked with the app. There have been a few roadblocks with 3rd party applications that were integrated with the app but we have overcome all of them so far and now have a very stable app that is helping clients receive funds faster and a much easier process for the TAFS team. </p>
 		</div>
-		<img src="img/tafs-screens-cam.png" alt="">
+		<img src="{{ "/" | prepend: base_url }}img/tafs-screens-cam.png" alt="">
 		
 	</div>
 </section>

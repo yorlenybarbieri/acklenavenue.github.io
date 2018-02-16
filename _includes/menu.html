@@ -4,9 +4,10 @@
 
 	<div class="logo">
 		<a href="{{ "/" | prepend: base_url }}">
-		<img src="img/aa-logo.svg" alt="Acklen Avenue Logo"></a>
+		<img src="{{ "/img/aa-logo.svg" | prepend: base_url }}" alt="Acklen Avenue Logo"></a>
 	</div>
 	<ul class="nav-bullets">
+		<li><a href="{{ "/our-work/" | prepend: base_url }}">Our Work</a></li>
 		<li><a href="{{ "/blog.html" | prepend: base_url }}">Blog</a></li>
 		<li><a class="md-trigger" data-modal="modal-13">Say Hello</a></li>
 	</ul>
