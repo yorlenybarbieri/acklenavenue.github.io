@@ -1,0 +1,105 @@
+
+.member-card
+	width: 260px
+	height: 426px
+	border-radius: 8px
+	overflow: hidden
+	background-color: $pale-grey
+	box-shadow: $shadow-one
+	position: relative
+	display: inline-flex
+	flex-direction: column
+	margin-top: 50px
+
+	&:hover .member-card__quote 
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 270px
+		padding-left: 5%
+		padding-right: 5%
+		font-size: 24px
+		font-weight: bold
+		position: absolute
+		z-index: 1
+		margin: auto
+	&:hover .member-card__img
+		opacity: .5	
+		filter: grayscale(100%)
+
+
+.member-card__img-container
+	background-color: $apple-green
+	height: 270px
+
+.member-card__img
+	height: 100%
+	width: auto
+
+.member-card__quote
+	display: none
+	p
+		color: $white
+		text-align: center
+
+.member-card__info
+	display: flex
+	align-items: center
+	flex-direction: column
+	justify-content: center
+	height: 156px
+
+.member-card__name
+	color: $apple-green
+	font-weight: 800
+	font-size: 19px
+
+.member-card__position
+	font-size: 14px
+	font-weight: 800
+
+.member-card__location
+	font-size: 14px
+
+.member-card__icons
+	width: 50%
+	display: flex
+	justify-content: space-between
+
+.member-card__img-container:after
+	width: 0
+	height: 0 
+	border-left: 20px solid transparent  /* left arrow slant */
+	border-right: 20px solid transparent /* right arrow slant */
+	border-bottom: 20px solid $pale-grey /* bottom, add background color here */
+	font-size: 0
+	line-height: 0
+	content: ""
+	position: absolute
+	top: 250px
+	left: calc(50% - 20px)
+	z-index: 2
+
+.icon
+	display: inline-block
+	width: 1.5em
+	height: 1.5em
+	stroke-width: 0
+	stroke: currentColor
+	fill: $apple-green
+	&:hover
+		fill: $slate-purple
+
+.teamlist
+	display: flex
+	flex: 1 1 33.33333%
+	align-items: center
+	justify-content: space-evenly
+	width: 100%
+	max-width: 1140px
+	margin: auto
+	flex-wrap: wrap
+
+.teamlist__title
+	text-align: center
+	margin-top: 50px
