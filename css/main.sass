@@ -164,8 +164,44 @@ img
       color: $slate-purple
       transition: all .2s ease-in-out
 
+.btn--ghost
+  background: transparent
+  border: 1px solid #ffffff
+
+//tabs style
+
+.section-tabs
+  color: $black-80
+  width: 100%
+  margin-top: 20px
+  ul
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    margin: auto
+    width: 100%
+  li.tab--white
+    list-style: none
+    width: 25%
+    min-width: 200px
+    max-width: 300px
+    padding: 10px 25px
+    font-size: 1.4em
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1)
+    border-radius: 8px
+    cursor: pointer
+    background: #fff
+    margin: 5px 2%
+    text-align: center
+    font-size: 1.618em
+  li.tab--active
+    border: 2px solid $apple-green
+
 .hidden
   display: none !important
+
+//section nav
+
 
 
 // Ripple Out button effect
