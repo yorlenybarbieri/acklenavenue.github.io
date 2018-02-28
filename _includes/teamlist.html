@@ -2,17 +2,8 @@
 
 <div class="teamlist">
 
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
-{% include teamcard.html %}
 
+{% for member in site.data.team %}
+	{% include teamcard.html member=member %}
+{% endfor %}
 </div>
