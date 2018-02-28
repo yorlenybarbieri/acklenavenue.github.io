@@ -2,26 +2,37 @@
 <div class="member-card">
 	<div class="member-card__img-container">
 		<div class="member-card__quote">
-			<p>“Rápido como bus en bajada"</p>
+			<p>{{ member.quote }}</p>
 		</div>
-		<img class="member-card__img" src="img/phtm.jpg">
+		<img class="member-card__img" src="https://www.gravatar.com/avatar/{{ member.gravatarEmail | remove: ' ' | strip_newlines | downcase | md5 }}?s=200&d=mm">
 	</div>
 
 	<div class="member-card__info">
 		<p class="member-card__name">
-			Fernando Guevara
+			{{ member.name  }} {{ member.lastName }}
 		</p>
 		<p class="member-card__position">
-			Senior Designer
+			{{ member.position }}
 		</p>
 		<p class="member-card__location">
-			Donostia, Spain
+			{{ member.location }}
 		</p>
 		<div class="member-card__icons">
-			<a href=""><svg class="icon icon-twittergreen"><use xlink:href="img/external-links.svg#icon-twittergreen"></use></svg></a>
-			<a href=""><svg class="icon icon-facebookgreen"><use xlink:href="img/external-links.svg#icon-facebookgreen"></use></svg></a>
-			<a href=""><svg class="icon icon-linkedingreen"><use xlink:href="img/external-links.svg#icon-linkedingreen"></use></svg></a>
-			<a href=""><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen"></use></svg></a>
+			{% unless member.twitter == ''  %}
+				<a href="{{member.twitter}}"><svg class="icon icon-twittergreen"><use xlink:href="img/external-links.svg#icon-twittergreen"></use></svg></a>
+			{% endunless %}
+
+			{% unless member.facebook == '' %}
+				<a href="{{member.facebook}}"><svg class="icon icon-facebookgreen"><use xlink:href="img/external-links.svg#icon-facebookgreen"></use></svg></a>
+			{% endunless %}
+
+			{% unless member.linkedin == ''  %}
+				<a href="{{member.linkedin}}"><svg class="icon icon-linkedingreen"><use xlink:href="img/external-links.svg#icon-linkedingreen"></use></svg></a>
+			{% endunless %}
+	
+			{% unless member.github == ''  %}
+				<a href="{{member.github}}"><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen"></use></svg></a>
+			{% endunless %}
 		</div>		
 	</div>
 </div>

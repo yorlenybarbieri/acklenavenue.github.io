@@ -1,0 +1,28 @@
+[
+	{
+	  "name":"Dennis",
+	  "lastName":"Molina",
+	  "gravatarEmail": "dennismolina.17@gmail.com",
+	  "position": "Developer",
+	  "location":"San Pedro Sula, Honduras",
+	  "department": "developer",
+	  "facebook":"facebook",
+	  "twitter":"twitter",
+	  "github":"github",
+	  "linkedin":"linkedin",
+	  "quote":"Acklen Avenue Rocks!"
+	},
+	{
+	  "name":"Fernando",
+	  "lastName":"Guevara",
+	  "gravatarEmail": "fernando@acklenavenue.com",
+	  "position": "position",
+	  "location":"location",
+	  "department": "department",
+	  "facebook":"facebook",
+	  "twitter":"",
+	  "github":"github",
+	  "linkedin":"linkedin",
+	  "quote":"Acklen Avenue Rocks!"
+	}
+]
