@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>Save Money With ATDD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Acklen Avenue is a team of agile software development professionals who are passionate about clean code and simple user experiences. Nashville, Tennessee" />
+    <meta name="keywords" content="Software Development, Agile, Nashville, Web Apps, Mobile Apps, Desktop Apps" />
+    <meta name="author" content="Acklen Avenue" />
+    <title>Acklen Avenue | Software Development Company</title>
+
+    <!-- Facebook -->
+    <meta property="og:url"           content="http://acklenavenue.com/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Acklen Avenue" />
+    <meta property="og:description"   content="Software Development Company" />
+    <meta property="og:image"         content="img/thumbnail.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <!-- Twitter -->
+    <meta name="twitter:card"         content="summary" />
+    <meta name="twitter:site"         content="@acklenavenue" />
+    <meta name="twitter:creator"      content="@acklenavenue" />
+    <meta name="twitter:image"        content=“/img/thumbnail.jpg” />
+    <!-- Icons -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <meta name="theme-color" content="#72C02C">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css" />
+    <!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42413832-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+    <body>
+        <main>
+            <header class="page-header">
+	
+<nav>
+	
+
+
+
+
+	<div class="logo">
+		<a href="/">
+		<img src="/img/aa-logo.svg" alt="Acklen Avenue Logo"></a>
+	</div>
+	<ul class="nav-bullets">
+		<li><a href="/our-work/">Our Work</a></li>
+		<li><a href="/blog.html">Blog</a></li>
+		<li><a class="md-trigger" data-modal="modal-13">Say Hello</a></li>
+	</ul>
+</nav>
+
+
+<div class="md-modal md-effect-1" id="modal-13">
+	<div class="md-content">
+
+		<div id="form-container" class="contact-form">
+			<h3 class="form-modal-greeting">Hi, nice to meet you!</h3>
+        	<form id="contact-form">
+				<div class="flex-direction">
+                	<input class="form-modal-input flex-25" type="text" id="contact-name" placeholder="Name" />
+					<input class="form-modal-input flex-25" type="email" id="contact-email" placeholder="Email Address" required />
+				</div>
+				<div class="flex-direction">
+					<textarea class="form-modal-input flex-100" id="contact-message" placeholder="Anything else we should know?"></textarea>
+				</div>
+
+				<div class="center-wrapper">
+					<input id="button-form" type="submit" value="Submit"
+					class="btn btn--apple hvr-ripple-out" />
+				</div>
+            </form>
+		</div>
+
+		<div id="md-confirmation" class="md-hide">
+			<div class="center-wrapper flex-25">
+				<img src="/img/check.svg" alt="High Five">
+			</div>
+			<h2 class="high-five flex-100">High five!</h2>
+			<h4 class="flex-100">We got your message.</h4>
+			<h4 class="flex-100">You'll hear from us soon!</h4>
+		</div>
+
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+
+	<h1>Save Money With ATDD</h1>
+</header>
+
+<article class="article">
+    <div class="article-content">
+        
+<section class="article-meta">
+	<div class="article-author-date">
+		<span class="blogpost-author">by Byron Sommardahl</span>
+		<div class="blogpost-meta">
+			
+			<span class="blogpost-date">26 Jun 2014</span>
+		</div>
+	</div>
+	<div class="blogpost-tags">
+		
+			
+            
+            
+
+			<a style="display:none;" href="#" class="tags"> software development</a>
+		
+	</div>
+</section>
+
+
+	    <markdown markdown="1">
+    	    <p>Custom software is pretty expensive! Unnoticed system bugs, misunderstood requirements, and lack of developer focus can prolong a project and inflate costs. So when we find a way to reduce the cost of software development, we’re about as excited as a pardoned Thanksgiving turkey! And naturally, our excitement makes us want to share!</p>
+
+<p>Today, you need to check out “Acceptance Test-Driven Development” (ATDD). It’s a term that has been around for a few years and it’s a spin on the older idea of “Test-Driven Development” (TDD). Development teams that follow ATDD have learned to value well-defined business requirements more than any other development methodology that I’ve seen. The high value on business requirements leads to a chain reaction of time (and money) saving benefits!</p>
+
+<h2 id="maximize-developer-focus">Maximize Developer Focus</h2>
+
+<p>Software developers are some of most focused people I know on earth. They are incredibly detail oriented and love to get into the dirty details. But, without a “carrot on the stick” to remind them what the nearest goal is, time can be lost refocusing, correcting course, and sometimes going too far down a path.</p>
+
+<p>The best “carrot“ I know is a well-defined “user story”, complete with a list of “acceptance criteria”. But, ATDD takes it to a whole new level by integrating business-generated acceptance criteria into automated, repeatable tests! The basic premise is this: 1) A developer starts with one or more failing “acceptance tests”, each that explains in plain english the expected behavior. 2) While the developer is working on a feature, the acceptance test remains in a failure state, constantly calling the developers attention to the goal (the ultimate “carrot”). 3) Then, when the developer has finished writing the feature, he will know that he is done when the acceptance test starts to pass.</p>
+
+<h2 id="better-requirements">Better Requirements</h2>
+
+<p>Time has taught the software development industry that there are three things any team needs to create software that works the way a business needs it to work: sufficient time, excellent developers, and clear requirements. The latter of the three, unfortunately, is the most neglected and probably most costly when not implemented. Smart teams work together to generate complete and well-defined requirements. One thing that ATDD brings to the table is a requirement of standard formats and formalization of requirement text. You see, in order to integrate human generated requirements into code, there must be some patterns.</p>
+
+<p>This might sound scary, but it’s actually a good thing. What I’ve seen at times, even with well-meaning teams, is that some features lack description and deviate from the normal way of describing feature behavior.  This can cause confusion and no shortage of back-and-forth between the devs and business folks.  On the other hand, if automated tests require a certain format, as they often do with ATDD, the team will be united under one format and will be able to move forward with feature development without roadblocks and speedbumps.</p>
+
+<h2 id="find-defects-faster">Find Defects Faster</h2>
+
+<p>One BIG advantage of ATDD, besides developer focus and better-defined requirements, is the comprehensive suite of automated acceptance tests that it leaves behind. In the hands of a good devops engineer, automated acceptance tests can be integrated into the “continuous integration build”. That way, if a test starts to fail because of a newly introduced bug, deployment can be stopped. The bug still exists, but at least it didn’t go to production! If developers get notified when a build breaks, then they will see the new bug and be able to fix it quickly. This tight feedback loop is HUGE and saves hours of developer time.</p>
+
+<h1 id="your-developers-will-love-atdd">Your developers will love ATDD</h1>
+
+<p>Nothing invigorates a software developer than the feeling of accomplishment.  With “Acceptance Test-Driven Development”, that feeling of accomplishment comes early and often. When an automated acceptance test turns “green” (starts to pass), you know that you’re done and that it works. That kind of confirmation doesn’t normally come until after the feature has been in the wild for awhile. And even then, you might miss the feeling of accomplishment altogether because you’re already on another task. With ATDD and automated acceptance tests, developers get encouraging and quick confirmation.</p>
+
+<h1 id="your-bottom-line-will-love-atdd">Your bottom line will love ATDD</h1>
+
+<p>Custom software might be one of the biggest investments your business will ever make. And you might not mind so much, because you know that software will help your business rise to the next level. But it would be even better if software didn’t have to cost so much. Well, it doesn’t. Encourage your development team to look into ATDD. When your team starts to use ATDD, expect to see more complete features, fewer bugs, lower QA costs, and happier, more productive developers.</p>
+
+<p>If you’d like more information on how to get moving with ATDD or if you need an experienced ATDD team, <a href="#contact-us">contact us today!</a>.</p>
+
+
+		</markdown>
+
+		
+<section class="subscribe-box">
+	<div id="subscribe-labels">
+		<h4>Sign Up for Weekly News!</h4>
+		<p>Get the latest and best articles, plugin reviews and tutorials delivered to you inbox.</p>
+	</div>
+
+	<div id="subscribe-front">
+		<form id="acklen-subscribe" class="subscribe-form">
+			<div class="flex-direction">
+				<input id="subscribe-email" type="email" class="form-modal-input flex-25"
+						placeholder="E-mail" required />
+			</div>
+
+			<div class="center-wrapper">
+				<input id="button-form" type="submit" value="Subscribe"
+						class="btn btn--apple hvr-ripple-out" />
+			</div>
+		</form>
+	</div>
+
+	<div id="subscribe-back" class="md-hide">
+		<div class="center-wrapper flex-25">
+			<img src="i/img/check.svg" alt="High Five">
+		</div>
+		<h2 class="high-five flex-100">Thank You !</h2>
+	</div>
+
+	<small>No Spam Ever</small>
+</section>
+
+    </div>
+
+    
+<aside class="article-sidebar">
+	
+	
+	
+	
+
+	<h2>More in <span class="capitalize"> software development:</span></h2>
+    
+	
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/three-questions-to-ask-when-starting-a-development-project"><img class="blogpost-thumb"
+		src="/img/posts/3-questions-to-ask.jpg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">21 Jun 2017</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/three-questions-to-ask-when-starting-a-development-project">
+		3 questions to ask when starting a development project
+		</a>
+	</h2>
+	<span class="blogpost-author">by Byron Sommardahl</span>
+	<p class="blogpost-excerpt">You need help getting your idea to your users. Does it matter how the job gets...</p>
+</article>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/10-ways-to-kill-pair-programming"><img class="blogpost-thumb"
+		src="/img/posts/10-ways-to-kill-pair-programming.jpeg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">01 Sep 2016</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/10-ways-to-kill-pair-programming">
+		10 Ways to Kill Pair Programming
+		</a>
+	</h2>
+	<span class="blogpost-author">by Byron Sommardahl</span>
+	<p class="blogpost-excerpt">If you have a hard time working with other humans or find that other humans have...</p>
+</article>
+
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/Ziplines"><img class="blogpost-thumb"
+		src="/img/posts/ziplines.jpg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">02 May 2016</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/Ziplines">
+		Ziplines, Fear, and Custom Software&#58; A Parable
+		</a>
+	</h2>
+	<span class="blogpost-author">by Osman Hernandez</span>
+	<p class="blogpost-excerpt">Hello, daredevils out there. Have you ever tried ziplining at over 50 mph? My team did...</p>
+</article>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+	
+		<a class="text-link" href="/blog.html">See All ></a>
+	
+</aside>
+
+</article>
+
+<section class="share-barx" style="display:none;">
+	<h4>Share:</h4>
+	<a href="#">
+		<img src="img/share-twitter.svg" alt="Twitter">
+	</a>
+	<a href="#">
+		<img src="img/share-facebook.svg" alt="Facebook">
+	</a>
+	<a href="#">
+		<img src="img/share-linkedin.svg" alt="Linked In">
+	</a>
+</section>
+
+            
+<footer>
+    
+<script>
+	(function (){
+		var url = window.location;
+		var oImg = document.createElement("img");
+		oImg.setAttribute('src','https://app.hatchbuck.com/TrackWebPage?ACID=4720&URL=' + url);
+	})();
+</script>
+
+
+    <div class="footer__container">
+        <div class="flex-33">
+            <img class="footer__logo" src="/img/aa-logo.svg" alt="Acklen Avenue Logo">
+        </div>
+        <div class="flex-33 contact">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="/courses/">Courses</a></li>
+                <li><a href="https://acklen-avenue.breezy.hr">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="flex-33 contact">
+            <h4>CONTACT</h4>
+            <ul>
+                <li> (615) 988-4700 </li>
+                <li class="contact-info-email"><a href="mailto:info@acklenavenue.com;">info@acklenavenue.com</a> </li>
+                <li> 1033 Demonbreun Street #300,<br >Nashville, TN 37203 </li>
+             </ul>
+        </div>
+         <div class="flex-33 followUs">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="https://twitter.com/acklenavenue" target="_blank"><img src="/img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com/acklenavenue/" target="_blank" ><img src="/img/facebook.svg" alt="facebook"></a></li>
+                <li><a href="https://www.linkedin.com/company/acklen-avenue" target="_blank" ><img src="/img/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="https://github.com/AcklenAvenue" target="_blank" ><img src="/img/github.svg" alt="github"></a></li>
+             </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>2017 © Acklen Avenue, LLC. All Rights Reserved.</p>
+    </div>
+</footer>
+
+        </main>
+
+        
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+    
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/blog.js"></script>
+
+<script src="js/classie.js"></script>
+<script src="js/modalEffects.js"></script>
+
+    </body>
+</html>
+

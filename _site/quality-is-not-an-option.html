@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>Quality is Not an Option</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Acklen Avenue is a team of agile software development professionals who are passionate about clean code and simple user experiences. Nashville, Tennessee" />
+    <meta name="keywords" content="Software Development, Agile, Nashville, Web Apps, Mobile Apps, Desktop Apps" />
+    <meta name="author" content="Acklen Avenue" />
+    <title>Acklen Avenue | Software Development Company</title>
+
+    <!-- Facebook -->
+    <meta property="og:url"           content="http://acklenavenue.com/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Acklen Avenue" />
+    <meta property="og:description"   content="Software Development Company" />
+    <meta property="og:image"         content="img/thumbnail.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <!-- Twitter -->
+    <meta name="twitter:card"         content="summary" />
+    <meta name="twitter:site"         content="@acklenavenue" />
+    <meta name="twitter:creator"      content="@acklenavenue" />
+    <meta name="twitter:image"        content=“/img/thumbnail.jpg” />
+    <!-- Icons -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <meta name="theme-color" content="#72C02C">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css" />
+    <!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42413832-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+    <body>
+        <main>
+            <header class="page-header">
+	
+<nav>
+	
+
+
+
+
+	<div class="logo">
+		<a href="/">
+		<img src="/img/aa-logo.svg" alt="Acklen Avenue Logo"></a>
+	</div>
+	<ul class="nav-bullets">
+		<li><a href="/our-work/">Our Work</a></li>
+		<li><a href="/blog.html">Blog</a></li>
+		<li><a class="md-trigger" data-modal="modal-13">Say Hello</a></li>
+	</ul>
+</nav>
+
+
+<div class="md-modal md-effect-1" id="modal-13">
+	<div class="md-content">
+
+		<div id="form-container" class="contact-form">
+			<h3 class="form-modal-greeting">Hi, nice to meet you!</h3>
+        	<form id="contact-form">
+				<div class="flex-direction">
+                	<input class="form-modal-input flex-25" type="text" id="contact-name" placeholder="Name" />
+					<input class="form-modal-input flex-25" type="email" id="contact-email" placeholder="Email Address" required />
+				</div>
+				<div class="flex-direction">
+					<textarea class="form-modal-input flex-100" id="contact-message" placeholder="Anything else we should know?"></textarea>
+				</div>
+
+				<div class="center-wrapper">
+					<input id="button-form" type="submit" value="Submit"
+					class="btn btn--apple hvr-ripple-out" />
+				</div>
+            </form>
+		</div>
+
+		<div id="md-confirmation" class="md-hide">
+			<div class="center-wrapper flex-25">
+				<img src="/img/check.svg" alt="High Five">
+			</div>
+			<h2 class="high-five flex-100">High five!</h2>
+			<h4 class="flex-100">We got your message.</h4>
+			<h4 class="flex-100">You'll hear from us soon!</h4>
+		</div>
+
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+
+	<h1>Quality is Not an Option</h1>
+</header>
+
+<article class="article">
+    <div class="article-content">
+        
+<section class="article-meta">
+	<div class="article-author-date">
+		<span class="blogpost-author">by Byron Sommardahl</span>
+		<div class="blogpost-meta">
+			
+			<span class="blogpost-date">12 Jun 2014</span>
+		</div>
+	</div>
+	<div class="blogpost-tags">
+		
+			
+            
+            
+
+			<a style="display:none;" href="#" class="tags"> software development</a>
+		
+	</div>
+</section>
+
+
+	    <markdown markdown="1">
+    	    <p>This article is about some lessons that my team has learned about developing custom software and making clients happy. We’ll get to the lessons learned in a second, but I wanted to first emphasize the biggest and most important lesson of all. <strong>Customer satisfaction is dependent on the quality of the product.</strong> Any custom software development company depends on happy clients to survive. And if time has taught me anything, it’s that clients deserve and expect quality. So, it is super important to do what it takes to ensure quality. The keys to quality is great developers (check) and great QA engineers (uh oh)!</p>
+
+<p>I have seen QA done really poorly in the past. Power trippy QA managers, ignorant QA testers, attention to the wrong details, and an overall adversarial feel dominate my memories of QA while I was still working in a cubicle. So, when I started forming a team of developers a few years ago, there were several things I wanted to do better. Of course, mistakes have been made. I made the mistake of believing that we could save our clients money by asking them to do all the QA. I made a big mistake by saving all the feature testing until the end of the sprint, just before the demo. I even leaned too hard on automated testing, letting it give me a false sense of security. From years of successes and failures, I have learned a few valuable lessons. I hope my experiences can help you succeed in your next project!</p>
+
+<h2 id="lessons-learned">Lessons learned</h2>
+
+<h3 id="1-customers-should-not-do-qa">1. Customers should not do QA</h3>
+<p>Custom software is expensive. Our customers pay a lot for the products they entrust us to build. The truth is, we CAN build great software and do it REALLY well. Great architecture, clean code, maintainable, best practices, best technology, best everything… But if our customer sees even one bug, his confidence begins to erode. Bugs are a reality of software development. And customers will eventually see some bugs because it’s humanly impossible to eradicate the all. But having a customer do QA is like hooking a firehouse up to someone’s mouth and turning it on full blast. If one bug erodes a little trust, then seeing ALL the bugs is devastating. Customers, by no means, should be made to do their own QA.</p>
+
+<h3 id="2-automated-testing-is-not-enough">2. Automated testing is not enough</h3>
+<p>Manual repetition, for a programmer, is like fingernails scraping a chalkboard. Programmers love to automate things, and nothing makes a programmer happier than when he can hand off a repetitious task to a piece of software. As we write software, we need to constantly test all previously written code to make sure the new code doesn’t break anything. If we did this manually, it would be almost impossible to write any software because of the enormous amount of time it would take. So, we automate our tests. We can even maintain close to 100% test coverage, being able to run through hundreds of tests in seconds and excersizing every single line of code that we have written. We’ve found this process to be essential to reducing bugs and designing maintainable software. But, automation can only test what the programmers expect to happen. It can’t cover misunderstood requirements, and it’s unlikely to cover every possible success or failure outcome. Automated testing is awesome, but it’s not enough!</p>
+
+<h3 id="3-waiting-until-the-end-is-not-enough">3. Waiting until the end is not enough</h3>
+<p>What should you do after a car comes off the assembly line? Well, take it for a spin and look for any problems, of course! I’ve heard software development compared to car manufacturing many times. And there might be some overlap, but I like the analogy that one of our advisors gave better: “Software development is like a science experiment.” The car manufacturing analogy falls down when it comes to testing. You see, writing software is a series of attempts, successes and failures. If we wait until the end of a sprint to test our theories, then we miss the opportunity to fix things before they affect their surroundings. We also risk having to delay a demo because of last minute fixes. If we have someone testing features immediately after they are “finished”, the developers can get feedback on their work much faster and can fix bugs with the benefit of a fresh memory. Manual testing anytime is better than nothing, but software development is not the same as car manufacturing. Waiting to test until after the software comes off the assembly line is not enough.</p>
+
+<h3 id="3-programmers-are-not-enough">3. Programmers are not enough</h3>
+<p>Programmers are awesome! But they suck at QA. The best programmers lose themselves in their code, getting their hands dirty in the tiniest details of software and, in the end, making it sing. They spend almost the entire day with their nose to the grindstone. They work hard to deliver their best understanding of a feature, trying to give the customer exactly what they want. When a programmer checks off the last box on a mental list of 1000 tasks for one feature, she feels accomplished and proud. If you ask her if it’s done, she’ll say confidently, “yes!” Problem is, she has spent all this time in one tree. She has no idea about the forest, nor her tree’s affect on the forest. It takes someone else who has a good grasp on the forest, the big picture, the whole project, who can give a more informed answer. Don’t ask programmers to do QA. It’s not fair to them and it won’t give you the results you need. Programmers are just not enough.</p>
+
+<h2 id="quality-should-not-be-an-option">Quality Should Not Be An Option</h2>
+<p>Whether you are a software developer, department director, or CEO, you should expect and demand quality. When working with a software development team, make sure that there are QA testers working alongside software developers, ready to quickly test developers’ work and provide rapid and constant feedback. Bugs are the enemy of any software project, and the faster you can kill them, the less effect they have on your success. Great QA can get you there.</p>
+
+		</markdown>
+
+		
+<section class="subscribe-box">
+	<div id="subscribe-labels">
+		<h4>Sign Up for Weekly News!</h4>
+		<p>Get the latest and best articles, plugin reviews and tutorials delivered to you inbox.</p>
+	</div>
+
+	<div id="subscribe-front">
+		<form id="acklen-subscribe" class="subscribe-form">
+			<div class="flex-direction">
+				<input id="subscribe-email" type="email" class="form-modal-input flex-25"
+						placeholder="E-mail" required />
+			</div>
+
+			<div class="center-wrapper">
+				<input id="button-form" type="submit" value="Subscribe"
+						class="btn btn--apple hvr-ripple-out" />
+			</div>
+		</form>
+	</div>
+
+	<div id="subscribe-back" class="md-hide">
+		<div class="center-wrapper flex-25">
+			<img src="i/img/check.svg" alt="High Five">
+		</div>
+		<h2 class="high-five flex-100">Thank You !</h2>
+	</div>
+
+	<small>No Spam Ever</small>
+</section>
+
+    </div>
+
+    
+<aside class="article-sidebar">
+	
+	
+	
+	
+
+	<h2>More in <span class="capitalize"> software development:</span></h2>
+    
+	
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/three-questions-to-ask-when-starting-a-development-project"><img class="blogpost-thumb"
+		src="/img/posts/3-questions-to-ask.jpg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">21 Jun 2017</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/three-questions-to-ask-when-starting-a-development-project">
+		3 questions to ask when starting a development project
+		</a>
+	</h2>
+	<span class="blogpost-author">by Byron Sommardahl</span>
+	<p class="blogpost-excerpt">You need help getting your idea to your users. Does it matter how the job gets...</p>
+</article>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/10-ways-to-kill-pair-programming"><img class="blogpost-thumb"
+		src="/img/posts/10-ways-to-kill-pair-programming.jpeg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">01 Sep 2016</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/10-ways-to-kill-pair-programming">
+		10 Ways to Kill Pair Programming
+		</a>
+	</h2>
+	<span class="blogpost-author">by Byron Sommardahl</span>
+	<p class="blogpost-excerpt">If you have a hard time working with other humans or find that other humans have...</p>
+</article>
+
+		
+	
+		
+	
+		
+			
+			
+<article class="blog-card">
+	
+	
+	
+	
+
+	<a href="/Ziplines"><img class="blogpost-thumb"
+		src="/img/posts/ziplines.jpg" alt=""></a>
+	<div class="blogpost-meta">
+		 software development /
+		<span class="blogpost-date">02 May 2016</span>
+	</div>
+	<h2 class="blog-card-title">
+		<a href="/Ziplines">
+		Ziplines, Fear, and Custom Software&#58; A Parable
+		</a>
+	</h2>
+	<span class="blogpost-author">by Osman Hernandez</span>
+	<p class="blogpost-excerpt">Hello, daredevils out there. Have you ever tried ziplining at over 50 mph? My team did...</p>
+</article>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+	
+		<a class="text-link" href="/blog.html">See All ></a>
+	
+</aside>
+
+</article>
+
+<section class="share-barx" style="display:none;">
+	<h4>Share:</h4>
+	<a href="#">
+		<img src="img/share-twitter.svg" alt="Twitter">
+	</a>
+	<a href="#">
+		<img src="img/share-facebook.svg" alt="Facebook">
+	</a>
+	<a href="#">
+		<img src="img/share-linkedin.svg" alt="Linked In">
+	</a>
+</section>
+
+            
+<footer>
+    
+<script>
+	(function (){
+		var url = window.location;
+		var oImg = document.createElement("img");
+		oImg.setAttribute('src','https://app.hatchbuck.com/TrackWebPage?ACID=4720&URL=' + url);
+	})();
+</script>
+
+
+    <div class="footer__container">
+        <div class="flex-33">
+            <img class="footer__logo" src="/img/aa-logo.svg" alt="Acklen Avenue Logo">
+        </div>
+        <div class="flex-33 contact">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="/courses/">Courses</a></li>
+                <li><a href="https://acklen-avenue.breezy.hr">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="flex-33 contact">
+            <h4>CONTACT</h4>
+            <ul>
+                <li> (615) 988-4700 </li>
+                <li class="contact-info-email"><a href="mailto:info@acklenavenue.com;">info@acklenavenue.com</a> </li>
+                <li> 1033 Demonbreun Street #300,<br >Nashville, TN 37203 </li>
+             </ul>
+        </div>
+         <div class="flex-33 followUs">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="https://twitter.com/acklenavenue" target="_blank"><img src="/img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com/acklenavenue/" target="_blank" ><img src="/img/facebook.svg" alt="facebook"></a></li>
+                <li><a href="https://www.linkedin.com/company/acklen-avenue" target="_blank" ><img src="/img/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="https://github.com/AcklenAvenue" target="_blank" ><img src="/img/github.svg" alt="github"></a></li>
+             </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>2017 © Acklen Avenue, LLC. All Rights Reserved.</p>
+    </div>
+</footer>
+
+        </main>
+
+        
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+    
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/blog.js"></script>
+
+<script src="js/classie.js"></script>
+<script src="js/modalEffects.js"></script>
+
+    </body>
+</html>
+

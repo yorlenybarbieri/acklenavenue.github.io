@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>Hurdl case study | Acklen Avenue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Acklen Avenue is a team of agile software development professionals who are passionate about clean code and simple user experiences. Nashville, Tennessee" />
+    <meta name="keywords" content="Software Development, Agile, Nashville, Web Apps, Mobile Apps, Desktop Apps" />
+    <meta name="author" content="Acklen Avenue" />
+    <title>Acklen Avenue | Software Development Company</title>
+
+    <!-- Facebook -->
+    <meta property="og:url"           content="http://acklenavenue.com/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Acklen Avenue" />
+    <meta property="og:description"   content="Software Development Company" />
+    <meta property="og:image"         content="../img/thumbnail.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <!-- Twitter -->
+    <meta name="twitter:card"         content="summary" />
+    <meta name="twitter:site"         content="@acklenavenue" />
+    <meta name="twitter:creator"      content="@acklenavenue" />
+    <meta name="twitter:image"        content=“../img/thumbnail.jpg” />
+    <!-- Icons -->
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <meta name="theme-color" content="#72C02C">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/modal.css" />
+    <!-- Google analitycs -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42413832-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+    <body>
+        <main>
+            <header class="page-header page-header--hurdl">
+	
+<nav>
+	
+
+
+
+
+	<div class="logo">
+		<a href="/">
+		<img src="/img/aa-logo.svg" alt="Acklen Avenue Logo"></a>
+	</div>
+	<ul class="nav-bullets">
+		<li><a href="/our-work/">Our Work</a></li>
+		<li><a href="/blog.html">Blog</a></li>
+		<li><a class="md-trigger" data-modal="modal-13">Say Hello</a></li>
+	</ul>
+</nav>
+
+
+<div class="md-modal md-effect-1" id="modal-13">
+	<div class="md-content">
+
+		<div id="form-container" class="contact-form">
+			<h3 class="form-modal-greeting">Hi, nice to meet you!</h3>
+        	<form id="contact-form">
+				<div class="flex-direction">
+                	<input class="form-modal-input flex-25" type="text" id="contact-name" placeholder="Name" />
+					<input class="form-modal-input flex-25" type="email" id="contact-email" placeholder="Email Address" required />
+				</div>
+				<div class="flex-direction">
+					<textarea class="form-modal-input flex-100" id="contact-message" placeholder="Anything else we should know?"></textarea>
+				</div>
+
+				<div class="center-wrapper">
+					<input id="button-form" type="submit" value="Submit"
+					class="btn btn--apple hvr-ripple-out" />
+				</div>
+            </form>
+		</div>
+
+		<div id="md-confirmation" class="md-hide">
+			<div class="center-wrapper flex-25">
+				<img src="/img/check.svg" alt="High Five">
+			</div>
+			<h2 class="high-five flex-100">High five!</h2>
+			<h4 class="flex-100">We got your message.</h4>
+			<h4 class="flex-100">You'll hear from us soon!</h4>
+		</div>
+
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+
+	<h1>Hurdl</h1>
+	<h2>Leveraging big data through tiny devices</h2>
+	<h2>Nashville, TN</h2>
+</header>
+<section class="text-block">
+    <h2>Project Summary</h2>
+    <p class="text-block--two-columns">Hurdl is a wearable device and big data startup in the entertainment industry. They provide customizable wearables (Pixl) for large events (concerts, games, etc). Each Pixl is custom-programmed by the wearer using an event-specific survey via SMS.
+        Prior to Acklen Avenue, Hurdl had the ability to custom-program the devices, but couldn’t conduct surveys of the users or send the configuration data from the cloud to the user.
+    </p>
+</section>
+<section class="showcase ">
+    <img class="showcase__hurdl--pixl" src="/img/pixl-device.png" alt="pixl device">
+    <small>Pixl Device</small>
+</section>
+<section class="text-block text-block--small">
+    <h2>The Challenge</h2>
+    <p class="text-block--centered">Hurdl was able to custom program their wearables (Pixl) but they were not able to conduct surveys of users or send configuration data from the cloud to the user.</p>
+</section>
+<section class="approach">
+    <h2>The Approach</h2>
+    <div class="approach__card-container">
+        <div class="approach__card-container__card">
+            <img class="iconHurdl" src="/img/iconHurdl--device.svg" alt="device">
+            <p>Built a SMS-based survey system for Twillio w/ ability to migrate to other vendors if needed</p>
+        </div>
+        <div class="approach__card-container__card">
+            <img class="iconHurdl" src="/img/iconHurdl--gear.svg" alt="gear">
+            <p>Built a backend to create survey questions (AWS)</p>
+        </div>
+        <div class="approach__card-container__card">
+            <img class="iconHurdl" src="/img/iconHurdl--raspberry.svg" alt="raspberry">
+            <p>Built Raspberry Pi software to pull survey answers and broadcast to the Pixl devices</p>
+        </div>
+    </div>
+</section>
+<section class="showcase">
+    <img class="showcase__hurdl--raspberry" src="/img/raspberry_limeball.png" alt="">
+    <div class="showcase__caption"><small>We built the Hurdle Antenna Interface. A bridge between the registration database, a DMX Console and the Pixls.</small></div>
+</section>
+<section class="theEvolution--hurdl">
+    <div class="theEvolution--hurdl__box">
+        <h2>The Evolution</h2>
+        <div class="theEvolution--hurdl__box__item">
+            <div class="flex-25">
+                <img class="iconHurdl" src="/img/iconHurdl--sway.svg" alt="">
+            </div>
+            <div class="flex-75">
+                <h3>Repeated zig-zags based on client need</h3>
+                <ul class="check">
+                    <li><span>Researching &amp; integrating 3rd party datasets</span></li>
+                    <li><span>Migrate website to AWS platform</span></li>
+                    <li><span>Other ‘urgent’ requests because of startup nature of business</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="theEvolution--hurdl__box__item">
+            <div class="flex-25">
+                <img class="iconHurdl" src="/img/iconHurdl--comment.svg" alt="">
+            </div>
+            <div class="flex-75">
+                <h3>Client had other visions/goals that we helped evaluate </h3>
+                <ul class="check">
+                    <li><span>Big data</span></li>
+                    <li><span>Migrate website to AWS platform</span></li>
+                    <li><span>Other ‘urgent’ requests because of startup nature of business</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screens">
+    <div class="screens--hurdl">
+        <img src="/img/hurdl-dashboard-1.png" alt="">
+        <div class="screens--hurdl__caption">
+            <small>Users can manage SMS questions and events preferences through the platform in real-time </small>
+        </div>
+        <div class="screens--hurdl__twoScreens">
+            <img class="screens--hurdl__twoScreens__one" src="/img/hurdl-dashboard-3.png" alt="">
+            <img class="screens--hurdl__twoScreens__two" src="/img/hurdl-dashboard-2.png" alt="">
+        </div>
+    </div>
+</section>
+<section class="tecnologiesUsed">
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>Nancy Fx</li>
+        <li>SQL server</li>
+        <li>.NET</li>
+        <li>Python</li>
+        <li>AWS Lambda</li>
+        <li>Raspberry pi</li>
+        <li>Angular JS</li>
+        <li>Electron</li>
+    </ul>
+</section>
+<section class="theResults theResults--hurdl">
+    <div class="theResults__box">
+        <h2>The Results</h2>
+        <ul class="check">
+            <li><span>We built an SMS platform capable of interacting with any cloud-based SMS vendor</span></li>
+            <li><span>A website so users could easily log in, add new events, update questions and see real-time data from the event</span></li>
+            <li><span>An app for Raspberry Pi to download the survey results and transmit them to the Pixls</span></li>
+            <li><span>Hurdl now has in-house developer(s) continuing working on project and using our code to further their company goals.</span></li>
+            <li><span>Hurdl identified that there were two distinct products (big data play &amp; SMS Pixl) and went through a re-org to help them grow both. While we didn’t directly influence, our involvement helped them ID the pain point &amp; indirectly led to a solution.</span></li>
+        </ul>
+        <a class="hvr-icon-forward" target="_blank" href="https://www.hurdl.com/">www.hurdl.com</a>
+    </div>
+</section>
+<section id="testimonialSingle">
+    <div class="testimonial__contain">
+        <img class="rouded-img" src="/img/zach-shunk.jpg">
+        <h3>Zach Shunk</h3>
+        <h4 class="testimonial-founder">Co-Founder / CTO at Hurdl Enterprises</h4>
+        <span class="quotesign">&#8220;</span>
+        <p><em>They have been able to help non-tech people understand advanced software development. They have your best interests at heart and they take ownership. They’re a great team and tool. They make software make sense</em></p>
+
+    </div>
+</section>
+<section class="callToAction">
+    <h2>Ready to build something amazing together?</h2>
+    <a class="btn hvr-ripple-out btn--apple md-trigger" data-modal="modal-13">Let’s get started</a>
+</section>
+
+<footer>
+    
+<script>
+	(function (){
+		var url = window.location;
+		var oImg = document.createElement("img");
+		oImg.setAttribute('src','https://app.hatchbuck.com/TrackWebPage?ACID=4720&URL=' + url);
+	})();
+</script>
+
+
+    <div class="footer__container">
+        <div class="flex-33">
+            <img class="footer__logo" src="/img/aa-logo.svg" alt="Acklen Avenue Logo">
+        </div>
+        <div class="flex-33 contact">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="/courses/">Courses</a></li>
+                <li><a href="https://acklen-avenue.breezy.hr">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="flex-33 contact">
+            <h4>CONTACT</h4>
+            <ul>
+                <li> (615) 988-4700 </li>
+                <li class="contact-info-email"><a href="mailto:info@acklenavenue.com;">info@acklenavenue.com</a> </li>
+                <li> 1033 Demonbreun Street #300,<br >Nashville, TN 37203 </li>
+             </ul>
+        </div>
+         <div class="flex-33 followUs">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="https://twitter.com/acklenavenue" target="_blank"><img src="/img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com/acklenavenue/" target="_blank" ><img src="/img/facebook.svg" alt="facebook"></a></li>
+                <li><a href="https://www.linkedin.com/company/acklen-avenue" target="_blank" ><img src="/img/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="https://github.com/AcklenAvenue" target="_blank" ><img src="/img/github.svg" alt="github"></a></li>
+             </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>2017 © Acklen Avenue, LLC. All Rights Reserved.</p>
+    </div>
+</footer>
+
+        </main>
+        <!-- JS -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')
+</script>
+<script src="../js/main.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/modalEffects.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{ 
+    "version": "1.0.0", 
+    "name": "Test-Driven Development Professional", 
+    "image": "http://acklenavenue.com/assets/img/badges/1024/TDD.png", 
+    "description": "Has displayed mastery in test-driven development.", 
+    "criteria": "http://acklenavenue.com/badges/tdd-pro-1.0.0.html", 
+    "issuer": "http://acklenavenue.com/badges/meta/issuer.json"
+} 
