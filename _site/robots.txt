@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /badges
-Disallow: /assets/email-signature.html
