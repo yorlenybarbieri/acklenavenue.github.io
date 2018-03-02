@@ -4,7 +4,7 @@
 		<div class="member-card__quote">
 			<p>{{ member.quote }}</p>
 		</div>
-		<img class="member-card__img" src="https://www.gravatar.com/avatar/{{ member.gravatarEmail | remove: ' ' | strip_newlines | downcase | md5 }}?s=200&d=mm">
+		<img class="member-card__img" alt="{{ member.gravatarEmail }}">
 	</div>
 
 	<div class="member-card__info">
