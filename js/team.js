@@ -7,8 +7,10 @@ var sizer = element.querySelector('.member-card');
 
 var shuffleInstance = new Shuffle(element, {
   itemSelector: '.picture-item', 
-  sizer: sizer,
-  isCentered: true
+  sizer: null,
+  isCentered: true,
+  buffer: 1,
+
 });
 
 
