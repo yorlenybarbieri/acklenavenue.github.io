@@ -39,6 +39,9 @@ function setActiveCategorie(tag) {
 
 function setCategoryTitle(tag){
 
-    $(".teamlist__title").text(tag);
+    //$(".teamlist__title").text(tag);
+    document.getElementById('teamlist__title').textContent = tag;
 
 }
+
+filterTeam("All Ackleners");
