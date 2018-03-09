@@ -6,10 +6,10 @@
 	  "position": "Scrum Masters",
 	  "location":"Tegucigalpa, Honduras",
 	  "department": ["All Ackleners", "Scrum Masters"],
-	  "facebook":"facebook.com",
-	  "twitter":"twitter.com",
-	  "github":"github.com",
-	  "linkedin":"linkedin.com",
+	  "facebook":"https://facebook.com",
+	  "twitter":"https://twitter.com",
+	  "github":"https://github.com",
+	  "linkedin":"https://linkedin.com",
 	  "quote":"Acklen Avenue Rocks so Much!"
 	},
 	{
