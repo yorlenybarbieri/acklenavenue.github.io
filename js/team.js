@@ -1,6 +1,4 @@
 
-
-
 var Shuffle = window.Shuffle;
 var element = document.querySelector('.my-shuffle-container');
 var sizer = element.querySelector('.member-card');
