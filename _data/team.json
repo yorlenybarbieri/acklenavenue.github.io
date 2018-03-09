@@ -1,4 +1,16 @@
-[
+[	{
+	  "name":"Cesar",
+	  "lastName":"Welchez",
+	  "gravatarEmail": "cesarwelchez@acklenavenue.com",
+	  "position": "Scrum Masters",
+	  "location":"Tegucigalpa, Honduras",
+	  "department": ["All Ackleners", "Scrum Masters"],
+	  "facebook":"facebook.com",
+	  "twitter":"twitter.com",
+	  "github":"github.com",
+	  "linkedin":"linkedin.com",
+	  "quote":"Acklen Avenue Rocks so Much!"
+	},
 	{
 	  "name":"Cristian",
 	  "lastName":"Echeverria",
