@@ -1,0 +1,10 @@
+---
+layout: none
+---
+{
+  "posts" : [
+    {% for post in site.data.team %}
+    "{{ post.name }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

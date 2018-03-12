@@ -2,9 +2,11 @@
 
 <div class="my-shuffle-container teamlist">
 
-{% for member in site.data.team %}
-	{% include teamcard.html member=member %}
-{% endfor %}
+	{% for member in site.data.team limit: 3 %}
+		{% include teamcard.html member=member %}
+	{% endfor %}
+
+	<div class="infinite-spinner"></div>
 
 </div>
 
