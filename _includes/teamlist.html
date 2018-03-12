@@ -1,11 +1,11 @@
-<h3 class="teamlist__title">Design Team</h3>
+<h3 class="teamlist__title" id="teamlist__title">All Ackleners</h3>
 
 <div class="my-shuffle-container teamlist">
-
 
 {% for member in site.data.team %}
 	{% include teamcard.html member=member %}
 {% endfor %}
+
 </div>
 
 <script type="text/javascript" src="js/shuffle.min.js"></script>
