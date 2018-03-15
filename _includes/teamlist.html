@@ -2,7 +2,7 @@
 
 <div class="my-shuffle-container teamlist">
 
-	{% for member in site.data.team limit: 3 %}
+	{% for member in site.data.team limit: 12 %}
 		{% include teamcard.html member=member %}
 	{% endfor %}
 
