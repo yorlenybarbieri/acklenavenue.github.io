@@ -8,7 +8,7 @@ var sizer = container.querySelector('.member-card');
 var containerHeight = container.clientHeight;
 var cardsAdded = [];
 var selectedFilter = "";
-
+var filteredJson = [];
 
 $(window).unbind('scroll');
 
@@ -22,6 +22,11 @@ var shuffle = new Shuffle(container, {
 
 function filterTeam(tag) {
 
+// if(tag == "All Ackleners")
+//   filteredJson = membersObjArray
+// else
+//   filteredJson = findByDepartment(membersObjArray, tag);
+
   history.pushState(null, null, '?filter='+tag);
 
   selectedFilter = tag
@@ -29,9 +34,17 @@ function filterTeam(tag) {
   setActiveCategorie(tag);
   
   setCategoryTitle(tag);
+
+  addMembersToContainer(filteredJson)
   
   shuffle.filter(tag);
 }
+
+
+function addMembersToContainer(array){
+  //reset del container
+  //add array to container
+};
 
 function setActiveCategorie(tag) {
   // loop through all items and remove active class
@@ -124,7 +137,6 @@ function fetchPosts() {
 function fetchPostWithIndex(index, callback) {
   var member = membersObjArray[index];
 
-  var index = member.department.indexOf(selectedFilter)
   //if(member.department.indexOf(selectedFilter) === -1) return;
 
   var cardToBeAdded = addMemberDataToHTMLString(member)
@@ -136,7 +148,7 @@ function fetchPostWithIndex(index, callback) {
     cardsAdded.push(elements[i])
   }
   
-  // shuffle.add(elements);
+  shuffle.add(elements);
   encodeGravatarEmails();
   callback();
 
