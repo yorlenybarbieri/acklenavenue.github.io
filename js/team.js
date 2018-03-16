@@ -9,7 +9,9 @@ var containerHeight = container.clientHeight;
 var cardsAdded = [];
 var selectedFilter = "";
 var filteredJson = [];
-
+// Load the JSON file containing all URLs
+var membersObjArray = {{ site.data.team | jsonify }};
+var limit = 12;
 $(window).unbind('scroll');
 
 var shuffle = new Shuffle(container, {
@@ -22,10 +24,12 @@ var shuffle = new Shuffle(container, {
 
 function filterTeam(tag) {
 
-// if(tag == "All Ackleners")
-//   filteredJson = membersObjArray
-// else
-//   filteredJson = findByDepartment(membersObjArray, tag);
+  if(tag == "All Ackleners"){
+    filteredJson = membersObjArray
+  }
+  else{
+    filteredJson = findByDepartment(membersObjArray, tag);
+  }
 
   history.pushState(null, null, '?filter='+tag);
 
@@ -35,9 +39,8 @@ function filterTeam(tag) {
   
   setCategoryTitle(tag);
 
-  addMembersToContainer(tag)
-  
-  shuffle.filter(tag);
+  reloadContainer(filteredJson)
+
 }
 
 function setActiveCategorie(tag) {
@@ -57,33 +60,58 @@ function setActiveCategorie(tag) {
   }
 }
 
+function findByDepartment(members, tag){
+  return membersObjArray.filter(function(member) {
+    return member.department.indexOf(tag) > -1;
+  });
+}
+
 function setCategoryTitle(tag){
   $(".teamlist__title").text(tag);
   //document.getElementById('teamlist__title').textContent = tag;
 }
 
 ////******Infinite Scrolling Logic*******//////
-var membersObjArray,
-    isFetchingPosts = false,
+var isFetchingPosts = false,
     shouldFetchPosts = true,
-    postsToLoad = $(".teamlist").children().length,
+    postsToLoad = limit,
     loadNewPostsThreshold = containerHeight;
 
-// Load the JSON file containing all URLs
-membersObjArray = {{ site.data.team | jsonify }};
 
-function addMembersToContainer(tag){
-  //reset del container
-  if (tag == "All Ackleners") return;
-  var membersObjArrayFilterTag = membersObjArray.filter(function(val) {
-    return val.position === tag;
-  });
-  membersObjArray = [];
-  //add array to container
-  membersObjArray = membersObjArrayFilterTag;
-  console.log(membersObjArray);
+
+function reloadContainer(members){
+  //remove all children from the shuffle container
+  cleanContainer(container);
+
+  //load only the first 12 members (limit)
+  loadFirstMembers(container, members, limit);
+
 };
 
+function cleanContainer(container){
+  shuffle.remove(container.children);
+}
+
+function loadFirstMembers(container, members, limit){
+
+  var cardElements = [];  
+
+  for (var i = 0; i < limit; i++) {
+
+    var cardToBeAdded = addMemberDataToHTMLString(members[i]);
+
+    var newElement = htmlStringToDOM(cardToBeAdded);
+    newElement = newElement[0]
+
+    cardElements.push(newElement)
+
+    container.appendChild(newElement);
+  }
+  
+  shuffle.add(cardElements);
+  encodeGravatarEmails();
+
+}
 
 // If there aren't any more posts available to load than already visible, disable fetching
 if (membersObjArray.length <= postsToLoad)
@@ -113,7 +141,7 @@ $(window).scroll(function(e){
 // Fetch a chunk of posts
 function fetchPosts() {
   // Exit if membersObjArray haven't been loaded
-  if (!membersObjArray) return;
+  if (!filteredJson) return;
   
   isFetchingPosts = true;
   
@@ -126,7 +154,7 @@ function fetchPosts() {
         var postIndex = postCount + loadedPosts;
         console.log('postIndex: ', postIndex);
         
-        if (postIndex > membersObjArray.length-1) {
+        if (postIndex > filteredJson.length-1) {
           disableFetching();
           return;
         }
@@ -142,7 +170,7 @@ function fetchPosts() {
 }
 
 function fetchPostWithIndex(index, callback) {
-  var member = membersObjArray[index];
+  var member = filteredJson[index];
 
   //if(member.department.indexOf(selectedFilter) === -1) return;
 
