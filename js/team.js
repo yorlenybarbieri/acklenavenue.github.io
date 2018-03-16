@@ -96,6 +96,8 @@ function loadFirstMembers(container, members, limit){
 
   var cardElements = [];  
 
+  if(members.length == 0) return;
+
   for (var i = 0; i < limit; i++) {
 
     var cardToBeAdded = addMemberDataToHTMLString(members[i]);
@@ -170,6 +172,12 @@ function fetchPosts() {
 }
 
 function fetchPostWithIndex(index, callback) {
+  if(filteredJson.length === 0 ){
+    disableFetching();
+    return;
+  } 
+
+
   var member = filteredJson[index];
 
   //if(member.department.indexOf(selectedFilter) === -1) return;
@@ -239,12 +247,10 @@ function htmlStringToDOM(string){
 
 function disableFetching() {
 
-  if(cardsAdded.length > 0){
-    //shuffle.add(cardsAdded);
-  }
   shouldFetchPosts = false;
   isFetchingPosts = false;
   $(".infinite-spinner").fadeOut();
+
 }
 
 function encodeGravatarEmails(){
