@@ -5,19 +5,31 @@
 var Shuffle = window.Shuffle;
 var container = document.querySelector('.my-shuffle-container');
 var sizer = container.querySelector('.member-card');
+var containerHeight = container.clientHeight;
+var cardsAdded = [];
+var selectedFilter = "";
+
+
+$(window).unbind('scroll');
 
 var shuffle = new Shuffle(container, {
   itemSelector: '.picture-item', 
   sizer: null,
   isCentered: true,
-  buffer: 1,
+  buffer: 0,
   easing: 'ease'
-
 });
-  
+
 function filterTeam(tag) {
-  setActiveCategorie(tag)
-  setCategoryTitle(tag)
+
+  history.pushState(null, null, '?filter='+tag);
+
+  selectedFilter = tag
+
+  setActiveCategorie(tag);
+  
+  setCategoryTitle(tag);
+  
   shuffle.filter(tag);
 }
 
@@ -45,152 +57,188 @@ function setCategoryTitle(tag){
 
 
 ////******Infinite Scrolling Logic*******//////
-var postURLs,
-      isFetchingPosts = false,
-      shouldFetchPosts = true,
-      postsToLoad = $(".teamlist").children().length,
-      loadNewPostsThreshold = 3000;
-  
-  // Load the JSON file containing all URLs
-    postURLs = {{ site.data.team | jsonify }};
-    
-    // If there aren't any more posts available to load than already visible, disable fetching
-    if (postURLs.length <= postsToLoad)
-      disableFetching();
+var membersObjArray,
+    isFetchingPosts = false,
+    shouldFetchPosts = true,
+    postsToLoad = $(".teamlist").children().length,
+    loadNewPostsThreshold = containerHeight;
 
+// Load the JSON file containing all URLs
+membersObjArray = {{ site.data.team | jsonify }};
+
+// If there aren't any more posts available to load than already visible, disable fetching
+if (membersObjArray.length <= postsToLoad)
+  disableFetching();
+
+
+// If there's no spinner, it's not a page where posts should be fetched
+if ($(".infinite-spinner").length < 1)
+  shouldFetchPosts = false;
+
+// Are we close to the end of the page? If we are, load more posts
+$(window).scroll(function(e){
+  if (!shouldFetchPosts || isFetchingPosts) return;
   
-  // If there's no spinner, it's not a page where posts should be fetched
-  if ($(".infinite-spinner").length < 1)
-    shouldFetchPosts = false;
+  var windowHeight = $(window).height(),
+      windowScrollPosition = $(window).scrollTop(),
+      bottomScrollPosition = windowHeight + windowScrollPosition,
+      documentHeight = $(document).height();
+
+
+  // If we've scrolled past the loadNewPostsThreshold, fetch posts
+  if($(window).scrollTop() + $(window).height() > $(document).height() - containerHeight) {
+    fetchPosts();
+  }
+});
+
+// Fetch a chunk of posts
+function fetchPosts() {
+  // Exit if membersObjArray haven't been loaded
+  if (!membersObjArray) return;
   
-  // Are we close to the end of the page? If we are, load more posts
-  $(window).scroll(function(e){
-    if (!shouldFetchPosts || isFetchingPosts) return;
+  isFetchingPosts = true;
+  
+  // Load as many posts as there were present on the page when it loaded
+  // After successfully loading a post, load the next one
+  var loadedPosts = 0,
+      postCount = $(".teamlist").children().length,
+      callback = function() {
+        loadedPosts++;
+        var postIndex = postCount + loadedPosts;
+        
+        if (postIndex > membersObjArray.length-1) {
+          disableFetching();
+          return;
+        }
+        
+        if (loadedPosts < postsToLoad) {
+          fetchPostWithIndex(postIndex, callback);
+        } else {
+          isFetchingPosts = false;
+        }
+      };
+  
+  fetchPostWithIndex(postCount + loadedPosts, callback);
+}
+
+function fetchPostWithIndex(index, callback) {
+  var member = membersObjArray[index];
+
+  var index = member.department.indexOf(selectedFilter)
+  //if(member.department.indexOf(selectedFilter) === -1) return;
+
+  var cardToBeAdded = addMemberDataToHTMLString(member)
+
+  var elements = htmlStringToDOM(cardToBeAdded);
+
+  for (var i = 0; i < elements.length; i++) {
+    container.appendChild(elements[i]);
+    cardsAdded.push(elements[i])
+  }
+  
+  // shuffle.add(elements);
+  encodeGravatarEmails();
+  callback();
+
+}
+
+
+function addMemberDataToHTMLString(member){
+  return `<div class="member-card picture-item lazy" data-groups='"${member.department}"'>
+    <div class="member-card__img-container">
+      <div class="member-card__quote">
+        <p>${member.quote}</p>
+      </div>
+      <img class="member-card__img" alt="${member.gravatarEmail}">
+    </div>
+  
+    <div class="member-card__info">
+      <p class="member-card__name">
+        ${ member.name  } ${ member.lastName }
+      </p>
+      <p class="member-card__position">
+        ${ member.position }
+      </p>
+      <p class="member-card__location">
+        ${ member.location }
+      </p>
+      <div class="member-card__icons">
+        {% unless member.twitter == ''  %}
+          <a href="${member.twitter}"><svg class="icon icon-twittergreen"><use xlink:href="img/external-links.svg#icon-twittergreen"></use></svg></a>
+        {% endunless %}
+
+        {% unless member.facebook == '' %}
+          <a href="${member.facebook}"><svg class="icon icon-facebookgreen"><use xlink:href="img/external-links.svg#icon-facebookgreen"></use></svg></a>
+        {% endunless %}
+
+        {% unless member.linkedin == ''  %}
+          <a href="${member.linkedin}"><svg class="icon icon-linkedingreen"><use xlink:href="img/external-links.svg#icon-linkedingreen"></use></svg></a>
+        {% endunless %}
     
-    var windowHeight = $(window).height(),
-        windowScrollPosition = $(window).scrollTop(),
-        bottomScrollPosition = windowHeight + windowScrollPosition,
-        documentHeight = $(document).height();
-    
-    // If we've scrolled past the loadNewPostsThreshold, fetch posts
-    if ((documentHeight - loadNewPostsThreshold) < bottomScrollPosition) {
-      fetchPosts();
-    }
+        {% unless member.github == ''  %}
+          <a href="${member.github}"><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen"></use></svg></a>
+        {% endunless %}
+      </div>    
+    </div>
+
+  </div>`
+}
+
+
+function htmlStringToDOM(string){
+  return $.parseHTML(string);
+}
+
+function disableFetching() {
+
+  if(cardsAdded.length > 0){
+    //shuffle.add(cardsAdded);
+  }
+  shouldFetchPosts = false;
+  isFetchingPosts = false;
+  $(".infinite-spinner").fadeOut();
+}
+
+function encodeGravatarEmails(){
+  //team gravatar
+  $(".member-card .member-card__img-container .member-card__img").each(function () {
+    $(this).attr("src", "https://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=400&d=mm");
   });
-  
-  // Fetch a chunk of posts
-  function fetchPosts() {
-    // Exit if postURLs haven't been loaded
-    if (!postURLs) return;
-    
-    isFetchingPosts = true;
-    
-    // Load as many posts as there were present on the page when it loaded
-    // After successfully loading a post, load the next one
-    var loadedPosts = 0,
-        postCount = $(".teamlist").children().length,
-        callback = function() {
-          loadedPosts++;
-          var postIndex = postCount + loadedPosts;
-          
-          if (postIndex > postURLs.length-1) {
-            disableFetching();
-            return;
-          }
-          
-          if (loadedPosts < postsToLoad) {
-            fetchPostWithIndex(postIndex, callback);
-          } else {
-            isFetchingPosts = false;
-          }
-        };
-    
-    fetchPostWithIndex(postCount + loadedPosts, callback);
-  }
-  
-  function fetchPostWithIndex(index, callback) {
-    var member = postURLs[index];
+}
 
-    var cardToBeAdded = addMemberDataToHTMLString(member)
+function GetURLParameter(sParam){
 
-    var elements = htmlStringToDOM(cardToBeAdded);
+  var sPageURL = window.location.search.substring(1);
 
-    for (var i = 0; i < elements.length; i++) {
-      var elem = container.appendChild(elements[i]);
-    }
-    
-    shuffle.add(elements);
-    encodeGravatarEmails();
-    callback();
+  var sURLVariables = sPageURL.split('&');
+
+  for (var i = 0; i < sURLVariables.length; i++){
+
+      var sParameterName = sURLVariables[i].split('=');
+
+      if (sParameterName[0] == sParam)
+
+      {
+
+          return sParameterName[1];
+
+      }
 
   }
 
+}
 
-  function addMemberDataToHTMLString(member){
-    return `<div class="member-card picture-item lazy" data-groups='"${member.department}"'>
-      <div class="member-card__img-container">
-        <div class="member-card__quote">
-          <p>${member.quote}</p>
-        </div>
-        <img class="member-card__img" alt="${member.gravatarEmail}">
-      </div>
-    
-      <div class="member-card__info">
-        <p class="member-card__name">
-          ${ member.name  } ${ member.lastName }
-        </p>
-        <p class="member-card__position">
-          ${ member.position }
-        </p>
-        <p class="member-card__location">
-          ${ member.location }
-        </p>
-        <div class="member-card__icons">
-          {% unless member.twitter == ''  %}
-            <a href="${member.twitter}"><svg class="icon icon-twittergreen"><use xlink:href="img/external-links.svg#icon-twittergreen"></use></svg></a>
-          {% endunless %}
+var param = GetURLParameter('filter');
 
-          {% unless member.facebook == '' %}
-            <a href="${member.facebook}"><svg class="icon icon-facebookgreen"><use xlink:href="img/external-links.svg#icon-facebookgreen"></use></svg></a>
-          {% endunless %}
+param = decodeURIComponent(param);
 
-          {% unless member.linkedin == ''  %}
-            <a href="${member.linkedin}"><svg class="icon icon-linkedingreen"><use xlink:href="img/external-links.svg#icon-linkedingreen"></use></svg></a>
-          {% endunless %}
-      
-          {% unless member.github == ''  %}
-            <a href="${member.github}"><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen"></use></svg></a>
-          {% endunless %}
-        </div>    
-      </div>
-
-    </div>`
-  }
-
-
-  function htmlStringToDOM(string){
-    //var div = document.createElement('div');
-    //div.innerHTML = string.trim();
-    // Change this to div.childNodes to support multiple top-level nodes
-    //return div.childNodes; 
-    return $.parseHTML(string);
-  }
-  
-  function disableFetching() {
-    shouldFetchPosts = false;
-    isFetchingPosts = false;
-    $(".infinite-spinner").fadeOut();
-  }
-
-  function encodeGravatarEmails(){
-    //team gravatar
-    $(".member-card .member-card__img-container .member-card__img").each(function () {
-      $(this).attr("src", "https://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=200&d=mm");
-    });
-  }
-
+if(param === "undefined"){
   filterTeam("All Ackleners");
+}else{
+  filterTeam(param);
+}
 
 
+  
 
 
