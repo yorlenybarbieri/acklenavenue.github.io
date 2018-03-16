@@ -35,16 +35,10 @@ function filterTeam(tag) {
   
   setCategoryTitle(tag);
 
-  addMembersToContainer(filteredJson)
+  addMembersToContainer(tag)
   
   shuffle.filter(tag);
 }
-
-
-function addMembersToContainer(array){
-  //reset del container
-  //add array to container
-};
 
 function setActiveCategorie(tag) {
   // loop through all items and remove active class
@@ -68,7 +62,6 @@ function setCategoryTitle(tag){
   //document.getElementById('teamlist__title').textContent = tag;
 }
 
-
 ////******Infinite Scrolling Logic*******//////
 var membersObjArray,
     isFetchingPosts = false,
@@ -78,6 +71,19 @@ var membersObjArray,
 
 // Load the JSON file containing all URLs
 membersObjArray = {{ site.data.team | jsonify }};
+
+function addMembersToContainer(tag){
+  //reset del container
+  if (tag == "All Ackleners") return;
+  var membersObjArrayFilterTag = membersObjArray.filter(function(val) {
+    return val.position === tag;
+  });
+  membersObjArray = [];
+  //add array to container
+  membersObjArray = membersObjArrayFilterTag;
+  console.log(membersObjArray);
+};
+
 
 // If there aren't any more posts available to load than already visible, disable fetching
 if (membersObjArray.length <= postsToLoad)
@@ -99,7 +105,7 @@ $(window).scroll(function(e){
 
 
   // If we've scrolled past the loadNewPostsThreshold, fetch posts
-  if($(window).scrollTop() + $(window).height() > $(document).height() - containerHeight) {
+  if((documentHeight - loadNewPostsThreshold) < bottomScrollPosition) {
     fetchPosts();
   }
 });
@@ -118,6 +124,7 @@ function fetchPosts() {
       callback = function() {
         loadedPosts++;
         var postIndex = postCount + loadedPosts;
+        console.log('postIndex: ', postIndex);
         
         if (postIndex > membersObjArray.length-1) {
           disableFetching();
@@ -151,6 +158,7 @@ function fetchPostWithIndex(index, callback) {
   shuffle.add(elements);
   encodeGravatarEmails();
   callback();
+
 
 }
 
