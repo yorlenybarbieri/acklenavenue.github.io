@@ -13,7 +13,7 @@ var membersObjArray = {{ site.data.team | jsonify }};
 var limit = 12;
 $(window).unbind('scroll');
 
-// Create a new instance of the class ShuffleJs (Extrenal Class for filtering)
+// Create a new instance of the class ShuffleJs (External Class for filtering)
 var shuffle = new Shuffle(container, {
   itemSelector: '.picture-item', 
   sizer: null,
@@ -30,7 +30,6 @@ function filterTeam(tag) {
   }
   else{
     filteredJson = findByDepartment(membersObjArray, tag);
-    console.log(filteredJson)
   }
   //Keep history of filtered team department on page refresh
   history.pushState(null, null, '?filter='+tag);
@@ -256,6 +255,9 @@ function encodeGravatarEmails(){
   });
 }
 
+
+/* ============ Keep Filters on Page Reload  ============= */
+// Add tags to browser url in order to keep team filter by department on page refresh
 function GetURLParameter(sParam){
 
   var sPageURL = window.location.search.substring(1);
@@ -282,9 +284,9 @@ var param = GetURLParameter('filter');
 
 param = decodeURIComponent(param);
 
-if(param === "undefined"){
+if (param === "undefined"){
   filterTeam("All Ackleners");
-}else{
+} else {
   filterTeam(param);
 }
 
