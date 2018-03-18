@@ -7,13 +7,13 @@ var container = document.querySelector('.my-shuffle-container');
 var sizer = container.querySelector('.member-card');
 var containerHeight = container.clientHeight;
 var cardsAdded = [];
-var selectedFilter = "";
 var filteredJson = [];
-// Load the JSON file containing all URLs
+// Load the JSON file containing all _data/team.json
 var membersObjArray = {{ site.data.team | jsonify }};
 var limit = 12;
 $(window).unbind('scroll');
 
+// Create a new instance of the class ShuffleJs (Extrenal Class for filtering)
 var shuffle = new Shuffle(container, {
   itemSelector: '.picture-item', 
   sizer: null,
@@ -22,6 +22,7 @@ var shuffle = new Shuffle(container, {
   easing: 'ease'
 });
 
+// When user click on team-members-filter.html where Acklen Avenue differents department are
 function filterTeam(tag) {
 
   if(tag == "All Ackleners"){
@@ -29,11 +30,10 @@ function filterTeam(tag) {
   }
   else{
     filteredJson = findByDepartment(membersObjArray, tag);
+    console.log(filteredJson)
   }
-
+  //Keep history of filtered team department on page refresh
   history.pushState(null, null, '?filter='+tag);
-
-  selectedFilter = tag
 
   setActiveCategorie(tag);
   
@@ -72,18 +72,16 @@ function setCategoryTitle(tag){
 }
 
 ////******Infinite Scrolling Logic*******//////
-var isFetchingPosts = false,
-    shouldFetchPosts = true,
-    postsToLoad = limit,
-    loadNewPostsThreshold = containerHeight;
-
-
+var isFetchingMembers = false,
+    shouldFetchMembers = true,
+    membersToLoad = limit,
+    loadNewMembersThreshold = containerHeight;
 
 function reloadContainer(members){
-  //remove all children from the shuffle container
+  // Remove all children from the shuffle container
   cleanContainer(container);
 
-  //load only the first 12 members (limit)
+  // Load only the first 12 members (limit)
   loadFirstMembers(container, members, limit);
 
 };
@@ -93,11 +91,11 @@ function cleanContainer(container){
 }
 
 function loadFirstMembers(container, members, limit){
-
+  // Create an array of cards-members
   var cardElements = [];  
 
   if(members.length == 0) return;
-
+  // Loop trough the 12 only members loaded and push to cardElements array
   for (var i = 0; i < limit; i++) {
 
     var cardToBeAdded = addMemberDataToHTMLString(members[i]);
@@ -106,27 +104,27 @@ function loadFirstMembers(container, members, limit){
     newElement = newElement[0]
 
     cardElements.push(newElement)
-
+    // Add each member-card to the container class '.my-shuffle-container'
     container.appendChild(newElement);
   }
   
+  // Notice to shuffle about the new elements added to the DOM (Required by shuffle)
   shuffle.add(cardElements);
   encodeGravatarEmails();
 
 }
 
-// If there aren't any more posts available to load than already visible, disable fetching
-if (membersObjArray.length <= postsToLoad)
+// If there aren't any more members available to load than already visible, disable fetching
+if (membersObjArray.length <= membersToLoad)
   disableFetching();
 
-
-// If there's no spinner, it's not a page where posts should be fetched
+// If there's no spinner, it's not a page where members should be fetched
 if ($(".infinite-spinner").length < 1)
-  shouldFetchPosts = false;
+  shouldFetchMembers = false;
 
-// Are we close to the end of the page? If we are, load more posts
+// Are we close to the end of the page? If we are, load more members
 $(window).scroll(function(e){
-  if (!shouldFetchPosts || isFetchingPosts) return;
+  if (!shouldFetchMembers || isFetchingMembers) return;
   
   var windowHeight = $(window).height(),
       windowScrollPosition = $(window).scrollTop(),
@@ -134,67 +132,65 @@ $(window).scroll(function(e){
       documentHeight = $(document).height();
 
 
-  // If we've scrolled past the loadNewPostsThreshold, fetch posts
-  if((documentHeight - loadNewPostsThreshold) < bottomScrollPosition) {
-    fetchPosts();
+  // If we've scrolled past the loadNewMembersThreshold, fetch posts
+  if((documentHeight - loadNewMembersThreshold) < bottomScrollPosition) {
+    fetchMembers();
   }
 });
 
-// Fetch a chunk of posts
-function fetchPosts() {
+// Fetch a chunk of members
+function fetchMembers() {
   // Exit if membersObjArray haven't been loaded
   if (!filteredJson) return;
   
-  isFetchingPosts = true;
+  isFetchingMembers = true;
   
   // Load as many posts as there were present on the page when it loaded
   // After successfully loading a post, load the next one
-  var loadedPosts = 0,
-      postCount = $(".teamlist").children().length,
+  var loadedMembers = 0,
+      memberCount = $(".teamlist").children().length,
       callback = function() {
-        loadedPosts++;
-        var postIndex = postCount + loadedPosts;
-        console.log('postIndex: ', postIndex);
+        loadedMembers++;
+        // Load members by limit=12
+        var memberIndex = memberCount + loadedMembers;
         
-        if (postIndex > filteredJson.length-1) {
+        if (memberIndex > filteredJson.length-1) {
           disableFetching();
           return;
         }
         
-        if (loadedPosts < postsToLoad) {
-          fetchPostWithIndex(postIndex, callback);
+        if (loadedMembers < membersToLoad) {
+          fetchMemberWithIndex(memberIndex, callback);
         } else {
-          isFetchingPosts = false;
+          isFetchingMembers = false;
         }
       };
   
-  fetchPostWithIndex(postCount + loadedPosts, callback);
+  fetchMemberWithIndex(memberCount + loadedMembers, callback);
 }
 
-function fetchPostWithIndex(index, callback) {
+function fetchMemberWithIndex(index, callback) {
   if(filteredJson.length === 0 ){
     disableFetching();
     return;
   } 
 
-
   var member = filteredJson[index];
-
-  //if(member.department.indexOf(selectedFilter) === -1) return;
 
   var cardToBeAdded = addMemberDataToHTMLString(member)
 
   var elements = htmlStringToDOM(cardToBeAdded);
 
   for (var i = 0; i < elements.length; i++) {
+    // Add each member-card to the container class '.my-shuffle-container'
     container.appendChild(elements[i]);
     cardsAdded.push(elements[i])
   }
   
+  // Notice to shuffle about the new elements added to the DOM (Required by shuffle)
   shuffle.add(elements);
   encodeGravatarEmails();
   callback();
-
 
 }
 
@@ -247,8 +243,8 @@ function htmlStringToDOM(string){
 
 function disableFetching() {
 
-  shouldFetchPosts = false;
-  isFetchingPosts = false;
+  shouldFetchMembers = false;
+  isFetchingMembers = false;
   $(".infinite-spinner").fadeOut();
 
 }
