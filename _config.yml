@@ -14,7 +14,6 @@ exclude: ['README.md']
 environment: production
 gems:
   - jekyll-gist
-  - liquid-md5
 markdown: kramdown
 permalink: /articles/:title
 source: .
