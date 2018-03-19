@@ -11,7 +11,7 @@ var filteredJson = [];
 // Load the JSON file containing all _data/team.json
 var membersObjArray = {{ site.data.team | jsonify }};
 var limit = 12;
-$(window).unbind('scroll');
+//$(window).unbind('scroll');
 
 // Create a new instance of the class ShuffleJs (External Class for filtering)
 var shuffle = new Shuffle(container, {
@@ -77,6 +77,8 @@ var isFetchingMembers = false,
     loadNewMembersThreshold = containerHeight;
 
 function reloadContainer(members){
+  enableFetching();
+
   // Remove all children from the shuffle container
   cleanContainer(container);
 
@@ -123,6 +125,7 @@ if ($(".infinite-spinner").length < 1)
 
 // Are we close to the end of the page? If we are, load more members
 $(window).scroll(function(e){
+
   if (!shouldFetchMembers || isFetchingMembers) return;
   
   var windowHeight = $(window).height(),
@@ -245,6 +248,13 @@ function disableFetching() {
   shouldFetchMembers = false;
   isFetchingMembers = false;
   $(".infinite-spinner").fadeOut();
+
+}
+
+function enableFetching() {
+  shouldFetchMembers = true;
+  isFetchingMembers = false;
+  $(".infinite-spinner").fadeIn();
 
 }
 
