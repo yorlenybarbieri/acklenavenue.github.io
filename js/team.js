@@ -11,7 +11,6 @@ var filteredJson = [];
 // Load the JSON file containing all _data/team.json
 var membersObjArray = {{ site.data.team | jsonify }};
 var limit = 12;
-//$(window).unbind('scroll');
 
 // Create a new instance of the class ShuffleJs (External Class for filtering)
 var shuffle = new Shuffle(container, {
@@ -82,7 +81,7 @@ function reloadContainer(members){
   // Remove all children from the shuffle container
   cleanContainer(container);
 
-  // Load only the first 12 members (limit)
+  // Load only the first 12 members max(limit)
   loadFirstMembers(container, members, limit);
 
 };
@@ -93,11 +92,16 @@ function cleanContainer(container){
 
 function loadFirstMembers(container, members, limit){
   // Create an array of cards-members
+  var _limit = members.length < 12 ? members.length : limit;
+
+  if(members.length < 12){
+    disableFetching();
+  }
   var cardElements = [];  
 
   if(members.length == 0) return;
   // Loop trough the 12 only members loaded and push to cardElements array
-  for (var i = 0; i < limit; i++) {
+  for (var i = 0; i < _limit; i++) {
 
     var cardToBeAdded = addMemberDataToHTMLString(members[i]);
 
