@@ -7,7 +7,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 1.	Now you need to **Fork** the repository, in order to do that click on the fork button
 
-![For the Repository](/blob/master/img/add-team-member/1.png?raw=true)
+![For the Repository](./blob/master/img/add-team-member/1.png?raw=true)
 
 2. Once inside the forked repository click on **_data** folder
 
