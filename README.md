@@ -37,7 +37,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 ![Create Pull Request](./img/add-team-member/8.png)
 
-9. Comparing changes: Make sure that the base fork is AcklenAvenu, then click **Create pull request** button
+9. Comparing changes: Make sure that the base fork is AcklenAvenue, then click **Create pull request** button
 
 ![Comparing changes](./img/add-team-member/9.png)
 
