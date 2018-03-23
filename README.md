@@ -16,7 +16,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 ![For the Repository](./img/add-team-member/2.png?raw=true)
 
-NOTE: if you see a message saying *"Your already have a fork of this repository"* you'll have to delete that fork and comeback to this step later.
+NOTE: if you see a message saying *"You already have a fork of this repository"* (like in the image above) you'll have to delete that fork and comeback to this step later.
 <br/>
 <br/>
 3. Once inside the forked repository click on **_data** folder
