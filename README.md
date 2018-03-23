@@ -5,7 +5,7 @@ The AcklenAvenue official website.
 ## Add New Acklener Information 
 In order to complete this task you need to have a GitHub account, If you have one then Sign in. If you don’t have an account then you need to create one by clicking Sign up.
 
-1.	Now you need to **Fork** the repository, in order to do that click on the fork button.
+1.	Now you need to **Fork** the repository, in order to do that, click on the fork button.
 
 ![For the Repository](./img/add-team-member/1.png?raw=true)
 
@@ -17,7 +17,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 ![Data Folder](./img/add-team-member/3.png)
 
-4. Inside _data folder click on file named **team.json** and it shows you a list of all the Ackleners. This is the file that you need to _edit_ in order to add your information to Acklen Avenue site, to edit the file click on the _pencil_ icon as shown on the image bellow
+4. Inside _data folder click on file named **team.json** and it shows you a list of all the Ackleners. This is the file that you need to _edit_ in order to add your information to Acklen Avenue site, to edit the file click on the _pencil_ icon as shown on the image below
 
 ![Team.json File](./img/add-team-member/4.png)
 
