@@ -24,6 +24,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 4. Inside _data folder click on file named **team.json** and it shows you a list of all the Ackleners. This is the file that you need to _edit_ in order to add your information to Acklen Avenue site, to edit the file click on the _pencil_ icon as shown on the image below
 
 ![Team.json File](./img/add-team-member/4.png)
+
 <br/>
 <br/>
 5. Now you have to scroll to the bottom of the file and select the information of the last Acklener on the list in order to _Copy_ his information as a guide for your own information.
