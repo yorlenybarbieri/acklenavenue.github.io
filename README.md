@@ -15,6 +15,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 2. Now a popup will display, select your profile image/gravatar to confirm where to Fork.
 
 ![For the Repository](./img/add-team-member/2.png?raw=true)
+
 NOTE: if you see a message saying *"Your already have a fork of this repository"* you'll have to delete that fork and comeback to this step later.
 <br/>
 <br/>
