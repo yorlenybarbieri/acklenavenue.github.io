@@ -32,7 +32,7 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 ![Copy Acklener Information](./img/add-team-member/5.png)
 
-`{
+```{
   "name": "<-Your information->",
   "lastName": "<-Your information->",
   "gravatarEmail": "<-Your information->",
@@ -44,7 +44,7 @@ In order to complete this task you need to have a GitHub account, If you have on
   "github": "<-Your information->",
   "linkedin": "<-Your information->",
   "quote": "<-Your information->!"
-}`
+}```
 
 
 6. Once you have _Copied/Pasted_ the info, you need to replace it with your own information. Replace the text **–Add Your Name—** with your personal information and so on.
