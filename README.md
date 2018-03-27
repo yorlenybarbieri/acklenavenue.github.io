@@ -16,10 +16,10 @@ In order to complete this task you need to have a GitHub account, If you have on
 
 ![For the Repository](./img/add-team-member/2.png?raw=true)
 
-NOTE: if you see a message saying *"You already have a fork of this repository"* (like in the image above) you'll have to delete that fork and comeback to this step later.
+**NOTE:** if you see a message saying *"You already have a fork of this repository"* (like in the image above) you'll have to delete that fork and comeback to this step later.
 <br/>
 
-In order to delete the Forked repository follow next steps (this is just in case you already forked Acklen Avenue repository before):
+In order to delete the forked repository, follow next steps **(this is just in case you already forked Acklen Avenue repository before. If this is your first time forking Acklen Avenue repository ignore this steps and follow from step 3):**
 <br/>
 2.1 Inside **Your Forked** version of Acklen Avenue repository, click on the **Settings** tab, as shown on image:
 
