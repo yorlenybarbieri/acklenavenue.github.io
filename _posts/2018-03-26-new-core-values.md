@@ -8,7 +8,7 @@ image: /img/posts/core-values-2018.png
 tags: news
 ---
 
-Core values define us. They describe who we are and why we do what we do. They are more than just words. They influence our decisions and lead us to where we want to go. At Acklen Avenue a few years ago, went through an arduous process of selecting our core values. We have ridden the wave of that process ever since. However, while trying to embody our core values, we discovered that some things were missing. We realized over time that our previously chosen core values, though they seemed great at the time, actually don’t describe us to a tea. That’s when we knew it was time for a change. 
+Core values define us. They describe who we are and why we do what we do. They are more than just words. They influence our decisions and lead us to where we want to go. At Acklen Avenue a few years ago, we went through an arduous process of selecting our core values. We have ridden the wave of that process ever since. However, while trying to embody our core values, we discovered that some things were missing. We realized over time that our previously chosen core values, though they seemed great at the time, actually don’t describe us to a tea. That’s when we knew it was time for a change. 
 
  Our previous core values were:  
  - We rigorously pursue fun.  
@@ -19,7 +19,7 @@ Core values define us. They describe who we are and why we do what we do. They a
 
 These core values empowered us to a great length, but we have learned there is so much more to accomplish. We could be more. In some ways, we already are more. 
 
-We have grown by leaps and bounds in the last few months. Not only has our team more than doubled in size, but we have also taken on new challenges and initiatives. Dedicated to constant improvement, our former identity is but a shadow of who we are now. There was nothing wrong with our old core values, but we needed a set of values that go deeper then fun, empowerment, success, elegance and community.
+We have grown by leaps and bounds in the last few months. Not only has our team more than doubled in size, but we have also taken on new challenges and initiatives. Dedicated to constant improvement, our former identity is but a shadow of who we are now. There was nothing wrong with our old core values, but we needed a set of values that go deeper than fun, empowerment, success, elegance and community.
 
 So, we hunkered down and turned our x-ray vision on ourselves. What’s really at the heart of Acklen Avenue? Here’s what we came up with:
 
