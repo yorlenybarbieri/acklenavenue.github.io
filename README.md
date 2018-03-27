@@ -1,9 +1,7 @@
-# acklenavenue.github.io
-
 The AcklenAvenue official website.
 
 ## Add New Acklener Information 
-In order to complete this task you need to have a GitHub account, If you have one then Sign in. If you don’t have an account then you need to create one by clicking Sign up.
+In order to complete this task you need to have a GitHub account, If you have one then Sign in. If you don’t have an account then you need to create one by clicking Sign up. If you had any problem with this guide please reach to an Acklen Avenue developer for support.
 <br/>
 <br/>
 1.	Now you need to **Fork** the repository, in order to do that, click on the fork button.
@@ -104,8 +102,6 @@ Here's an example of the code you have to copy, just replace your information an
 11. Congratulations!, you have successfully created a New pull request in order to add yourself to Acklen Avenue website.
 
 ![Last step](./img/add-team-member/11.png)
-
-If you had any problem with this guide please reach to an Acklen Avenue developer for support.
 
 
 
