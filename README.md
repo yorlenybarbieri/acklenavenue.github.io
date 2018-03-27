@@ -1,7 +1,7 @@
 The AcklenAvenue official website.
 
 ## Add New Acklener Information 
-In order to complete this task you need to have a GitHub account, If you have one then Sign in. If you don’t have an account then you need to create one by clicking Sign up. If you had any problem with this guide please reach to an Acklen Avenue developer for support.
+In order to complete this task you need to have a GitHub account, If you have one then Sign in. If you don’t have an account then you need to create one by clicking Sign up. If you have any problem with this guide please reach to an Acklen Avenue developer for support.
 <br/>
 <br/>
 1.	Now you need to **Fork** the repository, in order to do that, click on the fork button.
