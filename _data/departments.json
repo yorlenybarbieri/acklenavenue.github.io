@@ -3,19 +3,19 @@
 		"name": "All Ackleners"
 	},
 	{
-		"name": "Founders"
+		"name": "Leadership and Operations"
 	},
 	{
 		"name": "Developers"
 	},
 	{
-		"name": "Quality Assurance"
+		"name": "Quality Assurances"
 	},
 	{
 		"name": "Designers"
 	},
 	{
-		"name": "Ops"
+		"name": "DevOps"
 	},
 	{
 		"name": "Product Owners"
@@ -27,9 +27,9 @@
 		"name": "Engagement Managers"
 	},
 	{
-		"name": "Admin & HR"
+		"name": "Human Resources"
 	},
 	{
-		"name": "Sales and Marketing"
+		"name": "Architects"
 	}
 ]
