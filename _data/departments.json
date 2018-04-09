@@ -3,33 +3,46 @@
 		"name": "All Ackleners"
 	},
 	{
-		"name": "Founders"
+		"name": "Leadership & Operations",
+		"avatar": "../img/leadership-operations.svg"
 	},
 	{
-		"name": "Developers"
+		"name": "Engagement Managers",
+		"avatar": "../img/engagement-manager.svg"
 	},
 	{
-		"name": "Quality Assurance"
+		"name": "Product Owners",
+		"avatar": "../img/product-owner.svg"
 	},
 	{
-		"name": "Designers"
+		"name": "Scrum Masters",
+		"avatar": "../img/scrum-master.svg"
 	},
 	{
-		"name": "Ops"
+		"name": "human resources",
+		"avatar": "../img/human-resources.svg"
 	},
 	{
-		"name": "Product Owners"
+		"name": "Developers",
+		"avatar": "../img/dev.svg"
 	},
 	{
-		"name": "Scrum Masters"
+		"name": "Architects",
+		"avatar": "../img/architect.svg"
 	},
 	{
-		"name": "Engagement Managers"
+		"name": "Devops",
+		"avatar": "../img/devops.svg"
 	},
 	{
-		"name": "Admin & HR"
+		"name": "Designers",
+		"avatar": "../img/designer.svg"
 	},
 	{
-		"name": "Sales and Marketing"
+		"name": "Quality Assurance",
+		"avatar": "../img/quality-assurance.svg"
+	},
+	{
+		"name": "Interested in joining the Team?"
 	}
 ]

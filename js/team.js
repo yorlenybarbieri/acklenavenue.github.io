@@ -43,10 +43,10 @@ function filterTeam(tag) {
 
 function setActiveCategorie(tag) {
   // loop through all items and remove active class
-  var items = document.getElementsByClassName('btn btn--ghost');
+  var items = document.getElementsByClassName('btn-team');
 
   for(var i=0; i < items.length; i++) {
-    items[i].setAttribute('class', 'btn btn--ghost');
+    items[i].setAttribute('class', 'btn-team');
   }
 
   // set the selected tag's item to active
@@ -54,7 +54,7 @@ function setActiveCategorie(tag) {
   var item = document.getElementById(formatedTag + '-item');
 
   if(item) {
-    item.setAttribute('class', 'btn btn--ghost btn--ghost-active');
+    item.setAttribute('class', 'btn-team team-active');
   }
 }
 
