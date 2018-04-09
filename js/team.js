@@ -202,6 +202,7 @@ function fetchMemberWithIndex(index, callback) {
 
 
 function addMemberDataToHTMLString(member){
+  if(!member) return '<div/>';
   return `<div class="member-card picture-item lazy" data-groups='"${member.department}"'>
     <div class="member-card__img-container">
       <div class="member-card__quote">
