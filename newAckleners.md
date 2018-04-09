@@ -59,7 +59,7 @@ Here's an example of the code you have to copy, just replace your information an
   "gravatarEmail": "<-Your information->",
   "position": "<-Your information->",
   "location": "<-Your information->",
-  "department": ["All Ackleners", "<-Your Department->"], //List of Departments inside Acklen Avenue: `Leadership and Operations`, `Developers`, `Quality Assurances`, `Designers`, `DevOps`, `Product Owners`, `Scrum Masters`, `Engagement Managers`, `Human Resources`, `Architects`. You MUST have to specify ONE from the list.
+  "department": ["All Ackleners", "<-Your Department->"], //List of Departments inside Acklen Avenue, you MUST have to specify ONE from the list: Leadership and Operations, Developers, Quality Assurances, Designers, DevOps, Product Owners, Scrum Masters, Engagement Managers, Human Resources, Architects.
   "facebook": "<-Your information->",
   "twitter": "<-Your information->",
   "github": "<-Your information->",
