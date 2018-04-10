@@ -5,7 +5,7 @@
 	  "gravatarEmail": "cesarwelchez@acklenavenue.com",
 	  "position":"Quality Assurance",
 	  "location":"Tegucigalpa, Honduras",
-	  "department": ["All Ackleners", "Quality Assurance"],
+	  "department": ["All Ackleners", "Quality Assurances"],
 	  "facebook":"https://www.facebook.com/cesarwelch",
 	  "twitter":"https://twitter.com/cesarwelch",
 	  "github":"https://github.com/cesarwelch",
@@ -122,7 +122,7 @@
 	  "gravatarEmail": "elder@acklenavenue.com",
 	  "position":"Quality Assurance",
 	  "location":"Tegucigalpa, Honduras",
-	  "department": ["All Ackleners", "Quality Assurance"],
+	  "department": ["All Ackleners", "Quality Assurances"],
 	  "facebook":"https://www.facebook.com/",
 	  "twitter":"https://twitter.com/",
 	  "github":"https://github.com/Elder-C",
@@ -141,5 +141,15 @@
 	  "github":"https://github.com/krisstad2",
 	  "linkedin":"https://www.linkedin.com/in/krista-david-85349070/",
 	  "quote":"May the Force be with you, Acklen Avenue!"
+	},
+	{
+	  "name":"Christian",
+	  "lastName":"Garcia",
+	  "gravatarEmail": "cristian.g@acklenavenue.com",
+	  "position":"Recruiter",
+	  "location":"Tegucigalpa, Honduras",
+	  "department": ["All Ackleners", "Human Resources"],
+	  "github":"https://github.com/Cristian1977",
+	  "quote":"Live what you haven't!"
 	}
 ]

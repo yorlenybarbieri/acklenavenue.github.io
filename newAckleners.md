@@ -59,7 +59,7 @@ Here's an example of the code you have to copy, just replace your information an
   "gravatarEmail": "<-Your information->",
   "position": "<-Your information->",
   "location": "<-Your information->",
-  "department": ["All Ackleners", "<-Your Department->"],
+  "department": ["All Ackleners", "<-Your Department->"], //List of Departments inside Acklen Avenue, you MUST have to specify ONE from the list: Leadership and Operations, Developers, Quality Assurances, Designers, DevOps, Product Owners, Scrum Masters, Engagement Managers, Human Resources, Architects.
   "facebook": "<-Your information->",
   "twitter": "<-Your information->",
   "github": "<-Your information->",
@@ -70,6 +70,8 @@ Here's an example of the code you have to copy, just replace your information an
 <br/>
 <br/>
 6. Once you have _Copied/Pasted_ the info, you need to replace it with your own information. Replace the text **–Add Your Name—** with your personal information and so on.
+
+**Note:** List of Departments inside Acklen Avenue (you MUST have to specify ONE from the list): Leadership and Operations, Developers, Quality Assurances, Designers, DevOps, Product Owners, Scrum Masters, Engagement Managers, Human Resources, Architects.
 
 ![Add your own information](./img/add-team-member/6.png)
 
