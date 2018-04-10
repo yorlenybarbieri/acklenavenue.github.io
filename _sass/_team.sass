@@ -1,7 +1,7 @@
 
 .member-card
-	width: 260px
-	height: 426px
+	max-width: 260px
+	max-height: 426px
 	border-radius: 8px
 	overflow: hidden
 	background-color: $pale-grey
@@ -89,92 +89,70 @@
 	fill: $apple-green
 	&:hover
 		fill: $slate-purple
+.teamwrap
+	width: 100%
+	max-width: 1140px
+	margin: auto
+	&:after
+		content: ""
+		position: absolute
+		z-index: -1
+		width: 100%
+		height: 645px
+		left: 0
+		top: 1180px
+		transform: skewY(6deg)
+		transform-origin: 0
+		background: #f8f9fb
+		border-top: 1px solid rgba(0, 0, 0, 0.12)
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12)
 
 .teamlist
 	display: flex
 	flex: 1 1 33.33333%
 	align-items: center
 	justify-content: space-evenly
-	width: 100%
-	max-width: 1140px
-	margin: auto
 	flex-wrap: wrap
-
+	
 .teamlist__title
 	text-align: center
 	margin-top: 50px
 
 .team-filter
-	width: 100%
-	max-width: 1140px
+	max-width: 900px
 	border-radius: 8px
-	margin: auto
+	margin: 50px auto
 	display: flex
 	flex-wrap: wrap
 	align-items: center
 	justify-content: center
-	padding-top: 15px
-	padding-bottom: 15px
-
-.team-filter .btn
-	outline: none
-	height: 30px
-	width: 220px
-	padding: 5px 5px
-	font-size: 12px
-	margin: 6px 10px
-	color: #4f4959
-	&:hover
-		background-color: $apple-green
-		color: white
-		border: none
-
-
-.btn--ghost-active
-	background-color: $apple-green
-	color: #ffffff !important
-	border: none
-	outline: none
+	padding: 15px 0
+	& .btn-team
+		outline: none
+		width: 120px
+		min-height: 150px
+		background: $white
+		border-radius: $radius 
+		border: 0
+		padding: 15px 14px 
+		text-transform: uppercase
+		font-size: 11px
+		margin: 6px 10px
+		color: $apple-green
+		box-shadow: $shadow-one
+		font-weight: 800
+		transition: all 0.2s ease-in-out
+		&:hover
+			transform: translate(0, -5px)
+	& .team-active
+		border-bottom: 6px solid $apple-green
+		box-shadow: $shadow-two	
 
 .team-filter-container
 	text-align: center
 
-.team-filter-container:after
-	content: ""
-	position: absolute
-	z-index: -1
-	width: 100%
-	height: 1880px
-	left: 0
-	top: 1180px
-	transform: skewY(6deg)
-	transform-origin: 0
-	background: #f8f9fb
-	border-top: 1px solid rgba(0, 0, 0, 0.12)
-	border-bottom: 1px solid rgba(0, 0, 0, 0.12)
-
-
-.team-filter-description
-	width: 60%
-	max-width: 783px
-	margin: 60px auto
-
-.team-filter-description p
-	margin: 30px 0
-
-.team-apply-section
-	text-align: center
-	margin-top: 160px
-	margin-bottom: 100px
-	h3
-		font-weight: lighter
-		font-size: 2em
-	.btn
-		margin-top: 30px
-
-
-.btn--left, .btn--right
-	display: none
+.hide-apply-job
+	display: none	
 
 .infinite-spinner
 	display: block

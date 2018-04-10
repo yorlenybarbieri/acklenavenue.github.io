@@ -1,13 +1,18 @@
 <h3 class="teamlist__title" id="teamlist__title">All Ackleners</h3>
 
-<div class="my-shuffle-container teamlist">
+<div class="teamwrap">
+	<div class="my-shuffle-container teamlist">
 
-	{% for member in site.data.team limit: 12 %}
-		{% include teamcard.html member=member %}
-	{% endfor %}
-
+		{% for member in site.data.team limit: 12 %}
+			{% include teamcard.html member=member %}
+		{% endfor %}
 	
-
+	</div>
+	<section class="callToAction callToAction--boxed hide-apply-job ">
+			<h2>We're always looking for <br>outstanding people.</h2>
+			<a class="btn hvr-ripple-out btn--apple" href="https://acklen-avenue.breezy.hr/" target="_blank" >Apply for a Job</a>
+	</section>
+	
 </div>
 <div class="infinite-spinner"></div>
 <script type="text/javascript" src="js/md5.min.js"></script>
