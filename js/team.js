@@ -26,10 +26,19 @@ function filterTeam(tag) {
 
   if(tag == "All Ackleners"){
     filteredJson = membersObjArray
+    $(".callToAction").addClass("hide-apply-job");
+  }
+  else if(tag == "Interested in joining the Team?"){
+    filteredJson = [];
+  
+    $(".callToAction").removeClass("hide-apply-job");
   }
   else{
     filteredJson = findByDepartment(membersObjArray, tag);
+    $(".callToAction").addClass("hide-apply-job");
+  
   }
+
   //Keep history of filtered team department on page refresh
   history.pushState(null, null, '?filter='+tag);
 
