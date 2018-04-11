@@ -24,6 +24,8 @@ var shuffle = new Shuffle(container, {
 // When user click on team-members-filter.html where Acklen Avenue differents department are
 function filterTeam(tag) {
 
+  if(tag === getURLParam()) return;
+
   if(tag == "All Ackleners"){
     filteredJson = membersObjArray
     $(".callToAction").addClass("hide-apply-job");
@@ -304,9 +306,13 @@ function GetURLParameter(sParam){
 
 }
 
-var param = GetURLParameter('filter');
+function getURLParam(){
+  var param = GetURLParameter('filter');
+  return decodeURIComponent(param);
+}
 
-param = decodeURIComponent(param);
+var param = getURLParam();
+
 
 if (param === "undefined"){
   filterTeam("All Ackleners");
