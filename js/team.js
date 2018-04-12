@@ -8,6 +8,7 @@ var sizer = container.querySelector('.member-card');
 var containerHeight = container.clientHeight;
 var cardsAdded = [];
 var filteredJson = [];
+var counter = 0;
 // Load the JSON file containing all _data/team.json
 var membersObjArray = {{ site.data.team | jsonify }};
 var limit = 12;
@@ -24,7 +25,9 @@ var shuffle = new Shuffle(container, {
 // When user click on team-members-filter.html where Acklen Avenue differents department are
 function filterTeam(tag) {
 
-  if(tag === getURLParam()) return;
+  if(tag === getURLParam() && counter > 0) return;
+
+  counter++;
 
   if(tag == "All Ackleners"){
     filteredJson = membersObjArray
