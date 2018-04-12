@@ -130,4 +130,16 @@
     "github": "https://github.com/krisstad2",
     "linkedin": "https://www.linkedin.com/in/krista-david-85349070/",
     "quote": "May the Force be with you, Acklen Avenue!"
+}, {
+    "name": "Hellen",
+    "lastName": "Fiallos",
+    "gravatarEmail": "hellenfiallos@acklenavenue.com",
+    "position": "Software Engineer",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Developers"],
+    "facebook": "https://www.facebook.com/hellenfc",
+    "twitter": "https://twitter.com/hellenfc15",
+    "github": "https://github.com/hellenfc",
+    "linkedin": "https://www.linkedin.com/in/hellenfiallos/",
+    "quote": "Acklen Avenue rocks!"
 }]
