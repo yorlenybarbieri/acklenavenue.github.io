@@ -80,7 +80,7 @@ function findByDepartment(members, tag){
 
 function setCategoryTitle(tag){
   $(".teamlist__title").text(tag);
-  //document.getElementById('teamlist__title').textContent = tag;
+  $(".dropbtn-text").text(tag);
 }
 
 ////******Infinite Scrolling Logic*******//////
