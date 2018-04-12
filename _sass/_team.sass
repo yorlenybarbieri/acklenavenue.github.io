@@ -190,6 +190,7 @@
 		display: inline
 
 	.dropbtn
+		cursor: pointer
 		background-color: $apple-green
 		border-radius: $radius 
 		color: white
@@ -202,6 +203,9 @@
 			right: 20px
 			position: absolute
 			margin: 5px	
+			pointer-events: none
+		& span
+			pointer-events: none
 
 	.dropdown
 		position: relative
