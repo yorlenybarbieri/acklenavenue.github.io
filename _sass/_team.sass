@@ -179,3 +179,52 @@
 		transform: scale(1.0)
 		-webkit-transform: scale(1.0)
 		opacity: 0
+
+.team-filter-mobile
+	display: none
+
+@media (min-width: $screen-xm-min) and (max-width: $screen-sm-min)
+	.team-filter
+		display: none
+	.team-filter-mobile
+		display: inline
+
+	.dropbtn
+		background-color: $apple-green
+		border-radius: $radius 
+		color: white
+		padding: 16px
+		font-size: 16px
+		width: 100%
+		border: 0
+		& img
+			width: 16px
+			right: 20px
+			position: absolute
+			margin: 5px	
+
+	.dropdown
+		position: relative
+		display: inline-block
+		width: 80%
+		margin: 50px 0
+
+	.dropdown-content
+		width: 100%
+		display: none
+		position: absolute
+		background-color: $white
+		overflow: auto
+		box-shadow: $shadow-one
+		z-index: 1
+		a
+			color: $black-50
+			padding: 18px
+			text-decoration: none
+			display: block
+			font-size: 16px
+		a:hover
+			background: $pale-grey
+
+	.show
+		display: block
