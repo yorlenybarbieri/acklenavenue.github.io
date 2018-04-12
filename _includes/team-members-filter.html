@@ -7,7 +7,7 @@
 
 <div class="team-filter-mobile">
 	<div class="dropdown">
-		<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+		<button onclick="myFunction()" class="dropbtn">dropdown<img style="width: 12px" src="img/triangle.svg" alt=""></button>
 			<div id="myDropdown" class="dropdown-content">
 				{% for department in site.data.departments %}
 					<a onclick="filterTeam('{{department.name}}')" id="{{ department.name | downcase | replace: ' ', '-' }}-item">{{department.name}}</a>
