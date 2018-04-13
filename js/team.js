@@ -19,15 +19,20 @@ var shuffle = new Shuffle(container, {
   sizer: null,
   isCentered: true,
   buffer: 0,
-  easing: 'ease'
+  speed: 250
 });
 
 // When user click on team-members-filter.html where Acklen Avenue differents department are
 function filterTeam(tag) {
 
-  if(tag === getURLParam() && counter > 0) return;
+  if(counter > 0) {
+    return;
+  }
 
-  counter++;
+  counter++
+  setTimeout(function() {
+    counter = 0;
+  }, 300);
 
   if(tag == "All Ackleners"){
     filteredJson = membersObjArray
