@@ -24,8 +24,8 @@ var shuffle = new Shuffle(container, {
 
 // When user click on team-members-filter.html where Acklen Avenue differents department are
 function filterTeam(tag) {
-
-  if(tag === getURLParam() && counter > 0) return;
+  cleanContainer(container);
+  // if(tag === getURLParam() && counter > 0) return;
 
   counter++;
 
