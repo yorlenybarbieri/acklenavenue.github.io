@@ -33,7 +33,6 @@
 		"location":"San sebastian, Spain",
 		"department": ["All Ackleners", "Designers"],
 		"facebook":"https://www.facebook.com/ferguevarai",
-		"twitter":"",
 		"github":"https://github.com/fernandoguevar4",
 		"linkedin":"https://www.linkedin.com/in/fernando-guevara-00b25063/",
 		"quote":"Users know the way!"
@@ -46,7 +45,6 @@
 	  	"location":"San Pedro Sula, Honduras",
 	  	"department": ["All Ackleners", "Developers"],
 	  	"facebook":"https://www.facebook.com/dennismolinagarcia",
-	  	"twitter":"",
 	  	"github":"https://github.com/DennisMG",
 	  	"linkedin":"https://www.linkedin.com/in/dennismolinadev/",
 	  	"quote":"Acklen Avenue Rocks!"
@@ -58,9 +56,6 @@
 		"position": "Product Owner",
 		"location":"San Pedro Sula, Honduras",
 		"department": ["All Ackleners", "Product Owners"],
-		"facebook":"",
-		"twitter":"",
-		"github":"",
 		"linkedin":"https://www.linkedin.com/in/alexa-nuñez",
 		"quote":"Keep it simple!"
 	},
@@ -71,9 +66,6 @@
 		"position": "Engagement Manager",
 		"location":"Tegucigalpa, Honduras",
 		"department": ["All Ackleners", "Engagement Managers"],
-		"facebook":"",
-		"twitter":"",
-		"github":"",
 		"linkedin":"https://www.linkedin.com/in/ronald-doblado-195a5254/“",
 		"quote":"Acklen Avenue Rocks!"
 	},
@@ -85,7 +77,6 @@
 		"location":"San Pedro Sula, Honduras",
 		"department": ["All Ackleners", "Developers"],
 		"facebook":"https://www.facebook.com/arthur.cordova.54“",
-		"twitter":"",
 		"github":"https://github.com/ArthurC07",
 		"linkedin":"https://www.linkedin.com/in/arthur-cordova-b198bb103/",
 		"quote":"We Become What We Think About"
@@ -97,9 +88,6 @@
 		"position": "Scrum Master",
 		"location":"San Pedro Sula, Honduras",
 		"department": ["All Ackleners", "Scrum Masters"],
-		"facebook":"",
-		"twitter":"",
-		"github":"",
 		"linkedin":"https://www.linkedin.com/in/juan-carlos-rivera-3064aaa8/“",
 		"quote":"Ackleners assemble!"
 	},
@@ -113,7 +101,6 @@
 		"facebook":"https://www.facebook.com/lisaulacruz",
 		"twitter":"https://twitter.com/IsaulaC",
 		"github":"https://github.com/lisaula",
-		"linkedin":"",
 		"quote":"Everything you can imagine is real."
 	},
 	{
@@ -176,7 +163,7 @@
 		"quote": "Fall once, get up twice."
 	},
 	{
-		"name": "Cesar",
+    "name": "Cesar",
 		"lastName": "Bonilla",
 		"gravatarEmail": "cesar.bonilla@acklenavenue.com",
 		"position": "Developer",
@@ -185,6 +172,19 @@
 		"facebook": "https://www.facebook.com/cefeboru",
 		"linkedin": "https://www.linkedin.com/in/cefeboru/",
 		"quote": "Let the beauty of what you love be what you do"
-	}
+  },
+  {
+    "name": "Camilo",
+		"lastName": "Rivera",
+		"gravatarEmail": "crivera@acklenavenue.com",
+		"position": "DevOps Guild Master",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "DevOps"],
+		"facebook": "https://www.facebook.com/camilo.ripi",
+		"twitter": "https://twitter.com/VikingCamilo",
+		"github": "https://github.com/camilorivera",
+		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
+		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
+  }
 ]
 
