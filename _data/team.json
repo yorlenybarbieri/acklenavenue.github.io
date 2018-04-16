@@ -198,6 +198,19 @@
 		"github": "https://github.com/camilorivera",
 		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
+  },
+  {
+	  "name":"Edward",
+	  "lastName":"Siwady",
+	  "gravatarEmail": "edward@acklenavenue.com",
+	  "position":"Developer",
+	  "location":"Villanueva, Honduras",
+	  "department": ["All Ackleners", "Developers"],
+	  "facebook":"",
+	  "twitter":"",
+	  "github":"https://github.com/siwady",
+	  "linkedin":"https://www.linkedin.com/in/edward-siwady-gabrie/",
+	  "quote":"Being challenged is inevitable, being defeated is Optional."
   }
 ]
 
