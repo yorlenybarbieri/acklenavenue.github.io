@@ -185,6 +185,16 @@
 		"github": "https://github.com/camilorivera",
 		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
-  }
+  },
+	{
+		"name": "Bily",
+		"lastName": "Fernandez",
+		"gravatarEmail": "billy@acklenavenue.com",
+		"position": "Sr Developer",
+		"location": "Villanueva, Cortes, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
+		"quote": "Let's make it happen!"
+	}
 ]
 
