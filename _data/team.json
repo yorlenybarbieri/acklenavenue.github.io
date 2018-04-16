@@ -115,7 +115,7 @@
 		"github":"https://github.com/Elder-C",
 		"linkedin":"https://www.linkedin.com/in/elder-cerrato-36293b76/",
 		"quote":"The Enthusiasm moves the world!"
-  	},
+  },
 	{
 		"name":"Krista",
 		"lastName":"David",
@@ -171,5 +171,55 @@
 		"department": ["All Ackleners", "Scrum Masters"],
 		"linkedin": "https://www.linkedin.com/in/fabio-castillo-140814a7/",
 		"quote": "Fight the machine"
+  },
+  {
+		"name":"Donald",
+		"lastName":"Guevara",
+		"gravatarEmail": "donald@acklenavenue.com",
+		"position":"Quality Assurance",
+		"location":"Berlin, Germany",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"facebook":"https://www.facebook.com/donald.guevara",
+		"github":"https://github.com/dagiguevara",
+		"linkedin":"https://www.linkedin.com/in/donaldo-guevara-b110b8118/",
+		"quote":"Sometimes our best decisions are the ones that don't make sense at all"
+	},
+	{  
+    "name":"Sharon", 
+		"lastName":"Montenegro", 
+		"gravatarEmail": "sharon@acklenavenue.com", 
+		"position":"QA Manager", 
+		"location":"Tegucigalpa, Honduras", 
+		"department": ["All Ackleners", "Quality Assurance"],
+		"facebook":"https://www.facebook.com/sharontmontenegro", 
+		"twitter":"https://twitter.com/sharon___m", 
+		"github":"https://github.com/Sagui", 
+		"linkedin":"https://www.linkedin.com/in/sharon-montenegro-30973883/", 
+		"quote":"Ex nihilo nihil fit" 
+	},
+	{
+    "name": "Cesar",
+		"lastName": "Bonilla",
+		"gravatarEmail": "cesar.bonilla@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/cefeboru",
+		"linkedin": "https://www.linkedin.com/in/cefeboru/",
+		"quote": "Let the beauty of what you love be what you do"
+  },
+  {
+    "name": "Camilo",
+		"lastName": "Rivera",
+		"gravatarEmail": "crivera@acklenavenue.com",
+		"position": "DevOps Guild Master",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "DevOps"],
+		"facebook": "https://www.facebook.com/camilo.ripi",
+		"twitter": "https://twitter.com/VikingCamilo",
+		"github": "https://github.com/camilorivera",
+		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
+		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
+  }
 ]
 
