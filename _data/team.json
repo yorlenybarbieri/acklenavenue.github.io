@@ -254,6 +254,16 @@
 		"department": ["All Ackleners", "Developers"],
 		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
 		"quote": "Let's make it happen!"
+	},
+	{
+		"name": "Walter",
+		"lastName": "Nolasco",
+		"gravatarEmail": "walter@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"linkedin": "www.linkedin.com/in/walter-nolasco-4a3b9234",
+		"quote": "Judge us on the quality of our products, and not the quantity of our paperwork."
 	}
 ]
 
