@@ -163,7 +163,18 @@
 		"quote": "Fall once, get up twice."
 	},
 	{
-		"name": "Camilo",
+    "name": "Cesar",
+		"lastName": "Bonilla",
+		"gravatarEmail": "cesar.bonilla@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/cefeboru",
+		"linkedin": "https://www.linkedin.com/in/cefeboru/",
+		"quote": "Let the beauty of what you love be what you do"
+  },
+  {
+    "name": "Camilo",
 		"lastName": "Rivera",
 		"gravatarEmail": "crivera@acklenavenue.com",
 		"position": "DevOps Guild Master",
@@ -174,6 +185,6 @@
 		"github": "https://github.com/camilorivera",
 		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
-	}
+  }
 ]
 
