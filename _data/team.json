@@ -162,6 +162,28 @@
 		"linkedin": "https://www.linkedin.com/in/dennis-cheong-376b23141/",
 		"quote": "Fall once, get up twice."
 	},
+	{
+		"name": "Fabio",
+		"lastName": "Castillo",
+		"gravatarEmail": "fabio@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Comayagua, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"linkedin": "https://www.linkedin.com/in/fabio-castillo-140814a7/",
+		"quote": "Fight the machine"
+  },
+  {
+		"name":"Donald",
+		"lastName":"Guevara",
+		"gravatarEmail": "donald@acklenavenue.com",
+		"position":"Quality Assurance",
+		"location":"Berlin, Germany",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"facebook":"https://www.facebook.com/donald.guevara",
+		"github":"https://github.com/dagiguevara",
+		"linkedin":"https://www.linkedin.com/in/donaldo-guevara-b110b8118/",
+		"quote":"Sometimes our best decisions are the ones that don't make sense at all"
+	},
 	{  
     "name":"Sharon", 
 		"lastName":"Montenegro", 
@@ -200,17 +222,51 @@
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
   },
   {
-	"name": "Viktor",
-	"lastName": "Zavala",
-	"gravatarEmail": "viktor@acklenavenue.com",
-	"position": "Software Architect",
-	"location": "Tegucigalpa, Honduras",
-	"department": ["All Ackleners", "Architects"],
-	"facebook": "https://www.facebook.com/viktor.zavala",
-	"twitter": "https://twitter.com/zsnake123",
-	"github": "https://github.com/zsnake",
-	"linkedin": "https://www.linkedin.com/in/vkzavala",
-	"quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
-  }
+    "name": "Viktor",
+    "lastName": "Zavala",
+    "gravatarEmail": "viktor@acklenavenue.com",
+    "position": "Software Architect",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Architects"],
+    "facebook": "https://www.facebook.com/viktor.zavala",
+    "twitter": "https://twitter.com/zsnake123",
+    "github": "https://github.com/zsnake",
+    "linkedin": "https://www.linkedin.com/in/vkzavala",
+    "quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
+	},
+	{
+		"name":"Fernando",
+		"lastName":"Zuniga",
+		"gravatarEmail": "fernando.zuniga@acklenavenue.com",
+		"position":"Quality Assurance",
+		"location":"Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"facebook":"https://www.facebook.com/fernandoznga",
+		"twitter":"https://twitter.com/FernandoZnga",
+		"github":"https://github.com/xFher",
+		"linkedin":"https://www.linkedin.com/in/fernandoznga/",
+		"quote":"Quality is not an act, it is a habit - Aristotle"
+  },
+  {
+	  "name":"Edward",
+	  "lastName":"Siwady",
+	  "gravatarEmail": "edward@acklenavenue.com",
+	  "position":"Developer",
+	  "location":"Villanueva, Honduras",
+	  "department": ["All Ackleners", "Developers"],
+	  "github":"https://github.com/siwady",
+	  "linkedin":"https://www.linkedin.com/in/edward-siwady-gabrie/",
+	  "quote":"Being challenged is inevitable, being defeated is Optional."
+  },
+	{
+		"name": "Bily",
+		"lastName": "Fernandez",
+		"gravatarEmail": "billy@acklenavenue.com",
+		"position": "Sr Developer",
+		"location": "Villanueva, Cortes, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
+		"quote": "Let's make it happen!"
+	}
 ]
 
