@@ -35,7 +35,7 @@
 		"name": "Fernando",
 		"lastName": "Guevara",
 		"gravatarEmail": "fernando@acklenavenue.com",
-		"position": "UX designer",
+		"position": "Senior Designer",
 		"location": "San Sebastian, Spain",
 		"department": [
 			"All Ackleners",
@@ -150,7 +150,7 @@
 		"name": "Krista",
 		"lastName": "David",
 		"gravatarEmail": "krista@acklenavenue.com",
-		"position": "UX designer",
+		"position": "Junior Designer",
 		"location": "Tegucigalpa, Honduras",
 		"department": [
 			"All Ackleners",
@@ -361,6 +361,16 @@
 		"department": ["All Ackleners", "Engagement Managers"],
 		"linkedin":"https://www.linkedin.com/in/johanne-greenwood/",
 		"quote":"Problems are treasure"
+  },
+	 {
+		"name":"Yamil",
+		"lastName":"Gonzales",
+		"gravatarEmail": "yamil@acklenavenue.com",
+		"position":"Design Manager",
+		"location":"Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"linkedin":"https://www.linkedin.com/in/yamilg",
+		"quote":"Just do it!"
   },
   {
 		"name": "Walter",
