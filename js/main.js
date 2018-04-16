@@ -150,7 +150,7 @@ $(document).ready(function() {
 
           //team gravatar
           $(".member-card .member-card__img-container .member-card__img").each(function () {
-            $(this).attr("src", "https://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=200&d=mm");
+            $(this).attr("src", "https://www.gravatar.com/avatar/" + md5($(this).attr("alt")) + "?s=400&d=mm");
           });
     });
 });

@@ -1,12 +1,11 @@
 
 .member-card
 	width: 260px
-	height: 426px
+	max-height: 426px
 	border-radius: 8px
 	overflow: hidden
 	background-color: $pale-grey
 	box-shadow: $shadow-one
-	position: relative
 	display: inline-flex
 	flex-direction: column
 	margin: 25px 10px
@@ -89,90 +88,147 @@
 	fill: $apple-green
 	&:hover
 		fill: $slate-purple
+.teamwrap
+	max-width: 1120px
+	margin: auto
+	&:after
+		content: ""
+		position: absolute
+		z-index: -1
+		width: 100%
+		height: 645px
+		left: 0
+		top: 1150px
+		transform: skewY(6deg)
+		transform-origin: 0
+		background: #f8f9fb
+		border-top: 1px solid rgba(0, 0, 0, 0.12)
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12)
 
 .teamlist
+	max-width: 1120px
 	display: flex
 	flex: 1 1 33.33333%
 	align-items: center
 	justify-content: space-evenly
-	width: 100%
-	max-width: 1140px
-	margin: auto
 	flex-wrap: wrap
-
+	
 .teamlist__title
 	text-align: center
 	margin-top: 50px
 
 .team-filter
-	width: 100%
-	max-width: 1140px
+	max-width: 900px
 	border-radius: 8px
-	margin: auto
+	margin: 50px auto
 	display: flex
 	flex-wrap: wrap
 	align-items: center
 	justify-content: center
-	padding-top: 15px
-	padding-bottom: 15px
-
-.team-filter .btn
-	outline: none
-	height: 30px
-	width: 220px
-	padding: 5px 5px
-	font-size: 12px
-	margin: 6px 10px
-	color: #4f4959
-	&:hover
-		background-color: $apple-green
-		color: white
-		border: none
-
-
-.btn--ghost-active
-	background-color: $apple-green
-	color: #ffffff !important
-	border: none
-	outline: none
+	padding: 15px 0
+	& .btn-team
+		outline: none
+		width: 120px
+		min-height: 150px
+		background: $white
+		border-radius: $radius 
+		border: 0
+		padding: 15px 14px 
+		text-transform: uppercase
+		font-size: 11px
+		margin: 6px 10px
+		color: $apple-green
+		box-shadow: $shadow-one
+		font-weight: 800
+		transition: all 0.2s ease-in-out
+		&:hover
+			transform: translate(0, -5px)
+	& .team-active
+		border-bottom: 6px solid $apple-green
+		box-shadow: $shadow-two	
 
 .team-filter-container
 	text-align: center
 
-.team-filter-container:after
-	content: ""
-	position: absolute
-	z-index: -1
-	width: 100%
-	height: 1880px
-	left: 0
-	top: 1180px
-	transform: skewY(6deg)
-	transform-origin: 0
-	background: #f8f9fb
-	border-top: 1px solid rgba(0, 0, 0, 0.12)
-	border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+.hide-apply-job
+	display: none	
 
-
-.team-filter-description
-	width: 60%
-	max-width: 783px
+.infinite-spinner
+	display: block
+	width: 40px
+	height: 40px
+	border-radius: 40px
+	background-color: #333
 	margin: 60px auto
+  
+	-webkit-animation: scaleout 1.0s infinite ease-in-out
+	animation: scaleout 1.0s infinite ease-in-out
 
-.team-filter-description p
-	margin: 30px 0
+@-webkit-keyframes scaleout
+	0%
+		-webkit-transform: scale(0.0)
+	100%
+		-webkit-transform: scale(1.0)
+		opacity: 0
 
-.team-apply-section
-	text-align: center
-	margin-top: 160px
-	margin-bottom: 100px
-	h3
-		font-weight: lighter
-		font-size: 2em
-	.btn
-		margin-top: 30px
+@keyframes scaleout
+	0%
+		transform: scale(0.0)
+		-webkit-transform: scale(0.0)
+	100%
+		transform: scale(1.0)
+		-webkit-transform: scale(1.0)
+		opacity: 0
 
-
-.btn--left, .btn--right
+.team-filter-mobile
 	display: none
 
+@media (min-width: $screen-xm-min) and (max-width: $screen-sm-min)
+	.team-filter
+		display: none
+	.team-filter-mobile
+		display: inline
+
+	.dropbtn
+		cursor: pointer
+		background-color: $apple-green
+		border-radius: $radius 
+		color: white
+		padding: 16px
+		font-size: 16px
+		width: 100%
+		border: 0
+		& img
+			width: 16px
+			right: 20px
+			position: absolute
+			margin: 5px	
+			pointer-events: none
+		& span
+			pointer-events: none
+
+	.dropdown
+		position: relative
+		display: inline-block
+		width: 80%
+		margin: 50px 0
+
+	.dropdown-content
+		width: 100%
+		display: none
+		position: absolute
+		background-color: $white
+		overflow: auto
+		box-shadow: $shadow-one
+		z-index: 1
+		a
+			color: $black-50
+			padding: 18px
+			text-decoration: none
+			display: block
+			font-size: 16px
+		a:hover
+			background: $pale-grey
+
+	.show
+		display: block
