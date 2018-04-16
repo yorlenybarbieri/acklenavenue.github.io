@@ -163,5 +163,18 @@
     "github": "https://github.com/hellenfc",
     "linkedin": "https://www.linkedin.com/in/hellenfiallos/",
     "quote": "Acklen Avenue rocks!"
+}, 
+ {
+    "name": "Carlos",
+    "lastName": "Fontecha",
+    "gravatarEmail": "cfontecha@acklenavenue.com",
+    "position": "Product Owner",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Developers"],
+    "facebook": "",
+    "twitter": "",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/cfontecha/",
+    "quote": ""
 }]
 
