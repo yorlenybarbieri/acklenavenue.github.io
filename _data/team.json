@@ -1,95 +1,119 @@
-[	
+[
 	{
-		"name":"Cesar",
-		"lastName":"Welchez",
+		"name": "Cesar",
+		"lastName": "Welchez",
 		"gravatarEmail": "cesarwelchez@acklenavenue.com",
-		"position":"Quality Assurance",
-		"location":"Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Quality Assurance"],
-		"facebook":"https://www.facebook.com/cesarwelch",
-		"twitter":"https://twitter.com/cesarwelch",
-		"github":"https://github.com/cesarwelch",
-		"linkedin":"https://www.linkedin.com/in/cesar-welchez-duran-20b45a125/",
-		"quote":"Acklen Avenue Rocks so Much!"
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"facebook": "https://www.facebook.com/cesarwelch",
+		"twitter": "https://twitter.com/cesarwelch",
+		"github": "https://github.com/cesarwelch",
+		"linkedin": "https://www.linkedin.com/in/cesar-welchez-duran-20b45a125/",
+		"quote": "Acklen Avenue Rocks so Much!"
 	},
 	{
-		"name":"Cristian",
-		"lastName":"Echeverria",
+		"name": "Cristian",
+		"lastName": "Echeverria",
 		"gravatarEmail": "cristian@acklenavenue.com",
 		"position": "Developers",
-		"location":"San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Developers"],
-		"facebook":"https://www.facebook.com/cris.echeverria",
-		"twitter":"https://twitter.com/cecheverri4",
-		"github":"https://github.com/crisecheverria",
-		"linkedin":"https://www.linkedin.com/in/cristian-echeverria-ba650159/",
-		"quote":"Build your future, one step at the time!"
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"facebook": "https://www.facebook.com/cris.echeverria",
+		"twitter": "https://twitter.com/cecheverri4",
+		"github": "https://github.com/crisecheverria",
+		"linkedin": "https://www.linkedin.com/in/cristian-echeverria-ba650159/",
+		"quote": "Build your future, one step at the time!"
 	},
 	{
-		"name":"Fernando",
-		"lastName":"Guevara",
+		"name": "Fernando",
+		"lastName": "Guevara",
 		"gravatarEmail": "fernando@acklenavenue.com",
 		"position": "UX designer",
-		"location":"San sebastian, Spain",
-		"department": ["All Ackleners", "Designers"],
-		"facebook":"https://www.facebook.com/ferguevarai",
-		"github":"https://github.com/fernandoguevar4",
-		"linkedin":"https://www.linkedin.com/in/fernando-guevara-00b25063/",
-		"quote":"Users know the way!"
+		"location": "San Sebastian, Spain",
+		"department": [
+			"All Ackleners",
+			"Designers"
+		],
+		"facebook": "https://www.facebook.com/ferguevarai",
+		"github": "https://github.com/fernandoguevar4",
+		"linkedin": "https://www.linkedin.com/in/fernando-guevara-00b25063/",
+		"quote": "Users know the way!"
 	},
 	{
-		"name":"Dennis",
-	  	"lastName":"Molina",
-	  	"gravatarEmail": "dennismolina.17@gmail.com",
-	  	"position": "Developer",
-	  	"location":"San Pedro Sula, Honduras",
-	  	"department": ["All Ackleners", "Developers"],
-	  	"facebook":"https://www.facebook.com/dennismolinagarcia",
-	  	"github":"https://github.com/DennisMG",
-	  	"linkedin":"https://www.linkedin.com/in/dennismolinadev/",
-	  	"quote":"Acklen Avenue Rocks!"
+		"name": "Dennis",
+		"lastName": "Molina",
+		"gravatarEmail": "dennismolina.17@gmail.com",
+		"position": "Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"facebook": "https://www.facebook.com/dennismolinagarcia",
+		"github": "https://github.com/DennisMG",
+		"linkedin": "https://www.linkedin.com/in/dennismolinadev/",
+		"quote": "Acklen Avenue Rocks!"
 	},
 	{
-		"name":"Alexa",
-		"lastName":"Nuñez",
+		"name": "Alexa",
+		"lastName": "Nuñez",
 		"gravatarEmail": "alexa.n@acklenavenue.com",
 		"position": "Product Owner",
-		"location":"San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Product Owners"],
-		"linkedin":"https://www.linkedin.com/in/alexa-nuñez",
-		"quote":"Keep it simple!"
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"Product Owners"
+		],
+		"linkedin": "https://www.linkedin.com/in/alexa-nuñez",
+		"quote": "Keep it simple!"
 	},
 	{
-		"name":"Ronald",
-		"lastName":"Doblado",
+		"name": "Ronald",
+		"lastName": "Doblado",
 		"gravatarEmail": "ronald@acklenavenue.com",
 		"position": "Engagement Manager",
-		"location":"Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Engagement Managers"],
-		"linkedin":"https://www.linkedin.com/in/ronald-doblado-195a5254/“",
-		"quote":"Acklen Avenue Rocks!"
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Engagement Managers"
+		],
+		"linkedin": "https://www.linkedin.com/in/ronald-doblado-195a5254/“",
+		"quote": "Acklen Avenue Rocks!"
 	},
 	{
-		"name":"Arturo",
-		"lastName":"Cordova",
+		"name": "Arturo",
+		"lastName": "Cordova",
 		"gravatarEmail": "jose.arturocordova@acklenavenue.com",
 		"position": "Developer",
-		"location":"San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Developers"],
-		"facebook":"https://www.facebook.com/arthur.cordova.54“",
-		"github":"https://github.com/ArthurC07",
-		"linkedin":"https://www.linkedin.com/in/arthur-cordova-b198bb103/",
-		"quote":"We Become What We Think About"
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"facebook": "https://www.facebook.com/arthur.cordova.54“",
+		"github": "https://github.com/ArthurC07",
+		"linkedin": "https://www.linkedin.com/in/arthur-cordova-b198bb103/",
+		"quote": "We Become What We Think About"
 	},
 	{
-		"name":"Juan Carlos",
-		"lastName":"Rivera",
+		"name": "Juan Carlos",
+		"lastName": "Rivera",
 		"gravatarEmail": "juanrivera@acklenavenue.com",
 		"position": "Scrum Master",
-		"location":"San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Scrum Masters"],
-		"linkedin":"https://www.linkedin.com/in/juan-carlos-rivera-3064aaa8/“",
-		"quote":"Ackleners assemble!"
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"Scrum Masters"
+		],
+		"linkedin": "https://www.linkedin.com/in/juan-carlos-rivera-3064aaa8/“",
+		"quote": "Ackleners assemble!"
 	},
 	{
 		"name": "Luis",
@@ -97,55 +121,70 @@
 		"gravatarEmail": "luis.isaula@acklenavenue.com",
 		"position": "DevOps",
 		"location": "Olanchito, Yoro, Honduras",
-		"department": ["All Ackleners", "DevOps"],
-		"facebook":"https://www.facebook.com/lisaulacruz",
-		"twitter":"https://twitter.com/IsaulaC",
-		"github":"https://github.com/lisaula",
-		"quote":"Everything you can imagine is real."
+		"department": [
+			"All Ackleners",
+			"DevOps"
+		],
+		"facebook": "https://www.facebook.com/lisaulacruz",
+		"twitter": "https://twitter.com/IsaulaC",
+		"github": "https://github.com/lisaula",
+		"quote": "Everything you can imagine is real."
 	},
 	{
-		"name":"Elder",
-		"lastName":"Cerrato",
+		"name": "Elder",
+		"lastName": "Cerrato",
 		"gravatarEmail": "elder@acklenavenue.com",
-		"position":"Quality Assurance",
-		"location":"Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Quality Assurance"],
-		"facebook":"https://www.facebook.com/eldercerrato",
-		"twitter":"https://twitter.com/Ecerrato29",
-		"github":"https://github.com/Elder-C",
-		"linkedin":"https://www.linkedin.com/in/elder-cerrato-36293b76/",
-		"quote":"The Enthusiasm moves the world!"
-  	},
-	{
-		"name":"Krista",
-		"lastName":"David",
-		"gravatarEmail": "krista@acklenavenue.com",
-		"position":"UX designer",
-		"location":"Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Designers"],
-		"facebook":"https://www.facebook.com/Kris2david",
-		"twitter":"https://twitter.com/KrisstaDavid",
-		"github":"https://github.com/krisstad2",
-		"linkedin":"https://www.linkedin.com/in/krista-david-85349070/",
-		"quote":"May the Force be with you, Acklen Avenue!"
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"facebook": "https://www.facebook.com/eldercerrato",
+		"twitter": "https://twitter.com/Ecerrato29",
+		"github": "https://github.com/Elder-C",
+		"linkedin": "https://www.linkedin.com/in/elder-cerrato-36293b76/",
+		"quote": "The Enthusiasm moves the world!"
 	},
 	{
-		"name":"Christian",
-		"lastName":"Garcia",
+		"name": "Krista",
+		"lastName": "David",
+		"gravatarEmail": "krista@acklenavenue.com",
+		"position": "UX designer",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Designers"
+		],
+		"facebook": "https://www.facebook.com/Kris2david",
+		"twitter": "https://twitter.com/KrisstaDavid",
+		"github": "https://github.com/krisstad2",
+		"linkedin": "https://www.linkedin.com/in/krista-david-85349070/",
+		"quote": "May the Force be with you, Acklen Avenue!"
+	},
+	{
+		"name": "Christian",
+		"lastName": "Garcia",
 		"gravatarEmail": "cristian.g@acklenavenue.com",
-		"position":"Recruiter",
-		"location":"Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Human Resources"],
-		"github":"https://github.com/Cristian1977",
-		"quote":"Live what you haven't!"
-	}, 
- 	{
+		"position": "Recruiter",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Human Resources"
+		],
+		"github": "https://github.com/Cristian1977",
+		"quote": "Live what you haven't!"
+	},
+	{
 		"name": "Hellen",
 		"lastName": "Fiallos",
 		"gravatarEmail": "hellenfiallos@acklenavenue.com",
 		"position": "Software Engineer",
 		"location": "Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Developers"],
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
 		"facebook": "https://www.facebook.com/hellenfc",
 		"twitter": "https://twitter.com/hellenfc15",
 		"github": "https://github.com/hellenfc",
@@ -158,9 +197,181 @@
 		"gravatarEmail": "dennis.cheong@acklenavenue.com",
 		"position": "Developer",
 		"location": "Tegucigalpa, Honduras",
-		"department": ["All Ackleners", "Developers"],
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
 		"linkedin": "https://www.linkedin.com/in/dennis-cheong-376b23141/",
 		"quote": "Fall once, get up twice."
+	},
+	{
+		"name": "Kelvin",
+		"lastName": "Chinchilla",
+		"gravatarEmail": "kelvin.c@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"twitter": "https://twitter.com/KelviNosse",
+		"github": "https://github.com/KelviNosse",
+		"linkedin": "https://www.linkedin.com/in/kelvin-chinchilla-a9a441131/",
+		"quote": "I like to code with pancakes"
+	},
+	{
+		"name": "Donald",
+		"lastName": "Guevara",
+		"gravatarEmail": "donald@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Berlin, Germany",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"facebook": "https://www.facebook.com/donald.guevara",
+		"github": "https://github.com/dagiguevara",
+		"linkedin": "https://www.linkedin.com/in/donaldo-guevara-b110b8118/",
+		"quote": "Sometimes our best decisions are the ones that don't make sense at all"
+	},
+	{
+		"name": "Sharon",
+		"lastName": "Montenegro",
+		"gravatarEmail": "sharon@acklenavenue.com",
+		"position": "QA Guild Master",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"facebook": "https://www.facebook.com/sharontmontenegro",
+		"twitter": "https://twitter.com/sharon___m",
+		"github": "https://github.com/Sagui",
+		"linkedin": "https://www.linkedin.com/in/sharon-montenegro-30973883/",
+		"quote": "Ex nihilo nihil fit"
+	},
+	{
+		"name": "Cesar",
+		"lastName": "Bonilla",
+		"gravatarEmail": "cesar.bonilla@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"facebook": "https://www.facebook.com/cefeboru",
+		"linkedin": "https://www.linkedin.com/in/cefeboru/",
+		"quote": "Let the beauty of what you love be what you do"
+	},
+	{
+		"name": "Camilo",
+		"lastName": "Rivera",
+		"gravatarEmail": "crivera@acklenavenue.com",
+		"position": "DevOps Guild Master",
+		"location": "San Pedro Sula, Honduras",
+		"department": [
+			"All Ackleners",
+			"DevOps"
+		],
+		"facebook": "https://www.facebook.com/camilo.ripi",
+		"twitter": "https://twitter.com/VikingCamilo",
+		"github": "https://github.com/camilorivera",
+		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
+		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
+	},
+	{
+		"name": "Carlos",
+		"lastName": "Fontecha",
+		"gravatarEmail": "cfontecha@acklenavenue.com",
+		"position": "Product Owner",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"linkedin": "https://www.linkedin.com/in/cfontecha/",
+		"quote": ""
+	},
+	{
+		"name": "Viktor",
+		"lastName": "Zavala",
+		"gravatarEmail": "viktor@acklenavenue.com",
+		"position": "Software Architect",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Architects"
+		],
+		"facebook": "https://www.facebook.com/viktor.zavala",
+		"twitter": "https://twitter.com/zsnake123",
+		"github": "https://github.com/zsnake",
+		"linkedin": "https://www.linkedin.com/in/vkzavala",
+		"quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
+	},
+	{
+		"name": "Fernando",
+		"lastName": "Zuniga",
+		"gravatarEmail": "fernando.zuniga@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"facebook": "https://www.facebook.com/fernandoznga",
+		"twitter": "https://twitter.com/FernandoZnga",
+		"github": "https://github.com/xFher",
+		"linkedin": "https://www.linkedin.com/in/fernandoznga/",
+		"quote": "Quality is not an act, it is a habit - Aristotle"
+	},
+	{
+		"name": "Edward",
+		"lastName": "Siwady",
+		"gravatarEmail": "edward@acklenavenue.com",
+		"position": "Developer",
+		"location": "Villanueva, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"github": "https://github.com/siwady",
+		"linkedin": "https://www.linkedin.com/in/edward-siwady-gabrie/",
+		"quote": "Being challenged is inevitable, being defeated is Optional."
+	},
+	{
+		"name": "Bily",
+		"lastName": "Fernandez",
+		"gravatarEmail": "billy@acklenavenue.com",
+		"position": "Sr Developer",
+		"location": "Villanueva, Cortes, Honduras",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
+		"quote": "Let's make it happen!"
+  },
+  {
+		"name":"Johanne",
+		"lastName":"Greenwood",
+		"gravatarEmail": "johanne@acklenavenue.com",
+		"position":"Engagement Manager",
+		"location":"Nashville, United States",
+		"department": ["All Ackleners", "Engagement Managers"],
+		"linkedin":"https://www.linkedin.com/in/johanne-greenwood/",
+		"quote":"Problems are treasure"
+  },
+  {
+		"name": "Walter",
+		"lastName": "Nolasco",
+		"gravatarEmail": "walter@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"linkedin": "www.linkedin.com/in/walter-nolasco-4a3b9234",
+		"quote": "Judge us on the quality of our products, and not the quantity of our paperwork."
 	}
 ]
+
 
