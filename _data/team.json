@@ -222,6 +222,16 @@
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
   },
   {
+    "name": "Carlos",
+    "lastName": "Fontecha",
+    "gravatarEmail": "cfontecha@acklenavenue.com",
+    "position": "Product Owner",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Developers"],
+    "linkedin": "https://www.linkedin.com/in/cfontecha/",
+    "quote": ""
+  },
+  {
     "name": "Viktor",
     "lastName": "Zavala",
     "gravatarEmail": "viktor@acklenavenue.com",
