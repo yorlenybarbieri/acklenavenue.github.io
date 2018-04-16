@@ -174,6 +174,19 @@
 		"department": ["All Ackleners", "Developers"],
 		"linkedin": "https://www.linkedin.com/in/dennis-cheong-376b23141/",
 		"quote": "Fall once, get up twice."
-	}
+	},
+	{        "name":"Sharon", 
+		 "lastName":"Montenegro", 
+		 "gravatarEmail": "sharon@acklenavenue.com", 
+		 "position":"QA Manager", 
+		 "location":"Tegucigalpa, Honduras", 
+		 "department": ["All Ackleners", "Quality Assurance"],
+		 "facebook":"https://www.facebook.com/sharontmontenegro", 
+		 "twitter":"https://twitter.com/sharon___m", 
+		 "github":"https://github.com/Sagui", 
+		 "linkedin":"https://www.linkedin.com/in/sharon-montenegro-30973883/", 
+		 "quote":"Ex nihilo nihil fit" 
+	  }
+	
 ]
 
