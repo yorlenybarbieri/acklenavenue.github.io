@@ -371,7 +371,20 @@
 		"department": ["All Ackleners", "Quality Assurance"],
 		"linkedin": "www.linkedin.com/in/walter-nolasco-4a3b9234",
 		"quote": "Judge us on the quality of our products, and not the quantity of our paperwork."
-	}
+	},
+
+  {
+		"name":"Angela",
+		"lastName":"Velasquez",
+		"gravatarEmail": "angela.v@acklenavenue.com",
+		"position":"UX Designer",
+		"location":"Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"twitter": "https://twitter.com/AngelaVelasquez",
+		"github": "https://github.com/AngelaMeow/",
+		"linkedin": "https://www.linkedin.com/in/angelavelasquez",
+		"quote":"I love CSS and cats"
+  },
 ]
 
 
