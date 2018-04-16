@@ -1,11 +1,17 @@
 
 <div class="team-filter">
-	<a class="btn--left" href=""><img src="img/arrow-left.svg"></a>
-
 	{% for department in site.data.departments %}
-		<button class="btn btn--ghost" onclick="filterTeam('{{department.name}}')" id="{{ department.name | downcase | replace: ' ', '-' }}-item">{{department.name}}</button>
+		<button class="btn-team" onclick="filterTeam('{{department.name}}')" id="{{ department.name | downcase | replace: ' ', '-' }}-item"><img src="{{department.avatar}}" alt="">{{department.name}}</button>
 	{% endfor %}
+</div>
 
-	<a class="btn--right" href=""><img src="img/arrow-right.svg"></a>
-
+<div class="team-filter-mobile">
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn"><span class="dropbtn-text"></span><img style="width: 12px" src="img/triangle.svg" alt=""></button>
+			<div id="myDropdown" class="dropdown-content">
+				{% for department in site.data.departments %}
+					<a onclick="filterTeam('{{department.name}}')" id="{{ department.name | downcase | replace: ' ', '-' }}-item">{{department.name}}</a>
+				{% endfor %}
+			</div>
+	</div>
 </div>
