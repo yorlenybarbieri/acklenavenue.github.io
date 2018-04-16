@@ -351,5 +351,18 @@
 		],
 		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
 		"quote": "Let's make it happen!"
+	},
+	{
+		"name": "José",
+		"lastName": "Aceituno",
+		"gravatarEmail": "jose.aceituno@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"linkedin": "https://www.linkedin.com/in/jaceituno/",
+		"quote": "Luck is what happens when preparation meets opportunity. - Seneca"
 	}
 ]
