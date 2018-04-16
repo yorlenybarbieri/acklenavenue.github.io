@@ -1,5 +1,4 @@
-[	
-	{
+[{
 	  "name":"Cesar",
 	  "lastName":"Welchez",
 	  "gravatarEmail": "cesarwelchez@acklenavenue.com",
@@ -117,18 +116,18 @@
 		"quote":"Everything you can imagine is real."
 	},
 	{
-      	 "name":"Elder",
-     	 "lastName":"Cerrato",
-     	 "gravatarEmail": "elder@acklenavenue.com",
-     	 "position":"Quality Assurance",
-     	 "location":"Tegucigalpa, Honduras",
-     	 "department": ["All Ackleners", "Quality Assurance"],
-     	 "facebook":"https://www.facebook.com/eldercerrato",
-     	 "twitter":"https://twitter.com/Ecerrato29",
-     	 "github":"https://github.com/Elder-C",
-      	 "linkedin":"https://www.linkedin.com/in/elder-cerrato-36293b76/",
-      	 "quote":"The Enthusiasm moves the world!"
-    	},
+    "name":"Elder",
+    "lastName":"Cerrato",
+    "gravatarEmail": "elder@acklenavenue.com",
+    "position":"Quality Assurance",
+    "location":"Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Quality Assurance"],
+    "facebook":"https://www.facebook.com/eldercerrato",
+    "twitter":"https://twitter.com/Ecerrato29",
+    "github":"https://github.com/Elder-C",
+    "linkedin":"https://www.linkedin.com/in/elder-cerrato-36293b76/",
+    "quote":"The Enthusiasm moves the world!"
+  },
 	{
 	  "name":"Krista",
 	  "lastName":"David",
@@ -151,5 +150,18 @@
 	  "department": ["All Ackleners", "Human Resources"],
 	  "github":"https://github.com/Cristian1977",
 	  "quote":"Live what you haven't!"
-	}
-]
+	}, 
+ {
+    "name": "Hellen",
+    "lastName": "Fiallos",
+    "gravatarEmail": "hellenfiallos@acklenavenue.com",
+    "position": "Software Engineer",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Developers"],
+    "facebook": "https://www.facebook.com/hellenfc",
+    "twitter": "https://twitter.com/hellenfc15",
+    "github": "https://github.com/hellenfc",
+    "linkedin": "https://www.linkedin.com/in/hellenfiallos/",
+    "quote": "Acklen Avenue rocks!"
+}]
+
