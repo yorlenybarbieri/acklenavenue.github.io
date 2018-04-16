@@ -2,7 +2,7 @@
 	<h3 class="teamlist__title" id="teamlist__title">All Ackleners</h3>
 	<div class="my-shuffle-container teamlist">
 
-		{% for member in site.data.team limit: 12 %}
+		{% for member in site.data.team %}
 			{% include teamcard.html member=member %}
 		{% endfor %}
 	
@@ -13,7 +13,6 @@
 	</section>
 	
 </div>
-<div class="infinite-spinner"></div>
 <script type="text/javascript" src="js/md5.min.js"></script>
 
 <script type="text/javascript" src="js/shuffle.js"></script>

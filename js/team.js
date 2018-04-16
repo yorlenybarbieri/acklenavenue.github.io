@@ -6,13 +6,9 @@ var Shuffle = window.Shuffle;
 var container = document.querySelector('.my-shuffle-container');
 var sizer = container.querySelector('.member-card');
 var containerHeight = container.clientHeight;
-var cardsAdded = [];
-var filteredJson = [];
-var counter = 0;
 // Load the JSON file containing all _data/team.json
 var membersObjArray = {{ site.data.team | jsonify }};
-var limit = 12;
-
+console.log(membersObjArray.length)
 // Create a new instance of the class ShuffleJs (External Class for filtering)
 var shuffle = new Shuffle(container, {
   itemSelector: '.picture-item', 
@@ -26,26 +22,15 @@ var shuffle = new Shuffle(container, {
 function filterTeam(tag) {
 
   if(tag === getURLParam()) return;
-  if(counter > 0) {
-    return;
-  }
-
-  counter++
-  setTimeout(function() {
-    counter = 0;
-  }, 300);
 
   if(tag == "All Ackleners"){
-    filteredJson = membersObjArray
     $(".callToAction").addClass("hide-apply-job");
   }
   else if(tag == "Interested in joining the Team?"){
-    filteredJson = [];
   
     $(".callToAction").removeClass("hide-apply-job");
   }
   else{
-    filteredJson = findByDepartment(membersObjArray, tag);
     $(".callToAction").addClass("hide-apply-job");
   
   }
@@ -57,7 +42,7 @@ function filterTeam(tag) {
   
   setCategoryTitle(tag);
 
-  reloadContainer(filteredJson)
+  shuffle.filter(tag);
 
 }
 
@@ -92,7 +77,7 @@ function setCategoryTitle(tag){
 ////******Infinite Scrolling Logic*******//////
 var isFetchingMembers = false,
     shouldFetchMembers = true,
-    membersToLoad = limit,
+    membersToLoad = 0,
     loadNewMembersThreshold = containerHeight;
 
 function reloadContainer(members){
@@ -142,27 +127,6 @@ function loadFirstMembers(container, members, limit){
 // If there aren't any more members available to load than already visible, disable fetching
 if (membersObjArray.length <= membersToLoad)
   disableFetching();
-
-// If there's no spinner, it's not a page where members should be fetched
-if ($(".infinite-spinner").length < 1)
-  shouldFetchMembers = false;
-
-// Are we close to the end of the page? If we are, load more members
-$(window).scroll(function(e){
-
-  if (!shouldFetchMembers || isFetchingMembers) return;
-  
-  var windowHeight = $(window).height(),
-      windowScrollPosition = $(window).scrollTop(),
-      bottomScrollPosition = windowHeight + windowScrollPosition,
-      documentHeight = $(document).height();
-
-
-  // If we've scrolled past the loadNewMembersThreshold, fetch posts
-  if((documentHeight - loadNewMembersThreshold) < bottomScrollPosition) {
-    fetchMembers();
-  }
-});
 
 // Fetch a chunk of members
 function fetchMembers() {
