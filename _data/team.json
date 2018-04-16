@@ -161,6 +161,15 @@
 		"department": ["All Ackleners", "Developers"],
 		"linkedin": "https://www.linkedin.com/in/dennis-cheong-376b23141/",
 		"quote": "Fall once, get up twice."
-	}
+	},
+	{
+		"name": "Fabio",
+		"lastName": "Castillo",
+		"gravatarEmail": "fabio@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Comayagua, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"linkedin": "https://www.linkedin.com/in/fabio-castillo-140814a7/",
+		"quote": "Fight the machine"
 ]
 
