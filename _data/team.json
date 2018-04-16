@@ -279,19 +279,22 @@
 		"github": "https://github.com/camilorivera",
 		"linkedin": "https://www.linkedin.com/in/camiloriverapineda/",
 		"quote": "Devs are from Venus, Ops are from Mars - Steven Haines"
-  },
-  {
-    "name": "Viktor",
-    "lastName": "Zavala",
-    "gravatarEmail": "viktor@acklenavenue.com",
-    "position": "Software Architect",
-    "location": "Tegucigalpa, Honduras",
-    "department": ["All Ackleners", "Architects"],
-    "facebook": "https://www.facebook.com/viktor.zavala",
-    "twitter": "https://twitter.com/zsnake123",
-    "github": "https://github.com/zsnake",
-    "linkedin": "https://www.linkedin.com/in/vkzavala",
-    "quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
+	},
+	{
+		"name": "Viktor",
+		"lastName": "Zavala",
+		"gravatarEmail": "viktor@acklenavenue.com",
+		"position": "Software Architect",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Architects"
+		],
+		"facebook": "https://www.facebook.com/viktor.zavala",
+		"twitter": "https://twitter.com/zsnake123",
+		"github": "https://github.com/zsnake",
+		"linkedin": "https://www.linkedin.com/in/vkzavala",
+		"quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
 	},
 	{
 		"name": "Fernando",
