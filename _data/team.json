@@ -36,7 +36,7 @@
 		"lastName": "Guevara",
 		"gravatarEmail": "fernando@acklenavenue.com",
 		"position": "UX designer",
-		"location": "San sebastian, Spain",
+		"location": "San Sebastian, Spain",
 		"department": [
 			"All Ackleners",
 			"Designers"
@@ -351,5 +351,17 @@
 		],
 		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
 		"quote": "Let's make it happen!"
-	}
+  },
+  {
+		"name":"Johanne",
+		"lastName":"Greenwood",
+		"gravatarEmail": "johanne@acklenavenue.com",
+		"position":"Engagement Manager",
+		"location":"Nashville, United States",
+		"department": ["All Ackleners", "Engagement Managers"],
+		"linkedin":"https://www.linkedin.com/in/johanne-greenwood/",
+		"quote":"Problems are treasure"
+  }
 ]
+
+
