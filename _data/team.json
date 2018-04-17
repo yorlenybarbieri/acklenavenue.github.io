@@ -560,5 +560,18 @@
 		"github": "https://github.com/danielzy95",
 		"linkedin": "https://www.linkedin.com/in/daniel-zelaya-11b350151/",
 		"quote": "Never settle. Aim for perfection."
+	},
+	{
+		"name": "Kehimer",
+		"lastName": "Sagastume",
+		"gravatarEmail": "kehimer@acklenavenue.com",
+		"position": "Quality assurance engineer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Quality Assurance"],
+		"facebook": "https://www.facebook.com/kehimer.sagastume",
+		"twitter": "",
+		"github": "https://github.com/kehimer",
+		"linkedin": "https://www.linkedin.com/in/kehimer-sagastume-a21ab0146/",
+		"quote": "Progression, not perfection."
 	}
 ]
