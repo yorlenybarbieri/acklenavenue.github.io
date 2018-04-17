@@ -19,19 +19,19 @@
 		</p>
 		<div class="member-card__icons">
 			{% unless member.twitter == undefined %}
-				<a target="_blank" href="{{member.twitter}}"><svg class="icon icon-twittergreen"><use xlink:href="img/external-links.svg#icon-twittergreen"></use></svg></a>
+				<a target="_blank" href="{{member.twitter}}" title="twitter"><svg class="icon icon-twittergreen" title="twitter"><use xlink:href="img/external-links.svg#icon-twittergreen" style="pointer-events: none"></use></svg></a>
 			{% endunless %}
 
 			{% unless member.facebook == undefined %}
-				<a target="_blank" href="{{member.facebook}}"><svg class="icon icon-facebookgreen"><use xlink:href="img/external-links.svg#icon-facebookgreen"></use></svg></a>
+				<a target="_blank" href="{{member.facebook}}" title="facebook"><svg class="icon icon-facebookgreen" title="facebook"><use xlink:href="img/external-links.svg#icon-facebookgreen" style="pointer-events: none"></use></svg></a>
 			{% endunless %}
 
 			{% unless member.linkedin == undefined %}
-				<a target="_blank" href="{{member.linkedin}}"><svg class="icon icon-linkedingreen"><use xlink:href="img/external-links.svg#icon-linkedingreen"></use></svg></a>
+				<a target="_blank" href="{{member.linkedin}}" title="linkedin"><svg class="icon icon-linkedingreen" title="linkedin"><use xlink:href="img/external-links.svg#icon-linkedingreen" style="pointer-events: none"></use></svg></a>
 			{% endunless %}
 	
 			{% unless member.github == undefined %}
-				<a target="_blank" href="{{member.github}}"><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen"></use></svg></a>
+				<a target="_blank" href="{{member.github}}" title="github"><svg class="icon icon-githubgreen"><use xlink:href="img/external-links.svg#icon-githubgreen" style="pointer-events: none"></use></svg></a>
 			{% endunless %}
 		</div>		
 	</div>
