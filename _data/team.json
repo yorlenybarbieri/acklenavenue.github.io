@@ -575,6 +575,17 @@
 		"quote": "Progression, not perfection."
 	},
 	{
+		"name": "Wendy",
+		"lastName": "Vargas",
+		"gravatarEmail": "wendy.vargas@acklenavenue.com",
+		"position": "Junior Designer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"github": "https://github.com/wenvees",
+		"linkedin": "https://www.linkedin.com/in/wvargas/",
+		"quote": "Code is poetry."
+  },
+  {
 		  "name": "Isaac",
 		  "lastName": "Martinez",
 		  "gravatarEmail": "imtz90b@gmail.com",
