@@ -353,6 +353,17 @@
 		"quote": "Let's make it happen!"
 	},
 	{
+		"name": "Ricardo A.",
+		"lastName": "Interiano (Raim)",
+		"gravatarEmail": "ricardo.interiano@acklenavenue.com",
+		"position": "DevOps",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "DevOps"],
+		"github":"https://github.com/Raimmaster",
+		"linkedin": "https://www.linkedin.com/in/raim-interiano/",
+		"quote": "“There is only one corner of the universe you can be certain of improving, and that's your own self.” - Aldous Huxley."
+  },
+  {
 		"name": "José",
 		"lastName": "Aceituno",
 		"gravatarEmail": "jose.aceituno@acklenavenue.com",
@@ -498,6 +509,5 @@
 		"twitter": "https://twitter.com/joshchapp",
 		"linkedin": "https://www.linkedin.com/in/joshua-chappell-b585034/",
 		"quote": "Improve everything, all the time; including yourself."
-
 	}
 ]
