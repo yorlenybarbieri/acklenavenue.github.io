@@ -573,5 +573,16 @@
 		"github": "https://github.com/kehimer",
 		"linkedin": "https://www.linkedin.com/in/kehimer-sagastume-a21ab0146/",
 		"quote": "Progression, not perfection."
+	},
+	{
+		"name": "Wendy",
+		"lastName": "Vargas",
+		"gravatarEmail": "wendy.vargas@acklenavenue.com",
+		"position": "Junior Designer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"github": "https://github.com/wenvees",
+		"linkedin": "https://www.linkedin.com/in/wvargas/",
+		"quote": "Code is poetry."
 	}
 ]
