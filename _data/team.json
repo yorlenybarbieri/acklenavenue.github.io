@@ -534,5 +534,18 @@
 		"twitter": "https://twitter.com/joshchapp",
 		"linkedin": "https://www.linkedin.com/in/joshua-chappell-b585034/",
 		"quote": "Improve everything, all the time; including yourself."
+	}, 
+ 	{
+		"name": "Ferenck",
+		"lastName": "Vargas",
+		"gravatarEmail": "ferenck@acklenavenue.com",
+		"position": "Senior Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/ferenckv",
+		"twitter": "https://twitter.com/ferenckv",
+		"github": "https://github.com/ferenckv",
+		"linkedin": "https://www.linkedin.com/in/ferenckv",
+		"quote": "How can we get to the stars?. - Lisa Hayes"
 	}
 ]
