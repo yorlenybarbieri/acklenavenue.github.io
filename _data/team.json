@@ -382,6 +382,17 @@
 		"linkedin": "www.linkedin.com/in/walter-nolasco-4a3b9234",
 		"quote": "Judge us on the quality of our products, and not the quantity of our paperwork."
 	},
+  {
+		"name": "Saul",
+		"lastName": "Euceda",
+		"gravatarEmail": "saul.euceda@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"twitter": "https://twitter.com/saul_euceda",
+		"github": "https://github.com/seuceda89",
+		"linkedin": "www.linkedin.com/in/sauleuceda",
+		"quote": "Never stop learning..."
 	{
 		"name": "Gazy",
 		"lastName": "Mahomar",
