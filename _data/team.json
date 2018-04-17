@@ -619,5 +619,18 @@
 		"github": "",
 		"linkedin": "",
 		"quote": "Take me back to Jeni's Splendid Ice Cream"
-	}
+  },
+  {
+		"name": "Erick",
+		"lastName": "Caballero",
+		"gravatarEmail": "erick@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/erick.d.caballero.9",
+		"twitter": "",
+		"github": "https://github.com/erickdc",
+		"linkedin": "https://www.linkedin.com/in/erick-daniel-caballero-babun-a731978a/",
+		"quote": "Just better than I was yesterday."
+  }
 ]
