@@ -181,7 +181,7 @@
 		"gravatarEmail": "eliseo@acklenavenue.com",
 		"position": "DevOps",
 		"location": "Choloma, Cortés Honduras",
-		"department": ["All Ackleners", "DevOps"], //List of Departments inside Acklen Avenue, you MUST have to specify ONE from the list: Leadership and Operations, Developers, Quality Assurances, Designers, DevOps, Product Owners, Scrum Masters, Engagement Managers, Human Resources, Architects.
+		"department": ["All Ackleners", "DevOps"],
 		"facebook": "https://www.facebook.com/eyasmeth",
 		"github": "https://github.com/eliyasmeth",
 		"quote": "Acklen Avenue Rocks!"
