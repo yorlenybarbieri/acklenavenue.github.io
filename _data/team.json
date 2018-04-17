@@ -267,6 +267,17 @@
 		"department": ["All Ackleners", "Developers"],
 		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
 		"quote": "Let's make it happen!"
+	},
+	{
+		"name": "Ricardo A.",
+		"lastName": "Interiano (Raim)",
+		"gravatarEmail": "ricardo.interiano@acklenavenue.com",
+		"position": "DevOps",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "DevOps"],
+		"github":"https://github.com/Raimmaster",
+		"linkedin": "https://www.linkedin.com/in/raim-interiano/",
+		"quote": "“There is only one corner of the universe you can be certain of improving, and that's your own self.” - Aldous Huxley."
 	}
 ]
 
