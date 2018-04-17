@@ -575,6 +575,18 @@
 		"quote": "Progression, not perfection."
 	},
 	{
+		  "name": "Isaac",
+		  "lastName": "Martinez",
+		  "gravatarEmail": "imtz90b@gmail.com",
+		  "position": "Software Engineer",
+		  "location": "Tegucigalpa, Honduras",
+		  "department": ["All Ackleners", "Developers"],
+		  "twitter": "https://twitter.com/balamcode",
+		  "github": "https://github.com/isaacmtz90",
+		  "linkedin": "https://www.linkedin.com/in/isaacmtz90",
+		  "quote": "Code is just a means to an end"
+  },
+  {
 		"name": "Tere",
 		"lastName": "Bárcenas",
 		"gravatarEmail": "teresabarcenas@acklenavenue.com",
