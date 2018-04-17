@@ -384,6 +384,22 @@
 		],
 		"github": "https://github.com/gmahomarf",
 		"quote": "I forgot my line."
+	},
+	{
+		"name": "Oscar",
+		"lastName": "Soriano",
+		"gravatarEmail": "oscar@acklenavenue.com",
+		"position": "DevOps",
+		"location": "Choloma, Cortés, Honduras",
+		"department": [
+			"All Ackleners",
+			"DevOps"
+		],
+		"facebook": "https://www.facebook.com/sorioinc",
+		"twitter": "https://twitter.com/sorioinc",
+		"github": "https://github.com/sorioinc",
+		"linkedin": "https://www.linkedin.com/in/oscar-soriano-31950225/",
+		"quote": "Software moves the world!"
 	}
 ]
 
