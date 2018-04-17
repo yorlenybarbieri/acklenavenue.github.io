@@ -400,6 +400,17 @@
 		"github": "https://github.com/sorioinc",
 		"linkedin": "https://www.linkedin.com/in/oscar-soriano-31950225/",
 		"quote": "Software moves the world!"
+	},
+	{
+		"name": "Josh",
+		"lastName": "Chappell",
+		"gravatarEmail": "josh@acklenavenue.com",
+		"position": "Engagement Manager",
+		"location": "Nashville, United States",
+		"department": ["All Ackleners", "Engagement Managers"],
+		"twitter": "https://twitter.com/joshchapp",
+		"linkedin": "https://www.linkedin.com/in/joshua-chappell-b585034/",
+		"quote": "Improve everything, all the time; including yourself."
 	}
 ]
 
