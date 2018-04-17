@@ -458,6 +458,19 @@
 		"github": "https://github.com/gmahomarf",
 		"quote": "I forgot my line."
 	},
+	{
+		"name": "Alfredo",
+		"lastName": "Diaz del Valle",
+		"gravatarEmail": "alfredo@acklenavenue.com",
+		"position": "Product Owner",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Product Owners"],
+		"facebook": "https://www.facebook.com/alfredo.diazdelvalle",
+		"twitter": "https://twitter.com/adiazdelvalle",
+		"github": "https://github.com/AlfredoDDV",
+		"linkedin": "https://www.linkedin.com/in/dennis-cheong-376b23141/",
+		"quote": "There is always a solution to every problem"
+ },
  	{
  	  "name": "Douglas",
  		"lastName": "Guerrero",
