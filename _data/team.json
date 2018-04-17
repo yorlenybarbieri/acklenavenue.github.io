@@ -310,6 +310,19 @@
 		"quote": "There is no such thing as a lousy job; only lousy men who don't care to do it."
 	},
 	{
+		"name": "Daniel",
+		"lastName": "Zelaya",
+		"gravatarEmail": "daniel.zelaya@acklenavenue.com",
+		"position": "Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/daniel.zelayayacaman",
+		"twitter": "https://twitter.com/wupa9",
+		"github": "https://github.com/danielzy95",
+		"linkedin": "https://www.linkedin.com/in/daniel-zelaya-11b350151/",
+		"quote": "Never settle. Aim for perfection."
+	},
+	{
 		"name": "Fernando",
 		"lastName": "Zuniga",
 		"gravatarEmail": "fernando.zuniga@acklenavenue.com",
@@ -547,19 +560,6 @@
 		"github": "https://github.com/ferenckv",
 		"linkedin": "https://www.linkedin.com/in/ferenckv",
 		"quote": "How can we get to the stars?. - Lisa Hayes"
-	},
-	{
-		"name": "Daniel",
-		"lastName": "Zelaya",
-		"gravatarEmail": "daniel.zelaya@acklenavenue.com",
-		"position": "Developer",
-		"location": "San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Developers"],
-		"facebook": "https://www.facebook.com/daniel.zelayayacaman",
-		"twitter": "https://twitter.com/wupa9",
-		"github": "https://github.com/danielzy95",
-		"linkedin": "https://www.linkedin.com/in/daniel-zelaya-11b350151/",
-		"quote": "Never settle. Aim for perfection."
 	},
 	{
 		"name": "Kehimer",
