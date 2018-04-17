@@ -458,8 +458,20 @@
 		"github": "https://github.com/gmahomarf",
 		"quote": "I forgot my line."
 	},
-	{
-
+ 	{
+ 	  "name": "Douglas",
+ 		"lastName": "Guerrero",
+ 		"gravatarEmail": "dguerrero@acklenavenue.com",
+ 		"position": "Developer",
+ 		"location": "San Pedro Sula, Honduras",
+ 		"department": [
+ 			"All Ackleners",
+ 			"Developers"
+ 		],
+ 		"github": "https://github.com/douglasguerrero",
+ 		"quote": "Stay Hungry. Stay Foolish."
+ 	},
+  {
 		"name": "Eliseo",
 		"lastName": "García",
 		"gravatarEmail": "eliseo@acklenavenue.com",
