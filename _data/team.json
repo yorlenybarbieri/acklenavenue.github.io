@@ -433,6 +433,20 @@
 		"quote": "I forgot my line."
 	},
 	{
+		"name": "Osman",
+		"lastName": "Hernandez",
+		"gravatarEmail": "osman@acklenavenue.com",
+		"position": "Senior Developer",
+		"location": "Barcelona, Spain",
+		"department": [
+			"All Ackleners",
+			"Developers"
+		],
+		"github": "https://github.com/justrdk",
+		"quote": "If we don't study the mistakes of the future, we're doomed to repeat them for the fist time. -KenM"
+  },
+
+  {
 		"name": "Oscar",
 		"lastName": "Soriano",
 		"gravatarEmail": "oscar@acklenavenue.com",
@@ -458,5 +472,6 @@
 		"twitter": "https://twitter.com/joshchapp",
 		"linkedin": "https://www.linkedin.com/in/joshua-chappell-b585034/",
 		"quote": "Improve everything, all the time; including yourself."
+
 	}
 ]
