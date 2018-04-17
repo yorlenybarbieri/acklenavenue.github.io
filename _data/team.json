@@ -573,5 +573,18 @@
 		"github": "https://github.com/kehimer",
 		"linkedin": "https://www.linkedin.com/in/kehimer-sagastume-a21ab0146/",
 		"quote": "Progression, not perfection."
+	},
+	{
+		"name": "Daniel",
+		"lastName": "Chinchilla",
+		"gravatarEmail": "dchinchilla@acklenavenue.com",
+		"position": "Senior Designer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"facebook": "",
+		"twitter": "",
+		"github": "",
+		"linkedin": "",
+		"quote": "Take me back to Jeni's Splendid Ice Cream"
 	}
 ]
