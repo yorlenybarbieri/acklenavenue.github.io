@@ -35,7 +35,7 @@
 		"name": "Fernando",
 		"lastName": "Guevara",
 		"gravatarEmail": "fernando@acklenavenue.com",
-		"position": "UX designer",
+		"position": "Senior Designer",
 		"location": "San Sebastian, Spain",
 		"department": [
 			"All Ackleners",
@@ -150,7 +150,7 @@
 		"name": "Krista",
 		"lastName": "David",
 		"gravatarEmail": "krista@acklenavenue.com",
-		"position": "UX designer",
+		"position": "Junior Designer",
 		"location": "Tegucigalpa, Honduras",
 		"department": [
 			"All Ackleners",
@@ -288,7 +288,7 @@
 		"location": "Tegucigalpa, Honduras",
 		"department": [
 			"All Ackleners",
-			"Developers"
+			"Product Owners"
 		],
 		"linkedin": "https://www.linkedin.com/in/cfontecha/",
 		"quote": ""
@@ -351,6 +351,19 @@
 		],
 		"linkedin": "https://www.linkedin.com/in/bily-fern%C3%A1ndez-52355656/",
 		"quote": "Let's make it happen!"
+	},
+	{
+		"name": "José",
+		"lastName": "Aceituno",
+		"gravatarEmail": "jose.aceituno@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Quality Assurance"
+		],
+		"linkedin": "https://www.linkedin.com/in/jaceituno/",
+		"quote": "Luck is what happens when preparation meets opportunity. - Seneca"
   },
   {
 		"name":"Johanne",
@@ -362,6 +375,16 @@
 		"linkedin":"https://www.linkedin.com/in/johanne-greenwood/",
 		"quote":"Problems are treasure"
   },
+	 {
+		"name":"Yamil",
+		"lastName":"Gonzales",
+		"gravatarEmail": "yamil@acklenavenue.com",
+		"position":"Design Manager",
+		"location":"Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"linkedin":"https://www.linkedin.com/in/yamilg",
+		"quote":"Just do it!"
+  },
   {
 		"name": "Walter",
 		"lastName": "Nolasco",
@@ -372,6 +395,30 @@
 		"linkedin": "www.linkedin.com/in/walter-nolasco-4a3b9234",
 		"quote": "Judge us on the quality of our products, and not the quantity of our paperwork."
 	},
+  {
+		"name":"Angela",
+		"lastName":"Velasquez",
+		"gravatarEmail": "angela.v@acklenavenue.com",
+		"position":"Junior Designer",
+		"location":"Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Designers"],
+		"twitter": "https://twitter.com/AngelaVelasquez",
+		"github": "https://github.com/AngelaMeow/",
+		"linkedin": "https://www.linkedin.com/in/angelavelasquez",
+		"quote":"I love CSS and cats"
+  },
+  {
+		"name": "Saul",
+		"lastName": "Euceda",
+		"gravatarEmail": "saul.euceda@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"twitter": "https://twitter.com/saul_euceda",
+		"github": "https://github.com/seuceda89",
+		"linkedin": "www.linkedin.com/in/sauleuceda",
+		"quote": "Never stop learning..."
+	  },
 	{
 		"name": "Gazy",
 		"lastName": "Mahomar",
@@ -397,7 +444,34 @@
 		],
 		"github": "https://github.com/justrdk",
 		"quote": "If we don't study the mistakes of the future, we're doomed to repeat them for the fist time. -KenM"
+  },
+
+  {
+		"name": "Oscar",
+		"lastName": "Soriano",
+		"gravatarEmail": "oscar@acklenavenue.com",
+		"position": "DevOps",
+		"location": "Choloma, Cortés, Honduras",
+		"department": [
+			"All Ackleners",
+			"DevOps"
+		],
+		"facebook": "https://www.facebook.com/sorioinc",
+		"twitter": "https://twitter.com/sorioinc",
+		"github": "https://github.com/sorioinc",
+		"linkedin": "https://www.linkedin.com/in/oscar-soriano-31950225/",
+		"quote": "Software moves the world!"
+	},
+	{
+		"name": "Josh",
+		"lastName": "Chappell",
+		"gravatarEmail": "josh@acklenavenue.com",
+		"position": "Engagement Manager",
+		"location": "Nashville, United States",
+		"department": ["All Ackleners", "Engagement Managers"],
+		"twitter": "https://twitter.com/joshchapp",
+		"linkedin": "https://www.linkedin.com/in/joshua-chappell-b585034/",
+		"quote": "Improve everything, all the time; including yourself."
+
 	}
 ]
-
-
