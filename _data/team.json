@@ -742,5 +742,16 @@
 		"github": "https://github.com/DouglasPonce85",
 		"linkedin": "https://www.linkedin.com/in/douglas-ponce-73b217ab/",
 		"quote": "“Christ in you, the hope of glory”"
+  }, {
+		"name": "Colin",
+		"lastName": "Callahan",
+		"gravatarEmail": "colin@acklenavenue.com",
+		"position": "CEO",
+		"location": "Nashville, TN",
+		"department": ["All Ackleners", "Executive"],
+		"facebook": "https://www.facebook.com/colin.callahan.33?ref=bookmarks",
+		"github": "https://github.com/colinxjcallahan",
+		"linkedin": "https://www.linkedin.com/in/colin-callahan-63b0512/",
+		"quote": "“That's what I do, I drink and I know things.” - Tyrion Lannister"
   }
 ]
