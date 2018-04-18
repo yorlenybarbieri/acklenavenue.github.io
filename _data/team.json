@@ -646,5 +646,16 @@
 		"twitter": "https://twitter.com/dante_dubon",
 		"github": "https://github.com/dantedubon",
 		"quote": "My treasure is my gallant bark,My only God is liberty; My law is might, the wind my mark, My country is the sea."
-	}
+	},
+  {
+		"name": "Katy",
+		"lastName": "Lion",
+		"gravatarEmail": "katy.lion@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"github": "https://github.com/lnyntng",
+		"linkedin": "https://www.linkedin.com/in/lnyntng/",
+		"quote": "If I respect myself and believe in what I'm doing, no one can touch me. -Fiona Apple"
+  }
 ]
