@@ -640,6 +640,7 @@
 		"facebook": "https://www.facebook.com/lerik.kopp",
 		"github": "https://github.com/Lerik",
 		"linkedin": "https://www.linkedin.com/in/erick-jacob-ramirez-cruz-129107121/",
+
     "quote": "Write your code like you are writing a story for kids."
   },
 	{
@@ -704,5 +705,17 @@
 		"github": "",
 		"linkedin": "www.linkedin.com/in/arturo-caceres-153998151",
 		"quote": "The road to success is always under construction."
-	}
+	},
+  {
+		"name": "Rene",
+		"lastName": "Rosa",
+		"gravatarEmail": "rene@acklenavenue.com",
+		"position": "Senior Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/rene.rosapastrana",
+		"github": "https://github.com/realpasro09",
+		"linkedin": "https://www.linkedin.com/in/renerosapastrana/",
+		"quote": "“Whoever does not live to serve, does not serve to live”"
+  }
 ]
