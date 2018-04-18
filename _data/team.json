@@ -631,5 +631,17 @@
 		"github": "https://github.com/Lerik",
 		"linkedin": "https://www.linkedin.com/in/erick-jacob-ramirez-cruz-129107121/",
 		"quote": "Stop complaining about how life sucks, after all crap was, is and will be everywhere. The only thing left you can do about it is to work hard everyday to make your life better. In that way, you won't be part of the crap but the reason why life is beautiful and full of adventure. -Me, of course"
+  },
+  {
+		"name": "Rene",
+		"lastName": "Rosa",
+		"gravatarEmail": "rene@acklenavenue.com",
+		"position": "Senior Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/rene.rosapastrana",
+		"github": "https://github.com/realpasro09",
+		"linkedin": "https://www.linkedin.com/in/renerosapastrana/",
+		"quote": "“Whoever does not live to serve, does not serve to live”"
   }
 ]
