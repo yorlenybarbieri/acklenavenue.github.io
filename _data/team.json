@@ -739,7 +739,7 @@
 		"gravatarEmail": "fernanda.mezquita@acklenavenue.com",
 		"position": "Marketing & Social Media",
 		"location": "San Pedro Sula, Honduras",
-		"department": ["All Ackleners", "Leadership & Operations"],
+		"department": ["All Ackleners", "Leadership and Operations"],
 		"facebook": "https://www.facebook.com/mezquita.fernanda",
 		"github": "https://github.com/fermezquita",
 		"linkedin": "https://www.linkedin.com/in/fernanda-mezquita/",
@@ -750,10 +750,26 @@
 		"gravatarEmail": "colin@acklenavenue.com",
 		"position": "CEO",
 		"location":"Nashville, United States",
-		"department": ["All Ackleners", "Leadership & Operations"],
+		"department": ["All Ackleners", "Leadership and Operations"],
 		"facebook": "https://www.facebook.com/colin.callahan.33?ref=bookmarks",
 		"github": "https://github.com/colinxjcallahan",
 		"linkedin": "https://www.linkedin.com/in/colin-callahan-63b0512/",
 		"quote": "“That's what I do, I drink and I know things.” - Tyrion Lannister"
-  }
+  },
+	{
+		"name": "Andrea",
+		"lastName": "Medina",
+		"gravatarEmail": "andrea.m@acklenavenue.com",
+		"position": "Quality Assurance",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners",	"Quality Assurance"],
+		"github": "https://github.com/armn27",
+		"twitter": "https://twitter.com/andy_rbk",
+		"linkedin": "https://www.linkedin.com/in/armn27",
+		"quote": "Blessed are the forgetful, for they get the better even of their blunders.― Friedrich Nietzsche" 
+	}
+	
+	
+	
+	
 ]
