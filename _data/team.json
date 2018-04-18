@@ -730,5 +730,17 @@
 		"facebook": "https://www.facebook.com/paulette.talavera",
 		"github": "https://github.com/PauletteTM",
 		"quote": "It is better to know how to learn than to know. - Dr Seuss"
-	}
+	},
+  {
+		"name": "Douglas",
+		"lastName": "Ponce",
+		"gravatarEmail": "douglas@acklenavenue.com",
+		"position": "Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/ponce.acevedo.75",
+		"github": "https://github.com/DouglasPonce85",
+		"linkedin": "https://www.linkedin.com/in/douglas-ponce-73b217ab/",
+		"quote": "“Christ in you, the hope of glory”"
+  }
 ]
