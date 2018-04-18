@@ -657,6 +657,18 @@
 		"github": "https://github.com/lnyntng",
 		"linkedin": "https://www.linkedin.com/in/lnyntng/",
 		"quote": "If I respect myself and believe in what I'm doing, no one can touch me. -Fiona Apple"
+  },	
+  {
+		"name": "Franklin",
+		"lastName": "Rodriguez",
+		"gravatarEmail": "frank@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/frank.rodriguez.79",
+		"github": "https://github.com/frankrod",
+		"linkedin": "https://www.linkedin.com/in/franklin-rodriguez-nu%C3%B1ez-37311061/",
+		"quote": "Do what you can, with what you have, where you are."
+	}
 
-  }
 ]
