@@ -377,6 +377,16 @@
 		"quote": "“There is only one corner of the universe you can be certain of improving, and that's your own self.” - Aldous Huxley."
   },
   {
+    "name": "Carlos",
+    "lastName": "Fontecha",
+    "gravatarEmail": "cfontecha@acklenavenue.com",
+    "position": "Product Owner",
+    "location": "Tegucigalpa, Honduras",
+    "department": ["All Ackleners", "Product Owners"],
+    "linkedin": "https://www.linkedin.com/in/cfontecha/",
+    "quote": ""
+  },
+  {
 		"name": "José",
 		"lastName": "Aceituno",
 		"gravatarEmail": "jose.aceituno@acklenavenue.com",
@@ -518,7 +528,7 @@
 			"Developers"
 		],
 		"github": "https://github.com/justrdk",
-		"quote": "If we don't study the mistakes of the future, we're doomed to repeat them for the fist time. -KenM"
+		"quote": "If we don't study the mistakes of the future, we're doomed to repeat them for the first time. -KenM"
   },
   {
 		"name": "Oscar",
@@ -625,13 +635,77 @@
 		"lastName": "Ramírez",
 		"gravatarEmail": "jacob@acklenavenue.com",
 		"position": "Developer",
-		"location": "Houston, Texas, United States",
+		"location": "Houston, Texas, US",
 		"department": ["All Ackleners", "Developers"],
 		"facebook": "https://www.facebook.com/lerik.kopp",
 		"github": "https://github.com/Lerik",
 		"linkedin": "https://www.linkedin.com/in/erick-jacob-ramirez-cruz-129107121/",
-		"quote": "Stop complaining about how life sucks, after all crap was, is and will be everywhere. The only thing left you can do about it is to work hard everyday to make your life better. In that way, you won't be part of the crap but the reason why life is beautiful and full of adventure. -Me, of course"
+
+    "quote": "Write your code like you are writing a story for kids."
   },
+	{
+		"name": "Dante",
+		"lastName": "Dubón",
+		"gravatarEmail": "dante@acklenavenue.com",
+		"position": "Software Architect",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Architects"
+		],
+		"twitter": "https://twitter.com/dante_dubon",
+		"github": "https://github.com/dantedubon",
+		"quote": "My treasure is my gallant bark,My only God is liberty; My law is might, the wind my mark, My country is the sea."
+	},
+  {
+		"name": "Katy",
+		"lastName": "Lion",
+		"gravatarEmail": "katy.lion@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"github": "https://github.com/lnyntng",
+		"linkedin": "https://www.linkedin.com/in/lnyntng/",
+		"quote": "If I respect myself and believe in what I'm doing, no one can touch me. -Fiona Apple"
+  },	
+  {
+		"name": "Franklin",
+		"lastName": "Rodriguez",
+		"gravatarEmail": "frank@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/frank.rodriguez.79",
+		"github": "https://github.com/frankrod",
+		"linkedin": "https://www.linkedin.com/in/franklin-rodriguez-nu%C3%B1ez-37311061/",
+		"quote": "Do what you can, with what you have, where you are."
+	},
+  {
+		"name": "Erick",
+		"lastName": "Caballero",
+		"gravatarEmail": "erick@acklenavenue.com",
+		"position": "Developer",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/erick.d.caballero.9",
+		"twitter": "",
+		"github": "https://github.com/erickdc",
+		"linkedin": "https://www.linkedin.com/in/erick-daniel-caballero-babun-a731978a/",
+		"quote": "Just better than I was yesterday."
+  },
+  {
+		"name": "Arturo",
+		"lastName": "Caceres",
+		"gravatarEmail": "arturo@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"facebook": "",
+		"twitter": "",
+		"github": "",
+		"linkedin": "www.linkedin.com/in/arturo-caceres-153998151",
+		"quote": "The road to success is always under construction."
+	},
   {
 		"name": "Rene",
 		"lastName": "Rosa",
