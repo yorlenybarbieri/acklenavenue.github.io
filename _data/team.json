@@ -619,7 +619,8 @@
 		"github": "",
 		"linkedin": "",
 		"quote": "Take me back to Jeni's Splendid Ice Cream"
-  },
+
+	},
   {
 		"name": "Jacob",
 		"lastName": "Ramírez",
@@ -632,6 +633,20 @@
 		"linkedin": "https://www.linkedin.com/in/erick-jacob-ramirez-cruz-129107121/",
 		"quote": "Stop complaining about how life sucks, after all crap was, is and will be everywhere. The only thing left you can do about it is to work hard everyday to make your life better. In that way, you won't be part of the crap but the reason why life is beautiful and full of adventure. -Me, of course"
   },
+	{
+		"name": "Dante",
+		"lastName": "Dubón",
+		"gravatarEmail": "dante@acklenavenue.com",
+		"position": "Software Architect",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Architects"
+		],
+		"twitter": "https://twitter.com/dante_dubon",
+		"github": "https://github.com/dantedubon",
+		"quote": "My treasure is my gallant bark,My only God is liberty; My law is might, the wind my mark, My country is the sea."
+	},
   {
 		"name": "Katy",
 		"lastName": "Lion",
