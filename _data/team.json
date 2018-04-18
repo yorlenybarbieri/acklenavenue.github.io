@@ -742,6 +742,18 @@
 		"github": "https://github.com/DouglasPonce85",
 		"linkedin": "https://www.linkedin.com/in/douglas-ponce-73b217ab/",
 		"quote": "“Christ in you, the hope of glory”"
+  },
+  {
+		"name": "Fernanda",
+		"lastName": "Mezquita",
+		"gravatarEmail": "fernanda.mezquita@acklenavenue.com",
+		"position": "Marketing & Social Media",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Leadership and Operations"],
+		"facebook": "https://www.facebook.com/mezquita.fernanda",
+		"github": "https://github.com/fermezquita",
+		"linkedin": "https://www.linkedin.com/in/fernanda-mezquita/",
+		"quote": "“In a world where you can be anything, be kind.”"
   }, {
 		"name": "Colin",
 		"lastName": "Callahan",
