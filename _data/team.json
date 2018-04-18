@@ -619,5 +619,19 @@
 		"github": "",
 		"linkedin": "",
 		"quote": "Take me back to Jeni's Splendid Ice Cream"
+	},
+	{
+		"name": "Dante",
+		"lastName": "Dubón",
+		"gravatarEmail": "dante@acklenavenue.com",
+		"position": "Software Architect",
+		"location": "Tegucigalpa, Honduras",
+		"department": [
+			"All Ackleners",
+			"Architects"
+		],
+		"twitter": "https://twitter.com/dante_dubon",
+		"github": "https://github.com/dantedubon",
+		"quote": "My treasure is my gallant bark,My only God is liberty; My law is might, the wind my mark, My country is the sea."
 	}
 ]
