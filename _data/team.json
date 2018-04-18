@@ -12,7 +12,7 @@
 		"facebook": "https://www.facebook.com/cesarwelch",
 		"twitter": "https://twitter.com/cesarwelch",
 		"github": "https://github.com/cesarwelch",
-		"linkedin": "https://www.linkedin.com/in/cesar-welchez-duran-20b45a125/",
+		"linkedin": "https://www.linkedin.com/in/cesar-welchez-20b45a125/",
 		"quote": "Acklen Avenue Rocks so Much!"
 	},
 	{
@@ -754,5 +754,16 @@
 		"github": "https://github.com/fermezquita",
 		"linkedin": "https://www.linkedin.com/in/fernanda-mezquita/",
 		"quote": "“In a world where you can be anything, be kind.”"
+  }, {
+		"name": "Colin",
+		"lastName": "Callahan",
+		"gravatarEmail": "colin@acklenavenue.com",
+		"position": "CEO",
+		"location": "Nashville, TN",
+		"department": ["All Ackleners", "Executive"],
+		"facebook": "https://www.facebook.com/colin.callahan.33?ref=bookmarks",
+		"github": "https://github.com/colinxjcallahan",
+		"linkedin": "https://www.linkedin.com/in/colin-callahan-63b0512/",
+		"quote": "“That's what I do, I drink and I know things.” - Tyrion Lannister"
   }
 ]
