@@ -717,5 +717,16 @@
 		"github": "https://github.com/realpasro09",
 		"linkedin": "https://www.linkedin.com/in/renerosapastrana/",
 		"quote": "“Whoever does not live to serve, does not serve to live”"
+  }, {
+		"name": "Douglas",
+		"lastName": "Ponce",
+		"gravatarEmail": "douglas@acklenavenue.com",
+		"position": "Developer",
+		"location": "San Pedro Sula, Honduras",
+		"department": ["All Ackleners", "Developers"],
+		"facebook": "https://www.facebook.com/ponce.acevedo.75",
+		"github": "https://github.com/DouglasPonce85",
+		"linkedin": "https://www.linkedin.com/in/douglas-ponce-73b217ab/",
+		"quote": "“Christ in you, the hope of glory”"
   }
 ]
