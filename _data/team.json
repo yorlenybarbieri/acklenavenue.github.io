@@ -718,6 +718,20 @@
 		"linkedin": "https://www.linkedin.com/in/renerosapastrana/",
 		"quote": "“Whoever does not live to serve, does not serve to live”"
   }, {
+		"name": "Paulette",
+		"lastName": "Talavera",
+		"gravatarEmail": "paulette@acklenavenue.com",
+		"position": "Product Owner",
+		"location": "Tegucigalpa, Francisco Morazan Honduras",
+		"department": [
+			"All Ackleners",
+			"Product Owners"
+		],
+		"facebook": "https://www.facebook.com/paulette.talavera",
+		"github": "https://github.com/PauletteTM",
+		"quote": "It is better to know how to learn than to know. - Dr Seuss"
+	},
+  {
 		"name": "Douglas",
 		"lastName": "Ponce",
 		"gravatarEmail": "douglas@acklenavenue.com",
