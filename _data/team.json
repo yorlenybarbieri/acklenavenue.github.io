@@ -619,5 +619,19 @@
 		"github": "",
 		"linkedin": "",
 		"quote": "Take me back to Jeni's Splendid Ice Cream"
+},
+  {
+		"name": "Arturo",
+		"lastName": "Caceres",
+		"gravatarEmail": "arturo@acklenavenue.com",
+		"position": "Scrum Master",
+		"location": "Tegucigalpa, Honduras",
+		"department": ["All Ackleners", "Scrum Masters"],
+		"facebook": "",
+		"twitter": "",
+		"github": "",
+		"linkedin": "www.linkedin.com/in/arturo-caceres-153998151
+",
+		"quote": "The road to success is always under construction."
 	}
 ]
